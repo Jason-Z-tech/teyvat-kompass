@@ -8,7 +8,7 @@
     "So viele LP wie möglich: Ihr Bonus für die Teamkollegen ist bei etwa 65.000 LP voll.",
     "Der Bonus wirkt auf Elementarfähigkeiten außerhalb des Feldes und hält pro Einsatz 10 Treffer.",
     "Ihre Spezialfähigkeit muss man in den meisten Teams gar nicht einsetzen.",
-    "Talente: Elementarfähigkeit zuerst. Eine Krone mit Heilungsbonus braucht sie kaum."
+    "Eine Krone mit Heilungsbonus braucht sie kaum."
   ],
   "teams": [
     {
@@ -64,6 +64,11 @@
   ],
   "mainStats": { "sands": ["hp%", "er"], "goblet": ["hp%", "hydro"], "circlet": ["hp%", "cr", "cd"] },
   "substats": ["er", "hp%", "cr", "cd"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Heilung und Team-Bonus hängen an der Elementarfähigkeit, die Spezialfähigkeit bringt vor allem eigenen Schaden."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/352956",
     "https://gamewith.net/genshin-impact/article/show/40236",

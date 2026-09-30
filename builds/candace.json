@@ -72,6 +72,10 @@
   ],
   "mainStats": { "sands": ["er", "hp%"], "goblet": ["hp%", "hydro"], "circlet": ["hp%", "cr"] },
   "substats": ["er", "cr", "hp%", "cd"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "note": "Die Stufen von Elementar- und Spezialfähigkeit erhöhen nur ihren eigenen Schaden, nicht die Boni fürs Team. Als Haupt-DPS auf dem Feld zählt der Standardangriff am meisten."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/386384",
     "https://gamewith.net/genshin-impact/article/show/34438",

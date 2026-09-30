@@ -67,6 +67,10 @@
   ],
   "mainStats": { "sands": ["er", "atk%"], "goblet": ["hydro", "atk%"], "circlet": ["cr", "cd"] },
   "substats": ["er", "cr", "cd", "atk%"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "note": "Kämpft sie selbst auf dem Feld, ist der Standardangriff wichtiger als die Elementarfähigkeit."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/Mona-Best-Builds",
     "https://gamewith.net/genshin-impact/article/show/22343",

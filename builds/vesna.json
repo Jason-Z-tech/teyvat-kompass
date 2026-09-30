@@ -72,6 +72,7 @@
   ],
   "mainStats": { "sands": ["atk%", "em"], "goblet": ["atk%"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "em", "er"],
+  "talents": { "order": [["skill"], ["burst"], ["normal"]], "low": ["normal"] },
   "sources": [
     "https://www.prydwen.gg/genshin-impact/characters/vesna",
     "https://www.icy-veins.com/genshin-impact/vesna-guide-best-builds",

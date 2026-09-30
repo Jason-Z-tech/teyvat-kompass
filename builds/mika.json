@@ -49,6 +49,11 @@
   ],
   "mainStats": { "sands": ["er", "hp%"], "goblet": ["hp%"], "circlet": ["cr", "heal", "hp%"] },
   "substats": ["er", "cr", "hp%"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Die Stufe der Elementarfähigkeit erhöht nur das Angriffstempo-Plus, nicht den Bonus auf physischen Schaden. Die Spezialfähigkeit verbessert die Heilung."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/390096",
     "https://gamewith.net/genshin-impact/article/show/34440",

@@ -68,9 +68,15 @@
   ],
   "mainStats": { "sands": ["atk%", "em", "er"], "goblet": ["pyro", "atk%"], "circlet": ["cr", "cd"] },
   "substats": ["er", "cr", "cd", "atk%", "em"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Die Elementarfähigkeit liefert mit höherem Talentlevel mehr Energie. Den Standardangriff nur leveln, wenn Durin in der dunklen Form selbst auf dem Feld kämpft."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/462478",
     "https://keqingmains.com/q/durin-quickguide/",
-    "https://gamewith.net/genshin-impact/article/show/71614"
+    "https://gamewith.net/genshin-impact/article/show/71614",
+    "https://gamewith.net/genshin-impact/article/show/30725"
   ]
 }

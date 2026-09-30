@@ -68,8 +68,14 @@
   ],
   "mainStats": { "sands": ["er", "atk%", "em"], "goblet": ["pyro", "atk%", "em"], "circlet": ["cr", "cd", "em"] },
   "substats": ["er", "cr", "cd", "atk%", "em"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Die Hilfe fürs Team hängt nicht von den Talentstufen ab, Talente bringen nur eigenen Schaden. Den Standardangriff nur für C6 auf dem Feld leveln."
+  },
   "sources": [
     "https://keqingmains.com/q/pyro-traveler-quickguide/",
-    "https://game8.co/games/Genshin-Impact/archives/470309"
+    "https://game8.co/games/Genshin-Impact/archives/470309",
+    "https://gamewith.net/genshin-impact/article/show/29671"
   ]
 }

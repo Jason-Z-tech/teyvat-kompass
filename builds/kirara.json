@@ -5,7 +5,6 @@
   "roles": ["shield", "support"],
   "summary": "4★-Schwertkämpferin, die mit ihrer Elementarfähigkeit einen Schild erzeugt, der mit ihren LP stärker wird. Nebenbei trägt sie Dendro auf. Damit passt sie als Schutz in viele Dendro-Teams, etwa Nilou-Sprießen, Supraspross oder günstige Mondspross-Teams mit Nefer.",
   "tips": [
-    "Talente: zuerst die Elementarfähigkeit, dann die Spezialfähigkeit leveln.",
     "Die Elementarfähigkeit gedrückt halten: Sie bewegt sich dann schnell und trägt dabei Dendro auf.",
     "Aufladerate: als einzige Dendro-Quelle etwa 160 %, mit einem zweiten Dendro-Charakter reichen 100–120 %.",
     "Von außerhalb des Feldes trägt sie wenig Dendro auf – in Sprießen-Teams einen zweiten Dendro-Charakter mitnehmen."
@@ -70,11 +69,13 @@
   ],
   "mainStats": { "sands": ["hp%", "er"], "goblet": ["hp%"], "circlet": ["hp%", "cr"] },
   "substats": ["er", "hp%", "cr", "em"],
+  "talents": { "order": [["skill"], ["burst"], ["normal"]], "low": ["normal"] },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/409556",
     "https://gamewith.net/genshin-impact/article/show/39427",
     "https://keqingmains.com/q/kirara-quickguide/",
     "https://game8.co/games/Genshin-Impact/archives/538448",
-    "https://keqingmains.com/q/nefer-quickguide/"
+    "https://keqingmains.com/q/nefer-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/38304"
   ]
 }

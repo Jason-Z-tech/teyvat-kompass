@@ -67,6 +67,10 @@
   ],
   "mainStats": { "sands": ["atk%"], "goblet": ["anemo"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "er"],
+  "talents": {
+    "order": [["normal"], ["skill"], ["burst"]],
+    "note": "Ab Sternbild 2 ist die Spezialfähigkeit wichtiger als die Elementarfähigkeit."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/309656",
     "https://gamewith.net/genshin-impact/article/show/23288",

@@ -5,6 +5,7 @@ Fanseite für **Genshin Impact**: Charakter auswählen und sofort sehen,
 - mit welchen **Teams** er am stärksten ist (mit Alternativen für jeden Platz),
 - welche **Waffen** am besten passen (inkl. Gratis-Optionen, Werte auf Stufe 90, Passiv),
 - welche **Artefakt-Sets**, Hauptwerte (Sanduhr, Kelch, Krone) und Nebenwerte er braucht,
+- in welcher Reihenfolge man seine **Talente** verbessert (mit den Talentnamen aus dem Spiel),
 - in welchen Teams anderer Charaktere er ebenfalls vorkommt.
 
 **Meine Charaktere:** Du markierst, wen du hast. Die Seite zeigt dann bei jedem Team „Kannst du bauen“

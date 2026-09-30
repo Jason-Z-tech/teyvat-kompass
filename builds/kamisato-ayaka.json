@@ -70,6 +70,10 @@
   ],
   "mainStats": { "sands": ["atk%"], "goblet": ["cryo"], "circlet": ["cd", "cr"] },
   "substats": ["er", "cd", "cr", "atk%"],
+  "talents": {
+    "order": [["burst"], ["normal"], ["skill"]],
+    "note": "Zwischen ihren Fähigkeiten macht sie viele Standardangriffe, deshalb kommen diese vor der Elementarfähigkeit. In Schnellwechsel-Teams ist es umgekehrt."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/315215",
     "https://gamewith.net/genshin-impact/article/show/38316",

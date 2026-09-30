@@ -67,6 +67,11 @@
   ],
   "mainStats": { "sands": ["em", "er"], "goblet": ["em"], "circlet": ["em", "heal"] },
   "substats": ["er", "em", "cr"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Mindestens so wichtig wie die Elementarfähigkeit ist seine Stufe: Verwirbelung und Reaktionsschaden wachsen mit der Figurenstufe."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/472693",
     "https://gamewith.net/genshin-impact/article/show/48313",

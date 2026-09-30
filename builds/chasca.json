@@ -70,6 +70,11 @@
   ],
   "mainStats": { "sands": ["atk%"], "goblet": ["atk%"], "circlet": ["cd", "cr"] },
   "substats": ["cr", "cd", "atk%", "em", "er"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Ihre Kugeln im Flug gehören zur Elementarfähigkeit – vom Talent Standardangriff hängt ihr Schaden kaum ab."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/462001",
     "https://gamewith.net/genshin-impact/article/show/47147",

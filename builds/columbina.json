@@ -70,5 +70,14 @@
   ],
   "mainStats": { "sands": ["hp%", "er"], "goblet": ["hp%"], "circlet": ["cr", "cd", "hp%"] },
   "substats": ["er", "hp%", "cr", "cd", "em"],
-  "sources": ["https://game8.co/games/Genshin-Impact/archives/382106", "https://keqingmains.com/q/columbina-quickguide/"]
+  "talents": {
+    "order": [["skill", "burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Kommt die Spezialfähigkeit jede Runde zum Einsatz, bringt ihr Talent mehr als die Elementarfähigkeit – sonst zuerst die Elementarfähigkeit leveln."
+  },
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/382106",
+    "https://keqingmains.com/q/columbina-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/34232"
+  ]
 }

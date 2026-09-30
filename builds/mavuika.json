@@ -65,5 +65,10 @@
   ],
   "mainStats": { "sands": ["atk%", "em"], "goblet": ["pyro"], "circlet": ["cd", "cr"] },
   "substats": ["cd", "cr", "atk%", "em"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Ihre Angriffe auf dem Motorrad richten sich nach Elementar- und Spezialfähigkeit, nicht nach dem Standardangriff."
+  },
   "sources": ["https://game8.co/games/Genshin-Impact/archives/461999", "https://keqingmains.com/q/mavuika-quickguide/"]
 }

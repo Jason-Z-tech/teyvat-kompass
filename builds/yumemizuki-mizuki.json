@@ -72,6 +72,11 @@
   ],
   "mainStats": { "sands": ["em"], "goblet": ["em"], "circlet": ["em", "cr", "cd"] },
   "substats": ["em", "cr", "cd", "er"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Die Spezialfähigkeit verbessert vor allem ihre Heilung – sie nur so weit leveln, wie man die Heilung braucht."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/492414",
     "https://gamewith.net/genshin-impact/article/show/51916",

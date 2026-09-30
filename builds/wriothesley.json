@@ -5,7 +5,7 @@
   "roles": ["main-dps"],
   "summary": "Kryo-Kämpfer mit Katalysator, der mit seinen Fäusten auf dem Feld zuschlägt. Seine Elementarfähigkeit verstärkt die Standardangriffe auf Kosten von LP, und sinken seine LP unter 60 %, heilt ihn ein besonderer heftiger Schlag. Hat man seine Verstärkung „Witch's Revelation“ über seine eigene Quest freigeschaltet, ist er in Stellar-Supraleiter-Teams am stärksten.",
   "tips": [
-    "Seine Standardangriffe sind sein wichtigstes Talent und sollten zuerst gelevelt werden. Aufladerate braucht er kaum.",
+    "Aufladerate braucht er kaum.",
     "Sinken seine LP unter 60 %, einen heftigen Schlag einsetzen: Er heilt ihn und trifft besonders hart.",
     "Nicht zu viel heilen lassen: Bleiben seine LP über 60 %, fehlt ihm der starke heilende heftige Schlag.",
     "In Stellar-Supraleiter-Teams einen ANG%-Kelch statt Kryo-Schaden nehmen, weil dieser Reaktionsschaden nicht vom Elementarschaden-Bonus profitiert."
@@ -73,10 +73,15 @@
   ],
   "mainStats": { "sands": ["atk%", "em"], "goblet": ["atk%", "cryo"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "em", "er"],
+  "talents": {
+    "order": [["normal"], ["skill"], ["burst"]],
+    "note": "In Stellar-Supraleiter-Teams setzt er die Spezialfähigkeit nicht ein – dort muss sie nicht gelevelt werden."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/Wriothesley-Best-Builds",
     "https://keqingmains.com/q/wriothesley-quickguide/",
     "https://game8.co/games/Genshin-Impact/archives/605462",
-    "https://game8.co/games/Genshin-Impact/archives/605822"
+    "https://game8.co/games/Genshin-Impact/archives/605822",
+    "https://gamewith.net/genshin-impact/article/show/40237"
   ]
 }

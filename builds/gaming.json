@@ -71,5 +71,13 @@
   ],
   "mainStats": { "sands": ["em", "atk%", "er"], "goblet": ["pyro"], "circlet": ["cr", "cd"] },
   "substats": ["er", "cr", "cd", "em", "atk%"],
-  "sources": ["https://keqingmains.com/q/gaming-quickguide/", "https://game8.co/games/Genshin-Impact/archives/437446"]
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "note": "Seine verstärkten Angriffe aus dem Fall skalieren mit der Elementarfähigkeit. Mit Xianyun, Bennett ab C6 und viel Hydro lohnt der Standardangriff mehr als die Spezialfähigkeit."
+  },
+  "sources": [
+    "https://keqingmains.com/q/gaming-quickguide/",
+    "https://game8.co/games/Genshin-Impact/archives/437446",
+    "https://gamewith.net/genshin-impact/article/show/42764"
+  ]
 }

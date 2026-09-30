@@ -62,6 +62,11 @@
   ],
   "mainStats": { "sands": ["er", "hp%"], "goblet": ["hp%"], "circlet": ["heal", "hp%"] },
   "substats": ["er", "hp%", "em"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Ab Sternbild 6 auf dem Feld gespielt, ist der Standardangriff wichtiger als die Elementarfähigkeit."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/380569",
     "https://gamewith.net/genshin-impact/article/show/33664"

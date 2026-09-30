@@ -6,8 +6,7 @@
   "summary": "Kryo-Kämpfer mit Zweihänder, dessen Elementarfähigkeit ein Frostfeld erzeugt: Darin werden die Angriffe von Figuren mit Schwert, Zweihänder oder Stangenwaffe zu Kryo-Angriffen. Seine günstige Spezialfähigkeit macht viel Schaden. Meist kommt er nur kurz aufs Feld und wechselt dann wieder aus.",
   "tips": [
     "Sein Frostfeld wandelt nur Nahkampf-Angriffe in Kryo um – Bögen und Katalysatoren profitieren nicht davon.",
-    "Aufladerate: etwa 120–140 %, als einziger Kryo-Charakter im Team eher 150–175 %.",
-    "Die Spezialfähigkeit zuerst leveln: Sie ist seine wichtigste Schadensquelle."
+    "Aufladerate: etwa 120–140 %, als einziger Kryo-Charakter im Team eher 150–175 %."
   ],
   "teams": [
     {
@@ -62,6 +61,11 @@
   ],
   "mainStats": { "sands": ["atk%", "er"], "goblet": ["cryo"], "circlet": ["cr", "cd"] },
   "substats": ["er", "cr", "cd", "atk%"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Die Spezialfähigkeit ist seine wichtigste Schadensquelle. Den Standardangriff nur leveln, wenn du ihn als Hauptangreifer auf dem Feld spielst."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/297532",
     "https://gamewith.net/genshin-impact/article/show/22337",

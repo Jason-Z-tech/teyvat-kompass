@@ -82,6 +82,10 @@
   ],
   "mainStats": { "sands": ["em", "er"], "goblet": ["em", "dendro"], "circlet": ["em", "cr"] },
   "substats": ["er", "em", "cr", "cd"],
+  "talents": {
+    "order": [["burst"], ["normal"], ["skill"]],
+    "note": "Die Spezialfähigkeit erhöht auch den Schaden explodierender Dendro-Kerne. Löst das Team nur Sprießen aus, lohnen sich die anderen Talente kaum."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/Kaveh-Best-Builds",
     "https://gamewith.net/genshin-impact/article/show/24664",

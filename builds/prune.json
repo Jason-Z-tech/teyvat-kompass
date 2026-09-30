@@ -70,6 +70,11 @@
   ],
   "mainStats": { "sands": ["atk%", "er"], "goblet": ["atk%"], "circlet": ["atk%", "cr"] },
   "substats": ["er", "atk%", "cr"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Talentstufen erhöhen nur ihren eigenen Schaden, nicht ihren Bonus fürs Team – viel Investition lohnt sich nicht."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/590328",
     "https://gamewith.net/genshin-impact/article/show/73816",

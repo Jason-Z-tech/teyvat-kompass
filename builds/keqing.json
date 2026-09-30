@@ -6,8 +6,7 @@
   "summary": "Schnelle Elektro-Schwertkämpferin, die auf dem Feld mit Standardangriffen und heftigen Schlägen Schaden macht. Nach dem zweiten Einsatz ihrer Elementarfähigkeit werden ihre Angriffe kurz zu Elektro-Angriffen. Am stärksten ist sie in Suprawuchs-Teams mit einem Dendro- und einem zweiten Elektro-Charakter.",
   "tips": [
     "Elementarfähigkeit zweimal: erst das Stilett werfen, dann dorthin springen – danach sind ihre Angriffe kurz mit Elektro verzaubert.",
-    "Ihre Spezialfähigkeit kostet nur 40 Energie, Aufladerate ist kaum nötig.",
-    "Talente: den Standardangriff zuerst leveln, danach die Spezialfähigkeit."
+    "Ihre Spezialfähigkeit kostet nur 40 Energie, Aufladerate ist kaum nötig."
   ],
   "teams": [
     {
@@ -65,6 +64,10 @@
   ],
   "mainStats": { "sands": ["atk%", "em"], "goblet": ["electro"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "em", "er"],
+  "talents": {
+    "order": [["normal"], ["burst"], ["skill"]],
+    "note": "Das Standardangriff-Talent stärkt auch ihre heftigen Schläge. Mit 4 Teilen „Donnernder Zorn“ ist die Elementarfähigkeit etwa so wichtig wie die Spezialfähigkeit."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/297534",
     "https://gamewith.net/genshin-impact/article/show/22335",

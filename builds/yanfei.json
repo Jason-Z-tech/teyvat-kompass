@@ -68,6 +68,10 @@
   ],
   "mainStats": { "sands": ["atk%", "em"], "goblet": ["pyro"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "em", "er"],
+  "talents": {
+    "order": [["normal"], ["burst"], ["skill"]],
+    "note": "Ihr Schaden kommt aus den heftigen Schlägen. Spielt man sie nur als Schild-Unterstützerin (Sternbild 4), braucht sie keine Talentstufen."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/328765",
     "https://gamewith.net/genshin-impact/article/show/25133",

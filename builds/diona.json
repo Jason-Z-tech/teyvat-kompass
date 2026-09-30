@@ -75,6 +75,11 @@
   ],
   "mainStats": { "sands": ["hp%", "er"], "goblet": ["hp%"], "circlet": ["hp%", "heal", "cr"] },
   "substats": ["er", "hp%", "cr"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Ab Talentstufe 7 der Elementarfähigkeit hält ihr Schild am längsten – höhere Stufen erhöhen nur noch Schildstärke und Schaden."
+  },
   "sources": [
     "https://keqingmains.com/q/diona-quickguide/",
     "https://game8.co/games/Genshin-Impact/archives/305872",

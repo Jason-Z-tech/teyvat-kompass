@@ -67,6 +67,11 @@
   ],
   "mainStats": { "sands": ["er", "hp%"], "goblet": ["hp%"], "circlet": ["heal", "hp%", "cr"] },
   "substats": ["er", "cr", "hp%", "em"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Höhere Talentstufen verbessern vor allem ihre Heilung – ihren Reaktionsschaden erhöhen sie nicht."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/314174",
     "https://gamewith.net/genshin-impact/article/show/23804",

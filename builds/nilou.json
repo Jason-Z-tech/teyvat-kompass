@@ -56,6 +56,11 @@
   ],
   "mainStats": { "sands": ["hp%", "er"], "goblet": ["hp%"], "circlet": ["hp%"] },
   "substats": ["hp%", "er", "em"],
+  "talents": {
+    "order": [["skill", "burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Bleibt sie länger auf dem Feld, zuerst die Elementarfähigkeit leveln, sonst zuerst die Spezialfähigkeit."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/383715",
     "https://gamewith.net/genshin-impact/article/show/31554",

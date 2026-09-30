@@ -6,8 +6,7 @@
   "summary": "Anemo-Schwertkämpfer und einer der stärksten Unterstützer im Spiel. Er zieht Gegner zusammen, verwirbelt Elemente und erhöht danach den Schaden seines Teams für das verwirbelte Element – je mehr Elementarkunde er hat, desto stärker. Passt zu fast jedem Pyro-, Hydro-, Kryo- oder Elektro-Hauptangreifer.",
   "tips": [
     "Elementarkunde so hoch wie möglich (etwa 1000): Jeder Punkt erhöht den Elementarschaden-Bonus, den er dem Team gibt.",
-    "Aufladerate: etwa 130–170 %, je nach Team und Waffe.",
-    "Talente: zuerst die Spezialfähigkeit, dann die Elementarfähigkeit leveln."
+    "Aufladerate: etwa 130–170 %, je nach Team und Waffe."
   ],
   "teams": [
     {
@@ -65,6 +64,10 @@
   ],
   "mainStats": { "sands": ["em", "er"], "goblet": ["em"], "circlet": ["em"] },
   "substats": ["er", "em", "cr", "cd", "atk%"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "note": "Sein Angriff aus dem Fall nach der Elementarfähigkeit zählt zum Standardangriff. Stufe 90 bringt ihm mehr als Talente, weil sein Verwirbelungsschaden mit der Stufe wächst."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/332826",
     "https://gamewith.net/genshin-impact/article/show/24514",

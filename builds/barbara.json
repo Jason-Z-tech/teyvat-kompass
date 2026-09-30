@@ -71,6 +71,11 @@
   ],
   "mainStats": { "sands": ["hp%"], "goblet": ["hp%"], "circlet": ["heal", "hp%"] },
   "substats": ["hp%", "er"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Den Standardangriff nur leveln, wenn sie selbst als Hauptangreiferin auf dem Feld kämpft."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/297517",
     "https://gamewith.net/genshin-impact/article/show/22352",

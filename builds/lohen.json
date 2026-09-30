@@ -71,10 +71,16 @@
   ],
   "mainStats": { "sands": ["atk%", "em"], "goblet": ["cryo", "atk%"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "em", "er"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Seine Kryo-Angriffe nach der Elementarfähigkeit skalieren mit dieser – das Standardangriff-Talent musst du nicht leveln."
+  },
   "sources": [
     "https://keqingmains.com/q/lohen-quickguide/",
     "https://www.icy-veins.com/genshin-impact/lohen-guide-best-builds",
     "https://www.prydwen.gg/genshin-impact/characters/lohen",
-    "https://game8.co/games/Genshin-Impact/archives/580697"
+    "https://game8.co/games/Genshin-Impact/archives/580697",
+    "https://gamewith.net/genshin-impact/article/show/71929"
   ]
 }

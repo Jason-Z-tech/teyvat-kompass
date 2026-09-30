@@ -67,6 +67,11 @@
   ],
   "mainStats": { "sands": ["hp%", "em"], "goblet": ["hydro", "hp%"], "circlet": ["cd", "cr"] },
   "substats": ["cd", "cr", "hp%", "em"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Ihre Hai-Bisse zählen zwar als Standardangriff, ihr Schaden hängt aber an der Talentstufe der Elementarfähigkeit."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/461994",
     "https://gamewith.net/genshin-impact/article/show/47148",

@@ -66,6 +66,7 @@
   ],
   "mainStats": { "sands": ["hp%", "er"], "goblet": ["hp%"], "circlet": ["hp%", "heal"] },
   "substats": ["er", "hp%", "em"],
+  "talents": { "order": [["burst"], ["skill"], ["normal"]], "low": ["normal"] },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/314348",
     "https://gamewith.net/genshin-impact/article/show/23803",

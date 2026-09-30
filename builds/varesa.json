@@ -3,11 +3,10 @@
   "version": "7.1",
   "updated": "2026-09-29",
   "roles": ["main-dps"],
-  "summary": "Elektro-Kämpferin mit Katalysator aus Natlan, die fast ihren ganzen Schaden mit Angriffen aus dem Fall macht. Ihr heftiger Schlag katapultiert sie in die Luft, und mit vollen Nachtseelenpunkten werden ihre Angriffe aus dem Fall noch stärker. Am besten spielt man sie mit Chevreuse und Iansan (Überladen) oder mit Xianyun und Furina.",
+  "summary": "Elektro-Kämpferin mit Katalysator aus Natlan, deren wichtigste Schadensquelle Angriffe aus dem Fall sind. Ihr heftiger Schlag katapultiert sie in die Luft, und mit vollen Nachtseelenpunkten werden ihre Angriffe aus dem Fall noch stärker. Am besten spielt man sie mit Chevreuse und Iansan (Überladen) oder mit Xianyun und Furina.",
   "tips": [
     "Ablauf: heftiger Schlag, um in die Luft zu springen, dann sofort der Angriff aus dem Fall – so sammelt sie Nachtseelenpunkte.",
     "Aufladerate: mit Iansan reichen etwa 125 %, allein als Elektro-Charakter eher 190–200 %.",
-    "Das Standardangriff-Talent zuerst leveln – es erhöht den Schaden ihrer Angriffe aus dem Fall.",
     "Ihre Signaturwaffe bringt ungefähr so viel wie Sternbild 1 und 2 zusammen und ist leichter zu sichern."
   ],
   "teams": [
@@ -65,6 +64,11 @@
   ],
   "mainStats": { "sands": ["atk%"], "goblet": ["electro", "atk%"], "circlet": ["cr", "cd"] },
   "substats": ["er", "cr", "cd", "atk%", "em"],
+  "talents": {
+    "order": [["normal"], ["burst"], ["skill"]],
+    "low": ["skill"],
+    "note": "Ihre Angriffe aus dem Fall gehören zum Standardangriff-Talent und sind ihre wichtigste Schadensquelle."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/500244",
     "https://gamewith.net/genshin-impact/article/show/51628",

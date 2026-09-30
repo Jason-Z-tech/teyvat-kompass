@@ -8,7 +8,7 @@
 import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { CACHE_DIR, ELEMENT_NAMES, WEAPON_TYPES_EN, loadCatalog } from './catalog.mjs';
-import { loadBuilds, loadWeaponSources, STATS, SLOT_STATS, SUBSTATS, ROLES } from './builds.mjs';
+import { loadBuilds, loadWeaponSources, STATS, SLOT_STATS, SUBSTATS, ROLES, TALENTS } from './builds.mjs';
 
 const args = process.argv.slice(2);
 const REFRESH = args.includes('--refresh');
@@ -47,6 +47,7 @@ async function writeResearchCatalog(catalog) {
     `mainStats.goblet: ${SLOT_STATS.goblet.join(', ')}`,
     `mainStats.circlet: ${SLOT_STATS.circlet.join(', ')}`,
     `substats: ${SUBSTATS.join(', ')}`,
+    `talents.order / talents.low: ${TALENTS.join(', ')} (normal = Standardangriff, skill = Elementarfähigkeit, burst = Spezialfähigkeit)`,
     `(Stat-Schlüssel: ${Object.keys(STATS).join(', ')})`);
   const file = path.join(CACHE_DIR, 'research-catalog.md');
   await mkdir(CACHE_DIR, { recursive: true });

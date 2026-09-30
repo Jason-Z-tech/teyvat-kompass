@@ -73,6 +73,11 @@
   ],
   "mainStats": { "sands": ["er", "atk%"], "goblet": ["atk%"], "circlet": ["heal", "atk%", "cr"] },
   "substats": ["er", "atk%", "cr", "em"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Ihr eigener Schaden zählt wenig, deshalb kann die Elementarfähigkeit notfalls auch niedrig bleiben."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/538446",
     "https://keqingmains.com/q/jahoda-quickguide/",

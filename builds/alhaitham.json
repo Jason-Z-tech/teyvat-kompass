@@ -75,6 +75,10 @@
   ],
   "mainStats": { "sands": ["em", "atk%"], "goblet": ["dendro"], "circlet": ["cr", "cd"] },
   "substats": ["er", "em", "cr", "cd", "atk%"],
+  "talents": {
+    "order": [["skill"], ["normal"], ["burst"]],
+    "note": "Der Schaden seiner Spiegel hängt an der Elementarfähigkeit. Setzt man die Spezialfähigkeit jede Runde ein, ist sie so wichtig wie der Standardangriff."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/383712",
     "https://game8.co/games/Genshin-Impact/archives/403132",

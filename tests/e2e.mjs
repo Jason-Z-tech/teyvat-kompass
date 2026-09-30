@@ -50,6 +50,7 @@ const detailState = (page) => page.eval(`(() => ({
   weapons: document.querySelectorAll('.weapon').length,
   artifacts: document.querySelectorAll('.artifact').length,
   mainstats: document.querySelectorAll('.mainstat').length,
+  talents: [...document.querySelectorAll('.talent__kind')].map((t) => t.textContent),
   also: document.querySelectorAll('.also__item').length,
   noBuild: !!document.querySelector('.view--detail > .state'),
   title: document.title,
@@ -276,7 +277,11 @@ async function testAllCharacters(page, vp) {
   const tag = `[${vp.label} · alle Charaktere]`;
   console.log(`${tag} läuft …`);
   await page.goto(url('index.html'));
-  const all = await dataInfo(page, `D.characters.map((c) => ({ slug: c.slug, name: c.name, teams: c.build ? c.build.teams.length : 0 }))`);
+  const all = await dataInfo(page, `D.characters.map((c) => ({
+    slug: c.slug, name: c.name, teams: c.build ? c.build.teams.length : 0,
+    firstTalent: c.build?.talents?.order[0][0] ?? null,
+  }))`);
+  const TALENT_LABELS = { normal: 'Standardangriff', skill: 'Elementarfähigkeit', burst: 'Spezialfähigkeit' };
   let withoutBuild = 0;
   for (const c of all) {
     await page.eval(`location.hash = '#char=${c.slug}'`);
@@ -294,8 +299,14 @@ async function testAllCharacters(page, vp) {
       return null;
     })()`);
     check(!raw, `${tag} ${c.slug}: roher Text „${raw}“ sichtbar`);
-    if (c.teams) check(d.teams.length === c.teams && d.teams.every((t) => t.members.length === 4), `${tag} ${c.slug}: Teams unvollständig`);
-    else withoutBuild++;
+    if (c.teams) {
+      check(d.teams.length === c.teams && d.teams.every((t) => t.members.length === 4), `${tag} ${c.slug}: Teams unvollständig`);
+      // Talent-Reihenfolge: jedes der drei Talente genau einmal, das wichtigste zuerst
+      check(c.firstTalent && d.talents.length === 3 && new Set(d.talents).size === 3 && d.talents[0] === TALENT_LABELS[c.firstTalent],
+        `${tag} ${c.slug}: Talent-Reihenfolge fehlt oder ist unvollständig (${d.talents.join(' › ') || 'keine'})`);
+    } else {
+      withoutBuild++;
+    }
   }
   if (withoutBuild) console.log(`${tag} Hinweis: ${withoutBuild} Charaktere ohne Build (zeigen den Leer-Hinweis).`);
 

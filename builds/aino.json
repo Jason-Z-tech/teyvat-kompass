@@ -67,6 +67,11 @@
   ],
   "mainStats": { "sands": ["er", "em"], "goblet": ["em", "hydro"], "circlet": ["em", "cr"] },
   "substats": ["er", "cr", "em", "cd", "atk%"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Ihr Talentschaden trägt wenig zum Teamschaden bei – wer Talentbücher sparen muss, kann ihre Talente auch niedrig lassen."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/537903",
     "https://gamewith.net/genshin-impact/article/show/69272",

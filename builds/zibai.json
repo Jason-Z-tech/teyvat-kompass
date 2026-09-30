@@ -67,6 +67,11 @@
   ],
   "mainStats": { "sands": ["def%"], "goblet": ["def%"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "def%", "em", "er"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Ihre Geo-Standardangriffe wachsen mit der Stufe der Elementarfähigkeit – der Standardangriff selbst braucht keine Stufen."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/570263",
     "https://keqingmains.com/q/zibai-quickguide/",

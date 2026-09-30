@@ -74,10 +74,16 @@
   ],
   "mainStats": { "sands": ["er", "atk%"], "goblet": ["electro"], "circlet": ["cr", "cd"] },
   "substats": ["er", "cr", "cd", "atk%"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Elementar- und Spezialfähigkeit liefern nur bis Talentstufe 7 mehr Energie – darüber steigt nur noch ihr Schaden."
+  },
   "sources": [
     "https://gamewith.net/genshin-impact/article/show/28610",
     "https://gamewith.net/genshin-impact/article/show/52364",
     "https://game8.co/games/Genshin-Impact/archives/336865",
-    "https://genshin-builds.com/en/character/traveler_electro"
+    "https://genshin-builds.com/en/character/traveler_electro",
+    "https://keqingmains.com/electro-traveler/"
   ]
 }

@@ -7,8 +7,7 @@
   "tips": [
     "Etwa 2.000–2.400 ANG anpeilen: Ihre Passive erhöht den Grundschaden von Mond unter Strom abhängig von ihrem ANG.",
     "Aufladerate: etwa 130 % reichen meist, als einziger Elektro-Charakter etwas mehr.",
-    "Mit einem zweiten Mondomen-Charakter wie Columbina oder Aino wird „Reifer Glanz“ aktiv und Mond unter Strom noch stärker.",
-    "Die Elementarfähigkeit zuerst leveln, danach die Spezialfähigkeit."
+    "Mit einem zweiten Mondomen-Charakter wie Columbina oder Aino wird „Reifer Glanz“ aktiv und Mond unter Strom noch stärker."
   ],
   "teams": [
     {
@@ -67,6 +66,11 @@
   ],
   "mainStats": { "sands": ["atk%", "em"], "goblet": ["atk%", "em"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "em", "er"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Ihr Schaden kommt vor allem aus ihrer Passive und Mond unter Strom – höhere Stufen der Elementarfähigkeit stärken vor allem ihren Schild."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/531360",
     "https://gamewith.net/genshin-impact/article/show/68225",

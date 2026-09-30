@@ -68,6 +68,10 @@
   ],
   "mainStats": { "sands": ["def%"], "goblet": ["geo", "def%"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "er", "def%", "atk%"],
+  "talents": {
+    "order": [["normal"], ["burst"], ["skill"]],
+    "note": "Seine heftigen Schläge gehören zum Standardangriff-Talent und machen den Großteil seines Schadens aus."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/345461",
     "https://gamewith.net/genshin-impact/article/show/29489",

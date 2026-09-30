@@ -66,6 +66,11 @@
   ],
   "mainStats": { "sands": ["atk%"], "goblet": ["atk%"], "circlet": ["cd", "cr"] },
   "substats": ["cr", "cd", "atk%", "er", "em"],
+  "talents": {
+    "order": [["burst"], ["normal"], ["skill"]],
+    "low": ["skill"],
+    "note": "Als Hauptangreifer in Stellar-Supraleiter-Teams ist der Standardangriff fast so wichtig wie die Spezialfähigkeit. Die Elementarfähigkeit macht keinen Stellarfunkeln-Schaden."
+  },
   "sources": [
     "https://www.icy-veins.com/genshin-impact/cryo-traveler-guide-best-builds",
     "https://www.prydwen.gg/genshin-impact/characters/traveler-cryo",

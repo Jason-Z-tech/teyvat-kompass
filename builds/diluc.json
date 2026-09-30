@@ -60,5 +60,9 @@
   ],
   "mainStats": { "sands": ["atk%", "em"], "goblet": ["pyro"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "em", "er"],
+  "talents": {
+    "order": [["skill"], ["normal"], ["burst"]],
+    "note": "Im Team mit Xianyun zuerst den Standardangriff leveln – dazu gehört auch sein Angriff aus dem Fall."
+  },
   "sources": ["https://game8.co/games/Genshin-Impact/archives/297518"]
 }

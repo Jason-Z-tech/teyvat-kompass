@@ -75,6 +75,10 @@
   ],
   "mainStats": { "sands": ["atk%", "er"], "goblet": ["geo"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "er"],
+  "talents": {
+    "order": [["skill"], ["normal"], ["burst"]],
+    "note": "Spielt man sie außerhalb des Feldes als Unterstützerin, lieber die Spezialfähigkeit vor dem Standardangriff leveln."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/417194",
     "https://gamewith.net/genshin-impact/article/show/40238",

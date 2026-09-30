@@ -5,7 +5,6 @@
   "roles": ["main-dps"],
   "summary": "Hydro-Hauptangreifer mit Katalysator. Fast sein ganzer Schaden kommt aus seinem heftigen Schlag: einem langen Wasserstrahl, der mit seinen LP stärker wird. Er ist leicht zu spielen und passt in viele Teams, am besten mit Furina oder in Teams mit Mond unter Strom.",
   "tips": [
-    "Das Talent Standardangriff zuerst leveln – davon hängt sein heftiger Schlag ab.",
     "Vor dem heftigen Schlag die Wassertropfen seiner Fähigkeiten aufsammeln, dann ist der Strahl viel schneller bereit.",
     "Ohne Sternbilder wird er beim heftigen Schlag leicht unterbrochen: ein Schild von Zhongli oder Layla hilft.",
     "Aufladerate braucht er kaum, meist reichen 100–135 %."
@@ -75,6 +74,10 @@
   ],
   "mainStats": { "sands": ["hp%"], "goblet": ["hydro", "hp%"], "circlet": ["cd", "cr", "hp%"] },
   "substats": ["cd", "cr", "hp%", "er"],
+  "talents": {
+    "order": [["normal"], ["skill", "burst"]],
+    "note": "Sein heftiger Schlag gehört zum Standardangriff und macht fast seinen ganzen Schaden – deshalb dieses Talent zuerst."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/393054",
     "https://gamewith.net/genshin-impact/article/show/39683",

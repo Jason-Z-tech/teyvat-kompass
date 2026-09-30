@@ -72,6 +72,10 @@
   ],
   "mainStats": { "sands": ["atk%", "def%", "er"], "goblet": ["phys", "def%"], "circlet": ["cr", "cd", "def%"] },
   "substats": ["cr", "cd", "atk%", "er", "def%"],
+  "talents": {
+    "order": [["normal"], ["burst"], ["skill"]],
+    "note": "Gilt für die physische Kämpferin. Als Schildgeberin zuerst die Elementarfähigkeit (stärkerer Schild), dann die Spezialfähigkeit."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/305873",
     "https://game8.co/games/Genshin-Impact/archives/301819",

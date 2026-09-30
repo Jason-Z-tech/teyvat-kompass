@@ -58,6 +58,11 @@
   ],
   "mainStats": { "sands": ["er", "em", "atk%"], "goblet": ["em", "atk%"], "circlet": ["em", "atk%", "heal"] },
   "substats": ["er", "atk%", "em", "cr"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Spielt sie als Auslöserin auf dem Feld (z. B. im Unter-Strom-Team), zuerst die Elementarfähigkeit leveln."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/333496",
     "https://gamewith.net/genshin-impact/article/show/24530",

@@ -68,5 +68,10 @@
   ],
   "mainStats": { "sands": ["er", "atk%", "hp%"], "goblet": ["pyro", "hp%"], "circlet": ["cr", "hp%", "heal"] },
   "substats": ["er", "hp%", "atk%", "cr", "cd"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Heilung und ANG-Bonus wachsen mit der Stufe der Spezialfähigkeit. Den Standardangriff braucht er nur, wenn er selbst auf dem Feld Schaden machen soll."
+  },
   "sources": ["https://game8.co/games/Genshin-Impact/archives/297522", "https://keqingmains.com/q/bennett-quickguide/"]
 }

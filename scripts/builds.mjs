@@ -37,9 +37,10 @@ export const SLOT_STATS = {
 };
 export const SUBSTATS = ['cr', 'cd', 'atk%', 'hp%', 'def%', 'em', 'er'];
 export const ROLES = ['main-dps', 'sub-dps', 'support', 'healer', 'shield'];
+export const TALENTS = ['normal', 'skill', 'burst'];
 
 const TOP_KEYS = ['character', 'version', 'updated', 'roles', 'summary', 'tips', 'teams', 'weapons',
-  'artifacts', 'mainStats', 'substats', 'sources'];
+  'artifacts', 'mainStats', 'substats', 'talents', 'sources'];
 
 // ---------- Namens-Suche mit Vorschlägen ----------
 
@@ -224,6 +225,29 @@ export function resolveBuild(raw, slug, catalog, resolver = createResolver(catal
   if (!isList(raw.substats, 2, 6) || !raw.substats.every((s) => SUBSTATS.includes(s)) || new Set(raw.substats).size !== raw.substats.length) {
     errors.push(`substats: 2–6 verschiedene Werte aus ${SUBSTATS.join(', ')}`);
   }
+  // Talente: Reihenfolge in Stufen (gleiche Stufe = gleich wichtig), jedes Talent genau einmal.
+  let talents = null;
+  if (raw.talents === undefined) {
+    errors.push('talents: Talent-Reihenfolge fehlt (siehe _FORMAT.md)');
+  } else {
+    const t = raw.talents;
+    checkKeys(t, ['order', 'low', 'note'], 'talents', errors);
+    const order = Array.isArray(t?.order) ? t.order : null;
+    const validOrder = isList(order, 1, 3)
+      && order.every((tier) => isList(tier, 1, 3) && tier.every((k) => TALENTS.includes(k)));
+    const flat = validOrder ? order.flat() : [];
+    if (!validOrder || flat.length !== 3 || new Set(flat).size !== 3) {
+      errors.push('talents.order: Stufen wie [["burst"], ["skill"], ["normal"]] – normal, skill und burst je genau einmal');
+    }
+    const low = t?.low ?? [];
+    if (!(Array.isArray(low) && low.length <= 2 && low.every((k) => TALENTS.includes(k)) && new Set(low).size === low.length)
+      || (validOrder && low.some((k) => order[0].includes(k)))) {
+      errors.push('talents.low: höchstens 2 Talente aus normal, skill, burst – nicht aus der ersten Stufe');
+    }
+    if (t?.note !== undefined && !isText(t.note, 5, 200)) errors.push('talents.note: 5–200 Zeichen');
+    talents = { order, low: Array.isArray(low) ? low : [], note: textOrNull(t?.note) };
+  }
+
   if (!isList(raw.sources, 1, 6) || !raw.sources.every(validUrl)) errors.push('sources: 1–6 https-Links');
 
   if (errors.length) return { errors };
@@ -240,6 +264,7 @@ export function resolveBuild(raw, slug, catalog, resolver = createResolver(catal
       artifacts,
       mainStats,
       substats: raw.substats,
+      talents,
       sources: raw.sources,
     },
   };

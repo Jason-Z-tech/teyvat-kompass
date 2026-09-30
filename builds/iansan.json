@@ -7,8 +7,7 @@
   "tips": [
     "Zuerst genug Aufladerate (allein als Elektro-Charakter oft 200 % und mehr, mit zweitem Elektro-Charakter deutlich weniger), danach so viel ANG wie möglich.",
     "Ab 42 Nachtseelenpunkten gibt ihre Spezialfähigkeit den vollen, nur noch vom ANG abhängigen Bonus.",
-    "Sternbild 2 ist ein guter Haltepunkt: Sie gibt dem aktiven Charakter dann auch von außerhalb des Feldes 30 % ANG.",
-    "Die Spezialfähigkeit zuerst leveln – das erhöht direkt ihren ANG-Bonus."
+    "Sternbild 2 ist ein guter Haltepunkt: Sie gibt dem aktiven Charakter dann auch von außerhalb des Feldes 30 % ANG."
   ],
   "teams": [
     {
@@ -73,6 +72,11 @@
   ],
   "mainStats": { "sands": ["er", "atk%"], "goblet": ["atk%"], "circlet": ["atk%", "cr"] },
   "substats": ["er", "atk%", "cr"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Die Stufe der Spezialfähigkeit bestimmt, wie viel ANG sie dem aktiven Charakter gibt. Ihr eigener Schaden ist gering."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/345881",
     "https://gamewith.net/genshin-impact/article/show/24370",

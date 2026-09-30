@@ -74,6 +74,7 @@
   ],
   "mainStats": { "sands": ["er", "atk%"], "goblet": ["hydro"], "circlet": ["cr", "cd"] },
   "substats": ["er", "cr", "cd", "atk%", "em"],
+  "talents": { "order": [["burst"], ["skill"], ["normal"]], "low": ["normal"] },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/297531",
     "https://gamewith.net/genshin-impact/article/show/22338",

@@ -1287,6 +1287,69 @@ a.member:hover .member__name { color: var(--gold-bright); }
 .stat abbr { text-decoration: none; cursor: help; }
 .stats__legend { font-size: 0.82rem; color: var(--muted); }
 
+/* Talente: nummerierte Stufen, die wichtigste golden hervorgehoben */
+.talents { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.talent-tier {
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr);
+  gap: 12px;
+  align-items: center;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  background: linear-gradient(180deg, var(--ink-800), var(--ink-850));
+  animation: rise 0.5s var(--ease-out) backwards;
+  animation-delay: calc(var(--i, 0) * 70ms);
+  transition: border-color 0.25s, transform 0.25s var(--ease-out);
+}
+.talent-tier:hover { border-color: var(--line-strong); transform: translateY(-2px); }
+.talent-tier:first-child {
+  border-color: var(--line-strong);
+  background:
+    radial-gradient(ellipse 80% 120% at 0% 50%, rgba(211, 188, 142, 0.12), transparent 70%),
+    linear-gradient(180deg, var(--ink-800), var(--ink-850));
+}
+.talent-tier__rank {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  text-align: center;
+  color: var(--gold-deep);
+}
+.talent-tier:first-child .talent-tier__rank { color: var(--gold-bright); }
+.talent-tier__items { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; }
+.talent-tier__tie { display: flex; align-items: center; gap: 10px 12px; min-width: 0; }
+.talent-tier__eq { color: var(--gold); font-weight: 800; font-size: 1.1rem; }
+
+.talent { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.talent__icon {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--el) 16%, var(--ink-750));
+  color: var(--el);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--el) 50%, transparent), 0 0 16px -6px var(--el);
+  transition: transform 0.3s var(--ease-spring);
+}
+.talent__icon svg { width: 22px; height: 22px; }
+.talent-tier:hover .talent__icon { transform: rotate(-8deg) scale(1.08); }
+.talent__text { display: flex; flex-direction: column; min-width: 0; }
+.talent__kind { font-weight: 800; color: var(--text); line-height: 1.25; }
+.talent__name { font-family: var(--font-display); font-size: 0.9rem; color: var(--gold); overflow-wrap: anywhere; }
+.talent.is-low .talent__icon { filter: saturate(0.4); opacity: 0.8; }
+.talent.is-low .talent__kind { color: var(--text-dim); }
+.talents__note {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-left: 2px solid var(--gold-deep);
+  border-radius: 0 10px 10px 0;
+  background: rgba(7, 11, 21, 0.45);
+  color: var(--text-dim);
+  font-size: 0.92rem;
+}
+
 /* Quellen */
 .sources {
   margin-top: 36px;
@@ -1362,6 +1425,10 @@ a.member:hover .member__name { color: var(--gold-bright); }
   .owned-bar__actions .btn { flex: 1 1 auto; min-height: 44px; padding-inline: 10px; font-size: 0.86rem; }
   .owned-bar__actions .btn--plate { padding-left: 6px; }
 
+  /* Gleich wichtige Talente untereinander, das „=“ mittig unter dem Symbol */
+  .talent-tier__items, .talent-tier__tie { flex-direction: column; align-items: flex-start; gap: 4px; }
+  .talent-tier__eq { width: 42px; text-align: center; line-height: 1; }
+
   /* Sprungmarken: Verlauf am rechten Rand zeigt, dass es seitlich weitergeht */
   .jump {
     -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 36px), transparent);
@@ -1430,6 +1497,7 @@ a.member:hover .member__name { color: var(--gold-bright); }
   }
   .hero__description { max-width: 52ch; }
 
+  .talents { grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); }
   .team { padding: 20px 22px 22px; }
   .team__head { justify-content: flex-start; }
   .member__art { width: 88px; height: 88px; }
@@ -1455,7 +1523,7 @@ a.member:hover .member__name { color: var(--gold-bright); }
 }
 
 @media (forced-colors: active) {
-  .card, .team, .weapon, .artifact, .mainstat, .substats { border: 1px solid CanvasText; }
+  .card, .team, .weapon, .artifact, .mainstat, .substats, .talent-tier { border: 1px solid CanvasText; }
   /* Gewählte Filter und Schalter nur über Farben erkennbar – im Kontrastmodus Systemfarben nutzen. */
   .chip input:checked + .chip__face {
     forced-color-adjust: none;

@@ -66,6 +66,11 @@
   ],
   "mainStats": { "sands": ["er", "def%"], "goblet": ["def%", "geo"], "circlet": ["cr", "def%"] },
   "substats": ["er", "cr", "def%"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Die Stufe der Elementarfähigkeit bestimmt seinen VTD-Bonus fürs Team. Die Spezialfähigkeit bringt nur etwas eigenen Schaden und darf auch niedrig bleiben."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/336726",
     "https://gamewith.net/genshin-impact/article/show/28855",

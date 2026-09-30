@@ -62,5 +62,14 @@
   ],
   "mainStats": { "sands": ["atk%", "em"], "goblet": ["pyro"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "em"],
-  "sources": ["https://keqingmains.com/q/yoimiya-quickguide/", "https://game8.co/games/Genshin-Impact/archives/333497"]
+  "talents": {
+    "order": [["normal"], ["skill"], ["burst"]],
+    "low": ["burst"],
+    "note": "Fast ihr ganzer Schaden kommt aus Standardangriffen, auch während der Spezialfähigkeit. Deren Stufe bringt ihr nur wenig."
+  },
+  "sources": [
+    "https://keqingmains.com/q/yoimiya-quickguide/",
+    "https://game8.co/games/Genshin-Impact/archives/333497",
+    "https://gamewith.net/genshin-impact/article/show/24607"
+  ]
 }

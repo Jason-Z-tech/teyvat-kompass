@@ -69,6 +69,11 @@
   ],
   "mainStats": { "sands": ["atk%"], "goblet": ["dendro"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "er"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Seine Schüsse beim Umkreisen der Gegner zählen als Elementarfähigkeit – der Standardangriff bringt ihm kaum etwas."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/461991",
     "https://gamewith.net/genshin-impact/article/show/47141",

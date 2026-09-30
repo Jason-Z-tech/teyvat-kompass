@@ -78,6 +78,10 @@
   ],
   "mainStats": { "sands": ["atk%"], "goblet": ["pyro", "atk%"], "circlet": ["cr", "cd"] },
   "substats": ["er", "cr", "cd", "atk%", "em"],
+  "talents": {
+    "order": [["normal"], ["skill", "burst"]],
+    "note": "Ihr Schaden kommt vor allem aus Standardangriffen und heftigen Schlägen. Als Unterstützerin zuerst die Elementarfähigkeit leveln."
+  },
   "sources": [
     "https://keqingmains.com/q/klee-quickguide/",
     "https://game8.co/games/Genshin-Impact/archives/297521",

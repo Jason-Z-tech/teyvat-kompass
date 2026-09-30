@@ -69,6 +69,11 @@
   ],
   "mainStats": { "sands": ["atk%", "em"], "goblet": ["atk%", "em"], "circlet": ["cd", "cr"] },
   "substats": ["er", "cd", "cr", "atk%", "em"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Im Zustand seiner Elementarfähigkeit richten sich auch Standardangriffe und heftige Schläge nach deren Talentstufe."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/538451",
     "https://keqingmains.com/q/flins-quickguide/",

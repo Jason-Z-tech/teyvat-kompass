@@ -7,8 +7,7 @@
   "tips": [
     "Krit.-Werte bringen ihr nichts: Ihr Talent senkt ihre Krit.-Rate um 100 %.",
     "Aufladerate: meist etwa 180–220 %; der Bernstein-Prototyp oder eine zweite Hydro-Figur senken den Bedarf.",
-    "Die Qualle bleibt an ihrem Platz – Gegner, die weglaufen, bekommen weniger Hydro ab.",
-    "Talente: Elementarfähigkeit zuerst leveln, sie heilt und trifft am meisten."
+    "Die Qualle bleibt an ihrem Platz – Gegner, die weglaufen, bekommen weniger Hydro ab."
   ],
   "teams": [
     {
@@ -78,6 +77,11 @@
   ],
   "mainStats": { "sands": ["hp%", "er"], "goblet": ["hp%", "hydro"], "circlet": ["heal", "hp%"] },
   "substats": ["hp%", "er", "em"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Kämpft sie selbst auf dem Feld (z. B. Mono-Hydro), werden Spezialfähigkeit und Standardangriff deutlich wichtiger."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/337140",
     "https://gamewith.net/genshin-impact/article/show/24455",

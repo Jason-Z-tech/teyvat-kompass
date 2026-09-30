@@ -77,6 +77,10 @@
   ],
   "mainStats": { "sands": ["atk%"], "goblet": ["hydro"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "em", "er"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "note": "Den Großteil seines Schadens macht er in der Nahkampf-Haltung seiner Elementarfähigkeit."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/305862",
     "https://gamewith.net/genshin-impact/article/show/22922",

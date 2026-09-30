@@ -77,6 +77,10 @@
   ],
   "mainStats": { "sands": ["atk%", "er", "em"], "goblet": ["anemo", "em"], "circlet": ["cr", "cd", "em"] },
   "substats": ["cr", "cd", "atk%", "er", "em"],
+  "talents": {
+    "order": [["normal"], ["burst"], ["skill"]],
+    "note": "Reihenfolge für Venti als Hexerei-Hauptangreifer. Als Unterstützer zuerst die Spezialfähigkeit, dann die Elementarfähigkeit – den Standardangriff braucht er dann kaum."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/Venti-Best-Builds",
     "https://gamewith.net/genshin-impact/article/show/22349",

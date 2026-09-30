@@ -65,6 +65,11 @@
   ],
   "mainStats": { "sands": ["atk%"], "goblet": ["pyro", "atk%", "anemo"], "circlet": ["cd", "cr"] },
   "substats": ["cr", "cd", "atk%", "em"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["burst", "normal"],
+    "note": "Im Zustand der Elementarfähigkeit richten sich Standardangriffe und heftige Schläge nach deren Talentstufe."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/314346",
     "https://keqingmains.com/q/varka-quickguide/",

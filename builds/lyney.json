@@ -66,6 +66,10 @@
   ],
   "mainStats": { "sands": ["atk%"], "goblet": ["pyro"], "circlet": ["cd", "cr"] },
   "substats": ["cd", "cr", "er", "atk%"],
+  "talents": {
+    "order": [["normal"], ["skill"], ["burst"]],
+    "note": "Heftige Schläge und seine Hüte machen den Großteil seines Schadens – beides wächst mit dem Standardangriff-Talent."
+  },
   "sources": [
     "https://gamewith.net/genshin-impact/article/show/24369",
     "https://gamewith.net/genshin-impact/article/show/40725",

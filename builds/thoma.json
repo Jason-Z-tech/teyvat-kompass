@@ -76,5 +76,14 @@
   ],
   "mainStats": { "sands": ["er", "hp%"], "goblet": ["hp%"], "circlet": ["hp%", "cr"] },
   "substats": ["er", "hp%", "cr", "em"],
-  "sources": ["https://game8.co/games/Genshin-Impact/archives/337141", "https://keqingmains.com/q/thoma-quickguide/"]
+  "talents": {
+    "order": [["skill", "burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Beide Fähigkeiten machen seine Schilde stärker. Für Flammenspross bringen höhere Talentstufen kaum zusätzlichen Schaden."
+  },
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/337141",
+    "https://keqingmains.com/q/thoma-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/24526"
+  ]
 }

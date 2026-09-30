@@ -358,6 +358,49 @@
     ]);
   }
 
+  // ---------- Talente ----------
+
+  const TALENT_LABELS = { normal: 'Standardangriff', skill: 'Elementarfähigkeit', burst: 'Spezialfähigkeit' };
+
+  function renderTalent(c, key, low) {
+    return el('div', { class: `talent${low ? ' is-low' : ''}` }, [
+      el('span', { class: 'talent__icon' }, [icon(`t-${key}`)]),
+      el('span', { class: 'talent__text' }, [
+        el('span', { class: 'talent__kind', text: TALENT_LABELS[key] }),
+        c.talentNames?.[key] ? el('span', { class: 'talent__name', text: c.talentNames[key] }) : null,
+      ]),
+      low ? el('span', { class: 'badge badge--muted', text: 'lohnt kaum' }) : null,
+    ]);
+  }
+
+  // Stufen der Talent-Reihenfolge; gleich wichtige Talente stehen in derselben Stufe.
+  function renderTalents(c) {
+    const talents = c.build.talents;
+    const tiers = talents.order.map((tier, i) => {
+      // Das „=“ gehört fest zum folgenden Talent, damit es beim Zeilenumbruch nicht allein hängen bleibt.
+      const items = tier.map((key, j) => {
+        const talent = renderTalent(c, key, talents.low.includes(key));
+        if (j === 0) return talent;
+        return el('span', { class: 'talent-tier__tie' }, [
+          el('span', { class: 'talent-tier__eq' }, [
+            el('span', { 'aria-hidden': 'true', text: '=' }),
+            el('span', { class: 'visually-hidden', text: 'gleich wichtig wie' }),
+          ]),
+          talent,
+        ]);
+      });
+      return el('li', { class: 'talent-tier', vars: { '--i': i } }, [
+        el('span', { class: 'talent-tier__rank', 'aria-hidden': 'true', text: String(i + 1) }),
+        el('div', { class: 'talent-tier__items' }, items),
+      ]);
+    });
+    return [
+      el('p', { class: 'block__intro', text: 'In dieser Reihenfolge lohnt es sich, die Talente zu verbessern – das wichtigste zuerst.' }),
+      el('ol', { class: 'talents' }, tiers),
+      talents.note ? el('p', { class: 'talents__note', text: talents.note }) : null,
+    ];
+  }
+
   // ---------- Sprungmarken ----------
 
   function renderJump(blocks) {
@@ -426,6 +469,12 @@
       el('p', { class: 'block__intro', text: 'Hauptwerte für Sanduhr, Kelch und Krone – Blume und Feder haben feste Werte.' }),
       renderStats(build),
     ]);
+    const talentsBlock = build.talents
+      ? el('section', { class: 'block', id: 'block-talents', 'aria-labelledby': 'title-talents' }, [
+        blockTitle('Talente', 'title-talents'),
+        ...renderTalents(c),
+      ])
+      : null;
 
     const sourceLinks = build.sources.map(safeHttpsUrl).filter(Boolean).map((u) =>
       el('li', null, [el('a', { href: u.href, target: '_blank', rel: 'noopener noreferrer external', text: `${u.hostname}${u.pathname.length > 1 ? u.pathname : ''}` })]));
@@ -435,8 +484,10 @@
       sourceLinks.length ? el('ul', null, sourceLinks) : null,
     ]);
 
-    const jump = renderJump([['Teams', teamsBlock], ['Waffen', weaponsBlock], ['Artefakte', artifactsBlock], ['Werte', statsBlock]]);
-    container.replaceChildren(back, hero, jump, teamsBlock, weaponsBlock, artifactsBlock, statsBlock, sources);
+    const sections = [['Teams', teamsBlock], ['Waffen', weaponsBlock], ['Artefakte', artifactsBlock], ['Werte', statsBlock], ['Talente', talentsBlock]]
+      .filter(([, block]) => block);
+    const jump = renderJump(sections);
+    container.replaceChildren(back, hero, jump, ...sections.map(([, block]) => block), sources);
     current = { character: c, container, teamsBlock, ownButton };
     return true;
   }

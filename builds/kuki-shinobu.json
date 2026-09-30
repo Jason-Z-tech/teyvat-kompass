@@ -69,9 +69,15 @@
   ],
   "mainStats": { "sands": ["em", "hp%"], "goblet": ["em", "hp%"], "circlet": ["em", "heal", "hp%"] },
   "substats": ["em", "hp%", "er"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "In Supraspross- und Suprawuchs-Teams bringt Stufe 90 mehr Schaden als hohe Talentstufen."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/346199",
     "https://gamewith.net/genshin-impact/article/show/29488",
-    "https://gamewith.net/genshin-impact/article/show/38641"
+    "https://gamewith.net/genshin-impact/article/show/38641",
+    "https://keqingmains.com/q/shinobu-quickguide/"
   ]
 }

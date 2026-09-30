@@ -75,6 +75,11 @@
   ],
   "mainStats": { "sands": ["atk%", "em"], "goblet": ["electro"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "er", "em"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Oz' Schaden hängt an der Elementarfähigkeit. Den Standardangriff braucht sie nur, wenn sie selbst auf dem Feld kämpft."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/297524",
     "https://gamewith.net/genshin-impact/article/show/22345",

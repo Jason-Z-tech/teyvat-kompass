@@ -6,7 +6,6 @@
   "summary": "Anemo-Bogenschützin und reine Unterstützerin. Ihre Spezialfähigkeit erhöht den Anemo-Schaden der Truppe und senkt den Anemo-Widerstand der Gegner – ideal neben Anemo-Angreifern wie Xiao, Wanderer, Vesna oder Mizuki. Dafür braucht sie sehr viel Aufladerate.",
   "tips": [
     "Aufladerate hat Vorrang: vor C6 etwa 200–300 %, ab C6 etwa 170–200 %. Je mehr Anemo-Figuren im Team, desto weniger braucht sie.",
-    "Die Spezialfähigkeit zuerst leveln – ihr Anemo-Bonus für das Team wächst mit der Talentstufe.",
     "Mit dem Favonius-Jagdbogen etwas Krit.-Rate sammeln, damit die Waffe öfter Energie erzeugt."
   ],
   "teams": [
@@ -64,6 +63,11 @@
   ],
   "mainStats": { "sands": ["er", "atk%"], "goblet": ["anemo"], "circlet": ["cr", "cd"] },
   "substats": ["er", "cr", "cd", "atk%"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Ihr Anemo-Bonus für das Team wächst mit der Stufe der Spezialfähigkeit. Ab C6 ist die Elementarfähigkeit fast genauso wichtig."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/391897",
     "https://gamewith.net/genshin-impact/article/show/34437",

@@ -74,6 +74,11 @@
   ],
   "mainStats": { "sands": ["atk%", "er"], "goblet": ["electro"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "er"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Den Großteil seines Schadens machen die Zusatztreffer seiner Passive – dafür zählt die Charakterstufe mehr als die Talente."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/461993",
     "https://gamewith.net/genshin-impact/article/show/47151",

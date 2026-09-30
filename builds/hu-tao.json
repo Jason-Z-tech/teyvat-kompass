@@ -68,6 +68,10 @@
   ],
   "mainStats": { "sands": ["hp%", "em"], "goblet": ["pyro"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "hp%", "em"],
+  "talents": {
+    "order": [["normal", "skill"], ["burst"]],
+    "note": "Ihr Schaden kommt vor allem aus heftigen Schlägen (Standardangriff), den ANG-Bonus aus ihren LP liefert die Elementarfähigkeit – beide gleich wichtig."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/314347",
     "https://gamewith.net/genshin-impact/article/show/23791",

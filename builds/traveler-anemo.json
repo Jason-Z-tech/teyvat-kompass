@@ -7,8 +7,7 @@
   "tips": [
     "Die Elementarfähigkeit gedrückt halten: Schaden und Wirkungsbereich wachsen allmählich. Ab Sternbild 1 zieht sie Gegner im Umkreis von 5 m heran.",
     "Nehmen die Fähigkeiten ein Element auf, verteilen sie es auf viele Gegner – ideal für Reaktionen.",
-    "Ab Sternbild 6 senkt die Spezialfähigkeit zusätzlich den Anemo-Widerstand und den des aufgenommenen Elements.",
-    "Talente: zuerst die Elementarfähigkeit leveln."
+    "Ab Sternbild 6 senkt die Spezialfähigkeit zusätzlich den Anemo-Widerstand und den des aufgenommenen Elements."
   ],
   "teams": [
     {
@@ -70,6 +69,11 @@
   ],
   "mainStats": { "sands": ["em", "er"], "goblet": ["em", "anemo"], "circlet": ["em", "cr"] },
   "substats": ["er", "em", "atk%", "cr"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Den Standardangriff nur leveln, wenn Reisende(r) als Haupt-DPS auf dem Feld kämpft."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/297537",
     "https://gamewith.net/genshin-impact/article/show/22643",

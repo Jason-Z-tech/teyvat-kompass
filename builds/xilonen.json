@@ -62,6 +62,11 @@
   ],
   "mainStats": { "sands": ["er", "def%"], "goblet": ["def%"], "circlet": ["def%", "cr", "heal"] },
   "substats": ["er", "cr", "def%"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Die Widerstandssenkung hängt allein an der Elementarfähigkeit, die Spezialfähigkeit verbessert Heilung und Schaden."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/461997",
     "https://gamewith.net/genshin-impact/article/show/47145",

@@ -79,6 +79,19 @@ function weaponStatsAt90(detail, curves) {
   };
 }
 
+// Deutsche Talentnamen: Eintrag 0 = Standardangriff, 1 = Elementarfähigkeit, die einzige Stufe-1-Fähigkeit
+// = Spezialfähigkeit (weitere Einträge wie besondere Sprints werden übersprungen).
+function talentNames(detail) {
+  const talents = detail?.talent ?? {};
+  const burst = Object.values(talents).find((t) => t.type === 1);
+  const names = {
+    normal: cleanGameText(talents['0']?.name),
+    skill: cleanGameText(talents['1']?.name),
+    burst: cleanGameText(burst?.name),
+  };
+  return names.normal && names.skill && names.burst ? names : null;
+}
+
 function weaponPassive(detail) {
   const affix = Object.values(detail?.affix ?? {})[0];
   if (!affix) return null;
@@ -190,9 +203,12 @@ async function main() {
 
   console.log('5/5 Daten schreiben …');
   const unknownRegions = new Set();
+  const noTalentNames = [];
   const characters = catalog.characters.map((c, i) => {
     const fetter = avatarDetails[i]?.data?.fetter ?? {};
     if (c.region && !REGION_NAMES[c.region] && !c.traveler) unknownRegions.add(c.region);
+    const names = talentNames(avatarDetails[i]?.data);
+    if (!names) noTalentNames.push(c.slug);
     return {
       slug: c.slug,
       name: c.name,
@@ -205,6 +221,7 @@ async function main() {
       title: cleanGameText(fetter.title) || null,
       description: cleanGameText(fetter.detail) || null,
       constellation: cleanGameText(fetter.constellation) || null,
+      talentNames: names,
       icon: imagePath('char', c.slug),
       splash: imagePath('splash', c.slug),
       build: builds[c.slug] ?? null,
@@ -268,6 +285,7 @@ async function main() {
   if (noBuild.length) console.warn(`\nHinweis – ohne Build-Datei (${noBuild.length}): ${noBuild.map((c) => c.slug).join(', ')}`);
   if (images.missing.length) console.warn(`\nWarnung – ohne Bild (${images.missing.length}): ${images.missing.join(', ')}`);
   if (unknownRegions.size) console.warn(`\nHinweis – Regionen ohne deutschen Namen (werden nicht angezeigt): ${[...unknownRegions].join(', ')}`);
+  if (noTalentNames.length) console.warn(`\nWarnung – Talentnamen nicht gefunden (${noTalentNames.length}): ${noTalentNames.join(', ')}`);
 }
 
 main().catch((err) => {

@@ -70,6 +70,11 @@
   ],
   "mainStats": { "sands": ["er", "em"], "goblet": ["dendro", "em"], "circlet": ["cr", "cd", "em"] },
   "substats": ["er", "em", "cr", "cd"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Die Boni fürs Team hängen nicht vom Talentlevel ab – höhere Talente bringen nur mehr eigenen Schaden."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/381807",
     "https://gamewith.net/genshin-impact/article/show/29670",

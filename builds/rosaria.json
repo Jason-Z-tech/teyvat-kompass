@@ -69,6 +69,11 @@
   ],
   "mainStats": { "sands": ["er", "atk%", "em"], "goblet": ["cryo"], "circlet": ["cr", "cd"] },
   "substats": ["er", "cr", "cd", "atk%", "em"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Kämpft sie selbst auf dem Feld, etwa beim umgekehrten Schmelzen, lohnt sich auch der Standardangriff."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/314177",
     "https://gamewith.net/genshin-impact/article/show/23585",

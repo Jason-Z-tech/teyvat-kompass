@@ -6,7 +6,7 @@
   "summary": "Kryo-Bogenschützin aus der Kooperation mit „Horizon Zero Dawn“. Ihre Elementarfähigkeit wirft Eisbomben – treffen genug davon, werden ihre Standardangriffe kurzzeitig zu Kryo-Angriffen. Ihre Spezialfähigkeit macht mit wenig Energie viel Flächenschaden. Sie hat keine Sternbilder und gilt als einer der schwächeren Charaktere.",
   "tips": [
     "Die Bomben der Elementarfähigkeit müssen Gegner treffen: Nach vier Treffern werden ihre Standardangriffe für 10 Sekunden zu Kryo-Angriffen.",
-    "Die Spezialfähigkeit zuerst leveln: Sie kostet nur 40 Energie und ist ihr stärkster Einzeltreffer.",
+    "Ihre Spezialfähigkeit kostet nur 40 Energie und ist ihr stärkster Einzeltreffer.",
     "Nach der Elementarfähigkeit kurz zu einem Anemo-Partner wie Kazuha wechseln, der die Gegner in die kleinen Bomben zieht.",
     "Ihre Signaturwaffe (Raubtier) gab es nur auf PlayStation, sie ist heute nicht mehr erhältlich."
   ],
@@ -60,6 +60,10 @@
   ],
   "mainStats": { "sands": ["atk%", "er", "em"], "goblet": ["cryo"], "circlet": ["cr", "cd"] },
   "substats": ["er", "cr", "cd", "atk%", "em"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "note": "In manchen Rotationen nutzt sie ihre Standardangriffe – dieses Talent daher nicht ganz vernachlässigen."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/337957",
     "https://gamewith.net/genshin-impact/article/show/29597",

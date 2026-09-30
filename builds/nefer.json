@@ -76,6 +76,11 @@
   ],
   "mainStats": { "sands": ["em"], "goblet": ["em"], "circlet": ["cd", "cr", "em"] },
   "substats": ["cr", "cd", "em", "er"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Ihr besonderer heftiger Schlag im Tanz-Zustand gehört zur Elementarfähigkeit und macht den Großteil ihres Schadens. Die Spezialfähigkeit macht keinen Mondspross-Schaden."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/538448",
     "https://gamewith.net/genshin-impact/article/show/70905",

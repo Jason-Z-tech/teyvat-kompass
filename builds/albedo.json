@@ -74,6 +74,11 @@
   ],
   "mainStats": { "sands": ["def%"], "goblet": ["def%", "geo"], "circlet": ["cr", "cd", "def%"] },
   "substats": ["def%", "cr", "cd", "er"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Setzt du die Spezialfähigkeit nicht ein, kann sie wie der Standardangriff auf Stufe 1 bleiben."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/312182",
     "https://gamewith.net/genshin-impact/article/show/23420",

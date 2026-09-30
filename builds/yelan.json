@@ -7,8 +7,7 @@
   "tips": [
     "Aufladerate geht vor: je nach Team etwa 170 % oder mehr, als einzige Hydro-Figur deutlich mehr.",
     "Ihre Spezialfähigkeit schießt nur mit, wenn die aktive Figur Standardangriffe macht – ideal für Kämpfer mit vielen Standardangriffen.",
-    "Die aktive Figur bekommt während der Spezialfähigkeit einen wachsenden Schadensbonus bis 50 %.",
-    "Talente: Spezialfähigkeit zuerst, dann Elementarfähigkeit. Den Standardangriff muss man nicht leveln."
+    "Die aktive Figur bekommt während der Spezialfähigkeit einen wachsenden Schadensbonus bis 50 %."
   ],
   "teams": [
     {
@@ -75,6 +74,11 @@
   ],
   "mainStats": { "sands": ["hp%", "er"], "goblet": ["hydro", "hp%"], "circlet": ["cr", "cd", "hp%"] },
   "substats": ["er", "hp%", "cr", "cd"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Der Standardangriff lohnt sich erst ab C6 – vorher nutzt sie ihn kaum."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/372781",
     "https://gamewith.net/genshin-impact/article/show/33289",

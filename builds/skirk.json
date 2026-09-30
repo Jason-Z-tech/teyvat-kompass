@@ -67,6 +67,11 @@
   ],
   "mainStats": { "sands": ["atk%"], "goblet": ["cryo"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Wechselt sie im Team mit zwei Angreifern nur kurz für ihre Spezialfähigkeit ein, zuerst die Spezialfähigkeit leveln."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/333140",
     "https://gamewith.net/genshin-impact/article/show/57475",

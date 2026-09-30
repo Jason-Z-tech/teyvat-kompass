@@ -76,11 +76,17 @@
   ],
   "mainStats": { "sands": ["em", "atk%"], "goblet": ["electro", "atk%"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "er", "em", "atk%"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "In der verstärkten Form richten sich seine Standardangriffe nach der Spezialfähigkeit, nicht nach dem Standardangriff-Talent."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/315233",
     "https://gamewith.net/genshin-impact/article/show/24371",
     "https://gamewith.net/genshin-impact/article/show/38317",
     "https://game8.co/games/Genshin-Impact/archives/605822",
-    "https://gamewith.net/genshin-impact/article/show/70124"
+    "https://gamewith.net/genshin-impact/article/show/70124",
+    "https://keqingmains.com/q/cyno-quickguide/"
   ]
 }

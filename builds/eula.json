@@ -60,6 +60,10 @@
   ],
   "mainStats": { "sands": ["atk%", "er"], "goblet": ["phys"], "circlet": ["cr", "cd"] },
   "substats": ["er", "cr", "cd", "atk%"],
+  "talents": {
+    "order": [["burst"], ["normal"], ["skill"]],
+    "note": "Ihr Standardangriff hat hohe Schadenswerte und steht deshalb vor der Elementarfähigkeit. Deren Stufen verstärken vor allem die Senkung des Widerstands."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/328764",
     "https://gamewith.net/genshin-impact/article/show/38399",

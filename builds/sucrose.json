@@ -69,11 +69,17 @@
   ],
   "mainStats": { "sands": ["em", "er"], "goblet": ["em"], "circlet": ["em"] },
   "substats": ["em", "er", "cr"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Ihre Verwirbelungen hängen nur von Stufe und Elementarkunde ab – Stufe 90 bringt mehr als hohe Talentstufen."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/297525",
     "https://gamewith.net/genshin-impact/article/show/22344",
     "https://gamewith.net/genshin-impact/article/show/52029",
     "https://gamewith.net/genshin-impact/article/show/71651",
-    "https://gamewith.net/genshin-impact/article/show/77723"
+    "https://gamewith.net/genshin-impact/article/show/77723",
+    "https://keqingmains.com/q/sucrose-quickguide/"
   ]
 }

@@ -68,6 +68,11 @@
   ],
   "mainStats": { "sands": ["hp%"], "goblet": ["hp%"], "circlet": ["hp%", "cr"] },
   "substats": ["hp%", "er", "cr"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Als reiner Schildgeber braucht er nur die Elementarfähigkeit. Setzt du seine Spezialfähigkeit regelmäßig für Schaden ein, beide gleich hoch leveln."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/305858",
     "https://gamewith.net/genshin-impact/article/show/22838",

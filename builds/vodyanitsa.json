@@ -71,6 +71,11 @@
   ],
   "mainStats": { "sands": ["hp%"], "goblet": ["hp%"], "circlet": ["hp%", "heal"] },
   "substats": ["hp%", "er"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Die Spezialfähigkeit setzt du oft nur jede zweite Runde oder gar nicht ein – leveln lohnt sich nur, wenn du sie nutzt."
+  },
   "sources": [
     "https://keqingmains.com/q/vodyanitsa-quickguide/",
     "https://game8.co/games/Genshin-Impact/archives/606400",

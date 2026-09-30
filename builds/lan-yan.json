@@ -64,6 +64,10 @@
   ],
   "mainStats": { "sands": ["atk%", "er"], "goblet": ["atk%"], "circlet": ["atk%"] },
   "substats": ["er", "atk%", "cr", "em"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "note": "Die Stufe der Elementarfähigkeit bestimmt, wie stark ihr Schild ist."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/486709",
     "https://gamewith.net/genshin-impact/article/show/49958",

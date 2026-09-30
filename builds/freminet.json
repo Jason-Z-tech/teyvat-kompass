@@ -59,6 +59,11 @@
   ],
   "mainStats": { "sands": ["atk%", "em"], "goblet": ["phys", "cryo"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "er", "em"],
+  "talents": {
+    "order": [["skill"], ["normal"], ["burst"]],
+    "low": ["burst"],
+    "note": "Im Team für Angriffe aus dem Fall hat der Standardangriff Vorrang vor der Elementarfähigkeit."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/417207",
     "https://gamewith.net/genshin-impact/article/show/40240",

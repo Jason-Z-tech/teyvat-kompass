@@ -8,7 +8,7 @@
     "Die Elementarfähigkeit gedrückt halten – das ist die Hauptschadensquelle. Über 50 % LP kostet sie LP, macht dafür aber mehr Schaden.",
     "Während der gehaltenen Elementarfähigkeit leicht unterbrechbar: ein Schild, etwa von Zhongli, hilft.",
     "Profitiert nicht von Unterstützern, die bei Standardangriffen mitschießen, etwa Xingqiu, Yelan oder Beidou.",
-    "Talente: Elementarfähigkeit zuerst. Die Spezialfähigkeit ist als Hydro-Quelle von außerhalb unzuverlässig."
+    "Die Spezialfähigkeit ist als Hydro-Quelle von außerhalb unzuverlässig."
   ],
   "teams": [
     {
@@ -67,6 +67,7 @@
   ],
   "mainStats": { "sands": ["atk%", "em"], "goblet": ["hydro"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "em", "er"],
+  "talents": { "order": [["skill"], ["burst"], ["normal"]], "low": ["normal"] },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/416602",
     "https://gamewith.net/genshin-impact/article/show/29673",

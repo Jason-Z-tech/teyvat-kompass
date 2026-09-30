@@ -59,6 +59,11 @@
   ],
   "mainStats": { "sands": ["er", "atk%"], "goblet": ["atk%"], "circlet": ["heal", "cr"] },
   "substats": ["er", "atk%", "cr"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Wer sie vor allem für Kryo-Schaden von außerhalb des Feldes spielt, levelt zuerst die Elementarfähigkeit."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/412428",
     "https://gamewith.net/genshin-impact/article/show/39069",

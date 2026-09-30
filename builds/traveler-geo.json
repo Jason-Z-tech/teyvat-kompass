@@ -65,6 +65,11 @@
   ],
   "mainStats": { "sands": ["atk%", "er"], "goblet": ["geo"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "er"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Den Standardangriff nur leveln, wenn der Reisende selbst auf dem Feld mit Standardangriffen kämpft."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/297538",
     "https://gamewith.net/genshin-impact/article/show/22642",

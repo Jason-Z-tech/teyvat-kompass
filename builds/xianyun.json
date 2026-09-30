@@ -7,8 +7,7 @@
   "tips": [
     "ANG ist ihr wichtigster Wert: Heilung, Verstärkung und Schaden wachsen damit – bis etwa 4500 ANG lohnt es sich.",
     "Nach ihrer Spezialfähigkeit springen alle höher – so gelingen Angriffe aus dem Fall ganz leicht.",
-    "Aufladerate mit „Widerhallender Ruf des Kranichs“: als einzige Anemo-Figur etwa 190–260 %, mit Xiao 140–150 %. Mit anderen Waffen deutlich mehr.",
-    "Talente: zuerst die Spezialfähigkeit leveln."
+    "Aufladerate mit „Widerhallender Ruf des Kranichs“: als einzige Anemo-Figur etwa 190–260 %, mit Xiao 140–150 %. Mit anderen Waffen deutlich mehr."
   ],
   "teams": [
     {
@@ -57,6 +56,11 @@
   ],
   "mainStats": { "sands": ["atk%", "er"], "goblet": ["atk%"], "circlet": ["atk%", "heal"] },
   "substats": ["er", "atk%", "em", "cr"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Ihre Verstärkung für Angriffe aus dem Fall kommt aus passiven Talenten und wächst nicht mit der Talentstufe. Die Spezialfähigkeit bringt Heilung und Schaden."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/Xianyun-Best-Builds",
     "https://gamewith.net/genshin-impact/article/show/41848",

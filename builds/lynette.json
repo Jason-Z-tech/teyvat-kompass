@@ -7,8 +7,7 @@
   "tips": [
     "Aufladerate: als einzige Anemo-Figur etwa 180–240 %, mit Favonius-Schwert reicht das untere Ende.",
     "Nimmt die Katzenbox ein Element auf, macht sie zusätzlich Schaden dieses Elements.",
-    "Ab Sternbild 6 bekommt sie nach der Elementarfähigkeit eine Anemo-Verzauberung und kann selbst angreifen.",
-    "Talente: zuerst die Spezialfähigkeit leveln."
+    "Ab Sternbild 6 bekommt sie nach der Elementarfähigkeit eine Anemo-Verzauberung und kann selbst angreifen."
   ],
   "teams": [
     {
@@ -57,6 +56,11 @@
   ],
   "mainStats": { "sands": ["atk%", "er"], "goblet": ["anemo", "atk%"], "circlet": ["cr", "cd"] },
   "substats": ["er", "cr", "cd", "atk%", "em"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Den Standardangriff lohnt es erst ab Sternbild 6 zu leveln – dann greift sie selbst mit Anemo an."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/345879",
     "https://gamewith.net/genshin-impact/article/show/24368",

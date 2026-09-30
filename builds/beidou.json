@@ -62,10 +62,12 @@
   ],
   "mainStats": { "sands": ["er", "atk%"], "goblet": ["electro", "atk%"], "circlet": ["cr", "cd"] },
   "substats": ["er", "cr", "cd", "atk%", "em"],
+  "talents": { "order": [["burst"], ["skill"], ["normal"]], "low": ["normal"] },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/297528",
     "https://gamewith.net/genshin-impact/article/show/22341",
     "https://game8.co/games/Genshin-Impact/archives/605462",
-    "https://game8.co/games/Genshin-Impact/archives/605822"
+    "https://game8.co/games/Genshin-Impact/archives/605822",
+    "https://keqingmains.com/q/beidou-quickguide/"
   ]
 }

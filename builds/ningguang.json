@@ -60,6 +60,10 @@
   ],
   "mainStats": { "sands": ["atk%"], "goblet": ["geo"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "er"],
+  "talents": {
+    "order": [["burst"], ["normal"], ["skill"]],
+    "note": "Alle drei Talente machen spürbar Schaden und lohnen sich. Ab C6 ist der Standardangriff so wichtig wie die Spezialfähigkeit."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/297529",
     "https://gamewith.net/genshin-impact/article/show/22340",

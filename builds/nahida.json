@@ -82,6 +82,11 @@
   ],
   "mainStats": { "sands": ["em"], "goblet": ["em", "dendro"], "circlet": ["em", "cr", "cd"] },
   "substats": ["em", "cr", "cd", "er"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Wie viel die Spezialfähigkeit bringt, hängt vom Team ab – am meisten mit Elektro-Charakteren oder wenn der aktive Charakter von Elementarkunde profitiert."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/Nahida-Best-Builds",
     "https://gamewith.net/genshin-impact/article/show/33274",

@@ -66,6 +66,10 @@
   ],
   "mainStats": { "sands": ["em", "atk%", "er"], "goblet": ["pyro"], "circlet": ["cr", "cd"] },
   "substats": ["er", "cr", "cd", "em", "atk%"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "note": "Gilt für die Unterstützer-Rolle. Wer Amber für Schmelzen mit gezielten Schüssen spielt, levelt zuerst den Standardangriff – dazu zählen die heftigen Schläge."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/297535",
     "https://keqingmains.com/q/amber-quickguide/",

@@ -67,6 +67,11 @@
   ],
   "mainStats": { "sands": ["atk%", "er"], "goblet": ["cryo"], "circlet": ["cd", "cr"] },
   "substats": ["er", "cr", "cd", "atk%", "em"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Kämpft er selbst auf dem Feld, zuerst den Standardangriff leveln, danach die Elementarfähigkeit."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/297516",
     "https://gamewith.net/genshin-impact/article/show/22353",

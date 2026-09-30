@@ -72,6 +72,11 @@
   ],
   "mainStats": { "sands": ["hp%", "er"], "goblet": ["hp%", "hydro"], "circlet": ["cr", "cd"] },
   "substats": ["er", "cd", "cr", "hp%"],
+  "talents": {
+    "order": [["burst"], ["skill"], ["normal"]],
+    "low": ["normal"],
+    "note": "Elementar- und Spezialfähigkeit sind fast gleich wichtig – die Spezialfähigkeit liegt wegen ihres Team-Bonus knapp vorn."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/Furina-Best-Builds",
     "https://gamewith.net/genshin-impact/article/show/36031",

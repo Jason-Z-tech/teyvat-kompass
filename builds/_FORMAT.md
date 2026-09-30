@@ -26,10 +26,28 @@ node scripts/check-builds.mjs diluc
 | `artifacts` | 1–4 Varianten, die beste zuerst. `sets`: ein 4er-Set (`"pieces": 4`) oder zwei 2er-Sets. `note` optional. |
 | `mainStats` | `sands` (Sanduhr), `goblet` (Kelch), `circlet` (Krone): je 1–3 Werte, der beste zuerst |
 | `substats` | 2–6 Nebenwerte in Reihenfolge der Wichtigkeit |
+| `talents` | In welcher Reihenfolge man die Talente verbessert (siehe unten) |
 | `sources` | 1–6 https-Links zu den genutzten Guides |
 
 Wert-Schlüssel: `hp%`, `atk%`, `def%`, `em` (Elementarkunde), `er` (Aufladerate), `cr` (KT), `cd` (KSCH),
 `heal` (Heilungsbonus), `pyro`, `hydro`, `anemo`, `electro`, `dendro`, `cryo`, `geo`, `phys` (SCH-Bonus).
+
+## Talent-Reihenfolge: `talents`
+
+```json
+"talents": {
+  "order": [["burst"], ["skill"], ["normal"]],
+  "low": ["normal"],
+  "note": "Der Standardangriff bringt ihr fast nichts – Talentbücher lieber sparen."
+}
+```
+
+- `order`: Stufen, das wichtigste Talent zuerst. Jedes Talent steht genau einmal drin:
+  `normal` = Standardangriff (inkl. heftiger Schlag und Angriff aus dem Fall), `skill` = Elementarfähigkeit,
+  `burst` = Spezialfähigkeit. Gleich wichtige Talente stehen in derselben Stufe: `[["skill", "burst"], ["normal"]]`.
+- `low` (optional): Talente, die sich laut Quellen kaum lohnen („nicht nötig“, „niedrige Priorität“). Nie Talente aus der ersten Stufe.
+- `note` (optional, 5–200 Zeichen): kurze Begründung für Besonderheiten, z. B. wenn der Schaden über den Standardangriff läuft.
+- Die deutschen Namen der Talente holt das Daten-Skript automatisch aus den Spieldaten.
 
 ## Beschaffung der Waffen: `builds/_weapons.json`
 

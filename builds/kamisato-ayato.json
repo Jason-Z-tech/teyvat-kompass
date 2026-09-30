@@ -5,7 +5,6 @@
   "roles": ["main-dps", "sub-dps"],
   "summary": "Hydro-Schwertkämpfer, der vor allem selbst auf dem Feld kämpft. Nach seiner Elementarfähigkeit werden seine Standardangriffe zu schnellen Hydro-Hieben mit Flächenschaden, seine Spezialfähigkeit lässt zusätzlich Wasserklingen regnen. Stark in Gefroren-, Supraspross- und Verdampfen-Teams.",
   "tips": [
-    "Talente: Elementarfähigkeit zuerst leveln, sie macht fast seinen ganzen Schaden.",
     "Pro Rotation zweimal die Elementarfähigkeit nutzen und dazwischen die Teamkollegen ihre Fähigkeiten einsetzen lassen.",
     "Seine Spezialfähigkeit kostet 80 Energie: etwa 130–160 % Aufladerate, mit weiteren Hydro-Figuren weniger.",
     "Echo des Opferfests arbeitet mit Zufall und ist bei hohem Ping (über 100 ms) unzuverlässig."
@@ -69,6 +68,11 @@
   ],
   "mainStats": { "sands": ["atk%", "er"], "goblet": ["hydro"], "circlet": ["cr", "cd"] },
   "substats": ["er", "cr", "cd", "atk%", "hp%"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Seine Hydro-Hiebe nach der Elementarfähigkeit wachsen mit der Elementarfähigkeit, nicht mit dem Standardangriff. Im Hintergrund gespielt zuerst die Spezialfähigkeit."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/345514",
     "https://gamewith.net/genshin-impact/article/show/24635",

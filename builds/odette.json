@@ -76,6 +76,11 @@
   ],
   "mainStats": { "sands": ["atk%"], "goblet": ["atk%"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "em", "er"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Sie kämpft nur außerhalb des Feldes – den Standardangriff muss man gar nicht leveln."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/606893",
     "https://www.prydwen.gg/genshin-impact/characters/odette",

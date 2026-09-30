@@ -6,7 +6,6 @@
   "summary": "Elektro-Schwertkämpferin, die auf dem Feld mit schnellen Schüssen und Stichen Schaden macht. Ihre Standardangriffe bauen Eid des Lebens auf, ihre Elementarfähigkeit verbraucht ihn wieder und trifft dadurch härter. Sie passt zu vielen Elektro-Reaktionen, besonders gut in Suprawuchs-Teams mit Nahida.",
   "tips": [
     "Während ihrer Elementarfähigkeit: etwa drei Standardangriffe, dann erneut die Elementarfähigkeit – so wird der Eid des Lebens voll ausgenutzt.",
-    "Talente: die Elementarfähigkeit zuerst leveln, sie macht den Großteil ihres Schadens.",
     "Ziele: etwa 70 % Krit.-Rate, 160 % Krit.-Schaden und 110–130 % Aufladerate.",
     "Sternbild 2 ist ein guter Haltepunkt: mehr Schaden und weniger Unterbrechungen, wenn das Team Elektro-Reaktionen auslöst."
   ],
@@ -83,9 +82,15 @@
   ],
   "mainStats": { "sands": ["atk%", "em"], "goblet": ["electro"], "circlet": ["cr", "cd"] },
   "substats": ["cr", "cd", "atk%", "er"],
+  "talents": {
+    "order": [["skill"], ["burst"], ["normal"]],
+    "low": ["normal"],
+    "note": "Ihre Schüsse und Stiche während der Elementarfähigkeit skalieren mit dieser, nicht mit dem Standardangriff. So macht die Elementarfähigkeit den Großteil ihres Schadens."
+  },
   "sources": [
     "https://game8.co/games/Genshin-Impact/archives/417218",
     "https://gamewith.net/genshin-impact/article/show/40235",
-    "https://gamewith.net/genshin-impact/article/show/45679"
+    "https://gamewith.net/genshin-impact/article/show/45679",
+    "https://keqingmains.com/q/clorinde-quickguide/"
   ]
 }
