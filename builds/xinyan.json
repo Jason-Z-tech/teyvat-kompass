@@ -1,0 +1,81 @@
+{
+  "character": "Xinyan",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps", "shield"],
+  "summary": "Pyro-Rockmusikerin mit Zweihänder. Ihre Elementarfähigkeit erzeugt einen Schild, der stärker wird, je mehr Gegner sie trifft – geschützte Figuren machen mehr physischen Schaden. Ihre Spezialfähigkeit macht vor allem physischen Schaden. Man spielt sie als physische Kämpferin oder als Schildgeberin.",
+  "tips": [
+    "Mit der Elementarfähigkeit möglichst zwei oder mehr Gegner treffen – dann entsteht der stärkste Schild.",
+    "Der Schild richtet sich nach ihrer VTD: Für die Schild-Rolle VTD% statt ANG% bei den Hauptwerten wählen.",
+    "Ab Sternbild 2 trifft der physische Schlag ihrer Spezialfähigkeit immer kritisch und erzeugt sofort den stärksten Schild.",
+    "Etwa 150 % Aufladerate einplanen, damit die Spezialfähigkeit oft genug bereit ist."
+  ],
+  "teams": [
+    {
+      "name": "Supraleiter (physisch)",
+      "note": "Kryo und Elektro lösen Supraleiter aus und senken so den physischen Widerstand der Gegner. Bennett gibt ANG und bringt mit Xinyan die Pyro-Resonanz.",
+      "slots": [["Xinyan"], ["Rosaria", "Kaeya"], ["Fischl", "Raiden Shogun"], ["Bennett"]]
+    },
+    {
+      "name": "Schild für Reaktionsteams",
+      "note": "Xinyan schützt den Haupt-DPS und bringt mit einer zweiten Pyro-Figur Pyro-Resonanz (mehr ANG). Kazuha oder Xilonen verstärken, eine weitere Pyro-Figur liefert Pyro aus dem Hintergrund.",
+      "slots": [
+        ["Kamisato Ayato", "Wriothesley"],
+        ["Xinyan"],
+        ["Kaedehara Kazuha", "Xilonen"],
+        ["Traveler (Pyro)", "Mavuika", "Bennett"]
+      ]
+    },
+    {
+      "name": "Günstiges physisches Team",
+      "note": "Nur 4★-Figuren: Xinyans Schild und Mika verstärken Razors physischen Schaden, Mika heilt und erhöht das Angriffstempo. Rosaria gibt Krit.-Rate und Kryo.",
+      "slots": [["Razor"], ["Xinyan"], ["Mika"], ["Rosaria"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Redhorn Stonethresher",
+      "note": "Viel Krit.-Schaden und VTD – gut für Schaden und Schild zugleich."
+    },
+    {
+      "name": "Wolf's Gravestone",
+      "note": "Viel ANG, gut für den physischen Schaden ihrer Spezialfähigkeit."
+    },
+    { "name": "Skyward Pride", "note": "Hoher Basis-ANG und Aufladerate." },
+    {
+      "name": "Sacrificial Greatsword",
+      "note": "Beste Wahl für die Schild-Rolle: kann die Abklingzeit der Elementarfähigkeit zurücksetzen."
+    },
+    {
+      "name": "Serpent Spine",
+      "note": "Battle-Pass-Waffe mit Krit.-Rate und wachsendem Schadensbonus auf dem Feld – gut für den physischen Build."
+    },
+    { "name": "Whiteblind", "note": "Schmiedbar: viel VTD – gute Gratis-Wahl für starke Schilde." },
+    {
+      "name": "Snow-Tombed Starsilver",
+      "note": "Schmiedbar: physischer Schadensbonus als Nebenwert – Gratis-Wahl für den physischen Build."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Pale Flame", "pieces": 2 }, { "name": "Bloodstained Chivalry", "pieces": 2 }],
+      "note": "Für physischen Schaden: zweimal physischer Schadensbonus."
+    },
+    {
+      "sets": [{ "name": "Tenacity of the Millelith", "pieces": 4 }],
+      "note": "Für die Schild-Rolle: stärkere Schilde und mehr ANG für das Team. Dann VTD% auf Sanduhr, Kelch und Krone."
+    },
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 4 }],
+      "note": "Aufladerate und mehr Schaden für ihre Spezialfähigkeit."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "def%", "er"], "goblet": ["phys", "def%"], "circlet": ["cr", "cd", "def%"] },
+  "substats": ["cr", "cd", "atk%", "er", "def%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/305873",
+    "https://game8.co/games/Genshin-Impact/archives/301819",
+    "https://gamewith.net/genshin-impact/article/show/22923",
+    "https://genshin.gg/characters/xinyan/"
+  ]
+}

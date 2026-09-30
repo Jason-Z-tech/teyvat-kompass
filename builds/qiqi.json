@@ -1,0 +1,72 @@
+{
+  "character": "Qiqi",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "healer"],
+  "summary": "Kryo-Heilerin mit Schwert, die von außerhalb des Feldes heilt und Kryo aufträgt. Seit ihrer Quest „Witch's Revelation“ ist sie eine gefragte Unterstützerin für Stellar-Supraleiter: Die Reaktion erzeugt kurz ein Sternglanzfeld. Befindet sich Qiqi darin, während ihre Elementarfähigkeit aktiv ist, macht Stellar-Supraleiter für das ganze Team 50 % mehr Schaden.",
+  "tips": [
+    "Die Quest „Witch's Revelation“ freischalten (Qiqi ab Stufe 70): Sie verkürzt die Abklingzeit ihrer Elementarfähigkeit und bringt den Bonus für Stellar-Supraleiter.",
+    "Aufladerate: Game8 rät zu etwa 180–200 %. Laut KQM muss sie ihre Spezialfähigkeit vor Sternbild 6 meist nicht einsetzen – dann reicht deutlich weniger.",
+    "ANG ist ihr wichtigster Wert für Heilung und Schaden: etwa 2.300 ANG anpeilen.",
+    "Ihre Spezialfähigkeit markiert Gegner mit Talismanen. Wer markierte Gegner trifft, wird geheilt."
+  ],
+  "teams": [
+    {
+      "name": "Stellar-Supraleiter",
+      "note": "Sandrone verwandelt Supraleiter in Stellar-Supraleiter, das Elektro kommt von außerhalb des Feldes. Qiqi heilt und erhöht den Schaden der Reaktion für das ganze Team. Beidou und Diona lohnen sich hier erst ab C6.",
+      "slots": [
+        ["Qiqi"],
+        ["Sandrone"],
+        ["Yae Miko", "Beidou", "Kuki Shinobu", "Fischl"],
+        ["Nicole", "Escoffier", "Diona", "Xilonen"]
+      ]
+    },
+    {
+      "name": "Gefroren",
+      "note": "Qiqi trägt Kryo auf und heilt dauerhaft, was Furina hilft, ihre Bonus-Stapel schnell aufzubauen. Gegner bleiben eingefroren, während der Kryo-Hauptangreifer Schaden macht.",
+      "slots": [["Qiqi"], ["Skirk", "Kamisato Ayaka"], ["Furina"], ["Xingqiu", "Shenhe", "Mona"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Favonius Sword",
+      "note": "Erzeugt bei Krit.-Treffern Energie (braucht dafür etwas Krit.-Rate) und senkt so ihren Aufladerate-Bedarf. Der ist nur hoch, wenn sie ihre Spezialfähigkeit einsetzt."
+    },
+    {
+      "name": "Skyward Blade",
+      "note": "Viel Aufladerate als Nebenwert, damit die Spezialfähigkeit öfter bereit ist."
+    },
+    {
+      "name": "Freedom-Sworn",
+      "note": "Stärkt nach ausgelösten Reaktionen ANG und Angriffe des ganzen Teams."
+    },
+    { "name": "Summit Shaper", "note": "Viel ANG, am besten mit einem Schild im Team." },
+    {
+      "name": "Sacrificial Sword",
+      "note": "Kann die Elementarfähigkeit zurücksetzen – seit ihrer Quest aber weniger wichtig."
+    },
+    { "name": "Finale of the Deep", "note": "Schmiedbar und dank viel ANG die beste Gratis-Wahl." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Tenacity of the Millelith", "pieces": 4 }],
+      "note": "Ihre Elementarfähigkeit trifft ständig und hält so den ANG-Bonus für das ganze Team fast dauerhaft aufrecht. Beste Wahl in Stellar-Teams."
+    },
+    {
+      "sets": [{ "name": "Scroll of the Hero of Cinder City", "pieces": 4 }],
+      "note": "Gibt dem Team Elementarschaden-Bonus, sobald Qiqi Reaktionen auslöst."
+    },
+    {
+      "sets": [{ "name": "Ocean-Hued Clam", "pieces": 4 }],
+      "note": "Wandelt ihre Heilung in zusätzlichen Schaden um."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er"], "goblet": ["atk%"], "circlet": ["atk%", "heal", "cr"] },
+  "substats": ["er", "atk%", "cr"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297533",
+    "https://keqingmains.com/q/qiqi-quickguide/",
+    "https://game8.co/games/Genshin-Impact/archives/605822",
+    "https://game8.co/games/Genshin-Impact/archives/605462"
+  ]
+}

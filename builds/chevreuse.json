@@ -1,0 +1,71 @@
+{
+  "character": "Chevreuse",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "healer"],
+  "summary": "Pyro-Unterstützerin mit Stangenwaffe für Überladen-Teams. Löst das Team Überladen aus, gibt sie Pyro- und Elektro-Figuren mehr ANG; besteht das Team nur aus Pyro- und Elektro-Figuren, senkt sie zusätzlich den Pyro- und Elektro-Widerstand der Gegner. Ihre Elementarfähigkeit heilt die aktive Figur.",
+  "tips": [
+    "Die Widerstandssenkung wirkt nur, wenn das Team ausschließlich aus Pyro- und Elektro-Figuren besteht – mit mindestens einer Elektro-Figur.",
+    "Ziel sind etwa 40.000 max. LP, dann gibt ihr passives Talent den höchsten ANG-Bonus.",
+    "Erst Überladen auslösen, dann die gehaltene Elementarfähigkeit einsetzen – so wird der ANG-Bonus aktiv.",
+    "Die Spezialfähigkeit ist nicht Pflicht. Wer sie jede Runde nutzen will, braucht etwa 175–205 % Aufladerate."
+  ],
+  "teams": [
+    {
+      "name": "Überladen mit Varesa",
+      "note": "Varesa macht mit Angriffen aus dem Fall viel Schaden und profitiert stark von Chevreuses Buffs. Durin, Mavuika oder Bennett liefern Pyro, Iansan gibt viel ANG, den Varesa gut halten kann.",
+      "slots": [["Varesa"], ["Chevreuse"], ["Durin", "Mavuika", "Bennett"], ["Iansan"]]
+    },
+    {
+      "name": "Überladen mit Arlecchino",
+      "note": "Fischl sorgt für ständiges Überladen, Chevreuse verstärkt dann Arlecchino und Fischl. Nicole oder Durin schalten zusammen mit Fischl Hexerei-Boni frei, Bennett ist die bewährte Alternative.",
+      "slots": [["Arlecchino"], ["Chevreuse"], ["Fischl", "Ineffa"], ["Nicole", "Bennett", "Durin"]]
+    },
+    {
+      "name": "Überladen mit Raiden",
+      "note": "Raiden und Chevreuse lösen gemeinsam ständig Überladen aus. Xiangling macht Pyro-Schaden aus dem Hintergrund. Mit Raiden ab Sternbild 2 ist Sara die stärkere Wahl.",
+      "slots": [["Raiden Shogun"], ["Chevreuse"], ["Xiangling", "Kujou Sara"], ["Bennett"]]
+    },
+    {
+      "name": "Günstiges Überladen-Team",
+      "note": "Nur 4★-Figuren: Xiangling oder Yanfei machen den Schaden, Fischl sorgt für Überladen. Yanfei greift aus der Ferne an – praktisch, weil Überladen kleine Gegner wegschleudert.",
+      "slots": [["Xiangling", "Yanfei"], ["Chevreuse"], ["Fischl"], ["Bennett", "Beidou"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Symphonist of Scents",
+      "note": "Starke 5★-Wahl: Krit.-Schaden, ANG und ein ANG-Bonus für geheilte Teammitglieder."
+    },
+    {
+      "name": "Favonius Lance",
+      "note": "Erzeugt Energie für das ganze Team – die Standardwahl in Teams, die viel Energie brauchen."
+    },
+    { "name": "Black Tassel", "note": "Günstige 3★-Waffe mit viel LP – hilft, die 40.000 LP zu erreichen." },
+    { "name": "Dialogues of the Desert Sages", "note": "Event-Waffe mit LP und Energie beim Heilen." },
+    { "name": "Rightful Reward", "note": "Schmiedbar (Fontaine), LP als Nebenwert." },
+    { "name": "Staff of Homa", "note": "Für einen Build mit eigenem Schaden: Krit.-Schaden und etwas LP." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Bestes Set, wenn es sonst niemand im Team trägt: Nach ihrer Spezialfähigkeit bekommt das ganze Team mehr ANG."
+    },
+    {
+      "sets": [{ "name": "Song of Days Past", "pieces": 4 }],
+      "note": "Ihre Heilung wird zu Zusatzschaden für die aktive Figur – gut, wenn schon jemand anderes Altes Hofritual trägt."
+    },
+    {
+      "sets": [{ "name": "Tenacity of the Millelith", "pieces": 2 }, { "name": "Vourukasha's Glow", "pieces": 2 }],
+      "note": "Einfache Lösung: zweimal 20 % LP, um die 40.000 LP zu erreichen."
+    }
+  ],
+  "mainStats": { "sands": ["hp%", "er"], "goblet": ["hp%"], "circlet": ["hp%", "heal"] },
+  "substats": ["er", "hp%", "cr"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/426201",
+    "https://keqingmains.com/q/chevreuse-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/41187",
+    "https://keqingmains.com/q/arlecchino-quickguide/"
+  ]
+}

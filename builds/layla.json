@@ -1,0 +1,71 @@
+{
+  "character": "Layla",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["shield", "support"],
+  "summary": "Kryo-Schwertkämpferin, die mit ihrer Elementarfähigkeit einen Schild erzeugt. Solange er hält, sammelt sie Sterne und feuert sie als Kryo-Geschosse auf die Gegner. Ihr Schild wächst mit ihren LP, deshalb baut man sie vor allem auf LP.",
+  "tips": [
+    "Setzen die Partner ihre Elementarfähigkeit ein, sammelt Layla schneller Sterne und feuert öfter Geschosse.",
+    "Erst die Spezialfähigkeit, dann die Elementarfähigkeit einsetzen, damit der Schild möglichst lange hält.",
+    "Aufladerate: Mit weiteren Kryo-Figuren im Team genügen meist 120–140 %, als einzige Kryo-Figur (etwa im Hu-Tao-Team) braucht sie über 200 %."
+  ],
+  "teams": [
+    {
+      "name": "Gefroren",
+      "note": "Eingefrorene Gegner können kaum angreifen, daher hält Laylas Schild besonders gut. Nebenbei trägt sie Kryo auf, der Hydro-Partner sorgt für Gefroren.",
+      "slots": [
+        ["Layla"],
+        ["Kamisato Ayaka", "Ganyu", "Wriothesley"],
+        ["Shenhe", "Escoffier"],
+        ["Sangonomiya Kokomi", "Furina", "Mona"]
+      ]
+    },
+    {
+      "name": "Mono-Kryo",
+      "note": "Für Gegner, die nicht einfrieren: Kryo- und Anemo-Partner verstärken den Kryo-Hauptangreifer, Layla schützt ihn.",
+      "slots": [["Layla"], ["Kamisato Ayaka", "Ganyu"], ["Shenhe"], ["Kaedehara Kazuha"]]
+    },
+    {
+      "name": "Supraleiter",
+      "note": "Layla trägt Kryo für Supraleiter auf und schützt Eula mit ihrem Schild. Der Elektro-Partner löst die Reaktion aus.",
+      "slots": [["Layla"], ["Eula"], ["Shenhe", "Rosaria"], ["Kuki Shinobu", "Raiden Shogun", "Fischl"]]
+    },
+    {
+      "name": "Verdampfen und Schmelzen",
+      "note": "Layla trägt nebenbei Kryo für Schmelzen auf und schützt den Pyro-Angreifer, während der Hydro-Partner für Verdampfen sorgt.",
+      "slots": [["Layla"], ["Hu Tao", "Diluc"], ["Yelan", "Xingqiu"], ["Bennett", "Kaedehara Kazuha"]]
+    }
+  ],
+  "weapons": [
+    { "name": "Key of Khaj-Nisut", "note": "Sehr viel LP und damit der stärkste Schild." },
+    { "name": "The Dockhand's Assistant", "note": "LP als Nebenwert, gute 4★-Wahl für den Schild." },
+    { "name": "Favonius Sword", "note": "Erzeugt Energie für das ganze Team." },
+    { "name": "Primordial Jade Cutter", "note": "Krit.-Rate und LP, wenn sie mehr Schaden machen soll." },
+    { "name": "Fleuve Cendre Ferryman", "note": "Die beste Waffe, die man ohne Gacha bekommt." },
+    {
+      "name": "Harbinger of Dawn",
+      "note": "Leicht zu bekommende 3★-Waffe, stark solange ihre LP hoch bleiben."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Tenacity of the Millelith", "pieces": 4 }],
+      "note": "Stärkerer Schild und mehr ANG für das ganze Team – ihre beste Wahl."
+    },
+    {
+      "sets": [{ "name": "Blizzard Strayer", "pieces": 4 }],
+      "note": "Mehr eigener Schaden in Gefroren- und Mono-Kryo-Teams."
+    },
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 4 }],
+      "note": "Mehr Schaden der Spezialfähigkeit und hilft beim Aufladerate-Bedarf."
+    }
+  ],
+  "mainStats": { "sands": ["hp%", "er"], "goblet": ["hp%", "cryo"], "circlet": ["hp%", "cr"] },
+  "substats": ["er", "hp%", "cr", "cd"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/386486",
+    "https://gamewith.net/genshin-impact/article/show/34439",
+    "https://keqingmains.com/q/layla-quickguide/"
+  ]
+}

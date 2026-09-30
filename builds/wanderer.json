@@ -1,0 +1,76 @@
+{
+  "character": "Wanderer",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Anemo-Katalysatornutzer und Hauptangreifer. Mit seiner Elementarfähigkeit schwebt er über dem Boden und greift mit verstärkten Standardangriffen und heftigen Schlägen an. Kommt die Fähigkeit mit Pyro, Hydro, Elektro oder Kryo in Kontakt, erhält er zusätzliche Boni. Faruzan ist seine wichtigste Partnerin.",
+  "tips": [
+    "Aufgenommene Elemente: Pyro gibt +30 % ANG, Kryo +20 % Krit.-Rate, Elektro etwas Energie. Bis zu zwei gleichzeitig sind möglich.",
+    "In der Luft wird er leicht unterbrochen – ein Schild wie von Zhongli oder rechtzeitiges Ausweichen hilft.",
+    "Ziele: etwa 2000 ANG, 70–80 % Krit.-Rate und 120–130 % Aufladerate."
+  ],
+  "teams": [
+    {
+      "name": "Hypercarry",
+      "note": "Alle Verstärkungen gehen an Wanderer: Faruzan erhöht seinen Anemo-Schaden, Bennett den ANG. Zhongli schützt mit Schild; Furina bringt mehr Schaden, dafür ohne Schild.",
+      "slots": [["Wanderer"], ["Faruzan"], ["Bennett"], ["Zhongli", "Furina", "Thoma"]]
+    },
+    {
+      "name": "Doppel-Pyro",
+      "note": "Xiangling und Bennett bringen Pyro: Das gibt Pyro-Resonanz, und nimmt Wanderer Pyro auf, steigt sein ANG weiter. Braucht mehr Aufladerate.",
+      "slots": [["Wanderer"], ["Faruzan"], ["Xiangling"], ["Bennett"]]
+    },
+    {
+      "name": "Unter Strom",
+      "note": "Yelan greift bei Wanderers Standardangriffen mit an, Fischl ab Sternbild 6 ebenfalls. Wanderer verwirbelt Elektro und Hydro, Zhongli schützt ihn.",
+      "slots": [["Wanderer"], ["Fischl", "Yae Miko"], ["Yelan", "Xingqiu"], ["Zhongli", "Layla", "Diona"]]
+    },
+    {
+      "name": "Gefroren",
+      "note": "Hydro und Kryo halten die Gegner eingefroren, Wanderer greift in Ruhe an. Nimmt er Kryo auf, steigt zusätzlich seine Krit.-Rate.",
+      "slots": [["Wanderer"], ["Yelan", "Xingqiu"], ["Rosaria", "Ganyu", "Shenhe"], ["Sangonomiya Kokomi", "Barbara"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Tulaytullah's Remembrance",
+      "note": "Seine Signaturwaffe: schnellere und stärkere Standardangriffe plus Krit.-Schaden."
+    },
+    { "name": "Cashflow Supervision", "note": "Sehr stark in Teams mit Furina." },
+    {
+      "name": "Lost Prayer to the Sacred Winds",
+      "note": "Krit.-Rate als Nebenwert und wachsender Elementarschaden."
+    },
+    { "name": "The Widsith", "note": "Viel Krit.-Schaden, der Bonus beim Einwechseln ist aber zufällig." },
+    {
+      "name": "Flowing Purity",
+      "note": "Schmiedbar, laut Guides die beste Gratis-Wahl: mehr Elementarschaden nach der Elementarfähigkeit."
+    },
+    {
+      "name": "Ballad of the Boundless Blue",
+      "note": "Event-Waffe mit Aufladerate als Nebenwert; stärkt Standardangriffe und heftige Schläge."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Desert Pavilion Chronicle", "pieces": 4 }],
+      "note": "Sein bestes Set: schnellere Standardangriffe und viel mehr Schaden."
+    },
+    {
+      "sets": [{ "name": "Shimenawa's Reminiscence", "pieces": 4 }],
+      "note": "Mehr Schaden für Standardangriffe und heftige Schläge, kostet dafür etwas Energie."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Stark mit Furina, deren LP-Änderungen die Krit.-Rate hochtreiben."
+    }
+  ],
+  "mainStats": { "sands": ["atk%"], "goblet": ["anemo"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/309656",
+    "https://gamewith.net/genshin-impact/article/show/23288",
+    "https://gamewith.net/genshin-impact/article/show/38358",
+    "https://keqingmains.com/q/wanderer-quickguide/"
+  ]
+}

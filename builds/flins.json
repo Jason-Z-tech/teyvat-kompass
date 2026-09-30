@@ -1,0 +1,77 @@
+{
+  "character": "Flins",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Elektro-Haupt-DPS mit Stangenwaffe, der fast seinen ganzen Schaden als Mond unter Strom verursacht. Seine Elementarfähigkeit verleiht seinen Angriffen Elektro und schaltet eine günstigere Sonderform seiner Spezialfähigkeit frei, die er so oft wie möglich nutzt. Er skaliert mit ANG und Krit.-Werten und braucht einen weiteren Nod-Krai-Charakter im Team.",
+  "tips": [
+    "Kein Elektro-Kelch: Mond unter Strom profitiert nicht vom Elektro-SCH-Bonus – besser ANG% auf Sanduhr und Kelch.",
+    "In seiner Elementarfähigkeits-Form immer die günstigere Spezialfähigkeit einsetzen – sie kostet weniger Energie.",
+    "Aufladerate: etwa 110–140 % mit einem zweiten Elektro-Charakter, allein als Elektro-Charakter eher 160 %.",
+    "Sternbild 1 macht ihn deutlich bequemer: kürzere Abklingzeit und regelmäßig Energie zurück."
+  ],
+  "teams": [
+    {
+      "name": "Mond unter Strom",
+      "note": "Sein stärkstes Team: Ineffa liefert Elektro, Schild und Buffs, Columbina trägt Hydro auf und verstärkt Mondleuchten-Reaktionen. Saccharose gibt Elementarkunde und senkt Widerstände.",
+      "slots": [
+        ["Flins"],
+        ["Ineffa", "Fischl", "Ororon"],
+        ["Columbina", "Aino", "Yelan"],
+        ["Sucrose", "Lan Yan", "Kaedehara Kazuha", "Xilonen"]
+      ]
+    },
+    {
+      "name": "Mond unter Strom (günstig)",
+      "note": "Ohne teure 5★-Partner: Aino liefert Hydro und sorgt mit Flins für Reifer Glanz, Fischl gibt Elektro und Energie, Lan Yan schützt mit einem Schild.",
+      "slots": [["Flins"], ["Aino"], ["Fischl", "Ororon", "Kuki Shinobu"], ["Lan Yan", "Sucrose", "Lynette"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Bloodsoaked Ruins",
+      "note": "Seine Signaturwaffe: Krit.-Rate, mehr Mond-unter-Strom-Schaden und Energie zurück – senkt den Aufladerate-Bedarf."
+    },
+    {
+      "name": "Staff of the Scarlet Sands",
+      "note": "Krit.-Rate als Nebenwert und zusätzlicher ANG abhängig von der Elementarkunde."
+    },
+    {
+      "name": "Primordial Jade Winged-Spear",
+      "note": "Solide 5★-Wahl mit Krit.-Rate, passt zu fast jedem Angreifer."
+    },
+    {
+      "name": "Deathmatch",
+      "note": "Battle-Pass-Waffe mit Krit.-Rate und beste 4★-Option – gegen mehrere Gegner etwas schwächer."
+    },
+    {
+      "name": "Prospector's Shovel",
+      "note": "Schmiedbar und erhöht gezielt den Mond-unter-Strom-Schaden – beste Gratis-Waffe."
+    },
+    {
+      "name": "Missive Windspear",
+      "note": "Event-Waffe mit ANG und Elementarkunde, etwa so stark wie die Schaufel des Goldgräbers."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Night of the Sky's Unveiling", "pieces": 4 }],
+      "note": "Bestes Set: bis zu 30 % Krit.-Rate bei Reifer Glanz und mehr Mondleuchten-Schaden für das ganze Team."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Mit Furina im Team eine gute Alternative, weil ihre LP-Änderungen die Krit.-Rate hochtreiben."
+    },
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 2 }, { "name": "Gladiator's Finale", "pieces": 2 }],
+      "note": "Übergang mit ANG und Elementarkunde, bis die Nacht der himmlischen Enthüllung komplett ist."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["atk%", "em"], "circlet": ["cd", "cr"] },
+  "substats": ["er", "cd", "cr", "atk%", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/538451",
+    "https://keqingmains.com/q/flins-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/70117"
+  ]
+}

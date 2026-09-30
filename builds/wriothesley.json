@@ -1,0 +1,82 @@
+{
+  "character": "Wriothesley",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Kryo-Kämpfer mit Katalysator, der mit seinen Fäusten auf dem Feld zuschlägt. Seine Elementarfähigkeit verstärkt die Standardangriffe auf Kosten von LP, und sinken seine LP unter 60 %, heilt ihn ein besonderer heftiger Schlag. Hat man seine Verstärkung „Witch's Revelation“ über seine eigene Quest freigeschaltet, ist er in Stellar-Supraleiter-Teams am stärksten.",
+  "tips": [
+    "Seine Standardangriffe sind sein wichtigstes Talent und sollten zuerst gelevelt werden. Aufladerate braucht er kaum.",
+    "Sinken seine LP unter 60 %, einen heftigen Schlag einsetzen: Er heilt ihn und trifft besonders hart.",
+    "Nicht zu viel heilen lassen: Bleiben seine LP über 60 %, fehlt ihm der starke heilende heftige Schlag.",
+    "In Stellar-Supraleiter-Teams einen ANG%-Kelch statt Kryo-Schaden nehmen, weil dieser Reaktionsschaden nicht vom Elementarschaden-Bonus profitiert."
+  ],
+  "teams": [
+    {
+      "name": "Stellar-Supraleiter",
+      "note": "Odette oder der Kryo-Reisende machen aus Supraleiter den Stellar-Supraleiter, der Elektro-Partner trägt von außerhalb auf (Beidou erst ab Sternbild 6). Dadurch wird ein Teil von Wriothesleys Treffern zu starkem Reaktionsschaden.",
+      "slots": [
+        ["Wriothesley"],
+        ["Odette", "Traveler (Cryo)"],
+        ["Yae Miko", "Beidou", "Alyosha", "Fischl"],
+        ["Escoffier", "Nicole", "Xilonen", "Layla"]
+      ]
+    },
+    {
+      "name": "Gefroren",
+      "note": "Der Hydro-Partner hält die Gegner eingefroren, Escoffier heilt und senkt den Widerstand der Gegner. Shenhe verstärkt zusätzlich den Kryo-Schaden.",
+      "slots": [["Wriothesley"], ["Escoffier"], ["Furina", "Yelan", "Xingqiu"], ["Shenhe", "Kaedehara Kazuha", "Mika"]]
+    },
+    {
+      "name": "Schmelzen",
+      "note": "Der Pyro-Partner trägt von außerhalb des Feldes Pyro auf, sodass Wriothesleys Kryo-Treffer schmelzen. Nicole oder Bennett verstärken den ANG.",
+      "slots": [
+        ["Wriothesley"],
+        ["Durin", "Xiangling", "Mavuika"],
+        ["Nicole", "Bennett"],
+        ["Xilonen", "Kaedehara Kazuha", "Lan Yan"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Cashflow Supervision",
+      "note": "Seine Signaturwaffe: stärkt Standardangriffe und Angriffstempo – die beste Wahl in jedem Team."
+    },
+    { "name": "Reliquary of Truth", "note": "Krit.-Schaden als Nebenwert, starke Alternative." },
+    {
+      "name": "Tulaytullah's Remembrance",
+      "note": "Viel Bonus auf Standardangriffe, braucht aber etwas Anlaufzeit."
+    },
+    {
+      "name": "Clash of Kings",
+      "note": "Battle-Pass-Waffe mit Krit.-Rate, mit hoher Verfeinerung eine der stärksten Optionen."
+    },
+    { "name": "The Widsith", "note": "Gute 4★-Wahl, vor allem in Schmelzen-Teams." },
+    {
+      "name": "Flowing Purity",
+      "note": "Schmiedbar und seine beste Gratis-Wahl: Den Eid des Lebens der Waffe baut er mit seinen heilenden heftigen Schlägen selbst ab."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Disenchantment in Deep Shadow", "pieces": 4 }],
+      "note": "Beste Wahl in Stellar-Supraleiter-Teams, weil es diesen Reaktionsschaden stark erhöht."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Beste Wahl außerhalb von Stellar-Teams: Seine LP-Änderungen treiben die Krit.-Rate hoch."
+    },
+    {
+      "sets": [{ "name": "Blizzard Strayer", "pieces": 4 }],
+      "note": "Mehr Krit.-Rate gegen gefrorene Gegner – eine Option für Gefroren-Teams."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["atk%", "cryo"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "em", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/Wriothesley-Best-Builds",
+    "https://keqingmains.com/q/wriothesley-quickguide/",
+    "https://game8.co/games/Genshin-Impact/archives/605462",
+    "https://game8.co/games/Genshin-Impact/archives/605822"
+  ]
+}

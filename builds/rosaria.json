@@ -1,0 +1,77 @@
+{
+  "character": "Rosaria",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "support"],
+  "summary": "Kryo-Kämpferin mit Stangenwaffe, die vor allem mit ihrer Spezialfähigkeit von außerhalb des Feldes Kryo-Schaden macht. Danach gibt sie dem Team einen Teil ihrer eigenen Krit.-Rate. Sie passt in Schmelzen- und Gefroren-Teams und ist eine günstige Alternative zu teuren Kryo-Unterstützern.",
+  "tips": [
+    "Immer erst die Elementarfähigkeit, dann die Spezialfähigkeit einsetzen – so gibt sie dem Team den größten Krit.-Rate-Bonus.",
+    "Trifft ihre Elementarfähigkeit einen Gegner von hinten, steigt ihre eigene Krit.-Rate.",
+    "Aufladerate hat Vorrang: je nach Team etwa 150–240 %, mit weiteren Kryo-Partnern weniger.",
+    "Ab Sternbild 6 senkt ihre Spezialfähigkeit auch den physischen Widerstand – dann passt sie gut zu Eula."
+  ],
+  "teams": [
+    {
+      "name": "Schmelzen",
+      "note": "Rosaria trägt Kryo auf, damit die Pyro-Angriffe schmelzen, und gibt dem Hauptangreifer zusätzliche Krit.-Rate. Bennett verstärkt den ANG.",
+      "slots": [["Rosaria"], ["Mavuika", "Arlecchino", "Gaming"], ["Bennett"], ["Citlali", "Jean", "Diona"]]
+    },
+    {
+      "name": "Gefroren",
+      "note": "Rosaria macht nebenbei Kryo-Schaden und teilt ihre Krit.-Rate mit dem Kryo-Hauptangreifer. Furina sorgt für Gefroren, Escoffier senkt den Widerstand der Gegner.",
+      "slots": [
+        ["Rosaria"],
+        ["Skirk", "Kamisato Ayaka", "Ganyu"],
+        ["Furina", "Yelan"],
+        ["Escoffier", "Shenhe", "Kaedehara Kazuha"]
+      ]
+    },
+    {
+      "name": "Umgekehrtes Schmelzen",
+      "note": "Hier ist Rosaria selbst die Angreiferin: Xiangling und Bennett tragen Pyro auf, damit ihre Kryo-Treffer schmelzen. Ein zweiter Kryo-Partner hilft mit Energie und Kryo.",
+      "slots": [["Rosaria"], ["Bennett"], ["Xiangling"], ["Kaeya", "Escoffier", "Chongyun", "Shenhe"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Staff of the Scarlet Sands",
+      "note": "Krit.-Rate als Nebenwert und zusätzlicher ANG – vor allem als Angreiferin stark."
+    },
+    { "name": "Staff of Homa", "note": "Krit.-Schaden als Nebenwert, starke Alternative." },
+    {
+      "name": "Favonius Lance",
+      "note": "Als Unterstützerin ideal: viel Aufladerate und Energie für das Team."
+    },
+    { "name": "Deathmatch", "note": "Battle-Pass-Waffe mit viel Krit.-Rate." },
+    {
+      "name": "The Catch",
+      "note": "Durch Angeln erhältlich: Aufladerate als Nebenwert und mehr Schaden für die Spezialfähigkeit."
+    },
+    { "name": "Prototype Starglitter", "note": "Schmiedbar, mit Aufladerate als Nebenwert." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Als Unterstützerin: Nach ihrer Spezialfähigkeit bekommt das ganze Team mehr ANG."
+    },
+    {
+      "sets": [{ "name": "Blizzard Strayer", "pieces": 4 }],
+      "note": "In Gefroren-Teams: viel Krit.-Rate gegen gefrorene Gegner."
+    },
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 4 }],
+      "note": "Wenn sie selbst mit umgekehrtem Schmelzen angreift: Elementarkunde und ANG."
+    },
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 4 }],
+      "note": "Aufladerate und mehr Schaden der Spezialfähigkeit – gut, wenn sie außerhalb von Gefroren-Teams viel Schaden aus dem Hintergrund machen soll."
+    }
+  ],
+  "mainStats": { "sands": ["er", "atk%", "em"], "goblet": ["cryo"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "atk%", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/314177",
+    "https://gamewith.net/genshin-impact/article/show/23585",
+    "https://keqingmains.com/q/rosaria-quickguide/"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "character": "Sandrone",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Kryo-Kämpferin mit Zweihänder aus Snezhnaya. Mit ihr im Team wird aus Supraleiter (Kryo + Elektro) die Reaktion Stellar-Supraleiter. Ihren Schaden macht sie auf dem Feld mit heftigen Schlägen und ihrer Spezialfähigkeit. Er wächst mit ANG und Krit., nicht mit Kryo-Schadensbonus.",
+  "tips": [
+    "Immer mindestens eine Elektro-Figur mitnehmen, sonst entsteht kein Stellar-Supraleiter.",
+    "Ablauf: heftiger Schlag, dann Elementarfähigkeit – das zwei- bis dreimal wiederholen und die Spezialfähigkeit dazwischen einsetzen.",
+    "Kelch mit ANG statt Kryo-Schaden: Der Kryo-Bonus stärkt Stellar-Supraleiter nicht. Rund 2000 ANG sind ein gutes Ziel.",
+    "Für die Spezialfähigkeit in jeder Runde je nach Team etwa 120–165 % Aufladerate. Mehr als 140 % lohnt sich kaum."
+  ],
+  "teams": [
+    {
+      "name": "Stellar-Supraleiter mit Yae Miko",
+      "note": "Yae Miko liefert von außerhalb Elektro und viel eigenen Schaden, Odette verstärkt Stellar-Schaden und kämpft mit. Ohne Odette geht Qiqi. Letzter Platz: Escoffier, Alyosha, Nicole oder Saccharose.",
+      "slots": [["Sandrone"], ["Yae Miko"], ["Odette", "Qiqi"], ["Escoffier", "Alyosha", "Nicole", "Sucrose"]]
+    },
+    {
+      "name": "Stellar-Supraleiter ohne Yae Miko",
+      "note": "Alyosha trägt Elektro auf und stärkt Sandrone, Odette macht Schaden von außerhalb. Vodyanitsa (neu in 7.1) senkt den Kryo-Widerstand und passt hier am besten, sonst Escoffier.",
+      "slots": [["Sandrone"], ["Alyosha"], ["Odette"], ["Vodyanitsa", "Escoffier"]]
+    },
+    {
+      "name": "Günstiges Stellar-Team",
+      "note": "Nur 4★-Partner: Alyosha liefert Elektro, Charlotte oder Diona bringen Kryo und heilen, Saccharose senkt den Kryo-Widerstand. Beidou lohnt sich erst ab C6, Diona schützt schon vorher mit ihrem Schild vor Unterbrechungen.",
+      "slots": [["Sandrone"], ["Alyosha"], ["Charlotte", "Diona"], ["Sucrose", "Beidou"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "A Teaspoon of Transcendence",
+      "note": "Ihre Signaturwaffe und beste Wahl: viel ANG und mehr Stellar-Schaden nach heftigen Schlägen."
+    },
+    {
+      "name": "A Thousand Blazing Suns",
+      "note": "Zweitbeste Wahl: Sie setzt Elementar- und Spezialfähigkeit oft ein und löst so den Krit.-Schaden- und ANG-Bonus regelmäßig aus."
+    },
+    {
+      "name": "Redhorn Stonethresher",
+      "note": "Sehr viel Krit.-Schaden. Andere 5★-Zweihänder mit viel ANG oder Krit. gehen ähnlich gut."
+    },
+    {
+      "name": "Forged by the Golden Melody",
+      "note": "Battle-Pass-Waffe aus 7.0. Auf hoher Verfeinerung ihre beste 4★-Wahl."
+    },
+    {
+      "name": "Blade of Atonement",
+      "note": "Schmiedbar in Snezhnaya. Stark, wenn im Team genug Elektro liegt, damit Sandrone selbst die Reaktion auslöst."
+    },
+    {
+      "name": "Tidal Shadow",
+      "note": "Schmiedbar (Fontaine). Viel ANG, sobald sie geheilt wird – ideal mit Heilern wie Qiqi, Diona oder Escoffier."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Disenchantment in Deep Shadow", "pieces": 4 }],
+      "note": "Mit Abstand das beste Set: mehr Stellar-Supraleiter-Schaden und Krit.-Rate. Das Farmen lohnt sich."
+    },
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 4 }],
+      "note": "Übergangslösung mit ANG und Elementarkunde, solange das beste Set noch fehlt."
+    },
+    {
+      "sets": [{ "name": "A Day Carved From Rising Winds", "pieces": 4 }],
+      "note": "Weitere Übergangslösung mit viel ANG. Den Krit.-Bonus bekommt sie nicht, da sie keine Hexerei-Figur ist."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["atk%", "em"], "circlet": ["cd", "cr"] },
+  "substats": ["er", "cr", "cd", "atk%", "em"],
+  "sources": [
+    "https://keqingmains.com/q/sandrone-quickguide/",
+    "https://game8.co/games/Genshin-Impact/archives/382107",
+    "https://gamewith.net/genshin-impact/article/show/76359",
+    "https://game8.co/games/Genshin-Impact/archives/613910"
+  ]
+}

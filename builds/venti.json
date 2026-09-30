@@ -1,0 +1,87 @@
+{
+  "character": "Venti",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps", "sub-dps", "support"],
+  "summary": "Bogenschütze und Anemo-Archon. Seine Spezialfähigkeit erzeugt einen Wirbelsturm, der leichte Gegner ansaugt und Elemente aufnimmt. Seit 6.2 gehört er zur Hexerei: Mit einer zweiten Hexerei-Figur werden seine Standardangriffe während der Spezialfähigkeit zu durchdringenden Anemo-Schüssen, und er kann selbst Hauptangreifer sein.",
+  "tips": [
+    "Die Hexerei-Boni gibt es erst nach seiner „Aufgabe der Hexe“ und nur mit einer zweiten Hexerei-Figur im Team.",
+    "Als Hauptangreifer: Krit.-Rate möglichst hoch (80–90 %) und Aufladerate um 140–160 %.",
+    "Sein Wirbelsturm ist stark gegen Gruppen leichter Gegner, große Bosse lassen sich aber nicht anheben."
+  ],
+  "teams": [
+    {
+      "name": "Hexerei-Hypercarry",
+      "note": "Venti macht auf dem Feld den Schaden. Durin, Fischl oder Mona zählen als zweite Hexerei-Figur, Faruzan und Bennett verstärken seinen Anemo-Schaden.",
+      "slots": [["Venti"], ["Faruzan"], ["Bennett", "Furina"], ["Durin", "Fischl", "Mona"]]
+    },
+    {
+      "name": "Mondleuchten-Reaktionen",
+      "note": "Ineffa, Columbina und Lauma lösen Mondleuchten-Reaktionen aus, Venti hält die Gegner in seinem Wirbelsturm zusammen – stark gegen viele Gegner.",
+      "slots": [
+        ["Venti"],
+        ["Ineffa", "Ororon", "Fischl"],
+        ["Columbina", "Yelan", "Xingqiu"],
+        ["Lauma", "Aino", "Nahida"]
+      ]
+    },
+    {
+      "name": "Unterstützer mit Klee",
+      "note": "Venti unterstützt von außerhalb des Feldes: Er senkt Widerstände und gibt Energie. Mit Klee ist zugleich eine zweite Hexerei-Figur im Team.",
+      "slots": [
+        ["Venti"],
+        ["Klee", "Neuvillette", "Arlecchino"],
+        ["Furina", "Citlali", "Xiangling"],
+        ["Bennett", "Xilonen", "Zhongli"]
+      ]
+    },
+    {
+      "name": "Gefroren",
+      "note": "Venti saugt die Gegner an, Hydro und Kryo frieren sie im Wirbelsturm ein. Ayaka oder Ganyu machen den Hauptschaden.",
+      "slots": [["Venti"], ["Kamisato Ayaka", "Ganyu"], ["Diona", "Shenhe"], ["Mona", "Sangonomiya Kokomi"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "The Daybreak Chronicles",
+      "note": "Seine Signaturwaffe, genau auf den Hexerei-Hauptangreifer zugeschnitten: viel Krit.-Schaden und Schadensbonus."
+    },
+    {
+      "name": "Thundering Pulse",
+      "note": "Krit.-Schaden, ANG und viel Bonus auf Standardangriffe – passt zu seinen Anemo-Standardangriffen als Hexerei-Hauptangreifer."
+    },
+    { "name": "Astral Vulture's Crimson Plumage", "note": "Starke Krit.-Waffe für den Hauptangreifer-Build." },
+    { "name": "Aqua Simulacra", "note": "Sehr viel Krit.-Schaden und ein dauerhafter Schadensbonus." },
+    {
+      "name": "Elegy for the End",
+      "note": "Beste Wahl als Unterstützer: Aufladerate und Boni für das ganze Team."
+    },
+    {
+      "name": "The Stringless",
+      "note": "4★-Waffe mit Elementarkunde und mehr Schaden für Elementar- und Spezialfähigkeit."
+    },
+    {
+      "name": "Favonius Warbow",
+      "note": "Für den Unterstützer-Build: erzeugt Energie. Ein Exemplar gibt es gratis aus einer Archon-Quest im Prolog."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "A Day Carved From Rising Winds", "pieces": 4 }],
+      "note": "Für den Hexerei-Hauptangreifer: mehr ANG nach Treffern, nach der „Aufgabe der Hexe“ zusätzlich Krit.-Rate."
+    },
+    {
+      "sets": [{ "name": "Viridescent Venerer", "pieces": 4 }],
+      "note": "Für Venti als Unterstützer: mehr Verwirbelungsschaden und niedrigere Widerstände der Gegner."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er", "em"], "goblet": ["anemo", "em"], "circlet": ["cr", "cd", "em"] },
+  "substats": ["cr", "cd", "atk%", "er", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/Venti-Best-Builds",
+    "https://gamewith.net/genshin-impact/article/show/22349",
+    "https://gamewith.net/genshin-impact/article/show/41241",
+    "https://gamewith.net/genshin-impact/article/show/71624",
+    "https://keqingmains.com/q/venti-quickguide/"
+  ]
+}

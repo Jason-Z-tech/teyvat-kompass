@@ -1,0 +1,85 @@
+{
+  "character": "Diona",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "shield", "healer"],
+  "summary": "Kryo-Unterstützerin mit Bogen, die Schilde erzeugt, heilt und Kryo aufträgt. Nach ihrer Quest „Witch's Revelation“ feuert ihre Elementarfähigkeit zusätzliche Geschosse, wenn das Team Supraleiter, Kryo-Verwirbelung oder Stellar-Reaktionen auslöst. Mit Sternbild 6 verstärkt sie diese Reaktionen zusätzlich.",
+  "tips": [
+    "Elementarfähigkeit gedrückt halten: Das gibt einen stärkeren Schild und mehr Energie.",
+    "Schild und Heilung richten sich nach ihren LP – deshalb LP% statt ANG sammeln.",
+    "Aufladerate hat Vorrang, bis ihre Spezialfähigkeit jede Runde bereit ist – je nach Team und Waffe etwa 130–240 %.",
+    "Mit Sternbild 6 stärkt ihr Heilfeld Supraleiter und die Stellar-Reaktionen – dann lohnt sie sich in Stellar-Teams besonders."
+  ],
+  "teams": [
+    {
+      "name": "Stellar-Supraleiter",
+      "note": "Sandrone macht aus Supraleiter den stärkeren Stellar-Supraleiter, das Elektro kommt von Yae Miko, Alyosha oder Beidou. Diona schützt das Team und verstärkt ab Sternbild 6 den Reaktionsschaden.",
+      "slots": [["Diona"], ["Sandrone"], ["Yae Miko", "Alyosha", "Beidou"], ["Odette", "Qiqi", "Traveler (Cryo)"]]
+    },
+    {
+      "name": "Gefroren",
+      "note": "Der Hydro-Partner hält die Gegner zusammen mit dem Kryo-Hauptangreifer eingefroren, Diona schützt und heilt. Der letzte Platz verstärkt den Kryo-Schaden oder sammelt die Gegner ein.",
+      "slots": [
+        ["Diona"],
+        ["Kamisato Ayaka", "Ganyu", "Wriothesley"],
+        ["Furina", "Mona", "Vodyanitsa"],
+        ["Escoffier", "Shenhe", "Venti"]
+      ]
+    },
+    {
+      "name": "Schmelzen",
+      "note": "Diona trägt zusätzlich Kryo für Schmelzen auf und schützt das Team. Ab Sternbild 6 gibt ihr Heilfeld dem Pyro-Hauptangreifer außerdem Elementarkunde.",
+      "slots": [["Diona"], ["Mavuika", "Gaming"], ["Citlali", "Rosaria"], ["Bennett", "Nicole"]]
+    },
+    {
+      "name": "Stellar-Verwirbelung",
+      "note": "Odette oder der Kryo-Reisende ermöglichen Stellar-Verwirbelung, der Anemo-Partner verstärkt den Hauptangreifer. Lohnt sich vor allem mit Diona ab Sternbild 6.",
+      "slots": [["Diona"], ["Vesna", "Yumemizuki Mizuki"], ["Odette", "Traveler (Cryo)"], ["Faruzan", "Sucrose"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Favonius Warbow",
+      "note": "Erzeugt bei Krit.-Treffern Energie für das Team – ihre Standardwahl. Ein Exemplar gibt es gratis aus einer Archon-Quest im Prolog."
+    },
+    {
+      "name": "Sacrificial Bow",
+      "note": "Kann die Elementarfähigkeit zurücksetzen und macht sie zu einer besseren Energiequelle."
+    },
+    {
+      "name": "Breezeborne Refrain",
+      "note": "4★-Waffe aus dem Waffenbanner, deren Effekt die Stellar-Reaktionen des Teams stärkt."
+    },
+    {
+      "name": "Elegy for the End",
+      "note": "Viel Aufladerate und ein Bonus auf Elementarkunde und ANG für das Team."
+    },
+    { "name": "Recurve Bow", "note": "3★-Bogen mit LP als Nebenwert, einfach aus Truhen zu bekommen." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Nach ihrer Spezialfähigkeit bekommt das ganze Team mehr ANG. Die Standardwahl."
+    },
+    {
+      "sets": [{ "name": "Tenacity of the Millelith", "pieces": 4 }],
+      "note": "Für Stellar- und Supraleiter-Teams: Ihre zusätzlichen Geschosse halten den ANG-Bonus für das Team aufrecht."
+    },
+    {
+      "sets": [
+        { "name": "Tenacity of the Millelith", "pieces": 2 },
+        { "name": "Emblem of Severed Fate", "pieces": 2 }
+      ],
+      "note": "Mehr LP und Aufladerate, wenn niemand ein 4er-Set braucht."
+    }
+  ],
+  "mainStats": { "sands": ["hp%", "er"], "goblet": ["hp%"], "circlet": ["hp%", "heal", "cr"] },
+  "substats": ["er", "hp%", "cr"],
+  "sources": [
+    "https://keqingmains.com/q/diona-quickguide/",
+    "https://game8.co/games/Genshin-Impact/archives/305872",
+    "https://game8.co/games/Genshin-Impact/archives/605822",
+    "https://game8.co/games/Genshin-Impact/archives/605462",
+    "https://gamewith.net/genshin-impact/article/show/22706"
+  ]
+}

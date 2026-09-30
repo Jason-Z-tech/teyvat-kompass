@@ -1,0 +1,69 @@
+{
+  "character": "Eula",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Kryo-Kämpferin mit Zweihänder, die fast nur physischen Schaden macht und lange auf dem Feld bleibt. Ihre Spezialfähigkeit ruft ein Lichtschwert, das sich durch ihre Treffer auflädt und am Ende mit einem gewaltigen physischen Schlag explodiert. Ein Elektro-Partner für Supraleiter gehört fest ins Team.",
+  "tips": [
+    "Solange das Lichtschwert der Spezialfähigkeit aktiv ist, nicht wechseln – sonst explodiert es sofort und mit weniger Schaden.",
+    "Elementarfähigkeit erst kurz antippen, um Stapel zu sammeln, später gedrückt halten: Das verbraucht die Stapel und senkt den Widerstand der Gegner.",
+    "Aufladerate hat Vorrang, bis die Spezialfähigkeit jede Runde bereit ist. Mit mehreren Kryo-Partnern braucht sie weniger davon."
+  ],
+  "teams": [
+    {
+      "name": "Supraleiter",
+      "note": "Der Elektro-Partner löst Supraleiter aus und senkt so den physischen Widerstand, Mika verstärkt Eulas physischen Schaden. Shougun Raiden füllt zusätzlich die Energie des Teams auf.",
+      "slots": [
+        ["Eula"],
+        ["Raiden Shogun", "Fischl", "Kuki Shinobu"],
+        ["Mika", "Rosaria", "Shenhe"],
+        ["Furina", "Bennett", "Zhongli", "Diona"]
+      ]
+    },
+    {
+      "name": "Mond unter Strom",
+      "note": "Columbina und Ineffa richten von außerhalb des Feldes viel Schaden über Mond unter Strom an, während Eula vorne kämpft und durch das Elektro nebenbei Supraleiter auslöst.",
+      "slots": [
+        ["Eula"],
+        ["Ineffa", "Raiden Shogun", "Fischl"],
+        ["Columbina", "Aino", "Yelan"],
+        ["Mika", "Rosaria", "Charlotte"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Song of Broken Pines",
+      "note": "Ihre Signaturwaffe und klar die beste Wahl: physischer Schaden als Nebenwert und ein Bonus für das ganze Team."
+    },
+    { "name": "Gest of the Mighty Wolf", "note": "Krit.-Rate als Nebenwert und schnellere Angriffe." },
+    { "name": "Beacon of the Reed Sea", "note": "Krit.-Rate als Nebenwert und zusätzlicher ANG." },
+    { "name": "Wolf's Gravestone", "note": "Sehr viel ANG, solide Alternative." },
+    {
+      "name": "Serpent Spine",
+      "note": "Battle-Pass-Waffe mit Krit.-Rate – stark, solange Eula selten getroffen wird."
+    },
+    {
+      "name": "Snow-Tombed Starsilver",
+      "note": "Schmiedbar und ihre beste Gratis-Waffe, mit physischem Schaden als Nebenwert."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Pale Flame", "pieces": 4 }],
+      "note": "Wie für sie gemacht: bringt ihr den meisten physischen Schaden."
+    },
+    {
+      "sets": [{ "name": "Pale Flame", "pieces": 2 }, { "name": "Bloodstained Chivalry", "pieces": 2 }],
+      "note": "Beide 2er-Boni geben physischen Schaden. Mit besseren Nebenwerten kann diese Mischung sogar stärker sein."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er"], "goblet": ["phys"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/328764",
+    "https://gamewith.net/genshin-impact/article/show/38399",
+    "https://gamewith.net/genshin-impact/article/show/25134",
+    "https://keqingmains.com/q/eula-quickguide/"
+  ]
+}

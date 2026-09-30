@@ -1,0 +1,66 @@
+{
+  "character": "Xianyun",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "healer"],
+  "summary": "Anemo-Katalysatornutzerin und Unterstützerin, bei der sich alles um Angriffe aus dem Fall dreht. Ihre Spezialfähigkeit heilt die Truppe regelmäßig und lässt alle höher springen, zusätzlich macht sie Angriffe aus dem Fall deutlich stärker. Ideal mit Xiao, Varesa, Gaming oder Diluc.",
+  "tips": [
+    "ANG ist ihr wichtigster Wert: Heilung, Verstärkung und Schaden wachsen damit – bis etwa 4500 ANG lohnt es sich.",
+    "Nach ihrer Spezialfähigkeit springen alle höher – so gelingen Angriffe aus dem Fall ganz leicht.",
+    "Aufladerate mit „Widerhallender Ruf des Kranichs“: als einzige Anemo-Figur etwa 190–260 %, mit Xiao 140–150 %. Mit anderen Waffen deutlich mehr.",
+    "Talente: zuerst die Spezialfähigkeit leveln."
+  ],
+  "teams": [
+    {
+      "name": "Xiao-Hypercarry",
+      "note": "Xianyun heilt Xiao und verstärkt seine Angriffe aus dem Fall, Faruzan erhöht den Anemo-Schaden und Furina den Schaden der ganzen Truppe.",
+      "slots": [["Xianyun"], ["Xiao"], ["Faruzan", "Bennett"], ["Furina"]]
+    },
+    {
+      "name": "Angriff aus dem Fall",
+      "note": "Varesa ist derzeit die stärkste Wahl für Angriffe aus dem Fall und wird mit Xianyun sehr stark. Iansan gibt ANG, Furina erhöht den Schaden der Truppe.",
+      "slots": [["Xianyun"], ["Varesa"], ["Iansan", "Xilonen", "Bennett"], ["Furina", "Nicole"]]
+    },
+    {
+      "name": "Verdampfen",
+      "note": "Gaming ist die starke 4★-Wahl für Angriffe aus dem Fall, Furina liefert Hydro für Verdampfen. Mit Xingqiu statt Furina ein günstiges Team.",
+      "slots": [["Xianyun"], ["Gaming"], ["Furina", "Xingqiu", "Yelan"], ["Bennett"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Crane's Echoing Call",
+      "note": "Ihre Signaturwaffe: sehr hoher Grund-ANG, stärkere Angriffe aus dem Fall für das Team und Energie für sie selbst."
+    },
+    { "name": "Skyward Atlas", "note": "Viel ANG als Nebenwert." },
+    {
+      "name": "Oathsworn Eye",
+      "note": "Event-Waffe mit ANG und mehr Aufladerate nach der Elementarfähigkeit – beste Gratis-Wahl."
+    },
+    { "name": "Memory of Dust", "note": "Hoher ANG, am stärksten mit Schild im Team." },
+    { "name": "Favonius Codex", "note": "Senkt den Aufladerate-Bedarf von ihr und dem Team." },
+    { "name": "Flowing Purity", "note": "Schmiedbar, solide ANG-Waffe." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Song of Days Past", "pieces": 4 }],
+      "note": "Allround-Wahl: Ihre Heilung verstärkt danach die Angriffe der Truppe."
+    },
+    {
+      "sets": [{ "name": "Viridescent Venerer", "pieces": 4 }],
+      "note": "Wenn der Hauptangreifer Pyro, Hydro, Elektro oder Kryo nutzt: senkt die Widerstände der Gegner."
+    },
+    {
+      "sets": [{ "name": "Ocean-Hued Clam", "pieces": 4 }],
+      "note": "Macht aus ihrer Heilung zusätzlichen Schaden."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er"], "goblet": ["atk%"], "circlet": ["atk%", "heal"] },
+  "substats": ["er", "atk%", "em", "cr"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/Xianyun-Best-Builds",
+    "https://gamewith.net/genshin-impact/article/show/41848",
+    "https://gamewith.net/genshin-impact/article/show/43260",
+    "https://keqingmains.com/q/xianyun-quickguide/"
+  ]
+}

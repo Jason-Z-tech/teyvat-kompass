@@ -1,0 +1,78 @@
+{
+  "character": "Kinich",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Dendro-Zweihandkämpfer aus Natlan, der sich mit seiner Elementarfähigkeit an Gegner heranzieht, sie umkreist und dabei Nachtseelenpunkte sammelt. Sind sie voll, feuert er einen sehr starken Kanonenschuss. In Flammen und Flammenspross füllen die Punkte schneller, deshalb spielt man ihn fast immer mit einem Pyro-Partner.",
+  "tips": [
+    "In Flammen oder Flammenspross in seiner Nähe geben ihm zusätzliche Nachtseelenpunkte.",
+    "Die Spezialfähigkeit muss nicht in jeder Rotation kommen – dann reichen etwa 100–130 % Aufladerate.",
+    "Er macht vor allem Schaden gegen einzelne Gegner und verlangt präzises Spielen."
+  ],
+  "teams": [
+    {
+      "name": "In Flammen",
+      "note": "Ein Pyro-Charakter lässt die Gegner dauerhaft brennen, das lädt Kinichs Nachtseelenpunkte schneller auf. Émilie macht dabei von außerhalb des Feldes zusätzlich viel Schaden.",
+      "slots": [
+        ["Kinich"],
+        ["Emilie", "Nahida", "Collei"],
+        ["Mavuika", "Xiangling", "Traveler (Pyro)", "Dehya"],
+        ["Bennett", "Iansan"]
+      ]
+    },
+    {
+      "name": "Flammenspross",
+      "note": "Hydro und Dendro erzeugen Dendro-Kerne, die ein Pyro-Charakter als Flammenspross zündet. Auch das gibt Kinich zusätzliche Nachtseelenpunkte.",
+      "slots": [
+        ["Kinich"],
+        ["Furina", "Xingqiu", "Yelan"],
+        ["Thoma", "Xiangling", "Dehya"],
+        ["Nahida", "Baizhu", "Yaoyao"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Fang of the Mountain King",
+      "note": "Seine Signaturwaffe: Krit.-Rate und mehr Schaden für Elementar- und Spezialfähigkeit nach In Flammen oder Flammenspross."
+    },
+    {
+      "name": "Beacon of the Reed Sea",
+      "note": "Viel Krit.-Rate und ANG-Bonus, auch ohne Schild im Team stark."
+    },
+    {
+      "name": "A Thousand Blazing Suns",
+      "note": "Starke Alternative, verstärkt vor allem die ersten Kanonenschüsse."
+    },
+    {
+      "name": "Serpent Spine",
+      "note": "Battle-Pass-Waffe mit Krit.-Rate, am besten mit einem starken Schild im Team."
+    },
+    {
+      "name": "Verdict",
+      "note": "Hohe Grundwerte mit Krit.-Rate und ANG; der Bonus auf die Elementarfähigkeit greift nur mit Kristallisation im Team."
+    },
+    {
+      "name": "Earth Shaker",
+      "note": "In Natlan schmiedbar, erhöht den Schaden der Elementarfähigkeit – die beste Gratis-Wahl."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Obsidian Codex", "pieces": 4 }],
+      "note": "Sein bestes Set: mehr Schaden und viel Krit.-Rate, wenn er Nachtseelenpunkte verbraucht."
+    },
+    {
+      "sets": [{ "name": "Unfinished Reverie", "pieces": 4 }],
+      "note": "Knappe Alternative für Teams mit In Flammen."
+    }
+  ],
+  "mainStats": { "sands": ["atk%"], "goblet": ["dendro"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/461991",
+    "https://gamewith.net/genshin-impact/article/show/47141",
+    "https://gamewith.net/genshin-impact/article/show/47773",
+    "https://keqingmains.com/q/kinich-quickguide/"
+  ]
+}

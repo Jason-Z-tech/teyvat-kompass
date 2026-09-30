@@ -1,0 +1,79 @@
+{
+  "character": "Vodyanitsa",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "healer"],
+  "summary": "Hydro-Unterstützerin mit Katalysator aus Snezhnaya. Ihre Elementarfähigkeit trägt von außerhalb Hydro auf, senkt den Hydro- und Kryo-Widerstand der Gegner, heilt die aktive Figur und schützt sie vor Unterbrechungen. Dazu verstärkt sie Hydro-, Kryo- und Stellar-Verwirbelung-Treffer – je mehr LP sie hat, desto mehr.",
+  "tips": [
+    "Ziel sind rund 65.000 LP, dann wirken ihre Schadensboni für das Team voll.",
+    "Elementarfähigkeit einsetzen und wechseln. Die Spezialfähigkeit macht nur Schaden und ist meist verzichtbar – Aufladerate brauchst du kaum.",
+    "Mit „Von den Heldentaten der Drachenbezwinger“ Vodyanitsa direkt vor dem Hauptangreifer einsetzen, damit er den ANG-Bonus bekommt.",
+    "In Stellar-Verwirbelung-Teams senkt sie zusätzlich den Anemo-Widerstand. Die Reaktion selbst schaltet sie aber nicht frei."
+  ],
+  "teams": [
+    {
+      "name": "Gefroren mit Skirk",
+      "note": "Gilt seit 7.1 als Skirks bestes Team: Vodyanitsa ist Hydro-Figur und Heilerin zugleich, dadurch passen Escoffier und Furina gut dazu. Alle verstärken Skirks Kryo-Schaden.",
+      "slots": [["Skirk"], ["Escoffier"], ["Furina"], ["Vodyanitsa"]]
+    },
+    {
+      "name": "Stellar-Verwirbelung mit Vesna",
+      "note": "Odette und der Kryo-Reisende liefern Kryo für die Reaktion, Vodyanitsa senkt den Widerstand, heilt und verstärkt Vesna. Faruzan (C6) ist eine Alternative zum Reisenden.",
+      "slots": [["Vesna", "Yumemizuki Mizuki"], ["Odette"], ["Traveler (Cryo)", "Faruzan"], ["Vodyanitsa"]]
+    },
+    {
+      "name": "Gefroren mit Lohen",
+      "note": "Vodyanitsa verstärkt Lohens viele Kryo-Treffer und hält ihn vor Unterbrechungen geschützt. Escoffier macht Schaden von außerhalb, Mona ist Lohens Hexerei-Partnerin.",
+      "slots": [["Lohen"], ["Escoffier"], ["Mona"], ["Vodyanitsa"]]
+    },
+    {
+      "name": "Hydro mit Neuvillette",
+      "note": "Vodyanitsa verstärkt Neuvillettes Hydro-Treffer und heilt, Furina erhöht den Schaden aller. Escoffier oder Xilonen senken zusätzlich den Widerstand.",
+      "slots": [["Neuvillette"], ["Furina"], ["Escoffier", "Xilonen"], ["Vodyanitsa"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Hymn of the Maelstrom",
+      "note": "Ihre Signaturwaffe: sehr viel LP und mehr ANG für die aktive Figur. Nur knapp besser als die 3★-Alternative."
+    },
+    {
+      "name": "Thrilling Tales of Dragon Slayers",
+      "note": "3★ und leicht zu bekommen: LP für sie und viel ANG für die nächste Figur. In vielen Teams fast so gut wie die Signaturwaffe."
+    },
+    {
+      "name": "Prototype Amber",
+      "note": "Schmiedbar. Viel LP und Heilung für alle – besser als die 3★-Waffe, wenn der Hauptangreifer nicht mit ANG skaliert."
+    },
+    { "name": "Jadefall's Splendor", "note": "5★ mit viel LP. Ewiger Mondschein geht ähnlich gut." },
+    {
+      "name": "Sacrificial Jade",
+      "note": "4★ mit Krit.-Rate und mehr LP außerhalb des Feldes – ab Verfeinerung 3 eine gute Alternative."
+    },
+    {
+      "name": "Ash-Graven Drinking Horn",
+      "note": "Event-Waffe mit LP und etwas Zusatzschaden, wenn du sie besitzt."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Tenacity of the Millelith", "pieces": 4 }],
+      "note": "Ihr bestes Set: LP für sie und mehr ANG für das ganze Team, fast ohne Unterbrechung."
+    },
+    {
+      "sets": [{ "name": "Tenacity of the Millelith", "pieces": 2 }, { "name": "Vourukasha's Glow", "pieces": 2 }],
+      "note": "Maximal LP – besser mit Hauptangreifern, die nicht mit ANG skalieren, z. B. Neuvillette oder Mizuki."
+    },
+    {
+      "sets": [{ "name": "Song of Days Past", "pieces": 4 }],
+      "note": "Alternative, wenn ihre Heilung im Vordergrund steht: Sie wandelt die Heilung in Zusatzschaden für die aktive Figur um."
+    }
+  ],
+  "mainStats": { "sands": ["hp%"], "goblet": ["hp%"], "circlet": ["hp%", "heal"] },
+  "substats": ["hp%", "er"],
+  "sources": [
+    "https://keqingmains.com/q/vodyanitsa-quickguide/",
+    "https://game8.co/games/Genshin-Impact/archives/606400",
+    "https://gamewith.net/genshin-impact/article/show/73767"
+  ]
+}

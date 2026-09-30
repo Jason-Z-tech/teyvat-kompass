@@ -1,0 +1,78 @@
+{
+  "character": "Raiden Shogun",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps", "sub-dps", "support"],
+  "summary": "Elektro-Allrounderin mit Stangenwaffe. Ihre Elementarfähigkeit trifft Gegner von außen und stärkt die Spezialfähigkeiten des ganzen Teams, ihre eigene Spezialfähigkeit macht großen Schaden und lädt dem Team Energie auf. Aufladerate wandelt sie in Elektro-Schaden um. Sie kann Haupt-DPS sein oder mit viel Elementarkunde Supraspross auslösen.",
+  "tips": [
+    "Etwa 200–250 % Aufladerate anpeilen – ihre Passive macht daraus zusätzlichen Elektro-Schaden.",
+    "Mit ihrer Signaturwaffe ist eine Aufladerate-Sanduhr meist besser als ANG, mit anderen Waffen oft ANG.",
+    "Für Supraspross nur Elementarkunde auf alle drei Teile – Sternbilder oder Signaturwaffe braucht sie dafür nicht.",
+    "Sternbild 2 ist ihr stärkstes für eigenen Schaden: Während ihrer Spezialfähigkeit ignorieren ihre Angriffe 60 % der VTD."
+  ],
+  "teams": [
+    {
+      "name": "Überladen (Hexerei)",
+      "note": "Die Hexerei-Unterstützer Durin, Nicole und Prune verstärken Shougun Raiden stark. Sie selbst macht den Schaden auf dem Feld und lädt deren Energie auf.",
+      "slots": [
+        ["Raiden Shogun"],
+        ["Durin", "Mavuika", "Traveler (Pyro)"],
+        ["Nicole", "Bennett"],
+        ["Prune", "Chevreuse"]
+      ]
+    },
+    {
+      "name": "Nationalteam",
+      "note": "Günstiges Team: Xiangling und Xingqiu machen von außen Schaden, Bennett gibt ANG. Shougun Raiden lädt allen die Energie für ihre Spezialfähigkeiten auf.",
+      "slots": [["Raiden Shogun"], ["Xiangling"], ["Xingqiu", "Furina"], ["Bennett", "Xilonen"]]
+    },
+    {
+      "name": "Mond unter Strom",
+      "note": "Ineffa macht aus Unter Strom das stärkere Mond unter Strom, Columbina liefert Hydro. Shougun Raiden löst die Reaktion auf dem Feld ständig aus.",
+      "slots": [
+        ["Raiden Shogun"],
+        ["Ineffa"],
+        ["Columbina", "Aino"],
+        ["Sucrose", "Prune", "Jahoda", "Kaedehara Kazuha"]
+      ]
+    },
+    {
+      "name": "Supraspross",
+      "note": "Mit viel Elementarkunde löst Shougun Raiden von außen Supraspross aus. Die Dendro-Partner und der Hydro-Partner erzeugen die nötigen Dendro-Kerne.",
+      "slots": [["Raiden Shogun"], ["Nahida", "Lauma"], ["Xingqiu", "Yelan"], ["Baizhu", "Alhaitham"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Engulfing Lightning",
+      "note": "Signaturwaffe: wandelt Aufladerate in ANG um und erhöht nach der Spezialfähigkeit die Aufladerate – beste Wahl als Haupt-DPS."
+    },
+    { "name": "Staff of Homa", "note": "Viel Krit.-Schaden als Nebenwert." },
+    { "name": "Primordial Jade Winged-Spear", "note": "Krit.-Rate und stapelnder ANG-Bonus." },
+    {
+      "name": "The Catch",
+      "note": "Vom Angeln (Inazuma): mehr Schaden und Krit.-Rate für die Spezialfähigkeit – beste Gratis-Wahl."
+    },
+    { "name": "Dragon's Bane", "note": "Für Supraspross: sehr viel Elementarkunde." },
+    { "name": "Kitain Cross Spear", "note": "Schmiedbar, mit Elementarkunde – Gratis-Wahl für Supraspross." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 4 }],
+      "note": "Bestes Set als Haupt-DPS: Aufladerate und viel mehr Schaden der Spezialfähigkeit."
+    },
+    { "sets": [{ "name": "Flower of Paradise Lost", "pieces": 4 }], "note": "Bestes Set für Supraspross." },
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 4 }],
+      "note": "Alternative für Supraspross mit viel Elementarkunde."
+    }
+  ],
+  "mainStats": { "sands": ["er", "atk%", "em"], "goblet": ["electro", "atk%", "em"], "circlet": ["cr", "cd", "em"] },
+  "substats": ["cr", "cd", "er", "atk%", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/337161",
+    "https://gamewith.net/genshin-impact/article/show/24184",
+    "https://gamewith.net/genshin-impact/article/show/38395",
+    "https://keqingmains.com/q/raiden-quickguide/"
+  ]
+}

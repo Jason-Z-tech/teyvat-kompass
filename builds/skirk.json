@@ -1,0 +1,76 @@
+{
+  "character": "Skirk",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Kryo-Schwertkämpferin, deren Spezialfähigkeit nicht mit Energie, sondern mit einer eigenen Ressource geladen wird. Ihre Elementarfähigkeit versetzt sie in einen Kampfmodus mit starken Kryo-Angriffen. Ihre passiven Talente wirken nur dann voll, wenn das übrige Team aus Hydro- und Kryo-Charakteren besteht – daher spielt man sie fast immer mit Gefroren.",
+  "tips": [
+    "Nur Hydro- und Kryo-Partner mitnehmen, sonst fällt ein großer Teil ihrer Stärke weg.",
+    "Aufladerate und Elementarkunde bringen ihr nichts – lieber alles in ANG und Krit.-Werte stecken.",
+    "Kryo-Reaktionen der Partner erzeugen Risse. Heftige Schläge oder die gedrückte Elementarfähigkeit saugen sie auf und laden ihre Spezialfähigkeit weiter auf.",
+    "Gegen Gegner mit dauerhafter Pyro-Aura ist sie deutlich schwächer."
+  ],
+  "teams": [
+    {
+      "name": "Gefroren",
+      "note": "Nur Hydro- und Kryo-Partner, damit Skirks Talente wirken. Escoffier und Vodyanitsa senken den Widerstand der Gegner, Furina erhöht den Schaden des ganzen Teams.",
+      "slots": [["Skirk"], ["Furina", "Xingqiu"], ["Escoffier", "Citlali"], ["Vodyanitsa", "Shenhe", "Yelan", "Mona"]]
+    },
+    {
+      "name": "Zwei Angreifer",
+      "note": "Skirk wechselt nur kurz für ihre starke Spezialfähigkeit ein, den Großteil des Schadens auf dem Feld macht der zweite Angreifer. Die Unterstützer verstärken beide.",
+      "slots": [
+        ["Skirk"],
+        ["Neuvillette", "Kamisato Ayaka", "Wriothesley"],
+        ["Furina", "Vodyanitsa", "Xingqiu"],
+        ["Escoffier", "Citlali", "Charlotte"]
+      ]
+    },
+    {
+      "name": "Gefroren mit 4★-Partnern",
+      "note": "Nur 4★-Partner: Dahlia schützt mit Schilden, Rosaria gibt Krit.-Rate, Xingqiu trägt Hydro für Gefroren auf. Ohne Escoffier schwächer, aber gut spielbar.",
+      "slots": [
+        ["Skirk"],
+        ["Dahlia", "Mika", "Diona", "Layla"],
+        ["Rosaria", "Charlotte", "Kaeya"],
+        ["Xingqiu", "Barbara", "Aino"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Azurelight",
+      "note": "Ihre Signaturwaffe mit viel ANG und Krit.-Schaden – klar die beste Wahl."
+    },
+    { "name": "Haran Geppaku Futsu", "note": "Starke Alternative, die Standardangriffe verstärkt." },
+    { "name": "Mistsplitter Reforged", "note": "Viel Elementarschaden-Bonus und Krit.-Schaden." },
+    { "name": "Primordial Jade Cutter", "note": "Krit.-Rate als Nebenwert, solide 5★-Wahl." },
+    {
+      "name": "Finale of the Deep",
+      "note": "Schmiedbar und die beste Gratis-Wahl – voll verfeinert kaum schwächer als viele 5★-Waffen."
+    },
+    { "name": "Calamity of Eshu", "note": "Waffe aus einem Event. Mit einem Schild im Team sehr stark." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Finale of the Deep Galleries", "pieces": 4 }],
+      "note": "Passt perfekt, weil sie für ihre Spezialfähigkeit keine Energie braucht und der Bonus bei leerer Energie greift."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Mit Furina im Team fast gleich stark: Furina verändert ständig die LP der Truppe und treibt so die Krit.-Rate hoch."
+    },
+    {
+      "sets": [{ "name": "Blizzard Strayer", "pieces": 4 }],
+      "note": "Mehr Krit.-Rate gegen gefrorene Gegner, aber unzuverlässig gegen Gegner, die nicht einfrieren."
+    }
+  ],
+  "mainStats": { "sands": ["atk%"], "goblet": ["cryo"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/333140",
+    "https://gamewith.net/genshin-impact/article/show/57475",
+    "https://gamewith.net/genshin-impact/article/show/30228",
+    "https://keqingmains.com/q/skirk-quickguide/"
+  ]
+}

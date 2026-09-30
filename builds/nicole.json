@@ -1,0 +1,80 @@
+{
+  "character": "Nicole",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "shield"],
+  "summary": "Pyro-Unterstützerin mit Katalysator. Ihre Elementarfähigkeit gibt der ganzen Truppe viel ANG und einen sehr stabilen Schild. Als Hexerei-Figur ist sie am stärksten neben anderen Hexerei-Figuren wie Varka, Lohen oder Durin, passt aber zu fast jedem Angreifer, der mit ANG skaliert.",
+  "tips": [
+    "Ziel sind rund 4000 ANG, dann gibt ihre Elementarfähigkeit der Truppe den vollen ANG-Bonus.",
+    "Oft reicht die Elementarfähigkeit allein. Die Spezialfähigkeit lohnt sich vor allem, wenn danach eine Hexerei-Figur kämpft.",
+    "Mit einer zweiten Hexerei-Figur im Team wird der Bonus von „Gabe des Himmels“ doppelt so groß.",
+    "Nutzt du die Spezialfähigkeit nur jede zweite Runde, brauchst du kaum Aufladerate und kannst alles in ANG stecken."
+  ],
+  "teams": [
+    {
+      "name": "Hexerei mit Varka",
+      "note": "Varka ist selbst Hexerei und bekommt Nicoles vollen Bonus sofort. Durin macht mit ihrem ANG-Bonus viel Schaden von außerhalb, Prune oder Venti stärken die Anemo-Seite.",
+      "slots": [["Varka"], ["Nicole"], ["Durin"], ["Prune", "Venti"]]
+    },
+    {
+      "name": "Hexerei mit Lohen",
+      "note": "Zwei Schadensquellen: Lohen kämpft auf dem Feld, Durin trifft dank Nicoles ANG-Bonus stark von außerhalb. Citlali ergänzt Kryo für Schmelzen.",
+      "slots": [["Lohen"], ["Nicole"], ["Durin"], ["Citlali"]]
+    },
+    {
+      "name": "Überladen mit Arlecchino",
+      "note": "Arlecchino kämpft auf dem Feld, Fischl liefert Elektro für Überladen. Chevreuse senkt den Pyro- und Elektro-Widerstand (alternativ Iansan), Nicole gibt ANG und schützt mit ihrem Schild.",
+      "slots": [["Arlecchino"], ["Nicole"], ["Chevreuse", "Iansan"], ["Fischl"]]
+    },
+    {
+      "name": "In Flammen mit Kinich",
+      "note": "Nicoles Schild schützt Kinich vor dem Schaden durch In Flammen, ihr ANG-Bonus stärkt Kinich und Durin gleichzeitig. Iansan oder Émilie auf dem letzten Platz.",
+      "slots": [["Kinich"], ["Nicole"], ["Durin"], ["Iansan", "Emilie"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Angelos' Heptades",
+      "note": "Ihre Signaturwaffe: sehr viel ANG. Erschafft sie einen Schild, bekommt sie Energie zurück und die aktive Figur macht 20 Sekunden lang mehr Schaden."
+    },
+    {
+      "name": "Starcaller's Watch",
+      "note": "Weniger ANG, dafür mehr Schaden für die aktive Figur, nachdem Nicole ihren Schild erschafft."
+    },
+    {
+      "name": "Skyward Atlas",
+      "note": "Standardbanner-Waffe mit viel ANG. Andere 5★-Katalysatoren mit hohem ANG gehen ähnlich gut."
+    },
+    {
+      "name": "Thrilling Tales of Dragon Slayers",
+      "note": "3★: gibt der nächsten eingewechselten Figur viel ANG. Nicole dafür direkt vor dem Hauptangreifer einsetzen."
+    },
+    { "name": "Oathsworn Eye", "note": "Viel ANG und Aufladerate, gab es aber nur im Event von Version 2.5." },
+    { "name": "Flowing Purity", "note": "Schmiedbar und mit hohem ANG – die einfachste Gratis-Wahl." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Celestial Gift", "pieces": 4 }],
+      "note": "Mit Abstand am besten: mehr Pyro-Schaden für die ganze Truppe, mit zweiter Hexerei-Figur noch deutlich mehr."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Wenn schon jemand anderes „Gabe des Himmels“ trägt. Wirkt nur, wenn sie ihre Spezialfähigkeit nutzt."
+    },
+    {
+      "sets": [
+        { "name": "Gladiator's Finale", "pieces": 2 },
+        { "name": "A Day Carved From Rising Winds", "pieces": 2 }
+      ],
+      "note": "Zwei 2er-Sets mit ANG, wenn ein Schadensbonus-Set im Team wenig bringt."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er"], "goblet": ["atk%"], "circlet": ["atk%"] },
+  "substats": ["atk%", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/406932",
+    "https://www.icy-veins.com/genshin-impact/nicole-guide-best-builds",
+    "https://www.prydwen.gg/genshin-impact/characters/nicole",
+    "https://keqingmains.com/q/nicole-quickguide/"
+  ]
+}

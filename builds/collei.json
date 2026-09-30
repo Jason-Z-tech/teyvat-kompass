@@ -1,0 +1,78 @@
+{
+  "character": "Collei",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "support"],
+  "summary": "4★-Bogenschützin, die mit ihrer Spezialfähigkeit lange von außerhalb des Feldes Dendro aufträgt. So ermöglicht sie günstig Reaktionen wie Rankenwuchs, Sprießen oder Supraspross. Ihr eigener Schaden kommt fast nur aus Spezial- und Elementarfähigkeit, Standardangriffe sind schwach.",
+  "tips": [
+    "Aufladerate hat Vorrang: etwa 200 %, mit einem zweiten Dendro-Charakter reichen rund 180 %.",
+    "Dendro-Reaktionen wie Sprießen oder Urwuchs in ihrem Feld verlängern die Spezialfähigkeit um je 1 Sekunde, höchstens um 3 Sekunden.",
+    "Erst das Set Erinnerungen des tiefen Waldes vollständig machen, dann auf gute Hauptwerte achten."
+  ],
+  "teams": [
+    {
+      "name": "Rankenwuchs mit Tighnari",
+      "note": "Collei trägt Dendro auf und senkt mit ihrem Set den Dendro-Widerstand, Fischl liefert Elektro. So löst Tighnari auf dem Feld ständig Rankenwuchs aus.",
+      "slots": [["Tighnari"], ["Collei"], ["Fischl"], ["Kuki Shinobu", "Kaedehara Kazuha"]]
+    },
+    {
+      "name": "Nilou-Sprießen",
+      "note": "Collei und Nahida erzeugen mit Nilous Hydro sehr viele verstärkte Dendro-Kerne. Kokomi heilt den Schaden der Explosionen.",
+      "slots": [["Nilou"], ["Collei"], ["Nahida", "Baizhu", "Yaoyao"], ["Sangonomiya Kokomi", "Xingqiu", "Barbara"]]
+    },
+    {
+      "name": "Supraspross (günstig)",
+      "note": "Hydro und das Dendro von Collei und dem Reisenden erzeugen Dendro-Kerne, die Kuki Shinobu oder Shougun Raiden zu Supraspross machen. Gut ohne teure 5★ spielbar.",
+      "slots": [
+        ["Xingqiu", "Sangonomiya Kokomi"],
+        ["Collei"],
+        ["Traveler (Dendro)"],
+        ["Kuki Shinobu", "Raiden Shogun"]
+      ]
+    },
+    {
+      "name": "Mondspross (günstig)",
+      "note": "Nefer löst Mondspross aus und macht den Schaden. Collei liefert dafür günstig Dendro von außerhalb des Feldes, Aino das nötige Hydro.",
+      "slots": [["Nefer"], ["Collei"], ["Aino", "Columbina"], ["Barbara", "Xingqiu", "Sangonomiya Kokomi"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Elegy for the End",
+      "note": "Beste Wahl als Unterstützerin: Aufladerate und Verstärkung für das ganze Team."
+    },
+    { "name": "Favonius Warbow", "note": "Erzeugt zusätzliche Energie, braucht dafür etwas Krit.-Rate." },
+    {
+      "name": "Sacrificial Bow",
+      "note": "Kann die Elementarfähigkeit zurücksetzen und bringt so mehr Energie."
+    },
+    { "name": "Polar Star", "note": "Für möglichst viel eigenen Schaden." },
+    {
+      "name": "End of the Line",
+      "note": "Über das Angeln erhältlich, Aufladerate als Nebenwert – gute Gratis-Wahl."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Deepwood Memories", "pieces": 4 }],
+      "note": "Ihr wichtigstes Set: senkt den Dendro-Widerstand der Gegner für das ganze Team."
+    },
+    {
+      "sets": [{ "name": "Instructor", "pieces": 4 }],
+      "note": "Mehr Elementarkunde fürs Team, wenn schon jemand anderes Erinnerungen des tiefen Waldes trägt."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Mehr ANG für das Team, gut mit Angreifern, die mit ANG stärker werden."
+    }
+  ],
+  "mainStats": { "sands": ["er", "em", "atk%"], "goblet": ["dendro"], "circlet": ["cr", "cd", "em"] },
+  "substats": ["er", "cr", "cd", "em", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/382079",
+    "https://gamewith.net/genshin-impact/article/show/28969",
+    "https://gamewith.net/genshin-impact/article/show/52076",
+    "https://keqingmains.com/q/collei-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/70905"
+  ]
+}

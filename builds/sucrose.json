@@ -1,0 +1,79 @@
+{
+  "character": "Sucrose",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support"],
+  "summary": "Anemo-Alchemistin mit Katalysator und eine der besten 4★-Unterstützerinnen. Sie zieht Gegner zusammen, verwirbelt Elemente, senkt mit dem Set „Grünlicher Schatten“ die Widerstände und gibt dem Team Elementarkunde. Seit 6.2 gehört sie zur Hexerei und verstärkt Teams mit weiteren Hexerei-Figuren.",
+  "tips": [
+    "Elementarkunde ist ihr wichtigster Wert (etwa 800 oder mehr) – ein Teil davon geht als Bonus an das Team.",
+    "Aufladerate: je nach Team etwa 130–180 %.",
+    "Die Hexerei-Boni wirken erst nach ihrer „Aufgabe der Hexe“ und nur mit mindestens zwei Hexerei-Figuren im Team."
+  ],
+  "teams": [
+    {
+      "name": "Mond unter Strom",
+      "note": "Flins und Ineffa (Elektro) lösen mit dem Hydro von Aino oder Yelan Mond unter Strom aus. Saccharose gibt dem Team Elementarkunde und senkt die Widerstände.",
+      "slots": [["Sucrose"], ["Flins"], ["Ineffa"], ["Aino", "Yelan", "Columbina"]]
+    },
+    {
+      "name": "Hexerei",
+      "note": "Mit Klee sind zwei Hexerei-Figuren im Team, das schaltet zusätzliche Schadensboni frei. Saccharose verstärkt Klees Pyro-Schaden, Furina und Xilonen unterstützen.",
+      "slots": [["Sucrose"], ["Klee", "Razor"], ["Xilonen", "Bennett", "Jahoda"], ["Furina", "Yelan", "Xingqiu"]]
+    },
+    {
+      "name": "Regenbogen (Overvape)",
+      "note": "Hydro, Elektro und Pyro von außerhalb des Feldes, Saccharose verwirbelt alles. Günstig mit Xingqiu, Fischl und Reisende(r) (Pyro): außer dem Reisenden nur 4★-Figuren.",
+      "slots": [
+        ["Sucrose"],
+        ["Yelan", "Xingqiu", "Aino"],
+        ["Ineffa", "Fischl", "Ororon"],
+        ["Durin", "Traveler (Pyro)", "Xiangling"]
+      ]
+    },
+    {
+      "name": "Stellar-Verwirbelung",
+      "note": "Vesna verwirbelt das Kryo ihrer Partner zu Stellar-Verwirbelung. Saccharose übernimmt den Platz von Faruzan oder Vodyanitsa und gibt Energie und Elementarkunde. Günstig mit Diona statt Odette.",
+      "slots": [["Sucrose"], ["Vesna"], ["Traveler (Cryo)"], ["Odette", "Diona", "Qiqi"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Sacrificial Fragments",
+      "note": "Beste Wahl laut beiden Guides: viel Elementarkunde und die Chance, die Elementarfähigkeit sofort erneut zu nutzen."
+    },
+    { "name": "Sunny Morning Sleep-In", "note": "Sehr viel Elementarkunde, vor allem nach Verwirbelungen." },
+    {
+      "name": "A Thousand Floating Dreams",
+      "note": "Elementarkunde als Nebenwert und ein kleiner Bonus für das Team."
+    },
+    { "name": "Wandering Evenstar", "note": "Gibt dem ganzen Team ANG abhängig von ihrer Elementarkunde." },
+    { "name": "Favonius Codex", "note": "Erzeugt Energie für das Team; dafür etwas Krit.-Rate sammeln." },
+    {
+      "name": "Fruit of Fulfillment",
+      "note": "Schmiedbar: beste Gratis-Wahl mit Aufladerate und Elementarkunde nach Reaktionen."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Viridescent Venerer", "pieces": 4 }],
+      "note": "Ihr bestes Set: senkt die Widerstände und hat bei ihr fast immer Wirkung."
+    },
+    {
+      "sets": [{ "name": "Instructor", "pieces": 4 }],
+      "note": "Wenn jemand anderes „Grünlicher Schatten“ trägt: Elementarkunde für das ganze Team, gut in Mond-unter-Strom-Teams."
+    },
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 4 }],
+      "note": "Mehr eigene Elementarkunde und damit ein größerer Bonus für das Team."
+    }
+  ],
+  "mainStats": { "sands": ["em", "er"], "goblet": ["em"], "circlet": ["em"] },
+  "substats": ["em", "er", "cr"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297525",
+    "https://gamewith.net/genshin-impact/article/show/22344",
+    "https://gamewith.net/genshin-impact/article/show/52029",
+    "https://gamewith.net/genshin-impact/article/show/71651",
+    "https://gamewith.net/genshin-impact/article/show/77723"
+  ]
+}

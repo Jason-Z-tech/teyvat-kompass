@@ -1,0 +1,74 @@
+{
+  "character": "Columbina",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "sub-dps"],
+  "summary": "Hydro-Unterstützerin mit Katalysator, die in jedem Team alle Mondleuchten-Reaktionen ermöglicht und verstärkt: Mond unter Strom, Mondspross und Mond-Kristallisation. Sie trägt von außerhalb des Feldes Hydro auf, macht dabei selbst ordentlich Schaden und hebt das Mondomen an. Ihre Boni wachsen mit ihren max. LP.",
+  "tips": [
+    "Ihre Boni wachsen mit den max. LP – bis etwa 35.000 LP lohnt sich LP, danach zählen Krit.-Werte.",
+    "Hoher Energiebedarf: etwa 160–180 % Aufladerate, als einziger Hydro-Charakter oft mehr.",
+    "Reicht die Aufladerate nicht, die Spezialfähigkeit nur jede zweite Runde einsetzen – das halbiert den Bedarf.",
+    "Rotation: Elementarfähigkeit, Spezialfähigkeit, dann zum Haupt-DPS wechseln."
+  ],
+  "teams": [
+    {
+      "name": "Mond unter Strom",
+      "note": "Columbina liefert Hydro und verstärkt die Reaktion, Ineffa gibt Elektro und Schild, Flins macht den Schaden. Saccharose gibt Elementarkunde und senkt Widerstände.",
+      "slots": [
+        ["Columbina"],
+        ["Flins", "Neuvillette"],
+        ["Ineffa", "Fischl"],
+        ["Sucrose", "Kaedehara Kazuha", "Lan Yan"]
+      ]
+    },
+    {
+      "name": "Mondspross",
+      "note": "Lauma senkt Widerstände und ermöglicht Mondspross, Nefer macht als Haupt-DPS den Schaden. Columbina trägt Hydro auf und verstärkt alle Mondspross-Treffer.",
+      "slots": [["Columbina"], ["Nefer"], ["Lauma"], ["Nahida", "Sucrose", "Kuki Shinobu", "Zhongli"]]
+    },
+    {
+      "name": "Mond-Kristallisation",
+      "note": "Zibai löst mit Geo-Treffern auf nassen Gegnern Mond-Kristallisation aus, Illuga verstärkt diesen Schaden. Linnea senkt den Geo-Widerstand.",
+      "slots": [["Columbina"], ["Zibai"], ["Illuga"], ["Linnea", "Gorou"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Nocturne's Curtain Call",
+      "note": "Ihre Signaturwaffe: mehr LP, Energie bei Mondleuchten-Reaktionen und viel Krit.-Schaden."
+    },
+    {
+      "name": "Sacrificial Jade",
+      "note": "Sehr stark für ihre Rolle außerhalb des Feldes: Krit.-Rate, LP und Elementarkunde."
+    },
+    {
+      "name": "Reliquary of Truth",
+      "note": "Gute 5★-Alternative mit viel Krit.-Schaden, vor allem wenn sie selbst auf dem Feld Mondspross macht."
+    },
+    {
+      "name": "Prototype Amber",
+      "note": "Schmiedbar: LP%, Energie nach der Spezialfähigkeit und etwas Heilung."
+    },
+    {
+      "name": "Favonius Codex",
+      "note": "Energiepartikel fürs Team – hilft bei ihrem hohen Aufladerate-Bedarf."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Silken Moon's Serenade", "pieces": 4 }],
+      "note": "Standard: Aufladerate plus Elementarkunde und Mondleuchten-Schaden für das ganze Team – wirkt auch außerhalb des Feldes."
+    },
+    {
+      "sets": [{ "name": "Aubade of Morningstar and Moon", "pieces": 4 }],
+      "note": "Mehr eigener Schaden außerhalb des Feldes, bei Reifer Glanz besonders stark – gut, wenn jemand anderes die Serenade des seidenen Mondes trägt."
+    },
+    {
+      "sets": [{ "name": "Tenacity of the Millelith", "pieces": 4 }],
+      "note": "Unterstützungs-Alternative: Treffer ihrer Elementarfähigkeit geben dem Team mehr ANG."
+    }
+  ],
+  "mainStats": { "sands": ["hp%", "er"], "goblet": ["hp%"], "circlet": ["cr", "cd", "hp%"] },
+  "substats": ["er", "hp%", "cr", "cd", "em"],
+  "sources": ["https://game8.co/games/Genshin-Impact/archives/382106", "https://keqingmains.com/q/columbina-quickguide/"]
+}

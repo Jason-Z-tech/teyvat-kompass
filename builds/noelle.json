@@ -1,0 +1,73 @@
+{
+  "character": "Noelle",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps", "healer", "shield"],
+  "summary": "Geo-Dienstmädchen der Favonius-Ritter mit Zweihänder, für alle Spieler kostenlos. Ihre Spezialfähigkeit wandelt VTD in ANG um und macht ihre Angriffe zu Geo-Schaden. Mit ihrer Elementarfähigkeit schützt sie sich per Schild und heilt beim Angreifen das ganze Team. C6 macht sie zu einer starken Haupt-DPS.",
+  "tips": [
+    "Nach dem dritten Standardangriff mit Sprinten abbrechen, um die langsame Animation zu sparen.",
+    "Ihre Spezialfähigkeit endet beim Wechsel nicht: Partner können zwischendurch ihre Fähigkeiten einsetzen.",
+    "Aufladerate: ohne Geo-Partner über 200 %, mit einem Geo-Partner etwa 120–150 %.",
+    "Vor C6 (und unter Talentstufe 10 der Spezialfähigkeit) ist eine ANG%-Sanduhr oft besser als VTD%."
+  ],
+  "teams": [
+    {
+      "name": "Mond-Kristallisation",
+      "note": "Columbina und Linnea machen aus Noelles vielen Geo-Treffern Mond-Kristallisation. Der vierte Platz verstärkt oder macht zusätzlichen Schaden. Eines ihrer stärksten Teams.",
+      "slots": [["Noelle"], ["Linnea"], ["Columbina"], ["Illuga", "Furina", "Ineffa", "Gorou"]]
+    },
+    {
+      "name": "Furina",
+      "note": "Noelle heilt ständig und stapelt so Furinas Schadensbonus. Gorou, Xilonen oder Yun Jin liefern Energie und Buffs, Yelan oder Albedo machen Schaden von außerhalb.",
+      "slots": [["Noelle"], ["Furina"], ["Gorou", "Xilonen", "Yun Jin"], ["Yelan", "Albedo"]]
+    },
+    {
+      "name": "Hexerei",
+      "note": "Durin senkt den Geo-Widerstand und bildet mit Nicole oder Fischl ein Hexerei-Paar, das Noelle stark verstärkt. Xilonen liefert Energie und senkt Widerstände.",
+      "slots": [["Noelle"], ["Durin"], ["Nicole", "Fischl"], ["Xilonen"]]
+    },
+    {
+      "name": "Günstig",
+      "note": "Nur 4★ und Gratis-Figuren: Gorou und Yun Jin oder Kachina verstärken Noelle, Fischl macht Schaden und liefert Energie.",
+      "slots": [["Noelle"], ["Gorou"], ["Yun Jin", "Kachina"], ["Fischl"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Redhorn Stonethresher",
+      "note": "Arataki Ittos Signaturwaffe und auch Noelles beste Wahl: Krit.-Schaden und viel VTD. Noelle hat keine eigene Signaturwaffe."
+    },
+    { "name": "Serpent Spine", "note": "Beste 4★-Waffe (Battle Pass), schon auf R1 stark." },
+    {
+      "name": "Verdict",
+      "note": "Navias Signaturwaffe, für Noelle ein guter Krit.-Zweihänder – aber nicht extra dafür ziehen."
+    },
+    { "name": "Skyward Pride", "note": "Aufladerate als Nebenwert, gut bei hohem Energiebedarf." },
+    { "name": "Whiteblind", "note": "Schmiedbar und gibt viel VTD – die beste Gratis-Waffe." },
+    {
+      "name": "Favonius Greatsword",
+      "note": "Nötig in Teams mit wenig Energie, z. B. ohne zweite Geo-Figur."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Husk of Opulent Dreams", "pieces": 4 }],
+      "note": "Ihr bestes Allround-Set: viel VTD und Geo-Schaden in jedem Team."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Mit Furina im Team mindestens gleich stark, weil sich die LP ständig ändern."
+    },
+    {
+      "sets": [{ "name": "Night of the Sky's Unveiling", "pieces": 4 }],
+      "note": "Etwas stärker in Mond-Kristallisation-Teams mit mindestens zwei Figuren aus Nod-Krai."
+    }
+  ],
+  "mainStats": { "sands": ["def%", "atk%"], "goblet": ["geo", "def%"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "def%", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297523",
+    "https://gamewith.net/genshin-impact/article/show/22346",
+    "https://keqingmains.com/q/noelle-quickguide/"
+  ]
+}

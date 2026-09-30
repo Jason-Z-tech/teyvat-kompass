@@ -1,0 +1,72 @@
+{
+  "character": "Bennett",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "healer"],
+  "summary": "Einer der besten Unterstützer im Spiel: Seine Spezialfähigkeit erzeugt ein Feld, das heilt und der aktiven Figur viel ANG gibt. Seine Elementarfähigkeit lädt schnell wieder auf und bringt dem Team Energie und Pyro. Passt zu fast jedem Haupt-DPS, der mit ANG skaliert.",
+  "tips": [
+    "Der ANG-Bonus hängt nur von seinem Basis-ANG ab (Bennett plus Waffe) – deshalb Waffen mit hohem Basis-ANG wählen.",
+    "Aufladerate zuerst: etwa 180–250 %, je weniger andere Pyro-Figuren im Team, desto mehr.",
+    "Der Bonus wirkt nur im Feld der Spezialfähigkeit. Ohne Sternbild 1 bekommen ihn nur Figuren mit über 70 % LP.",
+    "Sternbild 6 verleiht Nahkämpfern im Feld Pyro – schlecht für Figuren wie Ayaka (Kryo) oder Eula (physischer Schaden), deren Angriffe kein Pyro werden sollen."
+  ],
+  "teams": [
+    {
+      "name": "Schmelzen mit Mavuika",
+      "note": "Bennett gibt Mavuika viel ANG und heilt. Citlali (günstiger: Rosaria) trägt Kryo für Schmelzen auf. Xilonen, Iansan oder Kachina laden als Natlan-Figuren Mavuikas Spezialfähigkeit mit auf.",
+      "slots": [["Mavuika"], ["Bennett"], ["Citlali", "Rosaria"], ["Xilonen", "Iansan", "Kachina"]]
+    },
+    {
+      "name": "Nationalteam",
+      "note": "Bennett und Xiangling sind ein starkes Duo: Xiangling nimmt Bennetts ANG-Bonus mit, auch wenn sie das Feld verlässt. Dazu Raiden mit Xingqiu oder Tartaglia mit Kazuha.",
+      "slots": [["Raiden Shogun", "Tartaglia"], ["Bennett"], ["Xiangling"], ["Xingqiu", "Kaedehara Kazuha"]]
+    },
+    {
+      "name": "Überladen mit Chevreuse",
+      "note": "Chevreuse verstärkt Pyro- und Elektro-Schaden, Bennett gibt zusätzlich ANG. Mit Arlecchino liefert Fischl das Elektro, mit Varesa passt Iansan besser.",
+      "slots": [["Arlecchino", "Varesa"], ["Bennett"], ["Chevreuse"], ["Fischl", "Iansan"]]
+    },
+    {
+      "name": "Mono-Pyro mit Lyney",
+      "note": "Bennett gleicht Lyneys LP-Verlust mit Heilung aus und gibt viel ANG. Kazuha oder Xilonen senken den Pyro-Widerstand, Zhongli schützt Lyney beim Zielen vor Unterbrechungen.",
+      "slots": [["Lyney"], ["Bennett"], ["Kaedehara Kazuha", "Xilonen"], ["Zhongli"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Mistsplitter Reforged",
+      "note": "Höchster Basis-ANG unter den Schwertern plus Elementar-Schadensbonus – die beste Wahl."
+    },
+    { "name": "Aquila Favonia", "note": "Ebenso hoher Basis-ANG, ihr Effekt bringt ihm aber wenig." },
+    {
+      "name": "Skyward Blade",
+      "note": "Viel Aufladerate bei hohem Basis-ANG – gut, wenn er viel Energie braucht."
+    },
+    {
+      "name": "Sapwood Blade",
+      "note": "Schmiedbar (Sumeru): hoher Basis-ANG und Aufladerate – die beste Gratis-Waffe."
+    },
+    { "name": "Favonius Sword", "note": "Erzeugt Energie für das ganze Team, hat dafür weniger Basis-ANG." },
+    {
+      "name": "Fleuve Cendre Ferryman",
+      "note": "Über das Angeln erhältlich, viel Aufladerate – aber weniger Basis-ANG als die Stammklinge."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Das beste Set: Nach seiner Spezialfähigkeit bekommt das ganze Team zusätzlich 20 % ANG."
+    },
+    {
+      "sets": [{ "name": "Scroll of the Hero of Cinder City", "pieces": 4 }],
+      "note": "Gibt dem Team Elementar-Schadensbonus – stark mit Natlan-Figuren wie Mavuika."
+    },
+    {
+      "sets": [{ "name": "Instructor", "pieces": 4 }],
+      "note": "Günstiges 4★-Set: gibt dem ganzen Team Elementarkunde, gut in Reaktionsteams."
+    }
+  ],
+  "mainStats": { "sands": ["er", "atk%", "hp%"], "goblet": ["pyro", "hp%"], "circlet": ["cr", "hp%", "heal"] },
+  "substats": ["er", "hp%", "atk%", "cr", "cd"],
+  "sources": ["https://game8.co/games/Genshin-Impact/archives/297522", "https://keqingmains.com/q/bennett-quickguide/"]
+}

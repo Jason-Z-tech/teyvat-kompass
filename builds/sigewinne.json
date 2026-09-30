@@ -1,0 +1,73 @@
+{
+  "character": "Sigewinne",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["healer", "support"],
+  "summary": "Hydro-Heilerin mit Bogen. Ihre Elementarfähigkeit heilt die Truppe mit hüpfenden Wasserblasen und verstärkt danach die Elementarfähigkeiten der Teamkollegen außerhalb des Feldes – umso stärker, je mehr LP sie hat. Ideal zusammen mit Furina, deren LP-Abzug sie wieder ausgleicht.",
+  "tips": [
+    "So viele LP wie möglich: Ihr Bonus für die Teamkollegen ist bei etwa 65.000 LP voll.",
+    "Der Bonus wirkt auf Elementarfähigkeiten außerhalb des Feldes und hält pro Einsatz 10 Treffer.",
+    "Ihre Spezialfähigkeit muss man in den meisten Teams gar nicht einsetzen.",
+    "Talente: Elementarfähigkeit zuerst. Eine Krone mit Heilungsbonus braucht sie kaum."
+  ],
+  "teams": [
+    {
+      "name": "Doppel-Hydro mit Furina",
+      "note": "Sigewinne gleicht Furinas LP-Abzug aus, beide verstärken den Hauptangreifer. Mit Navia sorgen zwei Hydro-Figuren für viele Kristallisationen, die sie für ihre Elementarfähigkeit braucht.",
+      "slots": [
+        ["Sigewinne"],
+        ["Furina"],
+        ["Navia", "Arlecchino", "Mavuika", "Kinich"],
+        ["Xilonen", "Chiori", "Albedo"]
+      ]
+    },
+    {
+      "name": "Gefroren",
+      "note": "Sigewinne heilt und stärkt Furina, Shenhe verstärkt Wriothesleys Kryo-Schaden.",
+      "slots": [["Sigewinne"], ["Wriothesley"], ["Shenhe"], ["Furina"]]
+    },
+    {
+      "name": "Sprießen mit Nilou",
+      "note": "Stark gegen Gegnergruppen: Sigewinnes Heilung hält die Truppe trotz der platzenden Kerne am Leben.",
+      "slots": [["Sigewinne"], ["Nilou"], ["Nahida"], ["Collei", "Traveler (Dendro)", "Yaoyao"]]
+    },
+    {
+      "name": "Unter Strom",
+      "note": "Günstiges Team mit 4★-Figuren: Sigewinne liefert Hydro und Heilung, Fischl und Beidou das Elektro.",
+      "slots": [["Sigewinne"], ["Beidou"], ["Fischl"], ["Sucrose"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Silvershower Heartstrings",
+      "note": "Signaturwaffe: viele LP und deutlich mehr eigener Schaden."
+    },
+    { "name": "Elegy for the End", "note": "Stark, wenn sie ihre Spezialfähigkeit nutzt." },
+    { "name": "Aqua Simulacra", "note": "Für mehr eigenen Schaden mit viel Krit.-Schaden." },
+    { "name": "Recurve Bow", "note": "3★-Bogen mit LP als Nebenwert – sehr nützlich für ihren Bonus." },
+    { "name": "Favonius Warbow", "note": "Senkt den Aufladerate-Bedarf des ganzen Teams." },
+    { "name": "Sacrificial Bow", "note": "Kann die Abklingzeit der Elementarfähigkeit zurücksetzen." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Song of Days Past", "pieces": 4 }],
+      "note": "Ihre Heilung erhöht den Schaden der Teamkollegen."
+    },
+    {
+      "sets": [{ "name": "Ocean-Hued Clam", "pieces": 4 }],
+      "note": "Macht aus ihrer Heilung zusätzlichen Schaden, gut für Truppe und eigenen Schaden."
+    },
+    {
+      "sets": [{ "name": "Vourukasha's Glow", "pieces": 2 }, { "name": "Tenacity of the Millelith", "pieces": 2 }],
+      "note": "Zweimal mehr LP, um schneller an die 65.000 LP zu kommen."
+    }
+  ],
+  "mainStats": { "sands": ["hp%", "er"], "goblet": ["hp%", "hydro"], "circlet": ["hp%", "cr", "cd"] },
+  "substats": ["er", "hp%", "cr", "cd"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/352956",
+    "https://gamewith.net/genshin-impact/article/show/40236",
+    "https://gamewith.net/genshin-impact/article/show/45678",
+    "https://keqingmains.com/q/sigewinne-quickguide/"
+  ]
+}

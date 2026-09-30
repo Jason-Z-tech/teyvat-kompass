@@ -1,0 +1,79 @@
+{
+  "character": "Prune",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support"],
+  "summary": "Anemo-Unterstützerin mit Katalysator und Hexerei-Figur. Ihre Spezialfähigkeit ruft eine Glocke, die der aktiven Figur folgt und Verwirbelungen auslöst. Danach macht die ganze Truppe mehr Schaden – je mehr ANG Prune hat, desto größer der Bonus. Am stärksten neben anderen Hexerei-Figuren wie Varka.",
+  "tips": [
+    "Ihr Bonus beginnt ab 2000 ANG und ist bei 4000 ANG voll. Mit einer zweiten Hexerei-Figur bekommt sie selbst viel ANG dazu.",
+    "Elementarfähigkeit, dann Spezialfähigkeit, dann wechseln: Die Glocke kämpft allein weiter.",
+    "Der Bonus braucht Verwirbelung: Im Team muss ständig Pyro, Hydro, Elektro oder Kryo auf den Gegnern liegen.",
+    "Die Spezialfähigkeit sollte jede Runde bereit sein: rund 200 % Aufladerate, als einzige Anemo-Figur eher mehr."
+  ],
+  "teams": [
+    {
+      "name": "Hexerei mit Varka",
+      "note": "Varka verwirbelt selbst ständig und nutzt Prunes Schadensbonus voll. Durin und Nicole bringen Pyro, ANG und einen Schild. Auf C6 ist Prune hier gegen einzelne Gegner sogar stärker als Venti.",
+      "slots": [["Varka"], ["Prune"], ["Durin"], ["Nicole"]]
+    },
+    {
+      "name": "Hexerei mit Venti",
+      "note": "Venti sammelt die Gegner und verwirbelt, Prune und Nicole stärken ihn und Durins Pyro-Schaden von außerhalb.",
+      "slots": [["Venti"], ["Prune"], ["Durin"], ["Nicole"]]
+    },
+    {
+      "name": "Hexerei mit Lohen",
+      "note": "Lohen hält Kryo auf den Gegnern, Prunes Glocke verwirbelt es und verstärkt alle. Durin sorgt zusätzlich für Schmelzen.",
+      "slots": [["Lohen"], ["Prune"], ["Durin"], ["Nicole"]]
+    },
+    {
+      "name": "Günstiges Überladen-Team",
+      "note": "Ohne gezogene 5★: Razor und Fischl sind Hexerei-Figuren, der Pyro-Reisende löst mit ihnen Überladen aus. Prune verwirbelt und bekommt dadurch selbst viel ANG.",
+      "slots": [["Razor"], ["Prune"], ["Fischl"], ["Traveler (Pyro)"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Skyward Atlas",
+      "note": "Sehr viel ANG für ihren Bonus. Andere 5★-Katalysatoren mit hohem ANG gehen ähnlich gut."
+    },
+    {
+      "name": "Oathsworn Eye",
+      "note": "Beste 4★-Wahl: ANG und mehr Aufladerate nach der Elementarfähigkeit. Gab es nur im Event von Version 2.5."
+    },
+    {
+      "name": "Favonius Codex",
+      "note": "Erzeugt Energie für die ganze Truppe und braucht dafür etwas Krit.-Rate. Den fehlenden ANG gleicht Nicole im Team gut aus."
+    },
+    {
+      "name": "Flowing Purity",
+      "note": "Schmiedbar und mit viel ANG – die einfachste Gratis-Wahl, wenn die Aufladerate schon reicht."
+    },
+    {
+      "name": "Thrilling Tales of Dragon Slayers",
+      "note": "3★: gibt der nächsten Figur viel ANG. Nur sinnvoll, wenn Prune ihren ANG anders erreicht, z. B. mit Nicole oder auf C6."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Viridescent Venerer", "pieces": 4 }],
+      "note": "Meist die beste Wahl: Verwirbelung senkt den Widerstand der Gegner gegen das verwirbelte Element deutlich."
+    },
+    {
+      "sets": [{ "name": "Celestial Gift", "pieces": 4 }],
+      "note": "Starker Schadensbonus für die Truppe, aber nur, wenn keine andere Figur im Team dieses Set trägt."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Mehr ANG für alle nach ihrer Spezialfähigkeit, wenn die anderen Sets schon vergeben sind."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er"], "goblet": ["atk%"], "circlet": ["atk%", "cr"] },
+  "substats": ["er", "atk%", "cr"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/590328",
+    "https://gamewith.net/genshin-impact/article/show/73816",
+    "https://keqingmains.com/q/prune-quickguide/",
+    "https://www.icy-veins.com/genshin-impact/prune-guide-best-builds"
+  ]
+}

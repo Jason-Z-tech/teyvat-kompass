@@ -1,0 +1,75 @@
+{
+  "character": "Gaming",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Pyro-Kämpfer mit Zweihänder, der mit seiner Elementarfähigkeit hochspringt und mit verstärkten Angriffen aus dem Fall zuschlägt. Nach seiner Spezialfähigkeit kehrt sein Begleiter Man Chai immer wieder zu ihm zurück und setzt die Abklingzeit zurück – so folgen viele Sprünge hintereinander. Am stärksten mit Schmelzen oder Verdampfen.",
+  "tips": [
+    "Über 50 % LP bleiben: Nur dann setzt Man Chai die Abklingzeit zurück und seine passiven Talente wirken. Ein Heiler im Team hilft.",
+    "Die Spezialfähigkeit muss jede Runde bereit sein: im Schmelzen-Team etwa 150–180 % Aufladerate, im Verdampfen-Team weniger.",
+    "Mit Bennett ab Sternbild 6 keine Standardangriffe zwischen den Sprüngen – das zusätzliche Pyro verhindert Schmelzen und Verdampfen.",
+    "Für Fortgeschrittene: Man Chai in der Luft wieder auffangen, statt ihm hinterherzulaufen – so passen mehr Sprünge in eine Runde."
+  ],
+  "teams": [
+    {
+      "name": "Schmelzen",
+      "note": "Seine stärkste Spielweise: Citlali oder Rosaria tragen Kryo auf, damit seine Sprünge schmelzen. Bennett oder Nicole geben ANG. Stärkstes Team nur mit 4★: Rosaria, Iansan und Bennett.",
+      "slots": [["Gaming"], ["Citlali", "Rosaria"], ["Bennett", "Nicole"], ["Xianyun", "Iansan", "Xilonen", "Sucrose"]]
+    },
+    {
+      "name": "Verdampfen",
+      "note": "Furina trägt Hydro auf und gibt viel Schadensbonus, Xianyun heilt und verstärkt Angriffe aus dem Fall. Günstig: Xingqiu oder Aino mit Saccharose und Bennett.",
+      "slots": [
+        ["Gaming"],
+        ["Furina", "Vodyanitsa", "Xingqiu", "Aino"],
+        ["Xianyun", "Xilonen", "Sucrose"],
+        ["Bennett"]
+      ]
+    },
+    {
+      "name": "Überladen mit Chevreuse",
+      "note": "Chevreuse verstärkt Pyro und Elektro, Fischl sorgt für Überladen. Der Rückstoß von Überladen stört Gaming kaum, weil er den Gegnern mit seiner Elementarfähigkeit hinterherspringt.",
+      "slots": [["Gaming"], ["Chevreuse"], ["Fischl"], ["Bennett", "Iansan", "Beidou"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Gest of the Mighty Wolf",
+      "note": "Derzeit die stärkste Waffe für ihn, auch ohne Hexerei im Team."
+    },
+    {
+      "name": "Serpent Spine",
+      "note": "Beste 4★-Waffe (Battle Pass), am besten mit einem Schildgeber im Team."
+    },
+    {
+      "name": "Fruitful Hook",
+      "note": "Verstärkt Angriffe aus dem Fall – mit höheren Verfeinerungen sehr stark."
+    },
+    {
+      "name": "Redhorn Stonethresher",
+      "note": "Gute 5★-Alternative wegen Krit.-Schaden, der Effekt hilft ihm aber kaum."
+    },
+    { "name": "Rainslasher", "note": "Elementarkunde als Nebenwert – stark in Verdampfen-Teams." },
+    {
+      "name": "Blade of Atonement",
+      "note": "Schmiedbar (seit 7.0): auf Verfeinerung 5 seine beste dauerhafte Gratis-Waffe."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Crimson Witch of Flames", "pieces": 4 }],
+      "note": "Sein bestes Set für Schmelzen und Verdampfen – er füllt die Stapel durch seine vielen Elementarfähigkeiten schnell auf."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Einfacher zu bauen, weil sein LP-Verlust Krit.-Rate gibt. Vorsicht: Mit Krit.-Rate-Waffen verfällt ein Teil des Bonus."
+    },
+    {
+      "sets": [{ "name": "Long Night's Oath", "pieces": 4 }],
+      "note": "Gute Alternative, die mit seinen Angriffen aus dem Fall stärker wird."
+    }
+  ],
+  "mainStats": { "sands": ["em", "atk%", "er"], "goblet": ["pyro"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "em", "atk%"],
+  "sources": ["https://keqingmains.com/q/gaming-quickguide/", "https://game8.co/games/Genshin-Impact/archives/437446"]
+}

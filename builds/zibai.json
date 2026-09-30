@@ -1,0 +1,75 @@
+{
+  "character": "Zibai",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Geo-Haupt-DPS mit Schwert, deren Schaden fast komplett aus Mond-Kristallisation kommt und mit ihrer VTD wächst. Ihre Elementarfähigkeit versetzt sie in einen Modus, in dem ihre Standardangriffe Geo werden und eine starke Sonder-Elementarfähigkeit aufladen. Sie braucht einen Hydro-Partner, der die Gegner nass hält.",
+  "tips": [
+    "Kein Geo-Kelch: Mond-Kristallisation profitiert nicht vom Geo-SCH-Bonus – VTD% auf Sanduhr und Kelch.",
+    "Rotation: Elementarfähigkeit, dann abwechselnd die volle Standardangriff-Kette und die Sonder-Elementarfähigkeit; Spezialfähigkeit einbauen, sobald sie bereit ist.",
+    "Aufladerate: etwa 110–140 % reichen.",
+    "Am besten mit drei Geo-Charakteren und nur einem Hydro-Partner."
+  ],
+  "teams": [
+    {
+      "name": "Mond-Kristallisation",
+      "note": "Ihr stärkstes Team: Columbina liefert Hydro und verstärkt die Reaktion, Illuga erhöht den Mond-Kristallisations-Schaden, Linnea senkt den Geo-Widerstand und hält das Team am Leben.",
+      "slots": [
+        ["Zibai"],
+        ["Columbina", "Aino", "Yelan"],
+        ["Illuga", "Xilonen", "Chiori"],
+        ["Linnea", "Zhongli", "Gorou"]
+      ]
+    },
+    {
+      "name": "Mond-Kristallisation (günstig)",
+      "note": "Aino statt Columbina und Gorou statt Linnea – fast nur 4★-Charaktere. Gorou erhöht Zibais VTD, Illuga ihren Reaktionsschaden.",
+      "slots": [["Zibai"], ["Aino", "Xingqiu"], ["Illuga"], ["Gorou", "Kachina", "Traveler (Geo)"]]
+    },
+    {
+      "name": "Ohne Illuga",
+      "note": "Variante mit zwei Hydro-Charakteren: Furina bringt Hydro-Resonanz und Energie für Columbina (ihr Schadensbonus wirkt nicht auf Mond-Kristallisation), Xilonen senkt Geo- und Hydro-Widerstand und heilt. Zibai selbst macht etwas weniger Schaden.",
+      "slots": [["Zibai"], ["Columbina"], ["Furina", "Aino"], ["Xilonen"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Lightbearing Moonshard",
+      "note": "Ihre Signaturwaffe: VTD, Krit.-Schaden und mehr Mond-Kristallisations-Schaden."
+    },
+    {
+      "name": "Uraku Misugiri",
+      "note": "Krit.-Schaden und VTD, verstärkt Standardangriffe und Elementarfähigkeit."
+    },
+    { "name": "Peak Patrol Song", "note": "VTD als Nebenwert, gibt dem Team etwas Elementar-SCH-Bonus." },
+    {
+      "name": "Light of Foliar Incision",
+      "note": "Viel Krit.-Schaden, der Rest der Waffe passt weniger gut zu ihr."
+    },
+    {
+      "name": "Flute of Ezpitzal",
+      "note": "Schmiedbar: VTD als Nebenwert und mehr VTD nach der Elementarfähigkeit – beste 4★-Wahl."
+    },
+    {
+      "name": "Harbinger of Dawn",
+      "note": "Günstige 3★-Waffe mit Krit.-Schaden; ihr Krit.-Rate-Bonus hält nur bei hohen LP, also mit Schild oder Heiler."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Night of the Sky's Unveiling", "pieces": 4 }],
+      "note": "Mit großem Abstand das beste Set: Krit.-Rate und mehr Mond-Kristallisations-Schaden fürs Team."
+    },
+    {
+      "sets": [{ "name": "Husk of Opulent Dreams", "pieces": 4 }],
+      "note": "Nur als Notlösung: VTD hilft, der Geo-Bonus bringt ihr aber wenig."
+    }
+  ],
+  "mainStats": { "sands": ["def%"], "goblet": ["def%"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "def%", "em", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/570263",
+    "https://keqingmains.com/q/zibai-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/72186"
+  ]
+}

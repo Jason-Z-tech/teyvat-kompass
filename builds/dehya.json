@@ -1,0 +1,76 @@
+{
+  "character": "Dehya",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "support", "main-dps"],
+  "summary": "Pyro-Kämpferin mit Zweihänder und sehr hohen LP. Ihre Elementarfähigkeit erzeugt ein Feld, das aus dem Hintergrund Pyro-Schaden macht, einen Teil des Schadens der aktiven Figur übernimmt und sie vor Unterbrechungen schützt. Als Haupt-DPS braucht sie viel Investition und starke Unterstützer.",
+  "tips": [
+    "Ihr Feld schützt die aktive Figur vor Unterbrechungen und fängt einen Teil ihres Schadens ab – praktisch für Figuren, die lange zielen oder aufladen.",
+    "Als Haupt-DPS braucht sie viel Aufladerate (etwa 150–225 %, je nach Team). Weitere Pyro-Figuren im Team helfen dabei.",
+    "Hydro- und Kryo-Partner nicht mischen, sonst zerschlägt sie gefrorene Gegner, statt zu verdampfen oder zu schmelzen.",
+    "Ihre Spezialfähigkeit zählt nicht als Standardangriff – Xingqiu und Yelan passen deshalb schlecht zu ihr."
+  ],
+  "teams": [
+    {
+      "name": "Überladen mit Chevreuse",
+      "note": "Gut bei wenig Investition: Chevreuse verstärkt Pyro und Elektro, die weiteren Pyro-Figuren senken Dehyas Energiebedarf. Fischl oder Raiden sorgen für Überladen.",
+      "slots": [["Dehya"], ["Chevreuse"], ["Fischl", "Raiden Shogun"], ["Bennett"]]
+    },
+    {
+      "name": "Verdampfen",
+      "note": "Furina trägt Hydro auf und gibt viel Schadensbonus, braucht aber einen Heiler wie Bennett. Xilonen senkt den Widerstand zuverlässiger als Kazuha, weil Furina ständig Hydro verteilt.",
+      "slots": [["Dehya"], ["Furina"], ["Bennett", "Sigewinne"], ["Xilonen", "Kaedehara Kazuha"]]
+    },
+    {
+      "name": "Flammenspross",
+      "note": "Nahida oder Lauma und Kokomi erzeugen ständig Dendro-Kerne, die Dehyas Feld mit Pyro als Flammenspross zündet. Fischl lässt übrige Kerne als Supraspross platzen, Furina verstärkt stattdessen den Schaden.",
+      "slots": [["Dehya"], ["Nahida", "Lauma"], ["Sangonomiya Kokomi"], ["Fischl", "Furina"]]
+    },
+    {
+      "name": "Schmelzen mit Ganyu",
+      "note": "Dehya trägt aus dem Hintergrund Pyro auf, Nahida oder Emilie halten es per Brennen auf den Gegnern. So schmilzt Ganyu mit ihren gezielten Schüssen dauerhaft und wird nicht unterbrochen.",
+      "slots": [["Ganyu"], ["Dehya"], ["Nahida", "Emilie"], ["Bennett"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Beacon of the Reed Sea",
+      "note": "Ihre Signaturwaffe: viel Krit.-Rate und ANG-Bonus – die beste Allround-Wahl."
+    },
+    { "name": "Redhorn Stonethresher", "note": "Sehr gute 5★-Alternative mit viel Krit.-Schaden." },
+    { "name": "Wolf's Gravestone", "note": "Viel ANG, besonders mit wenigen Sternbildern eine gute Wahl." },
+    {
+      "name": "Favonius Greatsword",
+      "note": "Erzeugt Energie für sie und das Team – stark bei hohem Energiebedarf und für Dehya im Hintergrund."
+    },
+    {
+      "name": "Master Key",
+      "note": "Schmiedbar: Aufladerate und Elementarkunde, voller Effekt mit zwei Figuren aus Nod-Krai im Team."
+    },
+    {
+      "name": "Earth Shaker",
+      "note": "Schmiedbar: ANG als Nebenwert, stärkere Elementarfähigkeit nach Pyro-Reaktionen im Team."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Als Haupt-DPS mit Furina das beste Set: LP-Änderungen erhöhen die Krit.-Rate."
+    },
+    {
+      "sets": [{ "name": "Vourukasha's Glow", "pieces": 4 }],
+      "note": "Ähnlich stark ohne Furina: Schaden an Dehya stärkt ihre Elementarfähigkeit und Spezialfähigkeit."
+    },
+    {
+      "sets": [{ "name": "Scroll of the Hero of Cinder City", "pieces": 4 }],
+      "note": "Für Dehya im Hintergrund: gibt dem Team Elementar-Schadensbonus. Dann LP% oder Elementarkunde statt Angriffswerten."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er", "em"], "goblet": ["pyro"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "em", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/383716",
+    "https://keqingmains.com/q/dehya-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/33787"
+  ]
+}

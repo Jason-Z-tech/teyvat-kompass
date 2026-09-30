@@ -1,0 +1,71 @@
+{
+  "character": "Dahlia",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["shield", "support"],
+  "summary": "Hydro-Schildgeber mit Schwert und günstiger 4★-Unterstützer. Seine Spezialfähigkeit schützt mit einem Schild, der mit seinen LP wächst, und erhöht das Angriffstempo. Der Schild erneuert sich durch Standardangriffe und eingefrorene Gegner – ideal für Kämpfer mit vielen Standardangriffen und für Gefroren-Teams.",
+  "tips": [
+    "Etwa 40.000 LP anpeilen: Pro 1.000 LP steigt das Angriffstempo um 0,5 %, bis höchstens 20 %.",
+    "Aufladerate ist für den Schild wichtig: je nach Team etwa 180–270 %, ohne zweite Hydro-Figur eher mehr.",
+    "Er trägt selbst kaum Hydro auf – für Reaktionen braucht das Team eine weitere Hydro-Figur.",
+    "Sternbild 2 macht seinen Schild deutlich stärker und lohnt sich am meisten."
+  ],
+  "teams": [
+    {
+      "name": "Gefroren",
+      "note": "Dahlia schützt und beschleunigt Skirk, ohne die Elemente im Team zu stören. Durch das ständige Einfrieren der Gegner erneuert sich sein Schild oft.",
+      "slots": [
+        ["Dahlia"],
+        ["Skirk", "Wriothesley", "Kamisato Ayaka", "Kamisato Ayato"],
+        ["Furina", "Yelan", "Xingqiu"],
+        ["Escoffier", "Shenhe", "Diona", "Charlotte"]
+      ]
+    },
+    {
+      "name": "Standardangriffe mit Wanderer",
+      "note": "Mehr Angriffstempo heißt mehr Treffer pro Kombo. Faruzan verstärkt Wanderers Anemo-Schaden, der Schild schützt vor Unterbrechungen.",
+      "slots": [["Dahlia"], ["Wanderer"], ["Faruzan"], ["Bennett", "Yelan"]]
+    },
+    {
+      "name": "Verdampfen",
+      "note": "Yoimiya oder Arlecchino greifen dank Dahlia schneller an, eine zweite Hydro-Figur sorgt für Verdampfen. Bennett gibt ANG.",
+      "slots": [["Dahlia"], ["Yoimiya", "Arlecchino"], ["Yelan", "Xingqiu"], ["Bennett", "Xilonen"]]
+    }
+  ],
+  "weapons": [
+    { "name": "Favonius Sword", "note": "Beste Allround-Wahl: Aufladerate und Energie für das Team." },
+    { "name": "Key of Khaj-Nisut", "note": "Sehr viele LP für Schild und Angriffstempo." },
+    {
+      "name": "Sacrificial Sword",
+      "note": "Aufladerate und eine Chance, die Elementarfähigkeit sofort erneut zu nutzen."
+    },
+    { "name": "The Dockhand's Assistant", "note": "LP als Nebenwert." },
+    { "name": "Fleuve Cendre Ferryman", "note": "Gratis vom Fischerverband in Fontaine, viel Aufladerate." },
+    { "name": "Sapwood Blade", "note": "Schmiedbar in Sumeru, Aufladerate als Nebenwert." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Bestes Set: Er setzt seine Spezialfähigkeit ständig ein und gibt so der Truppe mehr ANG."
+    },
+    {
+      "sets": [{ "name": "Scroll of the Hero of Cinder City", "pieces": 4 }],
+      "note": "Wenn schon jemand anderes Altes Hofritual trägt oder der Hauptangreifer nicht mit ANG skaliert."
+    },
+    {
+      "sets": [
+        { "name": "Emblem of Severed Fate", "pieces": 2 },
+        { "name": "Tenacity of the Millelith", "pieces": 2 }
+      ],
+      "note": "Übergangslösung mit Aufladerate und LP."
+    }
+  ],
+  "mainStats": { "sands": ["hp%", "er"], "goblet": ["hp%"], "circlet": ["hp%", "cr"] },
+  "substats": ["er", "hp%", "cr"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/516026",
+    "https://gamewith.net/genshin-impact/article/show/44533",
+    "https://gamewith.net/genshin-impact/article/show/57476",
+    "https://keqingmains.com/q/dahlia-quickguide/"
+  ]
+}

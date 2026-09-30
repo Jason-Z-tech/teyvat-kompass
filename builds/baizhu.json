@@ -1,0 +1,77 @@
+{
+  "character": "Baizhu",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["healer", "support"],
+  "summary": "Dendro-Heiler mit Katalysator, der von außerhalb des Feldes heilt, einen Schild erzeugt und Dendro aufträgt. Von ihm geheilte Mitstreiter verursachen mehr Reaktionsschaden – je mehr LP Baizhu hat, desto stärker. Heute ist er vor allem in Mondspross-Teams mit Nefer und Lauma gefragt, daneben in Suprawuchs- und Sprießen-Teams.",
+  "tips": [
+    "Rund 50 000 LP anstreben – darüber hinaus wächst sein Bonus für das Team nicht weiter.",
+    "Aufladerate: als einzige Dendro-Quelle etwa 170–200 %, mit einem zweiten Dendro-Charakter reichen oft 120–135 %.",
+    "Sein Schild hält wenig aus, schützt aber vor Unterbrechungen."
+  ],
+  "teams": [
+    {
+      "name": "Mondspross",
+      "note": "Nefer macht als Hauptangreiferin den Schaden, Lauma und Columbina verstärken Mondspross. Baizhu heilt, schützt und trägt zusätzlich Dendro auf – derzeit sein stärkstes Einsatzgebiet.",
+      "slots": [["Nefer"], ["Baizhu"], ["Lauma"], ["Columbina", "Furina", "Aino"]]
+    },
+    {
+      "name": "Suprawuchs + Supraspross",
+      "note": "Cyno löst auf dem Feld Suprawuchs aus, mit Hydro entstehen zusätzlich Dendro-Kerne für Supraspross. Baizhu verstärkt beide Reaktionen und hält das Team am Leben.",
+      "slots": [
+        ["Cyno", "Keqing", "Clorinde"],
+        ["Baizhu"],
+        ["Nahida", "Collei", "Traveler (Dendro)"],
+        ["Yelan", "Xingqiu"]
+      ]
+    },
+    {
+      "name": "Nilou-Sprießen",
+      "note": "Nilou macht aus Sprießen besonders starke Dendro-Kerne. Baizhu heilt den Schaden der explodierenden Kerne und erhöht gleichzeitig den Sprießen-Schaden.",
+      "slots": [["Nilou"], ["Baizhu"], ["Nahida", "Collei"], ["Sangonomiya Kokomi", "Xingqiu"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Jadefall's Splendor",
+      "note": "Seine Signaturwaffe: viele LP, zusätzliche Energie und Dendro-Schadensbonus."
+    },
+    {
+      "name": "Prototype Amber",
+      "note": "Schmiedbar, LP als Nebenwert und zusätzliche Heilung – die beste Gratis-Wahl."
+    },
+    {
+      "name": "Favonius Codex",
+      "note": "Erzeugt Energie für das ganze Team und senkt so den Aufladerate-Bedarf."
+    },
+    {
+      "name": "Thrilling Tales of Dragon Slayers",
+      "note": "3★-Katalysator mit LP, gibt dem nächsten Charakter nach dem Wechsel mehr ANG."
+    },
+    {
+      "name": "Everlasting Moonglow",
+      "note": "LP und Heilungsbonus, bleibt aber etwas hinter dem Bernstein-Prototyp zurück."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Deepwood Memories", "pieces": 4 }],
+      "note": "Standard in Dendro-Teams: senkt den Dendro-Widerstand der Gegner."
+    },
+    {
+      "sets": [{ "name": "Ocean-Hued Clam", "pieces": 4 }],
+      "note": "Wandelt einen Teil seiner Heilung in Schaden um – gut, wenn schon jemand anderes Erinnerungen des tiefen Waldes trägt."
+    },
+    { "sets": [{ "name": "Song of Days Past", "pieces": 4 }], "note": "Für eine reine Heiler-Rolle." }
+  ],
+  "mainStats": { "sands": ["hp%", "er"], "goblet": ["hp%"], "circlet": ["hp%", "heal"] },
+  "substats": ["er", "hp%", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/314348",
+    "https://gamewith.net/genshin-impact/article/show/23803",
+    "https://gamewith.net/genshin-impact/article/show/38613",
+    "https://keqingmains.com/q/baizhu-quickguide/",
+    "https://keqingmains.com/q/nefer-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/22733"
+  ]
+}

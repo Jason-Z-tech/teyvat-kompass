@@ -1,0 +1,67 @@
+{
+  "character": "Freminet",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Kryo-Kämpfer mit Zweihänder, der vor allem mit seiner Elementarfähigkeit Schaden macht. Mit Standardangriffen baut er Druck auf: Auf niedriger Stufe macht der Folgeangriff Kryo-Schaden, auf der höchsten Stufe vor allem physischen Schaden. Seine Spezialfähigkeit setzt die Elementarfähigkeit zurück und verstärkt sie.",
+  "tips": [
+    "Für Kryo-Schaden die Elementarfähigkeit ohne Druckaufbau immer wieder einsetzen. Für physischen Schaden erst mit Standardangriffen die höchste Druckstufe erreichen.",
+    "Erst die Partner ihre Fähigkeiten einsetzen lassen, dann zu Fréminet wechseln und die Spezialfähigkeit zünden.",
+    "Aufladerate: als Kryo-Angreifer etwa 110–170 %, als physischer Angreifer noch etwas mehr."
+  ],
+  "teams": [
+    {
+      "name": "Supraleiter",
+      "note": "Der Hydro-Partner friert Gegner ein, die Fréminets wuchtige Treffer zerbrechen. Der Elektro-Partner senkt über Supraleiter den physischen Widerstand, Mika verstärkt den physischen Schaden.",
+      "slots": [["Freminet"], ["Xingqiu", "Yelan", "Furina"], ["Fischl", "Raiden Shogun"], ["Mika", "Escoffier"]]
+    },
+    {
+      "name": "Gefroren",
+      "note": "Shenhe verstärkt Fréminets Kryo-Schaden, der Hydro-Partner hält die Gegner eingefroren. Escoffier senkt zusätzlich den Widerstand, Kazuha zieht die Gegner zusammen.",
+      "slots": [["Freminet"], ["Furina", "Sangonomiya Kokomi", "Yelan"], ["Escoffier", "Kaedehara Kazuha"], ["Shenhe"]]
+    },
+    {
+      "name": "Angriff aus dem Fall",
+      "note": "Xianyun macht Fréminets Angriffe aus dem Fall sehr stark. Bennett mit Sternbild 6 verleiht ihnen Pyro, Citlali sorgt dann für Schmelzen.",
+      "slots": [["Freminet"], ["Xianyun"], ["Bennett"], ["Citlali", "Furina"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Song of Broken Pines",
+      "note": "Physischer Schaden als Nebenwert und ein Bonus für das Team – stark im physischen Build."
+    },
+    { "name": "Beacon of the Reed Sea", "note": "Viel Krit.-Rate, gut für beide Varianten." },
+    {
+      "name": "A Thousand Blazing Suns",
+      "note": "Eine der besten Optionen überhaupt, klar stärker als 4★-Waffen."
+    },
+    {
+      "name": "Serpent Spine",
+      "note": "Battle-Pass-Waffe mit Krit.-Rate, am besten mit einem Schild im Team."
+    },
+    { "name": "Tidal Shadow", "note": "Schmiedbar und voll verfeinert sehr stark." },
+    { "name": "Snow-Tombed Starsilver", "note": "Schmiedbar, mit physischem Schaden als Nebenwert." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Pale Flame", "pieces": 4 }],
+      "note": "Für den physischen Build: mehr ANG und physischer Schaden."
+    },
+    {
+      "sets": [{ "name": "Blizzard Strayer", "pieces": 4 }],
+      "note": "Für den Kryo-Build in Gefroren-Teams: viel Krit.-Rate."
+    },
+    {
+      "sets": [{ "name": "Long Night's Oath", "pieces": 4 }],
+      "note": "Mit Abstand die beste Wahl für Angriffe aus dem Fall mit Xianyun."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["phys", "cryo"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "er", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/417207",
+    "https://gamewith.net/genshin-impact/article/show/40240",
+    "https://keqingmains.com/q/freminet-quickguide/"
+  ]
+}

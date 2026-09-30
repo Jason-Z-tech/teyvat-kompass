@@ -1,0 +1,83 @@
+{
+  "character": "Traveler (Electro)",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support"],
+  "summary": "Mit dem Element Elektro ist Reisende(r) eine reine Unterstützer-Form: Die Elementarfähigkeit erzeugt Amulette, die beim Aufsammeln Energie geben und die Aufladerate erhöhen, die Spezialfähigkeit trifft Gegner von außen mit Elektro und lädt dem aktiven Charakter Energie auf. Dieser Build gilt nur für das Element Elektro.",
+  "tips": [
+    "Aufladerate ist der wichtigste Wert: etwa 200 % anpeilen, da die Energie für das Team davon abhängt.",
+    "Nach der Elementarfähigkeit zum Haupt-DPS wechseln und die Amulette mit ihm aufsammeln.",
+    "Sternbild 2 senkt den Elektro-Widerstand der Gegner um 15 %."
+  ],
+  "teams": [
+    {
+      "name": "Suprawuchs",
+      "note": "Reisende(r) versorgt den Haupt-DPS mit Energie, mit Clorinde bringt die Elektro-Resonanz zusätzliche Energie. Nahida hält Urwuchs aufrecht, Kazuha sammelt die Gegner.",
+      "slots": [
+        ["Traveler (Electro)"],
+        ["Clorinde", "Alhaitham", "Raiden Shogun"],
+        ["Nahida", "Baizhu", "Collei"],
+        ["Kaedehara Kazuha", "Sucrose", "Lan Yan", "Xilonen"]
+      ]
+    },
+    {
+      "name": "Unter Strom",
+      "note": "Mizuki verwirbelt auf dem Feld, Furina liefert Hydro. Ororon und Reisende(r) sind ein starkes Energie-Duo und sorgen für Elektro.",
+      "slots": [
+        ["Traveler (Electro)"],
+        ["Yumemizuki Mizuki", "Lan Yan", "Sucrose"],
+        ["Ororon", "Fischl", "Yae Miko", "Raiden Shogun"],
+        ["Furina", "Xingqiu"]
+      ]
+    },
+    {
+      "name": "Supraspross",
+      "note": "Als Supraspross-Auslöserin nutzt Shougun Raiden ihre Spezialfähigkeit meist nicht und lädt keine Energie auf – das übernimmt Reisende(r). Nahida und der Hydro-Partner erzeugen die Dendro-Kerne.",
+      "slots": [
+        ["Traveler (Electro)"],
+        ["Raiden Shogun", "Yae Miko", "Fischl", "Ororon"],
+        ["Nahida", "Collei"],
+        ["Yelan", "Xingqiu", "Furina", "Sangonomiya Kokomi"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Favonius Sword",
+      "note": "Viel Aufladerate und Energie für das Team, braucht etwas Krit.-Rate."
+    },
+    { "name": "Freedom-Sworn", "note": "Elementarkunde und ANG-Bonus für das Team." },
+    {
+      "name": "Sacrificial Sword",
+      "note": "Aufladerate und die Chance, die Elementarfähigkeit sofort erneut einzusetzen."
+    },
+    { "name": "Skyward Blade", "note": "Aufladerate und hoher Grund-ANG." },
+    {
+      "name": "Festering Desire",
+      "note": "Event-Waffe mit Aufladerate und mehr Schaden der Elementarfähigkeit."
+    },
+    {
+      "name": "Amenoma Kageuchi",
+      "note": "Schmiedbar (Inazuma), bringt über die Elementarfähigkeit Energie für die Spezialfähigkeit zurück."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 4 }],
+      "note": "Bestes Set: mehr Aufladerate und mehr Schaden der Spezialfähigkeit."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Gibt dem Team nach der Spezialfähigkeit mehr ANG, aber keine Aufladerate."
+    },
+    { "sets": [{ "name": "Thundering Fury", "pieces": 4 }], "note": "Mehr Elektro- und Reaktionsschaden." }
+  ],
+  "mainStats": { "sands": ["er", "atk%"], "goblet": ["electro"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "atk%"],
+  "sources": [
+    "https://gamewith.net/genshin-impact/article/show/28610",
+    "https://gamewith.net/genshin-impact/article/show/52364",
+    "https://game8.co/games/Genshin-Impact/archives/336865",
+    "https://genshin-builds.com/en/character/traveler_electro"
+  ]
+}

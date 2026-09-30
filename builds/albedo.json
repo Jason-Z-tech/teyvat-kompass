@@ -1,0 +1,82 @@
+{
+  "character": "Albedo",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "support"],
+  "summary": "Geo-Alchemist mit Schwert, der fast nur außerhalb des Feldes kämpft: Seine Elementarfähigkeit erschafft eine Blume, deren Feld Gegner regelmäßig mit Geo-Schaden trifft. Als Hexerei-Figur verstärkt er zusammen mit einer zweiten Hexerei-Figur den Schaden des ganzen Teams. Sein Schaden und sein Bonus richten sich nach seiner VTD.",
+  "tips": [
+    "Die Hexerei-Boni schaltest du mit der Quest „Aufgabe der Hexe“ frei. Sie wirken nur mit einer zweiten Hexerei-Figur im Team, z. B. Durin, Klee, Fischl oder Razor.",
+    "Rund 3000 VTD anpeilen: Dann gibt er den vollen Schadensbonus an das Team weiter.",
+    "Elementarfähigkeit setzen und sofort wechseln. Die Spezialfähigkeit lohnt sich vor allem, wenn das Team Elementarkunde braucht.",
+    "Ab C2 kannst du im Hexerei-Team die Spezialfähigkeit weglassen: Die Zusatzblüten entstehen dann von selbst, solange er nicht auf dem Feld ist."
+  ],
+  "teams": [
+    {
+      "name": "Hexerei mit Durin",
+      "note": "Durin (oder Fischl) und Albedo stärken sich als Hexerei-Paar gegenseitig. Navia nutzt die Kristallisation mit Durins Pyro bzw. Fischls Elektro, Bennett gibt ANG und heilt.",
+      "slots": [["Albedo"], ["Navia"], ["Durin", "Fischl"], ["Bennett"]]
+    },
+    {
+      "name": "Hexerei mit Klee",
+      "note": "Klee und Albedo schalten gegenseitig ihre Hexerei-Boni frei, Albedo erhöht dann Klees Schaden deutlich. Furina verstärkt das Team, Xilonen heilt und senkt Widerstände. Alternativ: Bennett und Zhongli.",
+      "slots": [["Albedo"], ["Klee"], ["Furina"], ["Xilonen"]]
+    },
+    {
+      "name": "Mono-Geo",
+      "note": "Gorou erhöht VTD und Geo-Schaden, Zhongli schützt mit seinem Schild. Albedo macht Schaden von außerhalb und liefert dem Haupt-DPS viel Energie.",
+      "slots": [["Albedo"], ["Arataki Itto", "Noelle"], ["Gorou"], ["Zhongli"]]
+    },
+    {
+      "name": "Hexerei (günstig)",
+      "note": "Nur 4★-Partner: Razor und Fischl sind ebenfalls Hexerei-Figuren und schalten Albedos Boni frei, Bennett gibt ANG und heilt.",
+      "slots": [["Albedo"], ["Razor"], ["Fischl"], ["Bennett"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Uraku Misugiri",
+      "note": "Chioris Signaturwaffe und die beste Wahl für eigenen Schaden: viel Krit.-Schaden, mehr VTD und Bonus auf die Elementarfähigkeit. Albedo selbst hat keine Signaturwaffe."
+    },
+    {
+      "name": "Peak Patrol Song",
+      "note": "Xilonens Signaturwaffe: sehr viel VTD und ein Elementarschaden-Bonus für das ganze Team."
+    },
+    {
+      "name": "Cinnabar Spindle",
+      "note": "Beste 4★-Waffe mit viel VTD, gab es aber nur im Event von Version 2.3."
+    },
+    {
+      "name": "Flute of Ezpitzal",
+      "note": "Schmiedbar in Natlan und gibt VTD – die beste Gratis-Waffe, die man heute noch bekommt."
+    },
+    {
+      "name": "Harbinger of Dawn",
+      "note": "Günstige 3★-Waffe mit viel Krit., solange Albedo über 90 % LP bleibt."
+    },
+    {
+      "name": "Primordial Jade Cutter",
+      "note": "Solide Krit.-Werte, wenn du das Schwert schon besitzt – nicht extra dafür ziehen."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Husk of Opulent Dreams", "pieces": 4 }],
+      "note": "Viel VTD und Geo-Schaden; hilft, die 3000 VTD für den vollen Hexerei-Bonus zu erreichen."
+    },
+    {
+      "sets": [{ "name": "Golden Troupe", "pieces": 4 }],
+      "note": "Mehr Schaden der Elementarfähigkeit, vor allem außerhalb des Feldes. Fast gleich stark und leichter zu farmen."
+    },
+    {
+      "sets": [{ "name": "Husk of Opulent Dreams", "pieces": 2 }, { "name": "Golden Troupe", "pieces": 2 }],
+      "note": "Übergangslösung, solange ein 4er-Set fehlt."
+    }
+  ],
+  "mainStats": { "sands": ["def%"], "goblet": ["def%", "geo"], "circlet": ["cr", "cd", "def%"] },
+  "substats": ["def%", "cr", "cd", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/312182",
+    "https://gamewith.net/genshin-impact/article/show/23420",
+    "https://keqingmains.com/q/albedo-quickguide/"
+  ]
+}

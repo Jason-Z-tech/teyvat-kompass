@@ -1,0 +1,84 @@
+{
+  "character": "Alyosha",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "healer"],
+  "summary": "Elektro-Unterstützer mit Stangenwaffe, den es gratis in der Archon-Quest von Snezhnaya gibt. Seine Spezialfähigkeit ruft seinen Hund, der von außerhalb Elektro aufträgt und die aktive Figur heilt. Er stärkt ANG und Stellar-Supraleiter-Schaden der aktiven Figur – ab C6 deutlich mehr.",
+  "tips": [
+    "Erst Elementarfähigkeit, dann Spezialfähigkeit, dann zum Hauptangreifer wechseln.",
+    "Seine Buffs und Heilung gelten vor allem der aktiven Figur – ideal für einen Hauptangreifer, der lange auf dem Feld bleibt.",
+    "Aufladerate zuerst: als einzige Elektro-Figur auf C0 weit über 200 %, mit einer zweiten Elektro-Figur etwa 145–180 %.",
+    "C6 verdoppelt seine Buffs. Ab C2 reicht die Spezialfähigkeit oft jede zweite Runde."
+  ],
+  "teams": [
+    {
+      "name": "Stellar-Supraleiter",
+      "note": "Odette und Yae Miko machen Schaden von außerhalb, Alyosha stärkt und heilt den Hauptangreifer. Vor C6 sind Qiqi, Escoffier oder Nicole auf seinem Platz fast gleich gut.",
+      "slots": [["Sandrone", "Cyno", "Traveler (Cryo)"], ["Odette"], ["Yae Miko"], ["Alyosha"]]
+    },
+    {
+      "name": "Stellar ohne Odette und Yae",
+      "note": "Der Kryo-Reisende schaltet die Stellar-Reaktion frei und kämpft kurz mit, Qiqi stärkt Stellar-Supraleiter. Alyosha liefert das Elektro.",
+      "slots": [["Sandrone", "Cyno"], ["Traveler (Cryo)"], ["Qiqi"], ["Alyosha"]]
+    },
+    {
+      "name": "Stellar-Supraleiter (günstig)",
+      "note": "Der Kryo-Reisende ist Hauptangreifer und ermöglicht Stellar-Supraleiter. Diona oder Kaeya bringen mehr Kryo, Saccharose senkt den Widerstand der Gegner, Alyosha liefert Elektro und Heilung.",
+      "slots": [["Traveler (Cryo)"], ["Diona", "Kaeya"], ["Sucrose"], ["Alyosha"]]
+    },
+    {
+      "name": "Überladen mit Chevreuse",
+      "note": "Auch ohne Stellar-Reaktion nützlich: Alyosha liefert Elektro für Überladen und heilt, Chevreuse verstärkt Pyro- und Elektro-Schaden.",
+      "slots": [["Arlecchino", "Varesa"], ["Chevreuse"], ["Fischl", "Bennett"], ["Alyosha"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Engulfing Lightning",
+      "note": "Sehr viel Aufladerate, die zusätzlich zu ANG wird – deckt beide Werte ab, die er braucht."
+    },
+    {
+      "name": "Symphonist of Scents",
+      "note": "Seine Heilung löst den Effekt aus: mehr ANG für ihn und die geheilte aktive Figur."
+    },
+    {
+      "name": "Favonius Lance",
+      "note": "Standardwahl: Aufladerate und Energie für das ganze Team. Braucht etwas Krit.-Rate."
+    },
+    {
+      "name": "Frostbreath",
+      "note": "Battle-Pass-Waffe aus 7.0: Aufladerate und Energie für die Teamkollegen, wenn er eine Kryo- oder Hydro-Reaktion auslöst."
+    },
+    {
+      "name": "Tamayuratei no Ohanashi",
+      "note": "Aus einem früheren Event: Aufladerate und mehr ANG nach der Elementarfähigkeit."
+    },
+    {
+      "name": "Song of the Vigil",
+      "note": "Schmiedbar in Snezhnaya. Gibt ihm Energie zurück, solide Gratis-Wahl."
+    },
+    {
+      "name": "\"The Catch\"",
+      "note": "Durch Angeln in Inazuma erhältlich. Aufladerate und mehr Schaden der Spezialfähigkeit."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Meist die beste Wahl: Er nutzt seine Spezialfähigkeit regelmäßig und gibt so der ganzen Truppe mehr ANG."
+    },
+    {
+      "sets": [{ "name": "Heart of the Furnace", "pieces": 4 }],
+      "note": "Mehr Stellar-Schaden für alle. Nimm es, wenn im Team sonst niemand, z. B. Odette, dieses Set trägt."
+    }
+  ],
+  "mainStats": { "sands": ["er", "atk%"], "goblet": ["atk%"], "circlet": ["heal", "atk%", "cr"] },
+  "substats": ["er", "cr", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/606884",
+    "https://keqingmains.com/q/alyosha-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/76471",
+    "https://gamewith.net/genshin-impact/article/show/77305",
+    "https://gamewith.net/genshin-impact/article/show/77299"
+  ]
+}

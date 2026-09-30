@@ -1,0 +1,80 @@
+{
+  "character": "Thoma",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["shield", "support", "sub-dps"],
+  "summary": "Pyro-Schildgeber mit Stangenwaffe. Elementarfähigkeit und Spezialfähigkeit erzeugen Schilde, die vor Unterbrechungen schützen. Nach seiner Spezialfähigkeit erneuern die Standardangriffe der aktiven Figur den Schild und lösen zusätzliche Pyro-Treffer aus. Mit viel Elementarkunde macht er in Sprießen-Teams als Flammenspross-Auslöser selbst Schaden.",
+  "tips": [
+    "Die aktive Figur sollte Standardangriffe nutzen – nur dann erneuert sich sein Schild nach der Spezialfähigkeit.",
+    "Er braucht viel Aufladerate: etwa 170–220 % als Schildgeber, als einzige Pyro-Figur im Team noch mehr.",
+    "Mit der Kitain-Kreuzlanze zuerst die Spezialfähigkeit und dann die Elementarfähigkeit einsetzen.",
+    "Für Flammenspross lohnt sich Stufe 90: Der Reaktionsschaden hängt nur von Elementarkunde und Stufe ab."
+  ],
+  "teams": [
+    {
+      "name": "Schild für Pyro-Haupt-DPS",
+      "note": "Seine beliebteste Rolle: Thoma schützt Hu Tao oder Yoimiya vor Unterbrechungen und bringt genug Pyro, damit Kazuha oder Saccharose den Pyro-Widerstand senken. Xingqiu liefert Hydro für Verdampfen.",
+      "slots": [["Hu Tao", "Yoimiya"], ["Thoma"], ["Xingqiu"], ["Kaedehara Kazuha", "Sucrose"]]
+    },
+    {
+      "name": "Überladen mit Chevreuse",
+      "note": "Ein Schild passt hier gut, weil Arlecchino nicht geheilt werden kann und Clorinde sich selbst versorgt. Thomas zusätzliche Pyro-Treffer halten Überladen am Laufen.",
+      "slots": [["Arlecchino", "Clorinde"], ["Thoma"], ["Chevreuse"], ["Fischl"]]
+    },
+    {
+      "name": "Flammenspross",
+      "note": "Hydro und Dendro erzeugen Dendro-Kerne, Thoma lässt sie als Flammenspross explodieren. Keine weitere Pyro-Figur mitnehmen – sie würde das Sprießen stören.",
+      "slots": [
+        ["Sangonomiya Kokomi", "Kamisato Ayato"],
+        ["Thoma"],
+        ["Nahida", "Lauma"],
+        ["Xingqiu", "Fischl", "Yelan"]
+      ]
+    },
+    {
+      "name": "Brennen mit Kinich",
+      "note": "Brennen verletzt auch die eigene Figur – Thomas Schild hält Pyro-Schaden gut ab. Er ist hier oft der beste Träger von Erinnerungen des tiefen Waldes.",
+      "slots": [["Kinich"], ["Thoma"], ["Emilie"], ["Bennett", "Dehya"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Favonius Lance",
+      "note": "Beste Wahl als Schildgeber: Aufladerate und Energie für das ganze Team."
+    },
+    {
+      "name": "Kitain Cross Spear",
+      "note": "Schmiedbar (Inazuma): senkt seinen Energiebedarf und gibt Elementarkunde – top für Flammenspross."
+    },
+    { "name": "Black Tassel", "note": "Günstige 3★-Waffe mit viel LP für stärkere Schilde." },
+    {
+      "name": "Rightful Reward",
+      "note": "Schmiedbar (Fontaine): LP als Nebenwert, Energie, wenn er geheilt wird."
+    },
+    {
+      "name": "Dragon's Bane",
+      "note": "Viel Elementarkunde für Flammenspross, hilft aber nicht bei der Energie."
+    },
+    { "name": "Moonpiercer", "note": "Schmiedbar (Sumeru): Elementarkunde für den Flammenspross-Build." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Als Schildgeber: Nach seiner Spezialfähigkeit bekommt das ganze Team mehr ANG."
+    },
+    {
+      "sets": [
+        { "name": "Emblem of Severed Fate", "pieces": 2 },
+        { "name": "Tenacity of the Millelith", "pieces": 2 }
+      ],
+      "note": "Aufladerate plus LP – einfache Lösung für starke Schilde."
+    },
+    {
+      "sets": [{ "name": "Flower of Paradise Lost", "pieces": 4 }],
+      "note": "Für Flammenspross: dann Elementarkunde als Hauptwert auf Sanduhr, Kelch und Krone."
+    }
+  ],
+  "mainStats": { "sands": ["er", "hp%"], "goblet": ["hp%"], "circlet": ["hp%", "cr"] },
+  "substats": ["er", "hp%", "cr", "em"],
+  "sources": ["https://game8.co/games/Genshin-Impact/archives/337141", "https://keqingmains.com/q/thoma-quickguide/"]
+}

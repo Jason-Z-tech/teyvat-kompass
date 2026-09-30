@@ -1,0 +1,86 @@
+{
+  "character": "Arlecchino",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Pyro-Kämpferin mit Stangenwaffe, die fast den ganzen Schaden selbst auf dem Feld macht. Ihr Kniff ist der Eid des Lebens: Hat sie genug davon, verursachen ihre Standardangriffe Pyro-Schaden und werden deutlich stärker. Im Kampf kann sie nur durch ihre eigene Spezialfähigkeit geheilt werden, Heiler helfen ihr also nicht.",
+  "tips": [
+    "Ablauf: Elementarfähigkeit markiert die Gegner, dann wechseln und später mit einem heftigen Schlag den Eid des Lebens einsammeln und Standardangriffe folgen lassen.",
+    "Sobald ihr Eid des Lebens mindestens 30 % ihrer max. LP beträgt, werden ihre Angriffe zu Pyro-Schaden.",
+    "Die Spezialfähigkeit eher als Notfall-Heilung nutzen – dann braucht sie kaum Aufladerate.",
+    "Schildgeber wie Nicole, Citlali oder Zhongli machen sie deutlich sicherer, weil Heiler bei ihr nicht wirken."
+  ],
+  "teams": [
+    {
+      "name": "Verdampfen",
+      "note": "Yelan, Mona oder Xingqiu tragen ständig Hydro auf, damit Arlecchinos Pyro-Treffer verdampfen. Bennett oder Nicole geben viel ANG. Mona ist am stärksten mit einer weiteren Hexerei-Figur wie Saccharose oder Nicole.",
+      "slots": [
+        ["Arlecchino"],
+        ["Yelan", "Mona", "Xingqiu"],
+        ["Bennett", "Nicole"],
+        ["Kaedehara Kazuha", "Xilonen", "Sucrose"]
+      ]
+    },
+    {
+      "name": "Überladen mit Chevreuse",
+      "note": "Chevreuse verstärkt Pyro- und Elektro-Schaden stark, dafür dürfen nur Pyro- und Elektro-Figuren ins Team. Fischl oder Ineffa liefern Elektro. Mit Nicole oder Durin gibt Fischl über Hexerei zusätzlich ANG.",
+      "slots": [["Arlecchino"], ["Chevreuse"], ["Fischl", "Ineffa"], ["Nicole", "Bennett", "Durin"]]
+    },
+    {
+      "name": "Schmelzen",
+      "note": "Citlali trägt Kryo auf, senkt den Pyro-Widerstand und schützt mit einem Schild. Kaeya oder Rosaria sind günstigere Kryo-Partner, das Timing ist dann aber enger.",
+      "slots": [
+        ["Arlecchino"],
+        ["Citlali", "Kaeya", "Rosaria"],
+        ["Bennett", "Nicole"],
+        ["Xilonen", "Kaedehara Kazuha", "Sucrose"]
+      ]
+    },
+    {
+      "name": "Mono-Pyro",
+      "note": "Keine Reaktionen, dafür volle Verstärkung: Bennett gibt ANG, Xilonen und Kazuha senken den Pyro-Widerstand. Mit Kachina und Lan Yan klappt das Team auch nur mit 4★-Figuren.",
+      "slots": [["Arlecchino"], ["Bennett"], ["Xilonen", "Kachina"], ["Kaedehara Kazuha", "Lan Yan"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Crimson Moon's Semblance",
+      "note": "Ihre Signaturwaffe: gibt zusätzlichen Eid des Lebens und viel Schadensbonus – mit Abstand die beste Wahl."
+    },
+    {
+      "name": "Primordial Jade Winged-Spear",
+      "note": "Viel Basis-ANG und Krit.-Rate, ein Effekt, den sie leicht voll auflädt."
+    },
+    { "name": "Staff of Homa", "note": "Hoher Krit.-Schaden, auch über 50 % LP eine sehr gute 5★-Wahl." },
+    {
+      "name": "Staff of the Scarlet Sands",
+      "note": "Knapp dahinter, besonders gut in Verdampfen-Teams mit Elementarkunde-Sanduhr."
+    },
+    { "name": "Deathmatch", "note": "Battle-Pass-Waffe mit viel Krit.-Rate." },
+    {
+      "name": "White Tassel",
+      "note": "Aus Truhen, verstärkt Standardangriffe – die beste Gratis-Wahl, am besten mit Bennett im Team."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Fragment of Harmonic Whimsy", "pieces": 4 }],
+      "note": "Ihr bestes Set: Jede Änderung am Eid des Lebens gibt mehr Schaden, was bei ihr fast ständig passiert."
+    },
+    {
+      "sets": [{ "name": "Gladiator's Finale", "pieces": 4 }],
+      "note": "Zweitbestes Set: Standardangriffe machen immer mehr Schaden, ohne Bedingungen."
+    },
+    {
+      "sets": [{ "name": "Echoes of an Offering", "pieces": 4 }],
+      "note": "Starker Bonus auf Standardangriffe, braucht aber eine stabile Verbindung ohne Verzögerung."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["pyro"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/382103",
+    "https://keqingmains.com/q/arlecchino-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/44457"
+  ]
+}

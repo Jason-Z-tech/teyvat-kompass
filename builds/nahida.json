@@ -1,0 +1,93 @@
+{
+  "character": "Nahida",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "support"],
+  "summary": "Dendro-Unterstützerin mit Katalysator, die fast nur von außerhalb des Feldes arbeitet: Ihre Elementarfähigkeit markiert Gegner, die danach im Kampf immer wieder Dendro-Schaden erleiden. Ihre Spezialfähigkeit verstärkt zusätzlich das Team. Sie passt in fast jedes Dendro-Reaktionsteam – von Sprießen über Mondspross bis Suprawuchs.",
+  "tips": [
+    "Elementarfähigkeit kurz tippen für schnelles Dendro oder gedrückt halten, um bis zu 8 Gegner auf einmal zu markieren.",
+    "Ihre Spezialfähigkeit erhöht die Elementarkunde des aktiven Charakters in ihrem Feld.",
+    "Richtwerte: 800 oder mehr Elementarkunde und etwa 110–140 % Aufladerate."
+  ],
+  "teams": [
+    {
+      "name": "Nilou-Sprießen",
+      "note": "Nilou macht aus Sprießen besonders starke Dendro-Kerne, Nahida liefert dafür ständig Dendro. Mit Lauma können diese Reaktionen sogar kritisch treffen.",
+      "slots": [
+        ["Nahida"],
+        ["Nilou"],
+        ["Lauma", "Collei", "Yaoyao", "Traveler (Dendro)"],
+        ["Sangonomiya Kokomi", "Baizhu", "Barbara"]
+      ]
+    },
+    {
+      "name": "Mondspross",
+      "note": "Nefer macht als Hauptangreiferin den Mondspross-Schaden, Lauma verstärkt ihn. Nahida trägt viel Dendro auf und gibt Elementarkunde, Columbina liefert das nötige Hydro.",
+      "slots": [["Nefer"], ["Nahida"], ["Lauma"], ["Columbina", "Aino", "Sangonomiya Kokomi"]]
+    },
+    {
+      "name": "Urwuchs + Supraspross",
+      "note": "Nahida und ein Elektro-Charakter halten die Gegner im Urwuchs-Zustand, der Hauptangreifer macht so mehr Schaden. Mit Hydro entstehen zusätzlich Dendro-Kerne, die Kuki Shinobu zu Supraspross macht.",
+      "slots": [
+        ["Alhaitham", "Cyno", "Clorinde", "Tighnari"],
+        ["Nahida"],
+        ["Yelan", "Furina", "Xingqiu"],
+        ["Kuki Shinobu", "Raiden Shogun", "Ineffa"]
+      ]
+    },
+    {
+      "name": "Suprawuchs",
+      "note": "Nahida und Fischl halten Urwuchs dauerhaft aufrecht, damit Elektro-Angreifer wie Clorinde mit Suprawuchs deutlich mehr Schaden machen. Der vierte Platz sorgt für Schutz oder Heilung.",
+      "slots": [
+        ["Clorinde", "Cyno", "Keqing"],
+        ["Nahida"],
+        ["Fischl", "Yae Miko", "Beidou"],
+        ["Xilonen", "Lan Yan", "Zhongli"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "A Thousand Floating Dreams",
+      "note": "Ihre Signaturwaffe: sehr viel Elementarkunde, stärkt zusätzlich die Mitstreiter."
+    },
+    {
+      "name": "Kagura's Verity",
+      "note": "Viel Krit.-Schaden, vor allem stark, wenn Nahida selbst länger auf dem Feld steht."
+    },
+    { "name": "Wandering Evenstar", "note": "Elementarkunde als Nebenwert und etwas ANG für das Team." },
+    {
+      "name": "Sacrificial Fragments",
+      "note": "Viel Elementarkunde, kann die Elementarfähigkeit zurücksetzen."
+    },
+    { "name": "Mappa Mare", "note": "Schmiedbar, Elementarkunde als Nebenwert." },
+    {
+      "name": "Magic Guide",
+      "note": "3★-Katalysator (nur aus Gebeten) mit Elementarkunde, voll verfeinert eine solide günstige Wahl."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Deepwood Memories", "pieces": 4 }],
+      "note": "Ihr Standard-Set: senkt den Dendro-Widerstand der Gegner, davon profitiert das ganze Team."
+    },
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 4 }],
+      "note": "Mehr Elementarkunde, wenn schon jemand anderes Erinnerungen des tiefen Waldes trägt."
+    },
+    {
+      "sets": [{ "name": "Golden Troupe", "pieces": 4 }],
+      "note": "Mehr Schaden der Elementarfähigkeit, wenn sie selbst viel Schaden machen soll."
+    }
+  ],
+  "mainStats": { "sands": ["em"], "goblet": ["em", "dendro"], "circlet": ["em", "cr", "cd"] },
+  "substats": ["em", "cr", "cd", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/Nahida-Best-Builds",
+    "https://gamewith.net/genshin-impact/article/show/33274",
+    "https://gamewith.net/genshin-impact/article/show/38393",
+    "https://keqingmains.com/q/nahida-quickguide/",
+    "https://game8.co/games/Genshin-Impact/archives/538448",
+    "https://keqingmains.com/q/nefer-quickguide/"
+  ]
+}

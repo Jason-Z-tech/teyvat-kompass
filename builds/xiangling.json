@@ -1,0 +1,81 @@
+{
+  "character": "Xiangling",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps"],
+  "summary": "Pyro-Kämpferin mit Stangenwaffe und eine der besten Figuren für Schaden aus dem Hintergrund. Ihre Spezialfähigkeit lässt einen Feuerwirbel um die aktive Figur kreisen, der nach dem Wechsel weiterläuft und ständig Pyro verteilt. Ideal für Verdampfen, Schmelzen und Überladen – fast immer zusammen mit Bennett.",
+  "tips": [
+    "Aufladerate ist Pflicht: meist 180 % oder mehr, ohne zweite Pyro-Figur im Team deutlich mehr.",
+    "Erst die Buffs (Bennett, Kazuha), dann ihre Spezialfähigkeit: Der Feuerwirbel behält die Buffs, die beim Einsetzen aktiv waren.",
+    "Bennetts Energie zu ihr lenken: Bennett setzt seine Elementarfähigkeit ein, danach sofort zu Xiangling wechseln.",
+    "Guoba hinterlässt am Ende eine Chili – aufsammeln gibt der Figur 10 % mehr ANG."
+  ],
+  "teams": [
+    {
+      "name": "International",
+      "note": "Tartaglia trägt auf dem Feld Hydro auf, damit Xianglings Feuerwirbel verdampft. Bennett gibt beiden ANG und Energie, Kazuha sammelt die Gegner in Reichweite und senkt ihren Widerstand.",
+      "slots": [["Tartaglia"], ["Xiangling"], ["Bennett"], ["Kaedehara Kazuha", "Sucrose"]]
+    },
+    {
+      "name": "Nationalteam",
+      "note": "Der Klassiker aus 4★-Figuren: Xingqiu liefert Hydro für Verdampfen, Bennett gibt ANG und Energie. Den letzten Platz füllen Saccharose, Raiden (lädt die Energie des Teams) oder Yelan.",
+      "slots": [["Xiangling"], ["Bennett"], ["Xingqiu"], ["Sucrose", "Raiden Shogun", "Yelan"]]
+    },
+    {
+      "name": "Überladen mit Chevreuse",
+      "note": "Chevreuse verstärkt Pyro und Elektro, Xiangling hält mit ihrem Feuerwirbel Überladen am Laufen. Mit Raiden auf dem Feld braucht sie deutlich weniger Aufladerate.",
+      "slots": [
+        ["Raiden Shogun", "Varesa", "Clorinde"],
+        ["Xiangling"],
+        ["Chevreuse"],
+        ["Kujou Sara", "Bennett", "Iansan"]
+      ]
+    },
+    {
+      "name": "Schmelzen mit Wriothesley",
+      "note": "Xiangling hält Pyro auf den Gegnern, damit Wriothesleys Kryo-Treffer schmelzen. Bennett gibt beiden ANG, Citlali oder Shenhe verstärken zusätzlich.",
+      "slots": [["Wriothesley"], ["Xiangling"], ["Bennett"], ["Citlali", "Shenhe"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Staff of the Scarlet Sands",
+      "note": "Stärkste Waffe für Schaden: Krit.-Rate und ANG aus Elementarkunde – wenn die Aufladerate schon reicht."
+    },
+    {
+      "name": "Engulfing Lightning",
+      "note": "Viel Aufladerate und ANG daraus – die bequemste 5★-Wahl, vor allem ohne Bennett."
+    },
+    { "name": "Staff of Homa", "note": "Krit.-Schaden und hoher Basis-ANG." },
+    {
+      "name": "The Catch",
+      "note": "Vom Angelverein in Inazuma, auf Verfeinerung 5 fast so gut wie 5★-Waffen: Aufladerate und stärkere Spezialfähigkeit."
+    },
+    { "name": "Favonius Lance", "note": "Erzeugt Energie – gut, wenn das ganze Team viel Energie braucht." },
+    {
+      "name": "Kitain Cross Spear",
+      "note": "Schmiedbar (Inazuma): senkt den Energiebedarf und gibt Elementarkunde."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 4 }],
+      "note": "Mit Abstand das beste Set: Aufladerate und mehr Schaden für ihre Spezialfähigkeit."
+    },
+    {
+      "sets": [{ "name": "Crimson Witch of Flames", "pieces": 4 }],
+      "note": "Gut in Überladen-Teams oder solange das Set „Wappen des getrennten Schicksals“ fehlt."
+    },
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 4 }],
+      "note": "Elementarkunde und ANG – gut, wenn sie viele Reaktionen auslöst."
+    }
+  ],
+  "mainStats": { "sands": ["er", "atk%", "em"], "goblet": ["pyro"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "atk%", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297530",
+    "https://gamewith.net/genshin-impact/article/show/22339",
+    "https://keqingmains.com/q/xiangling-quickguide/"
+  ]
+}

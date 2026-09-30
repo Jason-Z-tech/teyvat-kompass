@@ -1,0 +1,84 @@
+{
+  "character": "Nefer",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Dendro-Haupt-DPS mit Katalysator für Mondspross-Teams. Mit ihrer Elementarfähigkeit wechselt sie in einen Tanz-Zustand, in dem ihr besonderer heftiger Schlag großen Mondspross-Schaden macht, ohne Ausdauer zu kosten. Sie skaliert mit Elementarkunde und Krit.-Werten und braucht einen zweiten Nod-Krai-Charakter – am besten Lauma.",
+  "tips": [
+    "Vor ihrem Einsatz die Dendro- und Hydro-Partner ihre Fähigkeiten nutzen lassen, damit genug „Verdant Dew“ für ihre heftigen Schläge bereitliegt.",
+    "Im Tanz-Zustand auf dem Feld bleiben und nicht zwischendurch auswechseln.",
+    "Nicht mit Nilou oder anderen sehr schnellen Sprießen-Auslösern spielen – weniger Dendrokerne bedeuten weniger Schaden für sie.",
+    "Kaum Aufladerate nötig: etwa 100–130 % reichen."
+  ],
+  "teams": [
+    {
+      "name": "Mondspross",
+      "note": "Ihr stärkstes Team: Lauma ermöglicht Mondspross, senkt Widerstände und erhöht Nefers Krit.-Werte, Columbina liefert Hydro und verstärkt die Reaktion zusätzlich.",
+      "slots": [
+        ["Nefer"],
+        ["Lauma"],
+        ["Columbina", "Aino", "Xingqiu"],
+        ["Nahida", "Sucrose", "Jahoda", "Kuki Shinobu"]
+      ]
+    },
+    {
+      "name": "Mondspross (günstig)",
+      "note": "Ohne Lauma und Columbina: Aino liefert Hydro und sorgt mit Nefer für Reifer Glanz, ein Dendro-Partner hält die Reaktion am Laufen. Schwächer als mit Lauma.",
+      "slots": [["Nefer"], ["Aino"], ["Traveler (Dendro)", "Collei", "Kirara"], ["Xingqiu", "Barbara", "Kuki Shinobu"]]
+    },
+    {
+      "name": "Supraspross (ohne Lauma)",
+      "note": "Notlösung ohne Lauma und ohne anderen Nod-Krai-Charakter wie Aino: Nur dann entstehen normale Dendrokerne, die Kuki Shinobu in Supraspross verwandelt. Deutlich schwächer als Mondspross.",
+      "slots": [
+        ["Nefer"],
+        ["Nahida", "Baizhu"],
+        ["Furina", "Xingqiu", "Yelan", "Sangonomiya Kokomi"],
+        ["Kuki Shinobu", "Raiden Shogun"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Reliquary of Truth",
+      "note": "Ihre Signaturwaffe: viel Krit.-Schaden, Elementarkunde und mehr Mondspross-Schaden."
+    },
+    {
+      "name": "Nightweaver's Looking Glass",
+      "note": "Laumas Signaturwaffe: viel Elementarkunde und ein Bonus auf Mondspross."
+    },
+    { "name": "Tome of the Eternal Flow", "note": "Hoher Krit.-Schaden als Nebenwert." },
+    {
+      "name": "Dawning Frost",
+      "note": "4★ mit Krit.-Schaden, wird mit höheren Verfeinerungen richtig stark."
+    },
+    {
+      "name": "Blackmarrow Lantern",
+      "note": "Schmiedbar: Elementarkunde und mehr Mondspross-Schaden – die Standard-Gratis-Wahl."
+    },
+    {
+      "name": "The Widsith",
+      "note": "Zufälliger Bonus – im Schnitt etwa so gut wie eine voll verfeinerte Laterne des schwarzen Marks."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Night of the Sky's Unveiling", "pieces": 4 }],
+      "note": "Mit großem Abstand das beste Set: Elementarkunde, bis zu 30 % Krit.-Rate und mehr Mondleuchten-Schaden fürs Team."
+    },
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 4 }],
+      "note": "Übergangs-Set mit viel Elementarkunde, solange die Nacht der himmlischen Enthüllung fehlt."
+    },
+    {
+      "sets": [{ "name": "Deepwood Memories", "pieces": 4 }],
+      "note": "Nur, wenn sonst niemand im Team das Set trägt – senkt den Dendro-Widerstand der Gegner."
+    }
+  ],
+  "mainStats": { "sands": ["em"], "goblet": ["em"], "circlet": ["cd", "cr", "em"] },
+  "substats": ["cr", "cd", "em", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/538448",
+    "https://gamewith.net/genshin-impact/article/show/70905",
+    "https://keqingmains.com/q/nefer-quickguide/"
+  ]
+}

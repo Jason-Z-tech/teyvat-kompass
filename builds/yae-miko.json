@@ -1,0 +1,85 @@
+{
+  "character": "Yae Miko",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps"],
+  "summary": "Elektro-Magierin mit Katalysator, die mit ihrer Elementarfähigkeit bis zu drei Blitztürme aufstellt. Diese greifen von außerhalb des Feldes an, ihre Spezialfähigkeit ruft zusätzlich mächtige Blitze herab. Seit ihrer Verstärkung ist sie besonders stark in Stellar-Supraleiter-Teams mit Sandrone.",
+  "tips": [
+    "Die Elementarfähigkeit dreimal einsetzen – drei Türme greifen deutlich stärker an als einer.",
+    "Mit der freigeschalteten Verstärkung „Witch's Revelation“ halten die Türme 10 Sekunden länger und bleiben nach der Spezialfähigkeit bestehen.",
+    "Kelch: in Stellar-Supraleiter-Teams ANG%, in allen anderen Teams Elektro-Schaden.",
+    "Aufladerate: 130–140 % mit einem zweiten Elektro-Charakter, sonst 160 % und mehr."
+  ],
+  "teams": [
+    {
+      "name": "Stellar-Supraleiter",
+      "note": "Sandrone ermöglicht Stellar-Supraleiter, Yae Mikos Türme lösen die Reaktion ständig aus. Qiqi heilt und erhöht den Reaktionsschaden, Nicole verstärkt das Team.",
+      "slots": [
+        ["Yae Miko"],
+        ["Sandrone"],
+        ["Qiqi", "Diona", "Escoffier"],
+        ["Nicole", "Sucrose", "Xilonen", "Lan Yan"]
+      ]
+    },
+    {
+      "name": "Suprawuchs",
+      "note": "Yae Miko unterstützt einen Dendro-Hauptangreifer wie Alhaitham mit Elektro von außen. Nahida hält Urwuchs aufrecht, Kirara oder Baizhu schützen das Team.",
+      "slots": [["Yae Miko"], ["Alhaitham", "Tighnari"], ["Nahida"], ["Kirara", "Baizhu"]]
+    },
+    {
+      "name": "Mond unter Strom",
+      "note": "Columbina liefert Hydro, Ineffa macht daraus Mond unter Strom. Nahida sorgt zusätzlich für Supraspross und Elementarkunde.",
+      "slots": [["Yae Miko"], ["Columbina", "Aino", "Sangonomiya Kokomi"], ["Ineffa", "Fischl", "Ororon"], ["Nahida"]]
+    },
+    {
+      "name": "Überladen",
+      "note": "Da das Team nur aus Pyro- und Elektro-Figuren besteht, senkt Chevreuse nach Überladen den Pyro- und Elektro-Widerstand der Gegner und stärkt den ANG. Yae Mikos Türme liefern von außen Elektro, Bennett verstärkt zusätzlich.",
+      "slots": [
+        ["Yae Miko"],
+        ["Raiden Shogun", "Yoimiya", "Clorinde", "Arlecchino"],
+        ["Chevreuse"],
+        ["Bennett", "Kujou Sara", "Nicole"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Kagura's Verity",
+      "note": "Signaturwaffe: mehr Schaden der Elementarfähigkeit und von Stellar-Supraleiter."
+    },
+    { "name": "Skyward Atlas", "note": "Elementarschaden-Bonus – solide Allround-Wahl." },
+    { "name": "A Thousand Floating Dreams", "note": "Viel Elementarkunde – stark in Suprawuchs-Teams." },
+    { "name": "The Widsith", "note": "Beste 4★-Wahl, da sie oft ein- und ausgewechselt wird." },
+    {
+      "name": "Flowing Purity",
+      "note": "Schmiedbar (Fontaine) – beste Gratis-Wahl, braucht aber einen Heiler im Team."
+    },
+    {
+      "name": "Hakushin Ring",
+      "note": "Schmiedbar (Inazuma): mehr Elementarschaden nach Elektro-Reaktionen."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Disenchantment in Deep Shadow", "pieces": 4 }],
+      "note": "Bestes Set in Stellar-Supraleiter-Teams – ihre vielen Elektro-Treffer lösen die Reaktion ständig aus."
+    },
+    {
+      "sets": [{ "name": "Golden Troupe", "pieces": 4 }],
+      "note": "Allround-Set für alle anderen Teams: viel mehr Schaden der Elementarfähigkeit."
+    },
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 4 }],
+      "note": "Gut in Suprawuchs-Teams dank viel Elementarkunde."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["atk%", "electro"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "er", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/327533",
+    "https://gamewith.net/genshin-impact/article/show/24650",
+    "https://gamewith.net/genshin-impact/article/show/38768",
+    "https://game8.co/games/Genshin-Impact/archives/605462",
+    "https://game8.co/games/Genshin-Impact/archives/605822"
+  ]
+}

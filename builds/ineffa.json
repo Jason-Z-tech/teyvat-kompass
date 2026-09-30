@@ -1,0 +1,75 @@
+{
+  "character": "Ineffa",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "shield", "support"],
+  "summary": "Elektro-Unterstützerin mit Stangenwaffe aus Nod-Krai und Schlüsselfigur für Mond unter Strom: Ist sie im Team, wird aus Unter Strom die stärkere Reaktion Mond unter Strom, die kritisch treffen kann. Ihre Elementarfähigkeit ruft Birgitta herbei, die von außen Schaden macht, und schützt das Team mit einem Schild.",
+  "tips": [
+    "Etwa 2.000–2.400 ANG anpeilen: Ihre Passive erhöht den Grundschaden von Mond unter Strom abhängig von ihrem ANG.",
+    "Aufladerate: etwa 130 % reichen meist, als einziger Elektro-Charakter etwas mehr.",
+    "Mit einem zweiten Mondomen-Charakter wie Columbina oder Aino wird „Reifer Glanz“ aktiv und Mond unter Strom noch stärker.",
+    "Die Elementarfähigkeit zuerst leveln, danach die Spezialfähigkeit."
+  ],
+  "teams": [
+    {
+      "name": "Mond unter Strom",
+      "note": "Ineffa und Flins verstärken Mond unter Strom und machen selbst direkten Reaktionsschaden. Columbina liefert Hydro und ist die beste Mond-Unterstützerin, Saccharose gibt Elementarkunde.",
+      "slots": [
+        ["Ineffa"],
+        ["Flins", "Neuvillette", "Clorinde", "Cyno"],
+        ["Columbina", "Aino", "Yelan"],
+        ["Sucrose", "Jahoda", "Kaedehara Kazuha", "Xilonen"]
+      ]
+    },
+    {
+      "name": "Mond unter Strom (günstig)",
+      "note": "Günstige Variante: Ifa ist auf dem Feld, Aino liefert Hydro und aktiviert zusammen mit Ineffa „Reifer Glanz“. Ororon trägt zusätzlich Elektro auf.",
+      "slots": [
+        ["Ineffa"],
+        ["Ifa", "Sucrose", "Jahoda", "Shikanoin Heizou"],
+        ["Ororon", "Fischl", "Sethos"],
+        ["Aino", "Xingqiu"]
+      ]
+    },
+    {
+      "name": "Mondspross mit Nefer",
+      "note": "Nefer macht auf dem Feld Dendro-Schaden, Lauma und Columbina verstärken sie. Ineffa sorgt für den Schild und etwas zusätzlichen Elektro-Schaden.",
+      "slots": [["Ineffa"], ["Nefer", "Alhaitham"], ["Lauma", "Baizhu", "Nahida"], ["Columbina", "Yelan", "Aino"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Fractured Halo",
+      "note": "Signaturwaffe: Krit.-Schaden, ANG-Bonus und – weil sie Schilde erzeugt – mehr Mond-unter-Strom-Schaden für das Team."
+    },
+    { "name": "Staff of the Scarlet Sands", "note": "Krit.-Rate und ANG-Bonus aus Elementarkunde." },
+    { "name": "Bloodsoaked Ruins", "note": "Krit.-Rate als Nebenwert für ein gutes Krit.-Verhältnis." },
+    { "name": "Deathmatch", "note": "Battle-Pass-Waffe und beste 4★-Wahl, besonders auf R5." },
+    {
+      "name": "Prospector's Shovel",
+      "note": "Schmiedbar (Nod-Krai): ANG und mehr Mond-unter-Strom-Schaden – beste Gratis-Waffe."
+    },
+    { "name": "Kitain Cross Spear", "note": "Schmiedbar, mit Elementarkunde und Energie." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Aubade of Morningstar and Moon", "pieces": 4 }],
+      "note": "Meist das beste Set für ihren eigenen Schaden."
+    },
+    {
+      "sets": [{ "name": "Silken Moon's Serenade", "pieces": 4 }],
+      "note": "Unterstützer-Set: Elementarkunde für das ganze Team und mehr Schaden der Mondleuchten-Reaktionen."
+    },
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 4 }],
+      "note": "Solide Alternative mit viel Elementarkunde."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["atk%", "em"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "em", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/531360",
+    "https://gamewith.net/genshin-impact/article/show/68225",
+    "https://gamewith.net/genshin-impact/article/show/69273"
+  ]
+}

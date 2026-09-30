@@ -1,0 +1,66 @@
+{
+  "character": "Illuga",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support"],
+  "summary": "Geo-Unterstützer mit Stangenwaffe für Mond-Kristallisation. Seine Spezialfähigkeit gibt dem Team Stapel, die Geo- und Mond-Kristallisations-Schaden erhöhen – wie stark, hängt von seiner Elementarkunde ab. Freischalten kann er die Reaktion nicht selbst – das übernehmen Zibai, Columbina oder Linnea; sein bester Partner ist Zibai.",
+  "tips": [
+    "Seine Buffs wachsen mit der Elementarkunde: Ziel etwa 750–800 oder mehr.",
+    "Aufladerate: etwa 160–180 %, mit Favonius-Lanze etwas weniger.",
+    "Rotation: Elementarfähigkeit, Spezialfähigkeit, dann zum Haupt-DPS wechseln.",
+    "Sternbild 2 ist wichtig: Erst damit lösen Sets wie die Serenade des seidenen Mondes auch außerhalb des Feldes dauerhaft aus."
+  ],
+  "teams": [
+    {
+      "name": "Mond-Kristallisation",
+      "note": "Sein bestes Team: Zibai macht den Schaden, Columbina liefert Hydro und verstärkt die Reaktion. Illuga erhöht den Mond-Kristallisations-Schaden, Linnea senkt den Geo-Widerstand.",
+      "slots": [["Illuga"], ["Zibai"], ["Columbina", "Yelan", "Aino", "Xingqiu"], ["Linnea", "Gorou", "Zhongli"]]
+    },
+    {
+      "name": "Geo-Haupt-DPS",
+      "note": "Auch ohne Zibai: Columbina macht aus Kristallisation Mond-Kristallisation, Illuga verstärkt den Geo-Schaden von Navia oder Itto.",
+      "slots": [["Illuga"], ["Navia", "Arataki Itto"], ["Columbina"], ["Chiori", "Gorou", "Zhongli"]]
+    },
+    {
+      "name": "Geo (günstig)",
+      "note": "Team ohne 5★: Illuga verstärkt Noelles Geo-Schaden, Gorou erhöht ihre VTD, Aino oder Xingqiu tragen Hydro auf.",
+      "slots": [["Illuga"], ["Noelle"], ["Gorou", "Traveler (Geo)"], ["Aino", "Xingqiu"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Favonius Lance",
+      "note": "Beste Wahl: Energiepartikel fürs Team senken den Aufladerate-Bedarf – dafür etwas Krit.-Rate einplanen."
+    },
+    {
+      "name": "Dragon's Bane",
+      "note": "Viel Elementarkunde für stärkere Buffs – gut, wenn die Energie im Team schon reicht."
+    },
+    {
+      "name": "Kitain Cross Spear",
+      "note": "Schmiedbar: Elementarkunde und Energie nach der Elementarfähigkeit – beste Gratis-Wahl."
+    },
+    { "name": "The Catch", "note": "Per Angeln erhältlich, viel Aufladerate." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Silken Moon's Serenade", "pieces": 4 }],
+      "note": "Bestes Set, wirkt aber erst ab Sternbild 2 dauerhaft."
+    },
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 2 }, { "name": "Wanderer's Troupe", "pieces": 2 }],
+      "note": "Zwei Elementarkunde-Hälften für möglichst starke Buffs."
+    },
+    {
+      "sets": [{ "name": "Instructor", "pieces": 4 }],
+      "note": "Günstige Alternative mit Elementarkunde fürs Team – hat vor Sternbild 2 dieselbe Einschränkung."
+    }
+  ],
+  "mainStats": { "sands": ["em", "er"], "goblet": ["em"], "circlet": ["em", "cr"] },
+  "substats": ["er", "em", "cr", "def%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/555902",
+    "https://keqingmains.com/q/illuga-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/69511"
+  ]
+}

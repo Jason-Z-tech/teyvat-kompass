@@ -1,0 +1,74 @@
+{
+  "character": "Amber",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "support", "main-dps"],
+  "summary": "Pyro-Bogenschützin mit zwei Rollen: Als Unterstützerin lässt ihre Spezialfähigkeit einen Pfeilregen niedergehen, der Pyro auf viele Gegner verteilt. Mit Kryo-Partnern löst sie mit gezielten Schüssen (heftiger Schlag) selbst Schmelzen aus. Ihre Puppe aus der Elementarfähigkeit lenkt Gegner ab.",
+  "tips": [
+    "Die Puppe aus der Elementarfähigkeit zieht die Aufmerksamkeit der Gegner auf sich – so kann Amber in Ruhe zielen.",
+    "Voll aufgeladene gezielte Schüsse auf Schwachstellen treffen immer kritisch.",
+    "Als Unterstützerin die Spezialfähigkeit einsetzen, sobald sie bereit ist. Mit Favonius-Bogen reichen etwa 130–175 % Aufladerate.",
+    "Beim Zielen steht Amber still und ist verwundbar – ein Schild (Citlali, Zhongli oder Layla) hilft sehr."
+  ],
+  "teams": [
+    {
+      "name": "Schmelzen",
+      "note": "Citlali oder Rosaria tragen Kryo auf, damit Ambers Pyro-Schüsse schmelzen. Bennett gibt ANG und heilt. Der letzte Platz ist flexibel: Kazuha oder Xilonen verstärken den Schaden, Zhongli oder Layla schützen beim Zielen.",
+      "slots": [["Amber"], ["Citlali", "Rosaria"], ["Bennett"], ["Kaedehara Kazuha", "Xilonen", "Zhongli", "Layla"]]
+    },
+    {
+      "name": "Verdampfen mit Hu Tao",
+      "note": "Amber bleibt im Hintergrund: Ihr Pfeilregen verteilt Pyro, damit Kazuha oder Saccharose den Pyro-Widerstand der Gegner senken. Xingqiu oder Yelan liefern Hydro für Hu Taos Verdampfen.",
+      "slots": [["Hu Tao"], ["Amber"], ["Xingqiu", "Yelan"], ["Kaedehara Kazuha", "Sucrose"]]
+    },
+    {
+      "name": "Schmelzen (günstig)",
+      "note": "Günstiges Team: Diona trägt Kryo auf, Saccharose verteilt es weiter und erhöht Ambers Elementarkunde. Reisende(r) (Pyro) liefert aus dem Hintergrund zusätzlich Pyro und Energie.",
+      "slots": [["Amber"], ["Diona"], ["Sucrose"], ["Traveler (Pyro)"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "The First Great Magic",
+      "note": "Beste Wahl für Schmelzen-Amber: mehr Schaden für heftige Schläge und viel Krit.-Schaden."
+    },
+    {
+      "name": "Astral Vulture's Crimson Plumage",
+      "note": "Großer Bonus auf heftige Schläge – sehr stark für gezielte Schüsse."
+    },
+    {
+      "name": "Elegy for the End",
+      "note": "Beste Wahl für die Unterstützer-Rolle: Aufladerate und Buffs für das ganze Team."
+    },
+    {
+      "name": "Prototype Crescent",
+      "note": "Schmiedbar, ANG als Nebenwert – solide Gratis-Wahl für gezielte Schüsse."
+    },
+    { "name": "Hamayumi", "note": "Schmiedbar (Inazuma) – brauchbarer Ersatz für Schmelzen-Amber." },
+    {
+      "name": "Favonius Warbow",
+      "note": "Kritische Treffer erzeugen Energie – hilft der Unterstützerin, die Spezialfähigkeit oft einzusetzen."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Shimenawa's Reminiscence", "pieces": 4 }],
+      "note": "Für Schmelzen-Amber: Nach der Elementarfähigkeit machen Standardangriffe und heftige Schläge deutlich mehr Schaden."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Für die Unterstützer-Rolle: Nach der Spezialfähigkeit bekommt das ganze Team mehr ANG."
+    },
+    {
+      "sets": [{ "name": "Wanderer's Troupe", "pieces": 4 }],
+      "note": "Alternative für Schmelzen: Elementarkunde und mehr Schaden für heftige Schläge mit dem Bogen."
+    }
+  ],
+  "mainStats": { "sands": ["em", "atk%", "er"], "goblet": ["pyro"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "em", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297535",
+    "https://keqingmains.com/q/amber-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/22355"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "character": "Ganyu",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps", "sub-dps"],
+  "summary": "Kryo-Bogenschützin, die mit voll aufgeladenen heftigen Schlägen großen Flächenschaden macht. Ihre Spezialfähigkeit lässt lange Eissplitter auf ein Gebiet regnen und erhöht darin den Kryo-Schaden der Truppe. Gespielt wird sie meist mit Gefroren oder Schmelzen.",
+  "tips": [
+    "Heftige Schläge immer voll aufladen: Erst dann explodiert der Pfeil mit großem Flächenschaden.",
+    "Zuerst die Spezialfähigkeit einsetzen und in ihrem Bereich bleiben – dort gibt es mehr Kryo-Schaden.",
+    "Ihre Elementarfähigkeit hinterlässt eine Eisblume, die Gegner ablenkt.",
+    "Für Gefroren etwa 110–130 % Aufladerate, in Schmelzen-Teams braucht sie kaum welche."
+  ],
+  "teams": [
+    {
+      "name": "Gefroren",
+      "note": "Furina und Escoffier halten die Gegner eingefroren, heilen und senken ihren Widerstand. Shenhe oder Citlali verstärken zusätzlich.",
+      "slots": [["Ganyu"], ["Escoffier"], ["Furina"], ["Shenhe", "Citlali"]]
+    },
+    {
+      "name": "Gefroren mit Anemo",
+      "note": "Der klassische Aufbau: Hydro-Partner und Ganyu frieren die Gegner ein, der Anemo-Partner zieht sie zusammen, damit ihre Pfeile viele Gegner treffen.",
+      "slots": [
+        ["Ganyu"],
+        ["Shenhe", "Diona", "Rosaria"],
+        ["Sangonomiya Kokomi", "Mona", "Barbara"],
+        ["Kaedehara Kazuha", "Venti", "Sucrose"]
+      ]
+    },
+    {
+      "name": "Schmelzen",
+      "note": "Xiangling oder Mavuika tragen Pyro auf, sodass Ganyus heftige Schläge schmelzen. Bennett gibt viel ANG, Zhongli schützt sie beim Aufladen; Xilonen oder Kachina verstärken stattdessen.",
+      "slots": [["Ganyu"], ["Xiangling", "Mavuika"], ["Bennett"], ["Zhongli", "Xilonen", "Kachina"]]
+    },
+    {
+      "name": "Gefroren als Unterstützerin",
+      "note": "Ganyu bleibt außerhalb des Feldes: Ihre Spezialfähigkeit trägt lange Kryo auf und erhöht im Wirkungsbereich den Kryo-Schaden des Hauptangreifers. Furina liefert Hydro für Gefroren, Escoffier oder Xilonen heilen und senken Widerstände.",
+      "slots": [["Kamisato Ayaka", "Wriothesley", "Skirk"], ["Ganyu"], ["Furina"], ["Escoffier", "Xilonen"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "The First Great Magic",
+      "note": "Verstärkt heftige Schläge und gibt zusätzlich ANG – ihre beste Wahl."
+    },
+    { "name": "Aqua Simulacra", "note": "Sehr viel Krit.-Schaden als Nebenwert." },
+    { "name": "Polar Star", "note": "Krit.-Rate als Nebenwert, vielseitig einsetzbar." },
+    { "name": "Amos' Bow", "note": "Viel ANG und mehr Schaden, je länger der Pfeil fliegt." },
+    {
+      "name": "Astral Vulture's Crimson Plumage",
+      "note": "Beste Wahl für Schmelzen-Teams, verstärkt heftige Schläge."
+    },
+    {
+      "name": "Prototype Crescent",
+      "note": "Schmiedbar und die beste Gratis-Wahl: Treffer auf Schwachstellen geben viel ANG."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Blizzard Strayer", "pieces": 4 }],
+      "note": "Viel Krit.-Rate gegen Kryo-betroffene und gefrorene Gegner – deshalb auf der Krone eher Krit.-Schaden."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Mit Furina im Team eine gute Alternative, auch gegen Gegner, die nicht einfrieren."
+    },
+    {
+      "sets": [{ "name": "Wanderer's Troupe", "pieces": 4 }],
+      "note": "Für Schmelzen: Elementarkunde und mehr Schaden für heftige Schläge."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["cryo"], "circlet": ["cd", "cr"] },
+  "substats": ["cd", "atk%", "cr", "em", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/312173",
+    "https://gamewith.net/genshin-impact/article/show/38391",
+    "https://gamewith.net/genshin-impact/article/show/23418",
+    "https://keqingmains.com/q/ganyu-quickguide/"
+  ]
+}

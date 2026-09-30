@@ -1,0 +1,77 @@
+{
+  "character": "Yaoyao",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["healer", "support"],
+  "summary": "4★-Heilerin mit Lanze. Ihre Elementarfähigkeit ruft einen mechanischen Hasen, der von außerhalb des Feldes Rettiche wirft: Sie heilen das Team oder machen Dendro-Schaden. So verbindet sie Heilung und Dendro in vielen Reaktionsteams.",
+  "tips": [
+    "Sie braucht viel Aufladerate: mit weiteren Dendro-Charakteren etwa 200–240 %, als einzige Dendro-Quelle rund 260 %.",
+    "Während ihrer Spezialfähigkeit auf dem Feld bleiben – ein Wechsel beendet sie vorzeitig.",
+    "Die Rettiche explodieren nur auf kleiner Fläche, deshalb nah an den Gegnern kämpfen."
+  ],
+  "teams": [
+    {
+      "name": "Supraspross",
+      "note": "Alhaitham und Yaoyao erzeugen mit Furinas Hydro viele Dendro-Kerne, Kuki Shinobu macht daraus Supraspross. Mit zwei Heilerinnen kann Furina ihre Beschwörungen voll ausnutzen.",
+      "slots": [["Alhaitham"], ["Yaoyao"], ["Furina", "Xingqiu", "Yelan"], ["Kuki Shinobu", "Raiden Shogun"]]
+    },
+    {
+      "name": "Suprawuchs",
+      "note": "Yaoyaos gemächliches Dendro passt gut zu Urwuchs: Elektro-Angreifer wie Clorinde lösen ständig Suprawuchs aus, Fischl liefert zusätzlich Elektro und Energie.",
+      "slots": [
+        ["Clorinde", "Keqing", "Cyno"],
+        ["Yaoyao"],
+        ["Fischl", "Yae Miko", "Beidou"],
+        ["Kaedehara Kazuha", "Sucrose"]
+      ]
+    },
+    {
+      "name": "Nilou-Sprießen",
+      "note": "Nilou macht aus Sprießen besonders starke Dendro-Kerne. Yaoyao liefert zusätzliches Dendro und heilt den Schaden der Explosionen.",
+      "slots": [
+        ["Nilou"],
+        ["Yaoyao"],
+        ["Nahida", "Lauma", "Collei", "Traveler (Dendro)"],
+        ["Sangonomiya Kokomi", "Columbina", "Xingqiu", "Candace"]
+      ]
+    },
+    {
+      "name": "Flammenspross",
+      "note": "Nahida und Yaoyao erzeugen mit Ayatos Hydro Dendro-Kerne, die Thoma als Flammenspross zündet. Yaoyao heilt dabei den Explosionsschaden.",
+      "slots": [["Kamisato Ayato"], ["Yaoyao"], ["Nahida", "Collei", "Baizhu"], ["Thoma", "Xiangling"]]
+    }
+  ],
+  "weapons": [
+    { "name": "Favonius Lance", "note": "Erzeugt Energie für das Team, braucht dafür etwas Krit.-Rate." },
+    {
+      "name": "Dialogues of the Desert Sages",
+      "note": "Event-Waffe mit LP, gibt nach Heilungen Energie zurück."
+    },
+    {
+      "name": "Kitain Cross Spear",
+      "note": "Schmiedbar, Elementarkunde und Energie – gut für Reaktionsteams."
+    },
+    { "name": "Rightful Reward", "note": "Schmiedbar, LP als Nebenwert und Energie, wenn sie geheilt wird." },
+    { "name": "Black Tassel", "note": "3★-Lanze mit viel LP als Nebenwert – einfache Gratis-Wahl." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Deepwood Memories", "pieces": 4 }],
+      "note": "Senkt den Dendro-Widerstand der Gegner – in Dendro-Teams die erste Wahl."
+    },
+    {
+      "sets": [{ "name": "Instructor", "pieces": 4 }],
+      "note": "Mehr Elementarkunde für das Team, wenn jemand anderes Erinnerungen des tiefen Waldes trägt."
+    },
+    { "sets": [{ "name": "Tenacity of the Millelith", "pieces": 4 }], "note": "Mehr ANG für das Team." }
+  ],
+  "mainStats": { "sands": ["er", "hp%"], "goblet": ["hp%"], "circlet": ["heal", "hp%", "cr"] },
+  "substats": ["er", "cr", "hp%", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/314174",
+    "https://gamewith.net/genshin-impact/article/show/23804",
+    "https://gamewith.net/genshin-impact/article/show/39616",
+    "https://keqingmains.com/q/yaoyao-quickguide/",
+    "https://keqingmains.com/q/lauma-quickguide/"
+  ]
+}

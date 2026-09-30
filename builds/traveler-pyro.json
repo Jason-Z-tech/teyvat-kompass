@@ -1,0 +1,75 @@
+{
+  "character": "Traveler (Pyro)",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "support"],
+  "summary": "Reisende(r) mit Pyro-Element, freigeschaltet über die Archon-Quest in Natlan. Mit Elementarfähigkeit und Spezialfähigkeit wird aus dem Hintergrund Pyro aufgetragen, und das Set Schriftrolle des Recken der aschenen Stadt lässt sich voll auslösen – eine kostenlose Unterstützung für viele Teams. Ab Sternbild 6 geht es auch auf dem Feld.",
+  "tips": [
+    "Die verbesserten Sternbilder schaltet man in Natlan durch Opfergaben mit Erzen frei, die man auf der Reise sammelt.",
+    "Braucht als Unterstützung viel Aufladerate (oft über 200 %). Favonius-Schwert und Natlan-Figuren im Team senken den Bedarf.",
+    "Stufe 90 lohnt sich, wenn Überladen oder Flammenspross ausgelöst werden – dieser Schaden hängt von Stufe und Elementarkunde ab.",
+    "Ab Sternbild 6 werden die Angriffe im Nachtseelensegen zu Pyro-Schaden – dann ist auch ein Build als Haupt-DPS möglich."
+  ],
+  "teams": [
+    {
+      "name": "Überladen mit Chevreuse",
+      "note": "Liefert aus dem Hintergrund Pyro für Überladen und stärkt das Team über das Schriftrolle-Set. Chevreuse senkt den Widerstand, Sara oder Iansan geben dem Elektro-Haupt-DPS ANG.",
+      "slots": [["Raiden Shogun", "Varesa", "Clorinde"], ["Traveler (Pyro)"], ["Chevreuse"], ["Kujou Sara", "Iansan"]]
+    },
+    {
+      "name": "Verdampfen mit Mualani",
+      "note": "Trägt gerade genug Pyro auf, damit Mualanis Angriffe verdampfen – vor allem gegen einzelne Gegner. Xilonen senkt den Widerstand, Saccharose oder Kazuha verstärken.",
+      "slots": [["Mualani"], ["Traveler (Pyro)"], ["Xilonen"], ["Sucrose", "Kaedehara Kazuha"]]
+    },
+    {
+      "name": "Brennen mit Kinich",
+      "note": "Hält mit Pyro aus dem Hintergrund das Brennen für Kinich aufrecht. Mit Erinnerungen des tiefen Waldes senkt er zusätzlich den Dendro-Widerstand für Kinich und Emilie.",
+      "slots": [["Kinich"], ["Traveler (Pyro)"], ["Emilie"], ["Bennett"]]
+    },
+    {
+      "name": "Schmelzen",
+      "note": "Liefert Pyro, damit Wriothesley oder Ganyu schmelzen. Nahida hält mit Brennen zusätzlich Pyro auf den Gegnern, Bennett gibt ANG, Zhongli schützt.",
+      "slots": [["Wriothesley", "Ganyu"], ["Traveler (Pyro)"], ["Nahida"], ["Bennett", "Zhongli"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Favonius Sword",
+      "note": "Beste Allround-Wahl: viel Aufladerate und Energie für das ganze Team."
+    },
+    { "name": "Freedom-Sworn", "note": "Premium-Wahl: Elementarkunde und ein Buff für das Team." },
+    {
+      "name": "Mistsplitter Reforged",
+      "note": "Für mehr eigenen Schaden: Krit.-Schaden und Elementar-Schadensbonus."
+    },
+    {
+      "name": "Sacrificial Sword",
+      "note": "Auf Verfeinerung 5 gut für kürzere Runden – sonst lohnt es sich kaum."
+    },
+    { "name": "Festering Desire", "note": "Event-Waffe mit Aufladerate und stärkerer Elementarfähigkeit." },
+    {
+      "name": "Fleuve Cendre Ferryman",
+      "note": "Über das Angeln erhältlich: Aufladerate und kurz mehr Aufladerate nach der Elementarfähigkeit."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Scroll of the Hero of Cinder City", "pieces": 4 }],
+      "note": "Das beste Set: gibt dem ganzen Team bis zu 40 % Elementar-Schadensbonus und ist leicht auszulösen."
+    },
+    {
+      "sets": [{ "name": "Tenacity of the Millelith", "pieces": 4 }],
+      "note": "Alternative, wenn schon jemand anderes das Schriftrolle-Set trägt: mehr ANG für das Team."
+    },
+    {
+      "sets": [{ "name": "Deepwood Memories", "pieces": 4 }],
+      "note": "In Teams mit Kinich oder Emilie: senkt den Dendro-Widerstand der Gegner."
+    }
+  ],
+  "mainStats": { "sands": ["er", "atk%", "em"], "goblet": ["pyro", "atk%", "em"], "circlet": ["cr", "cd", "em"] },
+  "substats": ["er", "cr", "cd", "atk%", "em"],
+  "sources": [
+    "https://keqingmains.com/q/pyro-traveler-quickguide/",
+    "https://game8.co/games/Genshin-Impact/archives/470309"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "character": "Tighnari",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Dendro-Bogenschütze, der vor allem mit aufgeladenen Schüssen (heftiger Schlag) Schaden macht. Seine Pfeile lösen beim Treffer weitere, zielsuchende Dendro-Geschosse aus. Am besten spielt man ihn mit Elektro-Partnern, damit seine Treffer Rankenwuchs auslösen – besonders stark gegen einzelne Gegner.",
+  "tips": [
+    "Die Elementarfähigkeit verkürzt die Aufladezeit der nächsten gezielten Schüsse – danach mehrere voll aufgeladene Schüsse abfeuern.",
+    "Aufladerate etwa 130–160 %, je nach Team.",
+    "Etwa 300–400 Elementarkunde reichen, danach vor allem Krit.-Werte sammeln."
+  ],
+  "teams": [
+    {
+      "name": "Rankenwuchs mit Nahida",
+      "note": "Ein zweiter Dendro- und ein Elektro-Charakter halten Urwuchs dauerhaft aufrecht, sodass Tighnaris Schüsse ständig Rankenwuchs auslösen. Der vierte Platz sorgt für Heilung oder Schilde.",
+      "slots": [
+        ["Tighnari"],
+        ["Nahida", "Collei", "Traveler (Dendro)"],
+        ["Fischl", "Yae Miko", "Raiden Shogun"],
+        ["Kuki Shinobu", "Zhongli", "Baizhu"]
+      ]
+    },
+    {
+      "name": "Rankenwuchs mit zwei Elektro",
+      "note": "Fischl und Yae Miko liefern von außerhalb des Feldes ständig Elektro, Tighnari löst damit Rankenwuchs aus. Zhongli schützt mit Schilden, alternativ heilt Yaoyao oder Baizhu.",
+      "slots": [
+        ["Tighnari"],
+        ["Fischl"],
+        ["Yae Miko", "Kuki Shinobu", "Raiden Shogun"],
+        ["Zhongli", "Yaoyao", "Baizhu", "Kaedehara Kazuha"]
+      ]
+    },
+    {
+      "name": "Supraspross",
+      "note": "Mit Hydro entstehen Dendro-Kerne, die Kuki Shinobu zu zielsuchenden Supraspross-Geschossen macht. Sie treffen gleichzeitig mit Tighnaris Pfeilen.",
+      "slots": [
+        ["Tighnari"],
+        ["Nahida", "Traveler (Dendro)", "Collei"],
+        ["Xingqiu", "Yelan", "Sangonomiya Kokomi"],
+        ["Kuki Shinobu", "Raiden Shogun"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Hunter's Path",
+      "note": "Seine Signaturwaffe und klar die beste: Krit.-Rate und viel Zusatzschaden für heftige Schläge."
+    },
+    { "name": "Aqua Simulacra", "note": "Viel Krit.-Schaden und ein allgemeiner Schadensbonus." },
+    { "name": "The First Great Magic", "note": "Krit.-Schaden und mehr Schaden für heftige Schläge." },
+    { "name": "Polar Star", "note": "Krit.-Rate und mehr Schaden für Elementar- und Spezialfähigkeit." },
+    { "name": "Slingshot", "note": "3★-Bogen mit Krit.-Rate, erstaunlich gut auf Tighnari." },
+    { "name": "Prototype Crescent", "note": "Schmiedbar, stark, wenn man Schwachstellen trifft." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Wanderer's Troupe", "pieces": 4 }],
+      "note": "Mehr Elementarkunde und mehr Schaden für heftige Schläge, ganz ohne Bedingung."
+    },
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 4 }],
+      "note": "Etwa gleich stark, mit dem Pfad des Jägers sogar etwas besser – wenn ein Mitstreiter Erinnerungen des tiefen Waldes trägt."
+    },
+    {
+      "sets": [{ "name": "Deepwood Memories", "pieces": 4 }],
+      "note": "Wenn niemand sonst im Team den Dendro-Widerstand der Gegner senkt."
+    }
+  ],
+  "mainStats": { "sands": ["em", "atk%"], "goblet": ["dendro"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "em", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/382082",
+    "https://gamewith.net/genshin-impact/article/show/33276",
+    "https://gamewith.net/genshin-impact/article/show/38833",
+    "https://keqingmains.com/q/tighnari-quickguide/"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "character": "Clorinde",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Elektro-Schwertkämpferin, die auf dem Feld mit schnellen Schüssen und Stichen Schaden macht. Ihre Standardangriffe bauen Eid des Lebens auf, ihre Elementarfähigkeit verbraucht ihn wieder und trifft dadurch härter. Sie passt zu vielen Elektro-Reaktionen, besonders gut in Suprawuchs-Teams mit Nahida.",
+  "tips": [
+    "Während ihrer Elementarfähigkeit: etwa drei Standardangriffe, dann erneut die Elementarfähigkeit – so wird der Eid des Lebens voll ausgenutzt.",
+    "Talente: die Elementarfähigkeit zuerst leveln, sie macht den Großteil ihres Schadens.",
+    "Ziele: etwa 70 % Krit.-Rate, 160 % Krit.-Schaden und 110–130 % Aufladerate.",
+    "Sternbild 2 ist ein guter Haltepunkt: mehr Schaden und weniger Unterbrechungen, wenn das Team Elektro-Reaktionen auslöst."
+  ],
+  "teams": [
+    {
+      "name": "Suprawuchs",
+      "note": "Nahida hält Urwuchs aufrecht, Fischl liefert zusätzliches Elektro und Energie. Kazuha sammelt die Gegner und erhöht Clorindes Elektro-Schaden.",
+      "slots": [
+        ["Clorinde"],
+        ["Nahida", "Collei"],
+        ["Fischl", "Kuki Shinobu", "Yae Miko"],
+        ["Kaedehara Kazuha", "Sucrose"]
+      ]
+    },
+    {
+      "name": "Supraspross",
+      "note": "Furina und Nahida erzeugen Dendro-Kerne, die Clorinde mit Elektro zu Supraspross macht. Furina erhöht zudem den Schaden, Baizhu gleicht ihre LP-Verluste aus.",
+      "slots": [
+        ["Clorinde"],
+        ["Furina", "Yelan", "Candace"],
+        ["Nahida", "Traveler (Dendro)", "Collei"],
+        ["Baizhu", "Jean", "Yaoyao", "Zhongli"]
+      ]
+    },
+    {
+      "name": "Mond unter Strom",
+      "note": "Columbina liefert Hydro und ermöglicht Mond unter Strom, das kritisch treffen kann. Ineffa verstärkt die Reaktion zusätzlich, Furina erhöht den Schaden des ganzen Teams.",
+      "slots": [["Clorinde"], ["Columbina"], ["Furina", "Yelan", "Xingqiu"], ["Ineffa", "Sucrose", "Jean"]]
+    },
+    {
+      "name": "Überladen",
+      "note": "Chevreuse ist Pflicht: Sie senkt Pyro- und Elektro-Widerstand und erhöht den ANG. Fischl liefert Elektro, der Pyro-Partner löst Überladen aus.",
+      "slots": [
+        ["Clorinde"],
+        ["Chevreuse"],
+        ["Fischl", "Kuki Shinobu", "Yae Miko"],
+        ["Durin", "Nicole", "Bennett", "Thoma"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Absolution",
+      "note": "Signaturwaffe und beste Wahl: viel Krit.-Schaden, ihr Eid des Lebens erhöht den Schaden weiter."
+    },
+    {
+      "name": "Haran Geppaku Futsu",
+      "note": "Krit.-Rate sowie Bonus auf Elementar- und Standardangriffsschaden."
+    },
+    { "name": "Mistsplitter Reforged", "note": "Viel Krit.-Schaden und Elementarschaden-Bonus." },
+    { "name": "Light of Foliar Incision", "note": "Sehr viel Krit.-Schaden als Nebenwert." },
+    {
+      "name": "The Black Sword",
+      "note": "Battle-Pass-Waffe mit Krit.-Rate und mehr Schaden für Standardangriffe."
+    },
+    {
+      "name": "Finale of the Deep",
+      "note": "Schmiedbar: gibt zusätzlichen Eid des Lebens, der schnell abgebaut wird und dann viel ANG bringt."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Fragment of Harmonic Whimsy", "pieces": 4 }],
+      "note": "Bestes Set: Ihr ständig wechselnder Eid des Lebens löst den Schadensbonus mühelos aus."
+    },
+    {
+      "sets": [{ "name": "Thundering Fury", "pieces": 4 }],
+      "note": "Mehr Reaktionsschaden und kürzere Abklingzeit der Elementarfähigkeit, wenn das Team oft Reaktionen auslöst."
+    },
+    {
+      "sets": [{ "name": "Night of the Sky's Unveiling", "pieces": 4 }],
+      "note": "Nur für Mond-unter-Strom-Teams – dort etwa gleichauf mit dem besten Set."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["electro"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/417218",
+    "https://gamewith.net/genshin-impact/article/show/40235",
+    "https://gamewith.net/genshin-impact/article/show/45679"
+  ]
+}

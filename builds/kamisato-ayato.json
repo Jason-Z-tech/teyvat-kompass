@@ -1,0 +1,78 @@
+{
+  "character": "Kamisato Ayato",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps", "sub-dps"],
+  "summary": "Hydro-Schwertkämpfer, der vor allem selbst auf dem Feld kämpft. Nach seiner Elementarfähigkeit werden seine Standardangriffe zu schnellen Hydro-Hieben mit Flächenschaden, seine Spezialfähigkeit lässt zusätzlich Wasserklingen regnen. Stark in Gefroren-, Supraspross- und Verdampfen-Teams.",
+  "tips": [
+    "Talente: Elementarfähigkeit zuerst leveln, sie macht fast seinen ganzen Schaden.",
+    "Pro Rotation zweimal die Elementarfähigkeit nutzen und dazwischen die Teamkollegen ihre Fähigkeiten einsetzen lassen.",
+    "Seine Spezialfähigkeit kostet 80 Energie: etwa 130–160 % Aufladerate, mit weiteren Hydro-Figuren weniger.",
+    "Echo des Opferfests arbeitet mit Zufall und ist bei hohem Ping (über 100 ms) unzuverlässig."
+  ],
+  "teams": [
+    {
+      "name": "Gefroren",
+      "note": "Escoffier und Citlali senken den Hydro-Widerstand der Gegner, Furina erhöht den Schaden stark. Derzeit sein stärkstes Team.",
+      "slots": [["Kamisato Ayato"], ["Escoffier", "Diona"], ["Furina"], ["Citlali", "Shenhe", "Rosaria"]]
+    },
+    {
+      "name": "Supraspross",
+      "note": "Ayatos schnelle Hydro-Treffer erzeugen mit Dendro viele Dendro-Kerne, die Shinobu mit Elektro zu Supraspross platzen lässt. Braucht wenig Investition.",
+      "slots": [
+        ["Kamisato Ayato"],
+        ["Nahida", "Collei", "Traveler (Dendro)", "Baizhu"],
+        ["Kuki Shinobu", "Raiden Shogun", "Yae Miko"],
+        ["Furina", "Fischl", "Sucrose"]
+      ]
+    },
+    {
+      "name": "Nationalteam",
+      "note": "Xiangling und Bennett liefern Pyro für Verdampfen, Kazuha sammelt die Gegner und verstärkt beide Elemente. Stark gegen einzelne und viele Gegner.",
+      "slots": [["Kamisato Ayato"], ["Xiangling"], ["Bennett"], ["Kaedehara Kazuha", "Sucrose", "Fischl"]]
+    },
+    {
+      "name": "Flammenspross",
+      "note": "Ayato erzeugt Dendro-Kerne, Thoma bringt sie mit Pyro zum Explodieren. Der Flächenschaden hilft gegen Gegnergruppen.",
+      "slots": [
+        ["Kamisato Ayato"],
+        ["Thoma", "Traveler (Pyro)", "Dehya"],
+        ["Nahida", "Lauma", "Collei"],
+        ["Baizhu", "Yaoyao"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Haran Geppaku Futsu",
+      "note": "Signaturwaffe: Krit.-Rate, Elementarschaden und stärkere Standardangriffe."
+    },
+    { "name": "Primordial Jade Cutter", "note": "Gleichauf mit der Signaturwaffe, sehr hohe Krit.-Rate." },
+    { "name": "Mistsplitter Reforged", "note": "Viel Krit.-Schaden und Elementarschadensbonus." },
+    { "name": "The Black Sword", "note": "Battle-Pass-Waffe mit Krit.-Rate, stärkste 4★-Wahl." },
+    { "name": "Kagotsurube Isshin", "note": "Gratis aus Akt I von Kazuhas Story-Quest." },
+    { "name": "Finale of the Deep", "note": "Schmiedbar, stark mit einem Heiler im Team." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Heart of Depth", "pieces": 4 }],
+      "note": "Das verlässlichste Set: Hydro-Schaden und stärkere Standardangriffe nach der Elementarfähigkeit."
+    },
+    {
+      "sets": [{ "name": "Echoes of an Offering", "pieces": 4 }],
+      "note": "Mit niedrigem Ping etwas stärker, sonst lieber Tief im Herzen."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Mit Furina und Heiler im Team sehr stark, weil die LP-Änderungen die Krit.-Rate erhöhen."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er"], "goblet": ["hydro"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "atk%", "hp%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/345514",
+    "https://gamewith.net/genshin-impact/article/show/24635",
+    "https://gamewith.net/genshin-impact/article/show/42515",
+    "https://keqingmains.com/q/ayato-quickguide/"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "character": "Keqing",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Schnelle Elektro-Schwertkämpferin, die auf dem Feld mit Standardangriffen und heftigen Schlägen Schaden macht. Nach dem zweiten Einsatz ihrer Elementarfähigkeit werden ihre Angriffe kurz zu Elektro-Angriffen. Am stärksten ist sie in Suprawuchs-Teams mit einem Dendro- und einem zweiten Elektro-Charakter.",
+  "tips": [
+    "Elementarfähigkeit zweimal: erst das Stilett werfen, dann dorthin springen – danach sind ihre Angriffe kurz mit Elektro verzaubert.",
+    "Ihre Spezialfähigkeit kostet nur 40 Energie, Aufladerate ist kaum nötig.",
+    "Talente: den Standardangriff zuerst leveln, danach die Spezialfähigkeit."
+  ],
+  "teams": [
+    {
+      "name": "Suprawuchs",
+      "note": "Nahida hält Urwuchs aufrecht, Fischl liefert zusätzliches Elektro. Kazuha sammelt die Gegner und erhöht Keqings Elektro-Schaden.",
+      "slots": [
+        ["Keqing"],
+        ["Nahida", "Traveler (Dendro)", "Collei"],
+        ["Fischl", "Kuki Shinobu", "Yae Miko"],
+        ["Kaedehara Kazuha", "Baizhu", "Sucrose", "Xilonen"]
+      ]
+    },
+    {
+      "name": "Unter Strom",
+      "note": "Keqing und Fischl lösen mit Elektro Unter Strom aus, der Hydro-Partner trägt von außen Hydro auf. Kazuha verteilt die Elemente, Kokomi heilt.",
+      "slots": [["Keqing"], ["Fischl", "Ororon"], ["Yelan", "Furina"], ["Kaedehara Kazuha", "Sangonomiya Kokomi"]]
+    },
+    {
+      "name": "Supraspross",
+      "note": "Xingqiu und Nahida erzeugen Dendro-Kerne, Keqing verwandelt sie mit Elektro in zielsuchende Supraspross-Geschosse. Baizhu heilt und schützt.",
+      "slots": [
+        ["Keqing"],
+        ["Nahida", "Traveler (Dendro)", "Collei"],
+        ["Xingqiu", "Yelan", "Sangonomiya Kokomi", "Barbara"],
+        ["Baizhu", "Yaoyao", "Zhongli"]
+      ]
+    }
+  ],
+  "weapons": [
+    { "name": "Mistsplitter Reforged", "note": "Beste Waffe: viel Krit.-Schaden und Elementarschaden-Bonus." },
+    { "name": "Primordial Jade Cutter", "note": "Viel Krit.-Rate als Nebenwert." },
+    { "name": "Summit Shaper", "note": "ANG als Nebenwert und stapelnder ANG-Bonus." },
+    {
+      "name": "The Black Sword",
+      "note": "Battle-Pass-Waffe: Krit.-Rate und mehr Schaden für Standardangriffe und heftige Schläge."
+    },
+    {
+      "name": "Lion's Roar",
+      "note": "4★ mit ANG und mehr Schaden gegen Gegner, auf denen Pyro oder Elektro liegt."
+    },
+    {
+      "name": "Amenoma Kageuchi",
+      "note": "Schmiedbar (Inazuma), viel ANG und etwas Energie zurück – beste Gratis-Wahl."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Thundering Fury", "pieces": 4 }],
+      "note": "Bestes Set: mehr Elektro- und Reaktionsschaden, dazu kürzere Abklingzeit der Elementarfähigkeit."
+    },
+    {
+      "sets": [{ "name": "Thundering Fury", "pieces": 2 }, { "name": "Gladiator's Finale", "pieces": 2 }],
+      "note": "Gute Mischung aus Elektro-Schaden und ANG, auch außerhalb von Suprawuchs-Teams."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["electro"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "em", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297534",
+    "https://gamewith.net/genshin-impact/article/show/22335",
+    "https://gamewith.net/genshin-impact/article/show/38866"
+  ]
+}

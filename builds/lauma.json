@@ -1,0 +1,81 @@
+{
+  "character": "Lauma",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "sub-dps"],
+  "summary": "Dendro-Unterstützerin mit Katalysator, die Mondspross ermöglicht. Ihre Elementarfähigkeit trägt von außerhalb des Feldes Dendro auf und senkt den Dendro- und Hydro-Widerstand der Gegner, ihre Spezialfähigkeit verstärkt Sprießen, Supraspross, Flammenspross und Mondspross – je mehr Elementarkunde, desto stärker. Nefers wichtigste Partnerin.",
+  "tips": [
+    "Erst die Spezialfähigkeit, dann die Elementarfähigkeit (gehalten, sobald 3 Stapelungen „Grünender Tau“ bereitliegen), danach zu den Partnern wechseln.",
+    "Ziel: rund 1000 Elementarkunde und je nach Team etwa 140–210 % Aufladerate.",
+    "Mit Nefer fast Pflicht: Sie senkt Widerstände und erhöht die Krit.-Werte von Mondspross.",
+    "Sternbild 1 lässt sie bei Mondspross heilen, Sternbild 2 verstärkt Sprießen- und Mondspross-Schaden des ganzen Teams deutlich."
+  ],
+  "teams": [
+    {
+      "name": "Mondspross mit Nefer",
+      "note": "Ihr stärkstes Team: Nefer macht den Schaden, Lauma ermöglicht Mondspross und senkt Widerstände, Columbina liefert Hydro und verstärkt alle Mondleuchten-Reaktionen.",
+      "slots": [["Lauma"], ["Nefer"], ["Columbina", "Aino"], ["Nahida", "Sucrose", "Kuki Shinobu", "Jahoda"]]
+    },
+    {
+      "name": "Sprießen mit Nilou",
+      "note": "Klassisches Nilou-Team: Lauma verstärkt die Sprießen-Reaktionen mit ihrer Spezialfähigkeit und senkt die Widerstände, Kokomi heilt und trägt zusätzlich Hydro auf.",
+      "slots": [
+        ["Lauma"],
+        ["Nilou"],
+        ["Sangonomiya Kokomi", "Xingqiu"],
+        ["Nahida", "Traveler (Dendro)", "Yaoyao", "Baizhu"]
+      ]
+    },
+    {
+      "name": "Supraspross",
+      "note": "Xingqiu und Yelan tragen Hydro auf, Kuki Shinobu oder Shougun Raiden lösen mit Elektro Supraspross aus. Lauma verstärkt die Reaktion und senkt die Widerstände.",
+      "slots": [
+        ["Lauma"],
+        ["Xingqiu"],
+        ["Kuki Shinobu", "Raiden Shogun", "Ineffa"],
+        ["Yelan", "Kamisato Ayato", "Furina"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Nightweaver's Looking Glass",
+      "note": "Ihre Signaturwaffe: viel Elementarkunde für Lauma und mehr Sprießen-, Supraspross-, Flammenspross- und Mondspross-Schaden für das ganze Team."
+    },
+    { "name": "A Thousand Floating Dreams", "note": "Viel Elementarkunde, stärkt auch die Partner." },
+    {
+      "name": "Etherlight Spindlelute",
+      "note": "Event-Waffe mit Aufladerate – hilft, die Spezialfähigkeit jede Runde bereit zu haben."
+    },
+    { "name": "Sunny Morning Sleep-In", "note": "Weitere 5★-Option mit Elementarkunde als Nebenwert." },
+    {
+      "name": "Blackmarrow Lantern",
+      "note": "Schmiedbar: Elementarkunde und mehr Sprießen- und Mondspross-Schaden."
+    },
+    {
+      "name": "Sacrificial Fragments",
+      "note": "Elementarkunde als Nebenwert, kann die Elementarfähigkeit zurücksetzen."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Deepwood Memories", "pieces": 4 }],
+      "note": "Senkt den Dendro-Widerstand der Gegner – erste Wahl, wenn niemand sonst im Team das Set trägt."
+    },
+    {
+      "sets": [{ "name": "Silken Moon's Serenade", "pieces": 4 }],
+      "note": "Aufladerate plus Elementarkunde und mehr Mondleuchten-Schaden für das ganze Team."
+    },
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 2 }, { "name": "Wanderer's Troupe", "pieces": 2 }],
+      "note": "Zwei Elementarkunde-Hälften für möglichst viel eigene Elementarkunde."
+    }
+  ],
+  "mainStats": { "sands": ["em", "er"], "goblet": ["em"], "circlet": ["em", "cr", "cd"] },
+  "substats": ["er", "em", "cr", "cd"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/538066",
+    "https://gamewith.net/genshin-impact/article/show/69281",
+    "https://keqingmains.com/q/lauma-quickguide/"
+  ]
+}

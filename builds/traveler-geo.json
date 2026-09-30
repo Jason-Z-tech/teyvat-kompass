@@ -1,0 +1,74 @@
+{
+  "character": "Traveler (Geo)",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "support"],
+  "summary": "Reisende(r) mit Geo-Element – dieser Build gilt nur für Geo. Man spielt ihn im Schnellwechsel: Elementarfähigkeit (Meteorit) und Spezialfähigkeit einsetzen, dann sofort wechseln. Beide erzeugen Geo-Objekte, die Geo-Partnern wie Zhongli oder Chiori zusätzlich helfen.",
+  "tips": [
+    "Das Geo-Element schaltest du an einer Statue der Sieben in Liyue frei.",
+    "Sternbilder gibt es gratis über Archon-Quests und die Statue der Sieben in Liyue.",
+    "Ab C1 erhalten Figuren im Bereich seiner Spezialfähigkeit +10 % Krit.-Rate.",
+    "Die Konstrukte können auch eigene Geschosse blockieren – den Meteoriten nicht direkt vor das Team setzen."
+  ],
+  "teams": [
+    {
+      "name": "Geo-Objekte mit Zhongli",
+      "note": "Zhonglis Steinsäule schwingt mit den Konstrukten des Reisenden mit und macht zusätzlichen Schaden. Kachina oder Xiangling bringen ein zweites Element, Bennett gibt ANG.",
+      "slots": [["Traveler (Geo)"], ["Zhongli"], ["Kachina", "Xiangling"], ["Bennett"]]
+    },
+    {
+      "name": "Navia",
+      "note": "Der Reisende füllt Navias Energie auf und gibt ab C1 Krit.-Rate. Xiangling oder Fischl sorgen für Kristallisation, Bennett gibt ANG.",
+      "slots": [["Navia"], ["Traveler (Geo)"], ["Xiangling", "Fischl"], ["Bennett"]]
+    },
+    {
+      "name": "Noelle (günstig)",
+      "note": "Drei Geo-Figuren liefern Noelle genug Energie für ihre Spezialfähigkeit, Bennett gibt ANG und heilt. Fast nur Gratis-Figuren.",
+      "slots": [["Noelle"], ["Traveler (Geo)"], ["Kachina", "Gorou"], ["Bennett"]]
+    },
+    {
+      "name": "Itto (günstig)",
+      "note": "Der Reisende ersetzt Chiori oder Albedo als dritte Geo-Figur und lädt Ittos Spezialfähigkeit auf. Gorou verstärkt, Fischl oder Zhongli ergänzen.",
+      "slots": [["Arataki Itto"], ["Traveler (Geo)"], ["Gorou"], ["Fischl", "Zhongli"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Primordial Jade Cutter",
+      "note": "Viel Krit.-Rate. Der Reisende hat keine eigene Signaturwaffe."
+    },
+    { "name": "Mistsplitter Reforged", "note": "Krit.-Schaden und Elementarschaden-Bonus." },
+    { "name": "Wolf-Fang", "note": "Battle-Pass-Waffe: mehr Schaden für Elementar- und Spezialfähigkeit." },
+    {
+      "name": "Amenoma Kageuchi",
+      "note": "Schmiedbar, gibt ANG und Energie für die Spezialfähigkeit – die beste Gratis-Waffe."
+    },
+    { "name": "Favonius Sword", "note": "Für die reine Unterstützer-Rolle: erzeugt Energie für das Team." },
+    {
+      "name": "Festering Desire",
+      "note": "Event-Waffe aus Version 1.2 mit Aufladerate, heute nicht mehr erhältlich."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Nighttime Whispers in the Echoing Woods", "pieces": 4 }],
+      "note": "Viel Geo-Schaden nach der Elementarfähigkeit, noch mehr unter einem Kristallisationsschild."
+    },
+    {
+      "sets": [{ "name": "Archaic Petra", "pieces": 2 }, { "name": "Noblesse Oblige", "pieces": 2 }],
+      "note": "Einfache Kombination aus Geo-Bonus und stärkerer Spezialfähigkeit."
+    },
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 4 }],
+      "note": "Aufladerate und mehr Schaden der Spezialfähigkeit – gut, wenn Energie knapp ist."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er"], "goblet": ["geo"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297538",
+    "https://gamewith.net/genshin-impact/article/show/22642",
+    "https://keqingmains.com/geo-traveler/",
+    "https://keqingmains.com/q/navia-quickguide/"
+  ]
+}

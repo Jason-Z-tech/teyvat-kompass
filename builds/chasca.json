@@ -1,0 +1,79 @@
+{
+  "character": "Chasca",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Anemo-Bogenschützin aus Natlan, die mit ihrer Elementarfähigkeit auf ihr Reittier steigt und durch die Luft fliegt. Mit gehaltenen heftigen Schlägen markiert sie mehrere Gegner und feuert Kugeln ab. Einige Kugeln nehmen das Element ihrer Teammitglieder an – deshalb baut man ihr Team aus Pyro-, Hydro-, Kryo- und Elektro-Partnern.",
+  "tips": [
+    "Nur Partner mit Pyro, Hydro, Kryo oder Elektro färben ihre Kugeln – möglichst diese Elemente ins Team nehmen.",
+    "Die Kugeln suchen sich ihre Ziele selbst, genaues Zielen ist nicht nötig.",
+    "Aufladerate: etwa 110 % genügen, wenn die Spezialfähigkeit nur jede zweite Runde kommt; für jede Runde sind 170–200 % nötig."
+  ],
+  "teams": [
+    {
+      "name": "Schmelzen",
+      "note": "Pyro von Mavuika und Bennett trifft auf Kryo von Citlali, so lösen Chascas Kugeln ständig Schmelzen aus. Eines ihrer stärksten Teams; Xiangling oder Durin ersetzen Mavuika, Escoffier oder Rosaria ersetzen Citlali.",
+      "slots": [["Chasca"], ["Mavuika", "Xiangling", "Durin"], ["Bennett"], ["Citlali", "Escoffier", "Rosaria"]]
+    },
+    {
+      "name": "Mond unter Strom",
+      "note": "Ineffa (Elektro) und Columbina (Hydro) sorgen außerhalb des Feldes für Mond unter Strom, während Chasca weiterschießt. Der letzte Platz bringt mit Pyro ein drittes Element für ihre Kugeln.",
+      "slots": [["Chasca"], ["Ineffa"], ["Columbina"], ["Durin", "Bennett", "Mavuika"]]
+    },
+    {
+      "name": "Regenbogen",
+      "note": "Furina und Bennett verstärken den Schaden, der letzte Platz bringt ein drittes Element: Citlali (Kryo) oder Ororon bzw. Iansan (Elektro). So lösen die Kugeln viele verschiedene Reaktionen aus.",
+      "slots": [["Chasca"], ["Furina"], ["Bennett"], ["Citlali", "Ororon", "Iansan"]]
+    },
+    {
+      "name": "Regenbogen (günstig)",
+      "note": "Nur 4★-Partner: Ororon bringt Elektro, Rosaria Kryo und Bennett Pyro – so nehmen Chascas Kugeln drei Elemente an. Bennett heilt zusätzlich und gibt ANG.",
+      "slots": [["Chasca"], ["Ororon", "Fischl"], ["Rosaria"], ["Bennett"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Astral Vulture's Crimson Plumage",
+      "note": "Ihre Signaturwaffe: viel Krit.-Schaden und mehr Schaden für heftige Schläge, wenn das Team verschiedene Elemente hat."
+    },
+    {
+      "name": "Aqua Simulacra",
+      "note": "Sehr viel Krit.-Schaden als Nebenwert und ein dauerhafter Schadensbonus."
+    },
+    { "name": "The First Great Magic", "note": "Viel Krit.-Schaden und mehr Schaden für heftige Schläge." },
+    {
+      "name": "Flower-Wreathed Feathers",
+      "note": "Starke 4★-Waffe, die den Schaden heftiger Schläge nach und nach steigert."
+    },
+    {
+      "name": "Chain Breaker",
+      "note": "Schmiedbar. Mehr ANG für Chasca pro Teammitglied mit anderem Element oder aus Natlan."
+    },
+    {
+      "name": "Hamayumi",
+      "note": "Schmiedbar. Stärkt Standardangriffe und heftige Schläge, bei voller Energie doppelt so stark."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Obsidian Codex", "pieces": 4 }],
+      "note": "Ihr bestes Set: mehr Schaden im Nachtseelensegen und viel zusätzliche Krit.-Rate."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Gute Alternative in Teams mit Furina, deren LP-Änderungen die Krit.-Rate hochtreiben."
+    },
+    {
+      "sets": [{ "name": "Shimenawa's Reminiscence", "pieces": 4 }],
+      "note": "Mehr Schaden für Standardangriffe und heftige Schläge, kostet dafür etwas Energie."
+    }
+  ],
+  "mainStats": { "sands": ["atk%"], "goblet": ["atk%"], "circlet": ["cd", "cr"] },
+  "substats": ["cr", "cd", "atk%", "em", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/462001",
+    "https://gamewith.net/genshin-impact/article/show/47147",
+    "https://gamewith.net/genshin-impact/article/show/49090",
+    "https://keqingmains.com/q/chasca-quickguide/"
+  ]
+}

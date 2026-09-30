@@ -1,0 +1,68 @@
+{
+  "character": "Charlotte",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["healer", "support"],
+  "summary": "Kryo-Heilerin mit Katalysator aus Fontaine, die mit ihrer Spezialfähigkeit das ganze Team heilt und ein Heilfeld hinterlässt. Ihre Elementarfähigkeit markiert Gegner und trägt so von außerhalb des Feldes Kryo auf. Eine günstige Heilerin für Gefroren-Teams, besonders zusammen mit Furina.",
+  "tips": [
+    "Elementarfähigkeit kurz antippen: Das ist einfacher und schneller wieder bereit als die gedrückte Version.",
+    "Sie braucht viel Aufladerate: etwa 160 % mit mehreren Kryo-Partnern, über 230 % als einzige Kryo-Figur.",
+    "In Teams ohne Furina reicht die Spezialfähigkeit oft nur jede zweite Runde – das spart Aufladerate."
+  ],
+  "teams": [
+    {
+      "name": "Gefroren",
+      "note": "Charlotte heilt und trägt Kryo auf, Furina sorgt für Gefroren und profitiert von der ständigen Heilung. Mit Skirk nur Hydro- und Kryo-Partner einsetzen.",
+      "slots": [["Charlotte"], ["Skirk", "Kamisato Ayaka"], ["Furina"], ["Escoffier", "Shenhe"]]
+    },
+    {
+      "name": "Gefroren mit Neuvillette",
+      "note": "Charlotte heilt Furina fortlaufend, wodurch deren Schadensbonus schnell wächst. Kazuha zieht die Gegner zusammen.",
+      "slots": [["Charlotte"], ["Neuvillette", "Wriothesley"], ["Furina"], ["Kaedehara Kazuha"]]
+    },
+    {
+      "name": "Supraspross",
+      "note": "Hier steht Charlotte selbst auf dem Feld, während Nahida, der Hydro-Partner und der Elektro-Partner von außerhalb für Supraspross sorgen.",
+      "slots": [["Charlotte"], ["Nahida"], ["Xingqiu", "Yelan"], ["Kuki Shinobu", "Raiden Shogun"]]
+    }
+  ],
+  "weapons": [
+    { "name": "Favonius Codex", "note": "Viel Aufladerate und Energie für das Team." },
+    {
+      "name": "Prototype Amber",
+      "note": "Schmiedbar und ihre beste Waffe fürs Heilen: stellt Energie wieder her."
+    },
+    {
+      "name": "Thrilling Tales of Dragon Slayers",
+      "note": "3★-Waffe, die der nächsten eingewechselten Figur ANG gibt – nur mit niedrigem Aufladerate-Bedarf."
+    },
+    {
+      "name": "Oathsworn Eye",
+      "note": "Aus einem früheren Event: ANG als Nebenwert und zusätzliche Aufladerate – eine brauchbare Alternative."
+    },
+    { "name": "Skyward Atlas", "note": "Viel ANG als Nebenwert." },
+    { "name": "Kagura's Verity", "note": "Nur für mehr eigenen Schaden, wenn die Aufladerate schon reicht." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Nach ihrer Spezialfähigkeit bekommt das ganze Team mehr ANG."
+    },
+    {
+      "sets": [{ "name": "Gladiator's Finale", "pieces": 2 }, { "name": "Ocean-Hued Clam", "pieces": 2 }],
+      "note": "Mehr ANG und stärkere Heilung, wenn jemand anderes „Altes Hofritual“ trägt."
+    },
+    {
+      "sets": [{ "name": "Tenacity of the Millelith", "pieces": 4 }],
+      "note": "Ihre Elementarfähigkeit gibt dem Team zusätzlich ANG."
+    }
+  ],
+  "mainStats": { "sands": ["er", "atk%"], "goblet": ["atk%"], "circlet": ["heal", "cr"] },
+  "substats": ["er", "atk%", "cr"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/412428",
+    "https://gamewith.net/genshin-impact/article/show/39069",
+    "https://keqingmains.com/q/charlotte-quickguide/",
+    "https://game8.co/games/Genshin-Impact/archives/356455"
+  ]
+}

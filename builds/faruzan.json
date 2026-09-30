@@ -1,0 +1,73 @@
+{
+  "character": "Faruzan",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support"],
+  "summary": "Anemo-Bogenschützin und reine Unterstützerin. Ihre Spezialfähigkeit erhöht den Anemo-Schaden der Truppe und senkt den Anemo-Widerstand der Gegner – ideal neben Anemo-Angreifern wie Xiao, Wanderer, Vesna oder Mizuki. Dafür braucht sie sehr viel Aufladerate.",
+  "tips": [
+    "Aufladerate hat Vorrang: vor C6 etwa 200–300 %, ab C6 etwa 170–200 %. Je mehr Anemo-Figuren im Team, desto weniger braucht sie.",
+    "Die Spezialfähigkeit zuerst leveln – ihr Anemo-Bonus für das Team wächst mit der Talentstufe.",
+    "Mit dem Favonius-Jagdbogen etwas Krit.-Rate sammeln, damit die Waffe öfter Energie erzeugt."
+  ],
+  "teams": [
+    {
+      "name": "Stellar-Verwirbelung",
+      "note": "Odette liefert Kryo, das Vesna oder Mizuki zu Stellar-Verwirbelung verwirbeln. Vodyanitsa heilt und senkt Widerstände, Reisende(r) (Kryo) bringt stattdessen mehr Kryo. Faruzan verstärkt den Anemo-Schaden, ab C6 besonders stark.",
+      "slots": [["Faruzan"], ["Vesna", "Yumemizuki Mizuki"], ["Odette"], ["Vodyanitsa", "Traveler (Cryo)"]]
+    },
+    {
+      "name": "Angriff aus dem Fall",
+      "note": "Xianyun macht Xiaos Angriffe aus dem Fall stärker, Furina erhöht den Schaden der ganzen Truppe und Faruzan den Anemo-Schaden.",
+      "slots": [["Faruzan"], ["Xiao"], ["Furina"], ["Xianyun"]]
+    },
+    {
+      "name": "Anemo-Hypercarry",
+      "note": "Alle Verstärkungen gehen an Wanderer. Thoma schützt mit einem Schild und bildet mit Bennett die Pyro-Resonanz; Yelan oder Yun Jin bringen stattdessen mehr Schaden.",
+      "slots": [["Faruzan"], ["Wanderer"], ["Bennett"], ["Thoma", "Yelan", "Yun Jin"]]
+    },
+    {
+      "name": "Günstig mit Heizou",
+      "note": "Günstiges Team aus 4★-Figuren: Heizou macht als Anemo-Angreifer den Schaden, Faruzan verstärkt ihn. Xingqiu liefert Hydro zum Verwirbeln, Bennett gibt ANG und heilt.",
+      "slots": [["Faruzan"], ["Shikanoin Heizou"], ["Xingqiu"], ["Bennett"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Elegy for the End",
+      "note": "Starke 5★-Unterstützerwaffe mit viel Aufladerate und einem Bonus für das ganze Team."
+    },
+    {
+      "name": "Favonius Warbow",
+      "note": "Beste 4★-Wahl: Krit.-Treffer erzeugen Energie. Ein Exemplar gibt es gratis aus einer Archon-Quest im Prolog (Akt III)."
+    },
+    {
+      "name": "Breezeborne Refrain",
+      "note": "Neue 4★-Waffe aus 7.1: mehr Aufladerate und mehr Schaden durch Stellarfunkeln-Reaktionen für das Team."
+    },
+    { "name": "Sacrificial Bow", "note": "Aufladerate als Nebenwert hilft beim Energiebedarf." },
+    { "name": "End of the Line", "note": "Gratis durch Angeln, Aufladerate als Nebenwert." },
+    { "name": "Fading Twilight", "note": "Event-Waffe mit Aufladerate als Nebenwert." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Tenacity of the Millelith", "pieces": 4 }],
+      "note": "Ab C6 das beste Set, weil sie dann oft genug trifft, um der Truppe ständig ANG zu geben."
+    },
+    {
+      "sets": [{ "name": "Viridescent Venerer", "pieces": 4 }],
+      "note": "Wenn niemand sonst das Set trägt und das Team Reaktionen nutzt: senkt die Widerstände der Gegner."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Vor C6 eine gute Wahl: mehr ANG für alle nach ihrer Spezialfähigkeit."
+    }
+  ],
+  "mainStats": { "sands": ["er", "atk%"], "goblet": ["anemo"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/391897",
+    "https://gamewith.net/genshin-impact/article/show/34437",
+    "https://gamewith.net/genshin-impact/article/show/77723",
+    "https://keqingmains.com/q/faruzan-quickguide/"
+  ]
+}

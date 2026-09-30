@@ -1,0 +1,86 @@
+{
+  "character": "Tartaglia",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Hydro-Bogenschütze, der mit seiner Elementarfähigkeit in eine Nahkampf-Haltung mit Hydro-Klingen wechselt und dann sehr schnell Hydro aufträgt. Er ist ein Hauptangreifer, der am besten mit Pyro-Partnern für Verdampfen spielt. Je länger er im Nahkampf bleibt, desto länger lädt seine Elementarfähigkeit danach.",
+  "tips": [
+    "Voll aufgeladene gezielte Schüsse und kritische Treffer im Nahkampf markieren Gegner mit „Riptide“. Nahkampftreffer auf markierte Gegner lösen Hydro-Flächenschaden aus.",
+    "Die Nahkampf-Haltung dauert höchstens 30 Sekunden. Je länger du bleibst, desto länger die Abklingzeit.",
+    "Spezialfähigkeit im Fernkampf markiert viele Gegner, im Nahkampf macht sie mehr Schaden gegen einzelne Gegner.",
+    "Aufladerate: etwa 110–130 % reichen meist."
+  ],
+  "teams": [
+    {
+      "name": "Nationalteam",
+      "note": "Xiangling und Bennett liefern Pyro für Verdampfen, Kazuha verteilt es und verstärkt beide Elemente. Das bewährte Team, braucht aber gutes Timing.",
+      "slots": [
+        ["Tartaglia"],
+        ["Xiangling", "Thoma"],
+        ["Bennett", "Dehya"],
+        ["Kaedehara Kazuha", "Xilonen", "Sucrose", "Lynette"]
+      ]
+    },
+    {
+      "name": "Hexerei-Verdampfen",
+      "note": "Die moderne Variante: Durin und Nicole bilden den Pyro-Kern mit Hexerei und liefern viel Pyro für Verdampfen.",
+      "slots": [["Tartaglia"], ["Durin"], ["Nicole"], ["Xiangling", "Mavuika", "Xilonen", "Citlali"]]
+    },
+    {
+      "name": "Mond unter Strom",
+      "note": "Tartaglia trägt Hydro auf, Ineffa Elektro. Mit Ineffa oder Columbina wird daraus Mond unter Strom, sonst normales Unter Strom.",
+      "slots": [
+        ["Tartaglia"],
+        ["Ineffa", "Ororon", "Fischl"],
+        ["Columbina", "Furina", "Xingqiu"],
+        ["Sucrose", "Xilonen", "Kuki Shinobu"]
+      ]
+    },
+    {
+      "name": "Flammenspross",
+      "note": "Tartaglias schnelles Hydro erzeugt mit Nahida viele Dendro-Kerne, die mit Pyro explodieren.",
+      "slots": [
+        ["Tartaglia"],
+        ["Nahida", "Baizhu", "Emilie"],
+        ["Bennett", "Thoma", "Dehya", "Xiangling"],
+        ["Kaedehara Kazuha", "Sucrose", "Lynette"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Polar Star",
+      "note": "Signaturwaffe und nach wie vor die beste Wahl, passt perfekt zum Traum-der-Narzisse-Set."
+    },
+    { "name": "The First Great Magic", "note": "Sehr starke Alternative mit viel Krit.-Schaden." },
+    { "name": "Skyward Harp", "note": "Solide Allround-Wahl ohne besondere Bedingungen." },
+    { "name": "Thundering Pulse", "note": "Viel Krit.-Schaden als Nebenwert." },
+    { "name": "Chain Breaker", "note": "Schmiedbar, die beste Gratis-Wahl." },
+    {
+      "name": "Prototype Crescent",
+      "note": "Schmiedbar, stark, wenn man ihren Passiveffekt gezielt auslöst."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Nymph's Dream", "pieces": 4 }],
+      "note": "Bestes Set: mehr ANG und Hydro-Schaden, Tartaglia löst es besonders leicht aus."
+    },
+    {
+      "sets": [{ "name": "Heart of Depth", "pieces": 4 }],
+      "note": "Gute Alternative, stärkt Standardangriffe und heftige Schläge."
+    },
+    {
+      "sets": [{ "name": "Night of the Sky's Unveiling", "pieces": 4 }],
+      "note": "Besser in Mond-unter-Strom-Teams: Krit.-Rate und ein Bonus für das Team."
+    }
+  ],
+  "mainStats": { "sands": ["atk%"], "goblet": ["hydro"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "em", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/305862",
+    "https://gamewith.net/genshin-impact/article/show/22922",
+    "https://gamewith.net/genshin-impact/article/show/50059",
+    "https://keqingmains.com/q/tartaglia-quickguide/"
+  ]
+}

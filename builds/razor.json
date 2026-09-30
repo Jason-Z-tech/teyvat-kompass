@@ -1,0 +1,71 @@
+{
+  "character": "Razor",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Elektro-Kämpfer mit Zweihänder, der auf dem Feld mit schnellen Standardangriffen Schaden macht. Durch seine Hexerei-Verstärkung ist er heute vor allem als Elektro-Hauptangreifer stark, zum Beispiel in Überladen-Teams mit Fischl und Durin. Ohne Hexerei-Partner lässt er sich weiterhin als Physisch-Kämpfer spielen.",
+  "tips": [
+    "Hexerei – Geheimes Ritual: Mit einem weiteren Hexerei-Charakter werden überschüssige Elektro-Siegel zu zusätzlichen Blitzen, die ihm Energie zurückgeben.",
+    "Seine Spezialfähigkeit endet beim Charakterwechsel – solange sie aktiv ist, auf dem Feld bleiben.",
+    "Sternbild 6 ist für ihn sehr wichtig: Nach dem Verbrauch von Siegeln gibt es viel Krit.-Rate und Krit.-Schaden.",
+    "Physisch-Build: physischer Kelch, Set „Fahle Flammen“ und als Waffe „Kiefernklang“ oder das schmiedbare „Unter Schnee begrabenes Sternsilber“."
+  ],
+  "teams": [
+    {
+      "name": "Überladen (Hexerei)",
+      "note": "Fischl und Durin sind Hexerei-Charaktere und schalten Razors Verstärkung frei. Chevreuse senkt Pyro- und Elektro-Widerstand, Fischl lädt seine Energie auf.",
+      "slots": [["Razor"], ["Fischl"], ["Durin", "Bennett"], ["Chevreuse"]]
+    },
+    {
+      "name": "Mond unter Strom",
+      "note": "Mit Ineffa oder Columbina wird aus Unter Strom das stärkere Mond unter Strom. Saccharose ist Hexerei-Charakter, schaltet Razors Verstärkung frei und gibt Elementarkunde.",
+      "slots": [["Razor"], ["Ineffa", "Fischl"], ["Columbina", "Aino", "Yelan"], ["Sucrose", "Jahoda"]]
+    },
+    {
+      "name": "Physisch (Supraleiter)",
+      "note": "Rosaria löst mit Kryo Supraleiter aus und senkt so den physischen Widerstand. Fischl oder Shougun Raiden laden Razors Energie auf.",
+      "slots": [["Razor"], ["Fischl", "Raiden Shogun"], ["Rosaria"], ["Mika", "Zhongli"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Beacon of the Reed Sea",
+      "note": "Krit.-Rate und ANG-Bonus – beste Wahl für den Elektro-Build."
+    },
+    {
+      "name": "A Thousand Blazing Suns",
+      "note": "Starke 5★-Waffe mit Krit.-Rate sowie Krit.-Schaden- und ANG-Bonus."
+    },
+    { "name": "Wolf's Gravestone", "note": "Viel ANG und stärkt das Team gegen angeschlagene Gegner." },
+    { "name": "Serpent Spine", "note": "Battle-Pass-Waffe mit Krit.-Rate und wachsendem Schadensbonus." },
+    {
+      "name": "Ultimate Overlord's Mega Magic Sword",
+      "note": "Event-Waffe mit Aufladerate – beste Gratis-Wahl."
+    },
+    {
+      "name": "Snow-Tombed Starsilver",
+      "note": "Schmiedbar (Drachengrat), mit physischem Schaden – für den Physisch-Build."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "A Day Carved From Rising Winds", "pieces": 4 }],
+      "note": "Bestes Set: viel ANG und als Hexerei-Charakter zusätzlich Krit.-Rate – für beide Builds."
+    },
+    {
+      "sets": [{ "name": "Thundering Fury", "pieces": 4 }],
+      "note": "Mehr Elektro- und Reaktionsschaden für den Elektro-Build."
+    },
+    {
+      "sets": [{ "name": "Pale Flame", "pieces": 4 }],
+      "note": "Klassisches Physisch-Set mit physischem Schaden und ANG."
+    }
+  ],
+  "mainStats": { "sands": ["atk%"], "goblet": ["electro", "phys"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297519",
+    "https://gamewith.net/genshin-impact/article/show/22350",
+    "https://gamewith.net/genshin-impact/article/show/55220"
+  ]
+}

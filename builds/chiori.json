@@ -1,0 +1,78 @@
+{
+  "character": "Chiori",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps"],
+  "summary": "Geo-Schneiderin mit Schwert, die vor allem außerhalb des Feldes Schaden macht: Ihre Elementarfähigkeit ruft Puppen, die Gegner automatisch angreifen. Steht ein Geo-Objekt im Kampf (z. B. von Zhongli, Albedo oder Itto), erscheint eine zweite Puppe. Sie skaliert mit VTD und ANG, VTD bringt aber mehr.",
+  "tips": [
+    "Elementarfähigkeit zweimal drücken: Chiori wechselt dann automatisch zur nächsten Figur – die Teamreihenfolge danach ausrichten.",
+    "In Mond-Kristallisation-Teams zählen die Mondkäfige der Reaktion als Geo-Objekte – dort bekommt sie auch ohne C1 zwei Puppen.",
+    "Die Spezialfähigkeit nur nutzen, wenn sie bereit ist – Aufladerate brauchst du kaum.",
+    "C1 lohnt sich vor allem mit Navia oder Noelle, weil diese selbst keine Geo-Objekte erzeugen."
+  ],
+  "teams": [
+    {
+      "name": "Mono-Geo",
+      "note": "Itto oder Noelle als Haupt-DPS, Gorou verstärkt beide. Zhongli oder Albedo sorgen mit ihren Geo-Objekten für Chioris zweite Puppe.",
+      "slots": [["Chiori"], ["Arataki Itto", "Noelle"], ["Gorou"], ["Zhongli", "Albedo"]]
+    },
+    {
+      "name": "Mond-Kristallisation",
+      "note": "Mit Zibai als Haupt-DPS: Columbina ermöglicht Mond-Kristallisation, Illuga oder Linnea verstärken sie. Chiori trägt mit zwei Puppen viel eigenen Schaden bei.",
+      "slots": [["Chiori"], ["Zibai"], ["Illuga", "Linnea"], ["Columbina"]]
+    },
+    {
+      "name": "Navia",
+      "note": "Chiori liefert Navia Energie und ständigen Geo-Schaden. Fischl oder Xiangling tragen das zweite Element für Kristallisation auf, Bennett gibt ANG.",
+      "slots": [["Chiori"], ["Navia"], ["Fischl", "Xiangling"], ["Bennett"]]
+    },
+    {
+      "name": "Günstig mit Ningguang",
+      "note": "Ningguangs Elementarfähigkeit erzeugt ein Geo-Objekt und damit Chioris zweite Puppe. Fischl macht Schaden, Bennett gibt ANG und heilt.",
+      "slots": [["Chiori"], ["Ningguang"], ["Fischl"], ["Bennett"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Uraku Misugiri",
+      "note": "Chioris Signaturwaffe und mit Abstand die beste Wahl: Krit.-Schaden, mehr VTD und Bonus auf die Elementarfähigkeit."
+    },
+    { "name": "Primordial Jade Cutter", "note": "Guter 5★-Ersatz mit viel Krit.-Rate." },
+    {
+      "name": "Peak Patrol Song",
+      "note": "Viel VTD und ein Elementarschaden-Bonus für das Team, dafür muss Chiori aber zwei Standardangriffe treffen."
+    },
+    {
+      "name": "Cinnabar Spindle",
+      "note": "Starke 4★-Waffe mit VTD, gab es aber nur im Event von Version 2.3."
+    },
+    {
+      "name": "Harbinger of Dawn",
+      "note": "Günstige 3★-Alternative: viel Krit., solange Chiori über 90 % LP bleibt."
+    },
+    { "name": "Flute of Ezpitzal", "note": "Schmiedbar in Natlan, gibt VTD nach der Elementarfähigkeit." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Golden Troupe", "pieces": 4 }],
+      "note": "Stärkt den Schaden ihrer Elementarfähigkeit, besonders wenn sie nicht auf dem Feld ist."
+    },
+    {
+      "sets": [{ "name": "Husk of Opulent Dreams", "pieces": 4 }],
+      "note": "Fast gleich stark, in Mond-Kristallisation-Teams teils sogar etwas besser."
+    },
+    {
+      "sets": [{ "name": "Golden Troupe", "pieces": 2 }, { "name": "Husk of Opulent Dreams", "pieces": 2 }],
+      "note": "Übergangslösung, solange ein 4er-Set fehlt."
+    }
+  ],
+  "mainStats": { "sands": ["def%", "atk%"], "goblet": ["geo", "def%"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "def%", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/382793",
+    "https://gamewith.net/genshin-impact/article/show/39692",
+    "https://keqingmains.com/q/chiori-quickguide/",
+    "https://keqingmains.com/q/zibai-quickguide/",
+    "https://game8.co/games/Genshin-Impact/archives/570263"
+  ]
+}

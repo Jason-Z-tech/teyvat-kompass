@@ -1,0 +1,72 @@
+{
+  "character": "Sethos",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Elektro-Bogenschütze aus Sumeru, der auf dem Feld vor allem mit voll aufgeladenen gezielten Schüssen Schaden macht. Er profitiert stark von Elementarkunde und Krit.-Werten und ist am stärksten in Suprawuchs-Teams mit Nahida. Mit seiner Spezialfähigkeit kann er alternativ auch mit schnellen Elektro-Standardangriffen spielen.",
+  "tips": [
+    "Das Standardangriff-Talent zuerst leveln – es verstärkt auch seine gezielten Schüsse.",
+    "Seine Passive nutzt bis zu 20 Energie, um gezielte Schüsse schneller aufzuladen – deshalb braucht er etwas Aufladerate.",
+    "Aufladerate: etwa 130 % mit einem zweiten Elektro-Charakter, allein als Elektro-Charakter 150–160 %.",
+    "Sternbild 2 gibt in allen Spielweisen spürbar mehr Schaden und ist ein guter Haltepunkt."
+  ],
+  "teams": [
+    {
+      "name": "Suprawuchs",
+      "note": "Nahida hält Urwuchs aufrecht und gibt Elementarkunde, Fischl liefert Energie und Elektro. Xilonen oder Kazuha erhöhen den Elektro-Schaden.",
+      "slots": [
+        ["Sethos"],
+        ["Nahida", "Collei", "Traveler (Dendro)"],
+        ["Fischl", "Raiden Shogun", "Ororon"],
+        ["Xilonen", "Kaedehara Kazuha", "Lan Yan"]
+      ]
+    },
+    {
+      "name": "Überladen",
+      "note": "Chevreuse ist Pflicht und verstärkt Überladen stark. Mavuika oder Xiangling liefern Pyro von außen, Ororon ergänzt Elektro und Energie.",
+      "slots": [["Sethos"], ["Chevreuse"], ["Ororon", "Fischl"], ["Mavuika", "Xiangling", "Traveler (Pyro)", "Thoma"]]
+    },
+    {
+      "name": "Supraspross",
+      "note": "Nahida und der Hydro-Partner erzeugen Dendro-Kerne, Sethos' Treffer machen daraus Supraspross. Kazuha sammelt die Gegner für seine gezielten Schüsse.",
+      "slots": [
+        ["Sethos"],
+        ["Nahida", "Collei"],
+        ["Xingqiu", "Sangonomiya Kokomi", "Furina"],
+        ["Kaedehara Kazuha", "Sucrose", "Xilonen"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Hunter's Path",
+      "note": "Krit.-Rate, Elementarschaden-Bonus und mehr Schaden gezielter Schüsse abhängig von Elementarkunde."
+    },
+    {
+      "name": "Astral Vulture's Crimson Plumage",
+      "note": "Viel Krit.-Schaden und mehr Schaden gezielter Schüsse."
+    },
+    { "name": "The First Great Magic", "note": "Krit.-Schaden und mehr Schaden gezielter Schüsse." },
+    {
+      "name": "Slingshot",
+      "note": "3★-Bogen mit Krit.-Rate, erstaunlich nah an vielen 5★-Waffen – beste Gratis-Wahl."
+    },
+    { "name": "Cloudforged", "note": "Event-Waffe mit viel Elementarkunde." },
+    { "name": "Prototype Crescent", "note": "Schmiedbar (Liyue), mit ANG als Nebenwert." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Wanderer's Troupe", "pieces": 4 }],
+      "note": "Bestes Set: Elementarkunde und mehr Schaden gezielter Schüsse."
+    },
+    { "sets": [{ "name": "Gilded Dreams", "pieces": 4 }], "note": "Viel Elementarkunde für Reaktions-Teams." },
+    { "sets": [{ "name": "Thundering Fury", "pieces": 4 }], "note": "Mehr Elektro- und Reaktionsschaden." }
+  ],
+  "mainStats": { "sands": ["em"], "goblet": ["electro"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "em", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/451024",
+    "https://gamewith.net/genshin-impact/article/show/44456",
+    "https://gamewith.net/genshin-impact/article/show/45682"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "character": "Neuvillette",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Hydro-Hauptangreifer mit Katalysator. Fast sein ganzer Schaden kommt aus seinem heftigen Schlag: einem langen Wasserstrahl, der mit seinen LP stärker wird. Er ist leicht zu spielen und passt in viele Teams, am besten mit Furina oder in Teams mit Mond unter Strom.",
+  "tips": [
+    "Das Talent Standardangriff zuerst leveln – davon hängt sein heftiger Schlag ab.",
+    "Vor dem heftigen Schlag die Wassertropfen seiner Fähigkeiten aufsammeln, dann ist der Strahl viel schneller bereit.",
+    "Ohne Sternbilder wird er beim heftigen Schlag leicht unterbrochen: ein Schild von Zhongli oder Layla hilft.",
+    "Aufladerate braucht er kaum, meist reichen 100–135 %."
+  ],
+  "teams": [
+    {
+      "name": "Hypercarry",
+      "note": "Furina verstärkt seinen Schaden, Kazuha sammelt die Gegner und erhöht den Hydro-Schaden, Xilonen senkt den Widerstand der Gegner.",
+      "slots": [["Neuvillette"], ["Furina"], ["Kaedehara Kazuha", "Sucrose"], ["Xilonen", "Zhongli", "Layla"]]
+    },
+    {
+      "name": "Mond unter Strom",
+      "note": "Ineffa trägt Elektro auf, dadurch entsteht die starke Reaktion Mond unter Strom. Columbina verstärkt diese Reaktion zusätzlich.",
+      "slots": [
+        ["Neuvillette"],
+        ["Ineffa", "Fischl", "Ororon"],
+        ["Columbina", "Furina"],
+        ["Sucrose", "Kaedehara Kazuha", "Lynette"]
+      ]
+    },
+    {
+      "name": "Gefroren",
+      "note": "Escoffier und Citlali senken den Hydro-Widerstand der Gegner, Furina erhöht den Schaden. Die Gegner bleiben dabei oft eingefroren.",
+      "slots": [["Neuvillette"], ["Escoffier"], ["Furina", "Mona"], ["Citlali", "Shenhe", "Rosaria", "Diona"]]
+    },
+    {
+      "name": "Supraspross",
+      "note": "Fischl lässt die Dendro-Kerne zu Supraspross platzen. Lauma verstärkt diese Reaktion und senkt den Hydro- und Dendro-Widerstand der Gegner.",
+      "slots": [
+        ["Neuvillette"],
+        ["Lauma", "Nahida", "Baizhu"],
+        ["Fischl", "Raiden Shogun", "Ineffa"],
+        ["Sucrose", "Kaedehara Kazuha", "Xilonen"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Tome of the Eternal Flow",
+      "note": "Signaturwaffe: viel Krit.-Schaden, stärkere heftige Schläge und Energie zurück."
+    },
+    {
+      "name": "Sacrificial Jade",
+      "note": "Battle-Pass-Waffe mit hoher Krit.-Rate; auf Verfeinerung 5 fast so gut wie die Signaturwaffe."
+    },
+    { "name": "Nocturne's Curtain Call", "note": "Viel Krit.-Schaden als Nebenwert." },
+    { "name": "Surf's Up", "note": "Viel Krit.-Schaden als Nebenwert." },
+    { "name": "Ash-Graven Drinking Horn", "note": "Beste Gratis-Waffe, wenn wenig Aufladerate nötig ist." },
+    {
+      "name": "Prototype Amber",
+      "note": "Schmiedbar, gibt LP, Energie und heilt die Truppe. Gut, wenn viel Aufladerate nötig ist."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Mit Abstand das beste Set: mehr Schaden für heftige Schläge und viel Krit.-Rate."
+    },
+    {
+      "sets": [{ "name": "Heart of Depth", "pieces": 4 }],
+      "note": "Solide Alternative mit Hydro-Schaden und mehr Schaden für heftige Schläge."
+    },
+    {
+      "sets": [{ "name": "Night of the Sky's Unveiling", "pieces": 4 }],
+      "note": "Nur in Teams mit Mond unter Strom, z. B. mit Ineffa. Mit zwei Mondomen-Figuren wie Ineffa und Columbina gibt es doppelt so viel Krit.-Rate."
+    }
+  ],
+  "mainStats": { "sands": ["hp%"], "goblet": ["hydro", "hp%"], "circlet": ["cd", "cr", "hp%"] },
+  "substats": ["cd", "cr", "hp%", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/393054",
+    "https://gamewith.net/genshin-impact/article/show/39683",
+    "https://gamewith.net/genshin-impact/article/show/41319",
+    "https://keqingmains.com/q/neuvillette-quickguide/"
+  ]
+}

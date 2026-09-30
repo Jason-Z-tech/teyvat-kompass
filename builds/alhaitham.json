@@ -1,0 +1,86 @@
+{
+  "character": "Alhaitham",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Dendro-Schwertkämpfer, der als Hauptangreifer auf dem Feld bleibt. Er erzeugt Spiegel, und solange sie aktiv sind, lösen seine Angriffe zusätzlichen Dendro-Schaden aus. Am besten spielt man ihn mit Elektro-Partnern für Rankenwuchs, gern zusätzlich mit Hydro für Supraspross.",
+  "tips": [
+    "Möglichst immer 3 Spiegel halten: Elementarfähigkeit, heftige Schläge und Angriffe aus dem Fall erzeugen neue.",
+    "Die Spezialfähigkeit am besten einsetzen, wenn gerade keine Spiegel aktiv sind – danach bekommt er neue.",
+    "Aufladerate: mit Nahida im Team reichen etwa 120–130 %, als einzige Dendro-Quelle braucht er 175–220 %.",
+    "Etwa 200–400 Elementarkunde einplanen, danach vor allem Krit.-Rate und Krit.-Schaden sammeln."
+  ],
+  "teams": [
+    {
+      "name": "Urwuchs + Supraspross",
+      "note": "Mit Elektro löst Alhaitham ständig Rankenwuchs aus, dazu entstehen durch Hydro Dendro-Kerne, die Kuki Shinobu zu Supraspross macht. Mit Furina als Hydro-Partnerin oft sein stärkstes Team.",
+      "slots": [
+        ["Alhaitham"],
+        ["Nahida", "Lauma", "Baizhu", "Yaoyao"],
+        ["Furina", "Yelan", "Xingqiu", "Sangonomiya Kokomi"],
+        ["Kuki Shinobu", "Raiden Shogun", "Ineffa"]
+      ]
+    },
+    {
+      "name": "Rankenwuchs",
+      "note": "Ganz ohne Hydro: Nahida und ein Elektro-Charakter halten die Gegner im Urwuchs-Zustand, sodass Alhaithams Dendro-Treffer fast immer Rankenwuchs auslösen. Zhongli schützt mit Schilden.",
+      "slots": [
+        ["Alhaitham"],
+        ["Nahida", "Baizhu", "Yaoyao", "Traveler (Dendro)"],
+        ["Yae Miko", "Fischl", "Ororon"],
+        ["Zhongli", "Kuki Shinobu", "Beidou"]
+      ]
+    },
+    {
+      "name": "Nilou-Sprießen",
+      "note": "Alhaitham trägt auf dem Feld viel Dendro auf, Nilou macht daraus besonders starke Dendro-Kerne. Lauma lässt die Sprießen-Reaktionen zusätzlich kritisch treffen.",
+      "slots": [
+        ["Alhaitham"],
+        ["Nilou"],
+        ["Lauma", "Baizhu", "Collei", "Yaoyao"],
+        ["Sangonomiya Kokomi", "Xingqiu", "Barbara"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Light of Foliar Incision",
+      "note": "Seine Signaturwaffe: Krit.-Werte und zusätzlicher Schaden, der mit Elementarkunde wächst."
+    },
+    { "name": "Primordial Jade Cutter", "note": "Viel Krit.-Rate und ANG ohne Bedingungen." },
+    { "name": "Uraku Misugiri", "note": "Stark, vor allem mit Geo-Charakteren im Team." },
+    {
+      "name": "Mistsplitter Reforged",
+      "note": "Krit.-Schaden und Elementarschadensbonus, etwa gleich stark wie Haran Geppaku Futsu."
+    },
+    {
+      "name": "Wolf-Fang",
+      "note": "Beste 4★-Waffe (Battle Pass): mehr Schaden für Elementar- und Spezialfähigkeit."
+    },
+    { "name": "Iron Sting", "note": "Schmiedbar, Elementarkunde als Nebenwert – die beste Gratis-Wahl." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 4 }],
+      "note": "Sein bestes Set, wenn ein Mitstreiter Erinnerungen des tiefen Waldes trägt."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Mit Furina im Team sehr stark, weil ihre LP-Änderungen die Krit.-Rate hochtreiben."
+    },
+    {
+      "sets": [{ "name": "Deepwood Memories", "pieces": 4 }],
+      "note": "Wenn niemand sonst im Team den Dendro-Widerstand der Gegner senkt."
+    }
+  ],
+  "mainStats": { "sands": ["em", "atk%"], "goblet": ["dendro"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "em", "cr", "cd", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/383712",
+    "https://game8.co/games/Genshin-Impact/archives/403132",
+    "https://gamewith.net/genshin-impact/article/show/33663",
+    "https://gamewith.net/genshin-impact/article/show/38817",
+    "https://keqingmains.com/q/alhaitham-quickguide/",
+    "https://keqingmains.com/q/lauma-quickguide/"
+  ]
+}

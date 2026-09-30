@@ -1,0 +1,77 @@
+{
+  "character": "Arataki Itto",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Geo-Kämpfer mit Zweihänder, der während seiner Spezialfähigkeit lange auf dem Feld bleibt. Mit Standardangriffen sammelt er Stapel „superstarke Superkraft“ und entlädt sie in einer Serie heftiger Schläge. Sein Schaden hängt an seiner VTD, am stärksten ist er mit anderen Geo-Figuren wie Gorou oder mit Xilonen.",
+  "tips": [
+    "Vor der Spezialfähigkeit einen Standardangriff machen, damit Gorous VTD-Bonus sicher mitgenommen wird.",
+    "Die Elementarfähigkeit zweimal pro Spezialfähigkeit einsetzen: einmal am Anfang, einmal gegen Ende.",
+    "Nicht auswechseln, solange die Spezialfähigkeit läuft – sie endet sonst sofort.",
+    "Aufladerate: etwa 120–130 % im Mono-Geo-Team, mit weniger Geo-Partnern deutlich mehr."
+  ],
+  "teams": [
+    {
+      "name": "Mono-Geo",
+      "note": "Der klassische Itto-Kern: Gorou erhöht VTD und Geo-Schaden und liefert Energie, Zhongli schützt mit seinem Schild. Chiori, Albedo oder der Reisende machen Schaden von außerhalb.",
+      "slots": [["Arataki Itto"], ["Gorou"], ["Chiori", "Albedo", "Traveler (Geo)"], ["Zhongli"]]
+    },
+    {
+      "name": "Doppel-Geo mit Xilonen",
+      "note": "Xilonen senkt Widerstände, heilt und füllt Ittos Energie auf. Furina verstärkt den Schaden, der vierte Platz bringt zusätzlichen Schaden oder Buffs. Eines seiner stärksten Teams.",
+      "slots": [["Arataki Itto"], ["Xilonen"], ["Furina"], ["Mavuika", "Yelan", "Bennett", "Xingqiu"]]
+    },
+    {
+      "name": "Mond-Kristallisation",
+      "note": "Columbina macht aus Kristallisation Mond-Kristallisation, Illuga verstärkt Geo-Schaden. Gorou (am besten mit C6) gibt weitere Buffs, Zhongli schützt.",
+      "slots": [["Arataki Itto"], ["Columbina"], ["Illuga"], ["Gorou", "Zhongli"]]
+    },
+    {
+      "name": "Dreifach-Geo (günstig)",
+      "note": "Nur 4★ und Gratis-Figuren: Kachina oder der Reisende liefern Energie, Gorou verstärkt, Fischl macht Schaden von außerhalb des Feldes.",
+      "slots": [["Arataki Itto"], ["Gorou"], ["Kachina", "Traveler (Geo)"], ["Fischl"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Redhorn Stonethresher",
+      "note": "Ittos Signaturwaffe und klar die beste Wahl: viel Krit.-Schaden, mehr VTD und Bonusschaden nach VTD."
+    },
+    {
+      "name": "Serpent Spine",
+      "note": "Battle-Pass-Waffe mit Krit.-Rate und wachsendem Schadensbonus; auf R5 nah an der Signaturwaffe."
+    },
+    { "name": "Whiteblind", "note": "Schmiedbar und gibt viel VTD – die beste Gratis-Waffe für Itto." },
+    {
+      "name": "Skyward Pride",
+      "note": "Aufladerate als Nebenwert, dadurch bleibt auf den Artefakten mehr Platz für Krit."
+    },
+    { "name": "Beacon of the Reed Sea", "note": "Guter 5★-Zweihänder mit Krit.-Rate, falls vorhanden." },
+    {
+      "name": "Blackcliff Slasher",
+      "note": "Aus dem Sternenglanz-Shop – brauchbare Alternative, wenn man Weißer Schatten nicht schmieden will."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Husk of Opulent Dreams", "pieces": 4 }],
+      "note": "Sein bestes Set: viel VTD und Geo-Schaden. Vor dem Kampf auf Platz 2–4 kurz warten, damit sich die Stapel aufbauen."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Mit Furina im Team etwa gleich stark, weil sich Ittos LP ständig ändern."
+    },
+    {
+      "sets": [{ "name": "Retracing Bolide", "pieces": 4 }],
+      "note": "Solide Wahl, wenn dauerhaft ein Schild steht, z. B. von Zhongli."
+    }
+  ],
+  "mainStats": { "sands": ["def%"], "goblet": ["geo", "def%"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "er", "def%", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/345461",
+    "https://gamewith.net/genshin-impact/article/show/29489",
+    "https://keqingmains.com/q/itto-quickguide/",
+    "https://keqingmains.com/q/illuga-quickguide/"
+  ]
+}

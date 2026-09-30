@@ -1,0 +1,76 @@
+{
+  "character": "Mona",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "sub-dps"],
+  "summary": "Hydro-Astrologin mit Katalysator. Ihre Spezialfähigkeit markiert Gegner, die danach deutlich mehr Schaden erleiden. Seit dem Hexerei-Update verstärkt sie mit einer zweiten Hexerei-Figur im Team außerdem das Verdampfen ihrer Teamkollegen und kann selbst auf dem Feld Hydro auftragen.",
+  "tips": [
+    "Für den Hexerei-Bonus braucht sie eine zweite Hexerei-Figur im Team, etwa Durin, Saccharose oder Fischl.",
+    "Den Bonus schaltet man frei, indem man ihre „Aufgabe der Hexe“ abschließt.",
+    "Mit Hexerei verlängern ihre Standardangriffe und heftigen Schläge die Markierung ihrer Spezialfähigkeit.",
+    "Aufladerate erhöht bei ihr auch den Hydro-Schaden: etwa 200 % oder mehr anpeilen."
+  ],
+  "teams": [
+    {
+      "name": "Hexerei-Verdampfen",
+      "note": "Mona verstärkt als Unterstützerin das Verdampfen von Mualani. Durin ist die zweite Hexerei-Figur und liefert Pyro, Xilonen heilt und senkt den Widerstand.",
+      "slots": [
+        ["Mona"],
+        ["Mualani", "Arlecchino", "Hu Tao", "Tartaglia"],
+        ["Durin", "Mavuika"],
+        ["Xilonen", "Sucrose", "Bennett"]
+      ]
+    },
+    {
+      "name": "Verdampfen mit Mona auf dem Feld",
+      "note": "Mona trägt selbst Hydro auf, Pyro kommt von außerhalb des Feldes – so verdampfen viele Treffer. Durin oder Saccharose aktivieren ihren Hexerei-Bonus.",
+      "slots": [["Mona"], ["Durin", "Sucrose", "Fischl"], ["Xiangling", "Mavuika"], ["Xilonen", "Bennett", "Zhongli"]]
+    },
+    {
+      "name": "Gefroren",
+      "note": "Ohne Hexerei: Monas Markierung erhöht den Schaden des Kryo-Kämpfers, die Gegner bleiben eingefroren.",
+      "slots": [
+        ["Mona"],
+        ["Skirk", "Kamisato Ayaka", "Wriothesley"],
+        ["Escoffier", "Diona"],
+        ["Furina", "Yelan", "Xingqiu"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Thrilling Tales of Dragon Slayers",
+      "note": "Beste Unterstützer-Waffe: Die eingewechselte Figur bekommt mehr ANG."
+    },
+    {
+      "name": "Lost Prayer to the Sacred Winds",
+      "note": "Beste Waffe, wenn sie selbst auf dem Feld Schaden macht."
+    },
+    { "name": "Kagura's Verity", "note": "Starke Alternative für eigenen Schaden mit viel Krit.-Schaden." },
+    { "name": "Favonius Codex", "note": "Aufladerate und Energiepartikel für das Team." },
+    { "name": "Prototype Amber", "note": "Schmiedbar, gibt Energie und heilt die Truppe." },
+    { "name": "Oathsworn Eye", "note": "Event-Waffe und solide Gratis-Wahl." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Bestes Set für Unterstützung und Schaden: mehr ANG für die ganze Truppe."
+    },
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 4 }],
+      "note": "Wenn sie mit ihrer Spezialfähigkeit selbst viel Schaden machen soll."
+    },
+    {
+      "sets": [{ "name": "Heart of Depth", "pieces": 2 }, { "name": "Noblesse Oblige", "pieces": 2 }],
+      "note": "Mischung aus Hydro-Schaden und Schaden der Spezialfähigkeit."
+    }
+  ],
+  "mainStats": { "sands": ["er", "atk%"], "goblet": ["hydro", "atk%"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/Mona-Best-Builds",
+    "https://gamewith.net/genshin-impact/article/show/22343",
+    "https://gamewith.net/genshin-impact/article/show/39654",
+    "https://gamewith.net/genshin-impact/article/show/71650"
+  ]
+}

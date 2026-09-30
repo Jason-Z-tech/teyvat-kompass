@@ -1,0 +1,84 @@
+{
+  "character": "Yelan",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "support"],
+  "summary": "Hydro-Bogenschützin, die ihren Schaden vor allem außerhalb des Feldes macht. Nach ihrer Spezialfähigkeit feuert sie bei jedem Standardangriff der aktiven Figur Wasserpfeile ab und erhöht deren Schaden nach und nach. Ihr Schaden richtet sich nach ihren LP, sie passt in fast jedes Team mit Hydro-Reaktionen.",
+  "tips": [
+    "Aufladerate geht vor: je nach Team etwa 170 % oder mehr, als einzige Hydro-Figur deutlich mehr.",
+    "Ihre Spezialfähigkeit schießt nur mit, wenn die aktive Figur Standardangriffe macht – ideal für Kämpfer mit vielen Standardangriffen.",
+    "Die aktive Figur bekommt während der Spezialfähigkeit einen wachsenden Schadensbonus bis 50 %.",
+    "Talente: Spezialfähigkeit zuerst, dann Elementarfähigkeit. Den Standardangriff muss man nicht leveln."
+  ],
+  "teams": [
+    {
+      "name": "Gefroren",
+      "note": "Yelan und Furina helfen sich gegenseitig mit Energie und verstärken Skirk. Escoffier heilt und senkt den Widerstand der Gegner.",
+      "slots": [
+        ["Yelan"],
+        ["Skirk", "Wriothesley", "Kamisato Ayaka"],
+        ["Escoffier", "Shenhe", "Citlali", "Charlotte"],
+        ["Furina", "Xingqiu", "Dahlia", "Candace"]
+      ]
+    },
+    {
+      "name": "Mond unter Strom",
+      "note": "Yelan liefert das Hydro, damit Flins und Ineffa die starke Reaktion Mond unter Strom auslösen können. Saccharose verstärkt die Truppe mit Elementarkunde.",
+      "slots": [["Yelan"], ["Flins"], ["Ineffa", "Fischl", "Ororon"], ["Sucrose", "Kaedehara Kazuha", "Lan Yan"]]
+    },
+    {
+      "name": "Supraspross",
+      "note": "Yelans Hydro bildet mit Dendro viele Dendro-Kerne, die Shinobu mit Elektro zu Supraspross platzen lässt.",
+      "slots": [["Yelan"], ["Alhaitham", "Cyno"], ["Nahida", "Lauma"], ["Kuki Shinobu", "Raiden Shogun"]]
+    },
+    {
+      "name": "Verdampfen",
+      "note": "Zwei Hydro-Figuren sorgen dafür, dass fast jeder Pyro-Treffer verdampft. Zhongli schützt den Hauptangreifer mit seinem Schild.",
+      "slots": [
+        ["Yelan"],
+        ["Hu Tao", "Arlecchino", "Yoimiya", "Diluc"],
+        ["Xingqiu", "Furina", "Mona"],
+        ["Zhongli", "Xilonen", "Layla", "Kaedehara Kazuha"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Aqua Simulacra",
+      "note": "Signaturwaffe: viel Krit.-Schaden und mehr Schaden in der Nähe von Gegnern. Braucht Aufladerate aus den Artefakten."
+    },
+    {
+      "name": "Elegy for the End",
+      "note": "Aufladerate und ein Bonus für die ganze Truppe, dafür weniger eigener Schaden."
+    },
+    { "name": "Favonius Warbow", "note": "Aufladerate und Energiepartikel für das ganze Team." },
+    { "name": "Polar Star", "note": "Starke Alternative mit hohen Krit.-Werten." },
+    { "name": "Fading Twilight", "note": "Aufladerate als Nebenwert. Nur aus einem früheren Event." },
+    { "name": "Slingshot", "note": "3★-Bogen mit Krit.-Rate, auf Verfeinerung 5 eine gute Gratis-Wahl." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 4 }],
+      "note": "Beste Wahl: Aufladerate und mehr Schaden der Spezialfähigkeit je nach Aufladerate."
+    },
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 2 }, { "name": "Noblesse Oblige", "pieces": 2 }],
+      "note": "Aufladerate plus mehr Schaden der Spezialfähigkeit."
+    },
+    {
+      "sets": [
+        { "name": "Emblem of Severed Fate", "pieces": 2 },
+        { "name": "Tenacity of the Millelith", "pieces": 2 }
+      ],
+      "note": "Aufladerate plus mehr LP, von denen ihr Schaden abhängt."
+    }
+  ],
+  "mainStats": { "sands": ["hp%", "er"], "goblet": ["hydro", "hp%"], "circlet": ["cr", "cd", "hp%"] },
+  "substats": ["er", "hp%", "cr", "cd"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/372781",
+    "https://gamewith.net/genshin-impact/article/show/33289",
+    "https://gamewith.net/genshin-impact/article/show/40722",
+    "https://keqingmains.com/q/yelan-quickguide/"
+  ]
+}

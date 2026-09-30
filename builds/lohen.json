@@ -1,0 +1,80 @@
+{
+  "character": "Lohen",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Kryo-Kämpfer mit Stangenwaffe und Hexerei-Figur, der lange auf dem Feld bleibt. Nach seiner Elementarfähigkeit machen seine Angriffe Kryo-Schaden und tragen sehr schnell Kryo auf. Schaden der Teamkollegen lädt seine besondere Elementarfähigkeit auf. Am stärksten beim Schmelzen mit Durin und Nicole.",
+  "tips": [
+    "Nach der Elementarfähigkeit immer wieder einen Standardangriff plus heftigen Schlag machen – das ist sein Grundrhythmus.",
+    "Ist seine Leiste voll, die besondere Elementarfähigkeit einsetzen. Sie trifft härter, je mehr Schaden das Team vorher gemacht hat.",
+    "Erst die Fähigkeiten der Teamkollegen einsetzen, dann ohne Wechsel lange mit Lohen kämpfen.",
+    "Aufladerate ist kaum nötig: Die Spezialfähigkeit einfach nutzen, wenn sie bereit ist."
+  ],
+  "teams": [
+    {
+      "name": "Schmelzen mit Durin",
+      "note": "Lohen hält Kryo auf den Gegnern, damit Durins Pyro-Treffer schmelzen. Nicole stärkt beide und gibt einen Schild. Letzter Platz: Citlali, Xilonen oder eine Anemo-Hexerei-Figur.",
+      "slots": [["Lohen"], ["Durin"], ["Nicole"], ["Citlali", "Xilonen", "Sucrose", "Prune"]]
+    },
+    {
+      "name": "Gefroren",
+      "note": "Furina verstärkt den Schaden der ganzen Truppe, Escoffier macht Schaden von außerhalb, Mona ist die Hexerei-Partnerin. Statt Furina geht auch Vodyanitsa: Sie senkt den Kryo-Widerstand der Gegner.",
+      "slots": [["Lohen"], ["Escoffier"], ["Furina", "Vodyanitsa"], ["Mona"]]
+    },
+    {
+      "name": "In Flammen + Schmelzen",
+      "note": "Émilie und ein Pyro-Partner halten die Gegner in Flammen, Lohen löst darauf ständig Schmelzen aus. Nicole ist hier sehr wichtig. Der Pyro-Reisende ist eine Gratis-Wahl.",
+      "slots": [["Lohen"], ["Durin", "Mavuika", "Traveler (Pyro)"], ["Emilie"], ["Nicole"]]
+    },
+    {
+      "name": "Günstiges Schmelzen",
+      "note": "Nur mit 4★: Xiangling macht viel Pyro-Schaden, Bennett stärkt den ANG, Kaeya oder Rosaria helfen Lohen, genug Kryo für Schmelzen aufzutragen.",
+      "slots": [["Lohen"], ["Xiangling"], ["Bennett"], ["Kaeya", "Rosaria"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Disaster and Remorse",
+      "note": "Seine Signaturwaffe und klar die beste: stärkt Angriffe und Fähigkeiten, mit zweiter Hexerei-Figur noch mehr."
+    },
+    {
+      "name": "Primordial Jade Winged-Spear",
+      "note": "Standardbanner-Waffe. Lohen trifft so schnell, dass die Stapel sofort voll sind."
+    },
+    {
+      "name": "Staff of Homa",
+      "note": "Viel Krit.-Schaden und ANG. Andere 5★-Stangenwaffen mit Krit. wie Zerstreutes Licht gehen fast gleich gut."
+    },
+    { "name": "Deathmatch", "note": "Battle-Pass-Waffe und seine beste 4★-Wahl dank Krit.-Rate und ANG." },
+    {
+      "name": "Sacrificer's Staff",
+      "note": "4★ aus dem Gacha mit Krit.-Rate, fast so gut wie die Duelllanze."
+    },
+    {
+      "name": "White Tassel",
+      "note": "3★ mit Krit.-Rate und mehr Standardangriffsschaden, auch in Truhen in Liyue zu finden."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "A Day Carved From Rising Winds", "pieces": 4 }],
+      "note": "In fast allen Teams das beste Set: mehr ANG und als Hexerei-Figur zusätzlich Krit.-Rate."
+    },
+    {
+      "sets": [{ "name": "Shimenawa's Reminiscence", "pieces": 4 }],
+      "note": "Gute Übergangslösung: mehr Schaden für Standardangriffe und heftige Schläge nach der Elementarfähigkeit."
+    },
+    {
+      "sets": [{ "name": "Blizzard Strayer", "pieces": 4 }],
+      "note": "Nur in Gefroren-Teams eine Alternative, wenn die Gegner die meiste Zeit gefroren sind."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["cryo", "atk%"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "em", "er"],
+  "sources": [
+    "https://keqingmains.com/q/lohen-quickguide/",
+    "https://www.icy-veins.com/genshin-impact/lohen-guide-best-builds",
+    "https://www.prydwen.gg/genshin-impact/characters/lohen",
+    "https://game8.co/games/Genshin-Impact/archives/580697"
+  ]
+}

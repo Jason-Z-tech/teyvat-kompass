@@ -1,0 +1,75 @@
+{
+  "character": "Kaeya",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "support"],
+  "summary": "Kryo-Schwertkämpfer, dessen Elementarfähigkeit schnell wieder bereit ist und so oft Kryo aufträgt und Energie erzeugt. Seine Spezialfähigkeit lässt Eiszapfen um die aktive Figur kreisen. Als kostenloser Startcharakter ist er ein solider Kryo-Partner für Gefroren- und Schmelzen-Teams.",
+  "tips": [
+    "Die Elementarfähigkeit so oft wie möglich einsetzen, bis die Spezialfähigkeit bereit ist.",
+    "Die Spezialfähigkeit behält die Buffs vom Moment des Einsatzes – also erst die Buffs der Partner aktivieren, dann zünden.",
+    "Friert seine Elementarfähigkeit Gegner ein, lassen diese zusätzliche Energie-Partikel fallen (höchstens 2 pro Einsatz).",
+    "Der Bedarf an Aufladerate schwankt je nach Team stark, etwa zwischen 145 % und weit über 200 %."
+  ],
+  "teams": [
+    {
+      "name": "Gefroren",
+      "note": "Kaeya trägt von außerhalb des Feldes Kryo auf und liefert dem Kryo-Hauptangreifer Energie. Der Hydro-Partner sorgt für Gefroren.",
+      "slots": [
+        ["Kaeya"],
+        ["Kamisato Ayaka", "Ganyu"],
+        ["Furina", "Sangonomiya Kokomi", "Xingqiu"],
+        ["Escoffier", "Kaedehara Kazuha", "Shenhe"]
+      ]
+    },
+    {
+      "name": "Schmelzen",
+      "note": "Kaeya ist der einzige Kryo-Charakter und trägt immer wieder Kryo auf, damit die Pyro-Angriffe schmelzen. Bennett gibt ANG und heilt.",
+      "slots": [["Kaeya"], ["Mavuika", "Diluc", "Arlecchino", "Gaming"], ["Bennett"], ["Xilonen", "Venti"]]
+    },
+    {
+      "name": "Gefroren mit Kaeya vorne",
+      "note": "Hier kämpft Kaeya selbst auf dem Feld: Der Hydro-Partner hält Gefroren aufrecht, der Anemo-Partner und Shenhe verstärken seinen Kryo-Schaden.",
+      "slots": [
+        ["Kaeya"],
+        ["Xingqiu", "Yelan", "Sangonomiya Kokomi"],
+        ["Kaedehara Kazuha", "Sucrose", "Venti"],
+        ["Shenhe", "Rosaria"]
+      ]
+    }
+  ],
+  "weapons": [
+    { "name": "Mistsplitter Reforged", "note": "Viel Krit.-Schaden und Elementarschaden-Bonus." },
+    {
+      "name": "Primordial Jade Cutter",
+      "note": "Krit.-Rate als Nebenwert, besonders gut in Schmelzen-Teams."
+    },
+    { "name": "Freedom-Sworn", "note": "Gibt nach Reaktionen dem ganzen Team einen Bonus." },
+    { "name": "Favonius Sword", "note": "Erzeugt Energie und senkt den Aufladerate-Bedarf des Teams." },
+    { "name": "Amenoma Kageuchi", "note": "Schmiedbar und hilft beim Aufladen der Spezialfähigkeit." },
+    {
+      "name": "Fleuve Cendre Ferryman",
+      "note": "Ohne Gacha erhältlich, erhöht die Krit.-Rate der Elementarfähigkeit."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Blizzard Strayer", "pieces": 4 }],
+      "note": "Viel Krit.-Rate gegen Kryo-betroffene und gefrorene Gegner."
+    },
+    {
+      "sets": [{ "name": "Blizzard Strayer", "pieces": 2 }, { "name": "Noblesse Oblige", "pieces": 2 }],
+      "note": "Mehr Kryo-Schaden und stärkere Spezialfähigkeit."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Als reine Unterstützung: Nach seiner Spezialfähigkeit bekommt das Team mehr ANG."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er"], "goblet": ["cryo"], "circlet": ["cd", "cr"] },
+  "substats": ["er", "cr", "cd", "atk%", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297516",
+    "https://gamewith.net/genshin-impact/article/show/22353",
+    "https://keqingmains.com/q/kaeya-quickguide/"
+  ]
+}

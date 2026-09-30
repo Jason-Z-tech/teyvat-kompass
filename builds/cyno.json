@@ -1,0 +1,86 @@
+{
+  "character": "Cyno",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Elektro-Kämpfer mit Stangenwaffe, der fast die ganze Zeit auf dem Feld bleibt. Seine Spezialfähigkeit verwandelt ihn in eine verstärkte Form, in der er mit Elektro-Standardangriffen und seiner Elementarfähigkeit Schaden macht. Er profitiert von ANG und Elementarkunde und ist derzeit vor allem in Stellar-Supraleiter-Teams stark.",
+  "tips": [
+    "Während seiner Spezialfähigkeit auf dem Feld bleiben – ein Charakterwechsel beendet sie sofort.",
+    "Aufladerate: etwa 130–160 % anpeilen, mit einem zweiten Elektro-Charakter reicht weniger.",
+    "Er wird leicht unterbrochen – ein Schild im Team hilft viel.",
+    "Mit der freigeschalteten Verstärkung „Witch's Revelation“ versetzt ihn schon seine Elementarfähigkeit kurz in die verstärkte Form."
+  ],
+  "teams": [
+    {
+      "name": "Stellar-Supraleiter",
+      "note": "Odette ermöglicht Stellar-Supraleiter, Cyno löst ihn auf dem Feld aus. Qiqi oder Diona heilen und verstärken die Reaktion, Nicole verstärkt das Team zusätzlich. Yae Miko liefert stattdessen mehr Elektro und Schaden.",
+      "slots": [
+        ["Cyno"],
+        ["Odette", "Traveler (Cryo)"],
+        ["Qiqi", "Diona", "Escoffier"],
+        ["Nicole", "Yae Miko", "Xilonen", "Bennett"]
+      ]
+    },
+    {
+      "name": "Mond unter Strom",
+      "note": "Ineffa und Columbina aktivieren „Reifer Glanz“ und verstärken Mond unter Strom. Cyno macht auf dem Feld Schaden und profitiert von seiner Elementarkunde.",
+      "slots": [["Cyno"], ["Ineffa"], ["Columbina", "Aino"], ["Sucrose", "Lan Yan", "Xilonen"]]
+    },
+    {
+      "name": "Suprawuchs",
+      "note": "Nahida sorgt für Urwuchs, Fischl liefert zusätzliches Elektro und Energie. Saccharose oder Xilonen verstärken den Schaden.",
+      "slots": [
+        ["Cyno"],
+        ["Nahida", "Collei", "Traveler (Dendro)"],
+        ["Fischl", "Kuki Shinobu", "Raiden Shogun"],
+        ["Sucrose", "Xilonen", "Baizhu"]
+      ]
+    },
+    {
+      "name": "Supraspross mit Lauma",
+      "note": "Yelan und Baizhu erzeugen Dendro-Kerne, Cyno macht daraus mit Elektro Supraspross. Lauma senkt den Dendro-Widerstand und verstärkt Supraspross.",
+      "slots": [["Cyno"], ["Lauma"], ["Baizhu", "Nahida"], ["Yelan", "Xingqiu"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Staff of the Scarlet Sands",
+      "note": "Signaturwaffe und mit Abstand beste Wahl: Krit.-Rate und ANG-Bonus aus Elementarkunde."
+    },
+    {
+      "name": "Primordial Jade Winged-Spear",
+      "note": "Krit.-Rate und stapelnder ANG-Bonus – gute Allround-Waffe."
+    },
+    { "name": "Staff of Homa", "note": "Viel Krit.-Schaden als Nebenwert." },
+    { "name": "Ballad of the Fjords", "note": "Battle-Pass-Waffe mit Krit.-Rate und Elementarkunde-Bonus." },
+    { "name": "White Tassel", "note": "3★ aus Truhen mit Krit.-Rate – beste Gratis-Waffe." },
+    { "name": "Kitain Cross Spear", "note": "Schmiedbar, mit Elementarkunde und Energie." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Disenchantment in Deep Shadow", "pieces": 4 }],
+      "note": "Bestes Set in Stellar-Supraleiter-Teams: viel mehr Schaden bei Supraleiter-Reaktionen, weniger Krit.-Rate nötig."
+    },
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 4 }],
+      "note": "Allrounder für Suprawuchs-Teams dank viel Elementarkunde."
+    },
+    {
+      "sets": [{ "name": "Night of the Sky's Unveiling", "pieces": 4 }],
+      "note": "Für Mond-unter-Strom-Teams mit Ineffa und Columbina: Elementarkunde und mehr Krit.-Rate, wenn er auf dem Feld ist und das Team Mondleuchten-Reaktionen auslöst."
+    },
+    {
+      "sets": [{ "name": "Thundering Fury", "pieces": 4 }],
+      "note": "Mehr Reaktionsschaden – gut in Teams mit Unter Strom oder Mond unter Strom."
+    }
+  ],
+  "mainStats": { "sands": ["em", "atk%"], "goblet": ["electro", "atk%"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "er", "em", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/315233",
+    "https://gamewith.net/genshin-impact/article/show/24371",
+    "https://gamewith.net/genshin-impact/article/show/38317",
+    "https://game8.co/games/Genshin-Impact/archives/605822",
+    "https://gamewith.net/genshin-impact/article/show/70124"
+  ]
+}

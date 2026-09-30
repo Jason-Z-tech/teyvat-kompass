@@ -1,0 +1,75 @@
+{
+  "character": "Gorou",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support"],
+  "summary": "Geo-Unterstützer mit Bogen, der VTD, Geo-Schaden und Unterbrechungsresistenz seiner Truppe erhöht. Er glänzt in Teams mit drei Geo-Figuren, etwa mit Arataki Itto, Noelle oder Zibai. Sein eigener Schaden ist gering, deshalb braucht er vor allem Aufladerate.",
+  "tips": [
+    "Erst mit drei Geo-Figuren im Team wirken alle Boni seiner Elementarfähigkeit, auch der Geo-Schadensbonus.",
+    "Seine Fähigkeiten direkt vor dem Haupt-DPS einsetzen, weil die Boni nur kurz halten.",
+    "Aufladerate: etwa 220–250 %, wenn er seine Spezialfähigkeit jede Runde nutzt. Mit Favonius-Jagdbogen genug Krit.-Rate sammeln.",
+    "C6 ist sein wichtigstes Sternbild: Es gibt dem Team mehr Krit.-Schaden für Geo-Angriffe."
+  ],
+  "teams": [
+    {
+      "name": "Mono-Geo",
+      "note": "Der klassische Itto-Kern: Gorou verstärkt Itto und die zweite Geo-Figur, Zhongli schützt und senkt Widerstände.",
+      "slots": [["Arataki Itto"], ["Gorou"], ["Chiori", "Albedo"], ["Zhongli"]]
+    },
+    {
+      "name": "Mond-Kristallisation",
+      "note": "Gorou (am besten mit C6) verstärkt Zibai oder Itto, Illuga steigert den Geo-Schaden und Columbina löst Mond-Kristallisation aus.",
+      "slots": [["Zibai", "Arataki Itto"], ["Gorou"], ["Illuga"], ["Columbina"]]
+    },
+    {
+      "name": "Noelle (günstig)",
+      "note": "Nur 4★ und Gratis-Figuren: Yun Jin oder Kachina verstärken Noelle zusätzlich, Fischl macht Schaden und liefert Energie.",
+      "slots": [["Noelle"], ["Gorou"], ["Yun Jin", "Kachina"], ["Fischl"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Favonius Warbow",
+      "note": "Beste Wahl laut den meisten Guides: viel Aufladerate und Energie für das Team. Gorou hat keine eigene Signaturwaffe."
+    },
+    {
+      "name": "Elegy for the End",
+      "note": "Viel Aufladerate; der Team-Bonus lässt sich mit Gorou aber nicht immer zuverlässig auslösen."
+    },
+    {
+      "name": "Sacrificial Bow",
+      "note": "Kann seine Elementarfähigkeit zurücksetzen und so mehr Geo-Energie erzeugen, kostet aber Zeit auf dem Feld."
+    },
+    {
+      "name": "Snare Hook",
+      "note": "Schmiedbar in Nod-Krai, gleich viel Aufladerate wie der Favonius-Jagdbogen."
+    },
+    { "name": "End of the Line", "note": "Aus dem Angel-Shop in Sumeru, einfacher Bogen mit Aufladerate." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "The Exile", "pieces": 4 }],
+      "note": "Gibt dem Team Energie – ideal für Itto und Noelle mit hohem Energiebedarf. Gorous Boni hängen nicht von seinen Werten ab."
+    },
+    {
+      "sets": [{ "name": "Scroll of the Hero of Cinder City", "pieces": 4 }],
+      "note": "Löst Gorou Kristallisation aus, erhält das Team mehr Geo-Schaden und Schaden des beteiligten Elements. In reinen Geo-Teams ohne zweites Element wirkungslos."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Erhöht den ANG des Teams, wenn sonst niemand das Set trägt."
+    },
+    {
+      "sets": [{ "name": "Instructor", "pieces": 4 }],
+      "note": "Für Mond-Kristallisation-Teams mit Zibai: erhöht die Elementarkunde des Teams."
+    }
+  ],
+  "mainStats": { "sands": ["er", "def%"], "goblet": ["def%", "geo"], "circlet": ["cr", "def%"] },
+  "substats": ["er", "cr", "def%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/336726",
+    "https://gamewith.net/genshin-impact/article/show/28855",
+    "https://keqingmains.com/q/gorou-quickguide/",
+    "https://keqingmains.com/q/zibai-quickguide/"
+  ]
+}

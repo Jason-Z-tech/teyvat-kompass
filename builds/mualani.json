@@ -1,0 +1,77 @@
+{
+  "character": "Mualani",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Hydro-Surferin aus Natlan mit Katalysator und klare Hauptangreiferin. Mit ihrer Elementarfähigkeit surft sie über das Feld, markiert Gegner und verwandelt ihre Standardangriffe in mächtige Hai-Bisse, die mit ihren LP stärker werden. Am stärksten mit Verdampfen durch einen Pyro-Partner.",
+  "tips": [
+    "Beim Surfen Gegner berühren, um sie zu markieren: Mit 3 Stapeln wird der nächste Standardangriff zu einem starken Hai-Biss.",
+    "Pro Rotation möglichst drei voll aufgeladene Hai-Bisse einsetzen.",
+    "Ein Pyro-Partner, der oft Pyro aufträgt, ist wichtig – ihre Hai-Bisse lösen zuverlässig Verdampfen aus.",
+    "Aufladerate braucht sie nicht, die Spezialfähigkeit einfach nutzen, wenn sie bereit ist."
+  ],
+  "teams": [
+    {
+      "name": "Verdampfen",
+      "note": "Mavuika oder Xiangling liefern von außerhalb Pyro, damit Mualanis Hai-Bisse verdampfen. Xilonen heilt und senkt den Widerstand der Gegner.",
+      "slots": [
+        ["Mualani"],
+        ["Mavuika", "Xiangling", "Dehya"],
+        ["Xilonen", "Zhongli"],
+        ["Sucrose", "Furina", "Citlali", "Lan Yan"]
+      ]
+    },
+    {
+      "name": "Hexerei-Verdampfen",
+      "note": "Mona verstärkt Mualanis Verdampfen stark, braucht dafür aber eine zweite Hexerei-Figur wie Durin oder Saccharose. Durin liefert zusätzlich Pyro.",
+      "slots": [["Mualani"], ["Mona"], ["Durin", "Mavuika"], ["Xilonen", "Sucrose"]]
+    },
+    {
+      "name": "In Flammen + Verdampfen",
+      "note": "Émilie und ein Pyro-Partner halten die Gegner dauerhaft in Flammen, dadurch ist immer Pyro für Verdampfen da. Die Rotation wird so sehr einfach.",
+      "slots": [
+        ["Mualani"],
+        ["Emilie", "Nahida"],
+        ["Thoma", "Dehya", "Xiangling"],
+        ["Sigewinne", "Zhongli", "Bennett"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Surf's Up",
+      "note": "Signaturwaffe: viel Krit.-Schaden, mehr LP und stärkere Standardangriffe."
+    },
+    {
+      "name": "Sacrificial Jade",
+      "note": "Battle-Pass-Waffe mit LP und Elementarkunde. Ihre hohe Krit.-Rate kann allerdings zu viel des Guten sein."
+    },
+    { "name": "Tome of the Eternal Flow", "note": "Starke Alternative mit LP und Krit.-Schaden." },
+    { "name": "The Widsith", "note": "Beste leicht erreichbare 4★-Waffe, Krit.-Schaden als Nebenwert." },
+    { "name": "Ring of Yaxche", "note": "Schmiedbar in Natlan, mehr LP und Schaden für Standardangriffe." },
+    { "name": "Ash-Graven Drinking Horn", "note": "Event-Waffe mit LP und zusätzlichem Flächenschaden." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Obsidian Codex", "pieces": 4 }],
+      "note": "Bestes Set: mehr Schaden und viel Krit.-Rate, solange sie auf dem Surfbrett ist."
+    },
+    {
+      "sets": [{ "name": "Heart of Depth", "pieces": 4 }],
+      "note": "Solide Alternative mit Hydro-Schaden und stärkeren Standardangriffen."
+    },
+    {
+      "sets": [{ "name": "Vourukasha's Glow", "pieces": 2 }, { "name": "Nymph's Dream", "pieces": 2 }],
+      "note": "Übergangslösung mit LP und Hydro-Schaden."
+    }
+  ],
+  "mainStats": { "sands": ["hp%", "em"], "goblet": ["hydro", "hp%"], "circlet": ["cd", "cr"] },
+  "substats": ["cd", "cr", "hp%", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/461994",
+    "https://gamewith.net/genshin-impact/article/show/47148",
+    "https://gamewith.net/genshin-impact/article/show/47778",
+    "https://keqingmains.com/q/mualani-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/39654"
+  ]
+}

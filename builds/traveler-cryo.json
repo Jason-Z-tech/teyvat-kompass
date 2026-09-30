@@ -1,0 +1,77 @@
+{
+  "character": "Traveler (Cryo)",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps", "sub-dps"],
+  "summary": "Kryo-Form der/des Reisenden, freigeschaltet an der Statue der Sieben in Snezhnaya und komplett gratis. Schaltet Stellar-Reaktionen selbst frei: In Stellar-Supraleiter-Teams Hauptangreifer auf dem Feld, in Stellar-Verwirbelung-Teams starker Schaden von außerhalb. Dieser Build gilt nur für das Kryo-Element.",
+  "tips": [
+    "Die Exaiphanes-Klinge gibt es gratis in der Archon-Quest von 7.0, weitere Verfeinerungen über die Statue der Sieben in Snezhnaya.",
+    "Die Spezialfähigkeit möglichst mit 8 Stapeln Kälteglanz nutzen: Sie verbraucht alle für mehr Schaden und trifft öfter. Der besondere heftige Schlag gibt 2 Stapel.",
+    "Kelch mit ANG statt Kryo-Schaden: Der Kryo-Bonus stärkt Stellar-Schaden nicht.",
+    "Aufladerate etwa 125–145 %. Mit Exaiphanes-Klinge und C1 genügen meist 100–120 % (Stellar-Supraleiter) bzw. 100–140 % (Stellar-Verwirbelung)."
+  ],
+  "teams": [
+    {
+      "name": "Stellar-Supraleiter",
+      "note": "Odette und Yae Miko machen viel Schaden von außerhalb, der Kryo-Reisende kämpft auf dem Feld. Ohne Yae Miko geht Beidou (am besten C6). Letzter Platz: Alyosha, Qiqi oder Diona.",
+      "slots": [["Traveler (Cryo)"], ["Odette"], ["Yae Miko", "Beidou"], ["Alyosha", "Qiqi", "Diona"]]
+    },
+    {
+      "name": "Günstiges Stellar-Team",
+      "note": "Fast gratis: Alyosha (kostenlos) liefert Elektro und heilt, Kaeya oder Diona bringen mehr Kryo, Saccharose gibt Elementarkunde. Variante: C6-Beidou und C6-Diona statt Saccharose und Kaeya.",
+      "slots": [["Traveler (Cryo)"], ["Alyosha"], ["Kaeya", "Diona"], ["Sucrose", "Beidou"]]
+    },
+    {
+      "name": "Stellar-Verwirbelung mit Vesna",
+      "note": "Vesna verwirbelt auf dem Feld. Der Kryo-Reisende und Odette tragen von außerhalb Kryo auf, Odette verstärkt zudem Stellar-Schaden. Faruzan (am besten C6) bringt mehr Schaden, Vodyanitsa heilt und senkt Widerstände. Günstig: Diona und Saccharose.",
+      "slots": [["Vesna"], ["Traveler (Cryo)"], ["Odette", "Diona"], ["Faruzan", "Vodyanitsa", "Sucrose"]]
+    },
+    {
+      "name": "Stellar-Verwirbelung mit Mizuki",
+      "note": "Yumemizuki Mizuki kämpft auf dem Feld und verwirbelt das Kryo des Reisenden. Odette verstärkt Stellar-Schaden. Letzter Platz: am besten Saccharose (Elementarkunde), sonst Faruzan oder Diona.",
+      "slots": [["Yumemizuki Mizuki"], ["Traveler (Cryo)"], ["Odette"], ["Sucrose", "Faruzan", "Diona"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Exaiphanes Blade",
+      "note": "Die Waffe des Reisenden: gratis aus der Archon-Quest, mit jeder Verfeinerung stärker. Klar die beste Wahl."
+    },
+    {
+      "name": "Whitelake Frostfeather",
+      "note": "Odettes Signaturwaffe mit Krit.-Rate, ANG und Energie. Gute Alternative, aber die Gratis-Klinge bleibt vorn."
+    },
+    {
+      "name": "Primordial Jade Cutter",
+      "note": "Viel Krit.-Rate und ANG, aber schwächer als die Gratis-Klinge."
+    },
+    {
+      "name": "Emberwell",
+      "note": "Schmiedbar in Snezhnaya. Starke 4★-Wahl: Elementarkunde, dazu mehr ANG und Stellarfunkeln-Schaden nach Reaktionen."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Disenchantment in Deep Shadow", "pieces": 4 }],
+      "note": "Als Hauptangreifer in Stellar-Supraleiter-Teams das beste Set."
+    },
+    {
+      "sets": [{ "name": "Tenacity of the Millelith", "pieces": 4 }],
+      "note": "In Stellar-Verwirbelung-Teams: Die Elementarfähigkeit trifft oft und gibt so der ganzen Truppe mehr ANG."
+    },
+    {
+      "sets": [{ "name": "Heart of the Furnace", "pieces": 4 }],
+      "note": "In Stellar-Verwirbelung-Teams eine Alternative: mehr Stellar-Schaden für die ganze Truppe. Trägt schon jemand im Team das Set, wirkt es nicht doppelt."
+    }
+  ],
+  "mainStats": { "sands": ["atk%"], "goblet": ["atk%"], "circlet": ["cd", "cr"] },
+  "substats": ["cr", "cd", "atk%", "er", "em"],
+  "sources": [
+    "https://www.icy-veins.com/genshin-impact/cryo-traveler-guide-best-builds",
+    "https://www.prydwen.gg/genshin-impact/characters/traveler-cryo",
+    "https://game8.co/games/Genshin-Impact/archives/613906",
+    "https://keqingmains.com/q/alyosha-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/29672",
+    "https://gamewith.net/genshin-impact/article/show/76472"
+  ]
+}

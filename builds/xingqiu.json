@@ -1,0 +1,83 @@
+{
+  "character": "Xingqiu",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "support"],
+  "summary": "Hydro-Schwertkämpfer und einer der besten 4★-Unterstützer. Nach seiner Spezialfähigkeit regnen bei jedem Standardangriff der aktiven Figur Schwerter mit Hydro auf die Gegner – ideal für Verdampfen, Gefroren, Supraspross und Unter Strom. Seine Regenschwerter schützen dazu das Team.",
+  "tips": [
+    "Erst die Elementarfähigkeit für die Energie einsetzen, dann die Spezialfähigkeit und danach wechseln.",
+    "Aufladerate: ohne Opferschwert etwa 200–250 %, mit Opferschwert (ab Verfeinerung 3) etwa 150–180 %.",
+    "Sein Schwertregen trifft nur bei Standardangriffen der aktiven Figur – ideal für Kämpfer mit vielen Standardangriffen.",
+    "Die Regenschwerter senken den erlittenen Schaden, schützen vor Unterbrechung und heilen ein wenig."
+  ],
+  "teams": [
+    {
+      "name": "Verdampfen",
+      "note": "Xingqiu trägt mit jedem Standardangriff des Pyro-Kämpfers Hydro auf, sodass viele Treffer verdampfen. Zhongli schützt, Xilonen senkt den Widerstand.",
+      "slots": [
+        ["Xingqiu"],
+        ["Arlecchino", "Hu Tao", "Yoimiya", "Yanfei"],
+        ["Xilonen", "Kaedehara Kazuha", "Sucrose"],
+        ["Zhongli", "Dahlia", "Lan Yan", "Diona"]
+      ]
+    },
+    {
+      "name": "Gefroren",
+      "note": "Günstige Alternative zu Yelan und Furina: Xingqiu hält die Gegner zusammen mit dem Kryo-Kämpfer eingefroren.",
+      "slots": [
+        ["Xingqiu"],
+        ["Skirk", "Wriothesley", "Kamisato Ayaka"],
+        ["Escoffier", "Diona", "Charlotte"],
+        ["Shenhe", "Kaedehara Kazuha", "Xilonen"]
+      ]
+    },
+    {
+      "name": "Supraspross",
+      "note": "Xingqiu erzeugt mit Dendro viele Dendro-Kerne, die Shinobu mit Elektro zu Supraspross platzen lässt.",
+      "slots": [
+        ["Xingqiu"],
+        ["Alhaitham", "Cyno", "Raiden Shogun"],
+        ["Nahida", "Traveler (Dendro)", "Collei"],
+        ["Kuki Shinobu", "Dori"]
+      ]
+    },
+    {
+      "name": "Mond unter Strom",
+      "note": "Xingqiu liefert das Hydro, Ineffa und Ororon das Elektro. Mit Ineffa im Team wird daraus die Reaktion Mond unter Strom.",
+      "slots": [["Xingqiu"], ["Ineffa"], ["Ororon", "Fischl", "Beidou"], ["Ifa", "Sucrose"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Sacrificial Sword",
+      "note": "Setzt manchmal die Abklingzeit der Elementarfähigkeit zurück und löst so seine Energieprobleme."
+    },
+    { "name": "Primordial Jade Cutter", "note": "Bester Schaden, vor allem ab Sternbild 6." },
+    { "name": "Favonius Sword", "note": "Viel Aufladerate und Energiepartikel für das ganze Team." },
+    { "name": "Skyward Blade", "note": "Aufladerate als Nebenwert, bequem für die Energie." },
+    { "name": "Fleuve Cendre Ferryman", "note": "Gratis-Waffe aus Fontaine mit Aufladerate und Krit.-Rate." },
+    { "name": "Amenoma Kageuchi", "note": "Schmiedbar, gibt Energie zurück. Ab Verfeinerung 3 empfohlen." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 4 }],
+      "note": "Bestes Set: Aufladerate und mehr Schaden der Spezialfähigkeit."
+    },
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 2 }, { "name": "Noblesse Oblige", "pieces": 2 }],
+      "note": "Gute Mischung, wenn das 4er-Set fehlt."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Mehr ANG für die ganze Truppe, falls sonst niemand im Team das Set trägt."
+    }
+  ],
+  "mainStats": { "sands": ["er", "atk%"], "goblet": ["hydro"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "atk%", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297531",
+    "https://gamewith.net/genshin-impact/article/show/22338",
+    "https://gamewith.net/genshin-impact/article/show/39672",
+    "https://keqingmains.com/q/xingqiu-quickguide/"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "character": "Candace",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "sub-dps"],
+  "summary": "Hydro-Wächterin mit Stangenwaffe, die vor allem außerhalb des Feldes unterstützt. Ihre Spezialfähigkeit verleiht den Standardangriffen von Kämpfern mit Schwert, Stangenwaffe oder Zweihänder Hydro und mehr Schaden. Günstige 4★-Unterstützerin, die ab Sternbild 6 deutlich stärker wird.",
+  "tips": [
+    "Ihre Spezialfähigkeit ist das Wichtigste an ihr: Hydro und mehr Schaden für Standardangriffe von Nahkämpfern.",
+    "Ab Sternbild 6 trägt sie Hydro auf mehrere Gegner auf – aber nur, solange sie nicht selbst auf dem Feld ist.",
+    "Aufladerate: als einzige Hydro-Figur etwa 230–260 %, mit einer zweiten Hydro-Figur etwa 180–220 %.",
+    "Pro Spezialfähigkeit zweimal die Elementarfähigkeit einsetzen, das senkt den Energiebedarf deutlich."
+  ],
+  "teams": [
+    {
+      "name": "Gefroren mit Skirk",
+      "note": "Candace erhöht Skirks Schaden mit Standardangriffen, aktiviert mit Furina die Hydro-Resonanz und liefert zusätzliche Energie.",
+      "slots": [["Candace"], ["Skirk"], ["Furina", "Yelan"], ["Escoffier", "Shenhe", "Citlali"]]
+    },
+    {
+      "name": "Verdampfen",
+      "note": "Mit Sternbild 6 trägt Candace von außerhalb des Feldes viel Hydro auf, damit die Pyro-Treffer des Hauptangreifers verdampfen.",
+      "slots": [
+        ["Candace"],
+        ["Arlecchino", "Hu Tao", "Yoimiya"],
+        ["Bennett", "Yelan"],
+        ["Xilonen", "Kaedehara Kazuha", "Zhongli"]
+      ]
+    },
+    {
+      "name": "Sprießen mit Nilou",
+      "note": "Candaces Spezialfähigkeit gibt Yaoyaos Standardangriffen Hydro, so löst Yaoyao selbst Sprießen aus. Nilou verstärkt die Kerne.",
+      "slots": [["Candace"], ["Nilou"], ["Yaoyao", "Baizhu"], ["Lauma", "Nahida", "Traveler (Dendro)", "Collei"]]
+    },
+    {
+      "name": "Supraspross",
+      "note": "Zwei Hydro-Figuren erzeugen mit Nahida mehr Dendro-Kerne, die Raiden zu Supraspross platzen lässt.",
+      "slots": [
+        ["Candace"],
+        ["Nahida", "Lauma"],
+        ["Raiden Shogun", "Kuki Shinobu", "Yae Miko"],
+        ["Yelan", "Furina", "Xingqiu", "Sangonomiya Kokomi"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Favonius Lance",
+      "note": "Beste Allround-Wahl: Aufladerate und Energiepartikel für das ganze Team."
+    },
+    { "name": "Staff of Homa", "note": "Mehr LP und Krit.-Schaden, falls vorhanden." },
+    { "name": "Engulfing Lightning", "note": "Die meiste Aufladerate." },
+    { "name": "\"The Catch\"", "note": "Gratis vom Angeln, hilft bei der Aufladerate." },
+    { "name": "Rightful Reward", "note": "Schmiedbar, gibt Energie zurück, wenn sie geheilt wird." },
+    {
+      "name": "Dragon's Bane",
+      "note": "Mit Elementarkunde, wenn Candace in Sprießen-Teams selbst Reaktionen auslöst."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 4 }],
+      "note": "Aufladerate und mehr Schaden der Spezialfähigkeit."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Mehr ANG für die ganze Truppe nach ihrer Spezialfähigkeit."
+    },
+    {
+      "sets": [{ "name": "Scroll of the Hero of Cinder City", "pieces": 4 }],
+      "note": "Gibt dem Team Elementarschadensbonus, wenn Candace eine Reaktion auslöst."
+    }
+  ],
+  "mainStats": { "sands": ["er", "hp%"], "goblet": ["hp%", "hydro"], "circlet": ["hp%", "cr"] },
+  "substats": ["er", "cr", "hp%", "cd"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/386384",
+    "https://gamewith.net/genshin-impact/article/show/34438",
+    "https://gamewith.net/genshin-impact/article/show/38775",
+    "https://keqingmains.com/q/candace-quickguide/"
+  ]
+}

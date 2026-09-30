@@ -1,0 +1,70 @@
+{
+  "character": "Chongyun",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "support"],
+  "summary": "Kryo-Kämpfer mit Zweihänder, dessen Elementarfähigkeit ein Frostfeld erzeugt: Darin werden die Angriffe von Figuren mit Schwert, Zweihänder oder Stangenwaffe zu Kryo-Angriffen. Seine günstige Spezialfähigkeit macht viel Schaden. Meist kommt er nur kurz aufs Feld und wechselt dann wieder aus.",
+  "tips": [
+    "Sein Frostfeld wandelt nur Nahkampf-Angriffe in Kryo um – Bögen und Katalysatoren profitieren nicht davon.",
+    "Aufladerate: etwa 120–140 %, als einziger Kryo-Charakter im Team eher 150–175 %.",
+    "Die Spezialfähigkeit zuerst leveln: Sie ist seine wichtigste Schadensquelle."
+  ],
+  "teams": [
+    {
+      "name": "Nationalteam",
+      "note": "Günstiges Team aus vier 4★-Charakteren: Xiangling und Xingqiu machen von außerhalb viel Schaden, Bennett gibt ANG. Chongyuns Kryo sorgt für zusätzliche Schmelzen- und Gefroren-Reaktionen.",
+      "slots": [["Chongyun"], ["Xiangling"], ["Bennett"], ["Xingqiu"]]
+    },
+    {
+      "name": "Schmelzen",
+      "note": "Xiangling und Bennett tragen Pyro auf, Chongyuns Kryo-Treffer schmelzen es. Der letzte Platz sammelt die Gegner ein oder bringt weiteres Kryo.",
+      "slots": [["Chongyun"], ["Xiangling"], ["Bennett"], ["Kaedehara Kazuha", "Sucrose", "Rosaria"]]
+    },
+    {
+      "name": "Gefroren",
+      "note": "Chongyun trägt viel Kryo auf, der Hydro-Partner friert die Gegner ein. Shenhe oder Rosaria verstärken den Kryo-Schaden, der Anemo-Partner zieht die Gegner zusammen.",
+      "slots": [["Chongyun"], ["Xingqiu", "Yelan"], ["Shenhe", "Rosaria", "Kaeya"], ["Sucrose", "Kaedehara Kazuha"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Wolf's Gravestone",
+      "note": "Viel ANG und ein ANG-Bonus für das ganze Team – seine beste Wahl."
+    },
+    {
+      "name": "Beacon of the Reed Sea",
+      "note": "Krit.-Rate als Nebenwert, stark für seinen eigenen Schaden."
+    },
+    { "name": "Serpent Spine", "note": "Battle-Pass-Waffe mit Krit.-Rate und wachsendem Schadensbonus." },
+    {
+      "name": "Sacrificial Greatsword",
+      "note": "Kann die Elementarfähigkeit zurücksetzen und bringt Aufladerate."
+    },
+    { "name": "Tidal Shadow", "note": "Schmiedbar: Wird er geheilt, steigt sein ANG." },
+    {
+      "name": "Luxurious Sea-Lord",
+      "note": "Waffe aus einem früheren Event, voll verfeinert eine gute Gratis-Wahl."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Nach seiner Spezialfähigkeit bekommt das ganze Team mehr ANG."
+    },
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 4 }],
+      "note": "Mehr eigener Schaden der Spezialfähigkeit, je mehr Aufladerate er hat."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 2 }, { "name": "Blizzard Strayer", "pieces": 2 }],
+      "note": "Mehr Schaden für Spezialfähigkeit und Kryo, wenn jemand anderes das 4er-Set trägt."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er"], "goblet": ["cryo"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297532",
+    "https://gamewith.net/genshin-impact/article/show/22337",
+    "https://keqingmains.com/q/chongyun-quickguide/"
+  ]
+}

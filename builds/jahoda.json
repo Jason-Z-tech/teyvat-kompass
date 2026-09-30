@@ -1,0 +1,82 @@
+{
+  "character": "Jahoda",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "healer"],
+  "summary": "Anemo-Unterstützerin mit Bogen: Sie heilt das Team, gibt Elementarkunde und senkt als Trägerin von Grünlicher Schatten per Verwirbelung Widerstände. Ihre Elementarfähigkeit sammelt Elemente von Gegnern und entlädt sie außerhalb des Feldes, ihre Spezialfähigkeit ruft heilende Roboter. In Teams mit Reifer Glanz tragen ihre Fähigkeiten zusätzlich die Elemente der Partner auf.",
+  "tips": [
+    "Braucht viel Aufladerate: grob 180–200 %, ohne Favonius-Jagdbogen oft mehr.",
+    "Einfache Rotation: Elementarfähigkeit, Spezialfähigkeit, dann auswechseln.",
+    "Ohne Reifer Glanz lohnt es sich nicht, ihre Flasche ganz zu füllen – lieber schneller wechseln.",
+    "Sternbild 6 gibt Mondomen-Charakteren viel Krit.-Schaden, sobald ihre Flasche voll ist – wirkt nur bei Reifer Glanz."
+  ],
+  "teams": [
+    {
+      "name": "Mond unter Strom",
+      "note": "Ihr bestes Team: Ihre Verwirbelungen lösen zusätzliche Mond-unter-Strom-Reaktionen aus, Flins und Ineffa sorgen für Reifer Glanz. Dazu heilt sie das Team.",
+      "slots": [["Jahoda"], ["Flins"], ["Ineffa", "Fischl", "Ororon"], ["Aino", "Yelan", "Xingqiu", "Mona"]]
+    },
+    {
+      "name": "Mondspross mit Nefer",
+      "note": "Nefer macht den Schaden, Lauma ermöglicht Mondspross, und ein Hydro-Partner hält die Reaktion am Laufen. Jahoda heilt und gibt Elementarkunde.",
+      "slots": [["Jahoda"], ["Nefer"], ["Lauma"], ["Columbina", "Furina", "Xingqiu"]]
+    },
+    {
+      "name": "Verdampfen & Schmelzen",
+      "note": "Mavuika trifft Gegner, auf die Aino Hydro und Citlali Kryo auftragen. Jahoda senkt Widerstände, heilt und erhöht zusammen mit Aino die Elementarkunde des Teams.",
+      "slots": [["Jahoda"], ["Mavuika", "Arlecchino"], ["Citlali", "Xilonen", "Diona"], ["Aino", "Furina"]]
+    },
+    {
+      "name": "Suprawuchs",
+      "note": "Clorinde macht auf dem Feld Elektro-Schaden, Nahida und Fischl halten Urwuchs aufrecht. Jahoda senkt per Verwirbelung Widerstände, heilt und gibt Elementarkunde.",
+      "slots": [
+        ["Jahoda"],
+        ["Clorinde", "Cyno"],
+        ["Nahida", "Baizhu", "Collei"],
+        ["Fischl", "Raiden Shogun", "Yae Miko"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Elegy for the End",
+      "note": "Beste Unterstützer-Waffe: Aufladerate und Buffs für das ganze Team."
+    },
+    {
+      "name": "Favonius Warbow",
+      "note": "Erzeugt Energiepartikel fürs Team – braucht dafür etwas Krit.-Rate."
+    },
+    {
+      "name": "Rainbow Serpent's Rain Bow",
+      "note": "Event-Waffe aus Version 6.2: Aufladerate und mehr ANG, was auch ihre Heilung stärkt."
+    },
+    {
+      "name": "Sacrificial Bow",
+      "note": "Aufladerate als Nebenwert, kann die Elementarfähigkeit zurücksetzen."
+    },
+    { "name": "Snare Hook", "note": "Schmiedbar, Aufladerate als Nebenwert." },
+    { "name": "End of the Line", "note": "Per Angeln erhältlich, Aufladerate als Nebenwert." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Viridescent Venerer", "pieces": 4 }],
+      "note": "Standard-Set: Ihre Verwirbelungen senken den Widerstand der Gegner gegen das verwirbelte Element."
+    },
+    {
+      "sets": [{ "name": "Silken Moon's Serenade", "pieces": 4 }],
+      "note": "In Mondleuchten-Teams sehr stark: Aufladerate für sie selbst und Elementarkunde für alle – gut, wenn jemand anderes Grünlicher Schatten trägt."
+    },
+    {
+      "sets": [{ "name": "Instructor", "pieces": 4 }],
+      "note": "Günstige Alternative, die dem Team nach Reaktionen Elementarkunde gibt."
+    }
+  ],
+  "mainStats": { "sands": ["er", "atk%"], "goblet": ["atk%"], "circlet": ["heal", "atk%", "cr"] },
+  "substats": ["er", "atk%", "cr", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/538446",
+    "https://keqingmains.com/q/jahoda-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/69308",
+    "https://gamewith.net/genshin-impact/article/show/71618"
+  ]
+}

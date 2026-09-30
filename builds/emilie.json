@@ -1,0 +1,70 @@
+{
+  "character": "Emilie",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps"],
+  "summary": "Dendro-Lanzenträgerin, die von außerhalb des Feldes Schaden macht, vor allem in Teams mit der Reaktion In Flammen. Ihre Elementarfähigkeit stellt ein Objekt auf, das dauerhaft Dendro-Schaden verursacht und stärker wird, wenn Gegner in Flammen stehen. Ohne Pyro im Team macht sie kaum Schaden.",
+  "tips": [
+    "Immer einen Pyro-Charakter mitnehmen: Ohne In Flammen bleibt ihr Schaden sehr gering.",
+    "Keine Elementarkunde sammeln – ANG und Krit.-Werte zählen.",
+    "Ihr passives Talent erreicht den vollen Bonus bei 2400 ANG, dafür aber keine Krit.-Werte opfern.",
+    "Ein passives Talent schützt das Team teilweise vor dem Schaden durch In Flammen."
+  ],
+  "teams": [
+    {
+      "name": "In Flammen",
+      "note": "Ein Pyro-Charakter lässt die Gegner dauerhaft brennen. Das lädt Kinichs Nachtseelenpunkte schneller auf und macht Émilies Objekt stärker – beide profitieren voneinander.",
+      "slots": [["Kinich"], ["Emilie"], ["Mavuika", "Xiangling", "Traveler (Pyro)", "Dehya"], ["Bennett", "Iansan"]]
+    },
+    {
+      "name": "In Flammen + Schmelzen",
+      "note": "Émilie hält In Flammen am Laufen, sodass ständig Pyro auf den Gegnern liegt. Ein Kryo-Angreifer löst damit dauerhaft Schmelzen aus, da Kryo nicht mit Dendro reagiert.",
+      "slots": [
+        ["Wriothesley", "Ganyu", "Kamisato Ayaka"],
+        ["Emilie"],
+        ["Mavuika", "Xiangling", "Traveler (Pyro)"],
+        ["Bennett", "Kaedehara Kazuha", "Xilonen"]
+      ]
+    },
+    {
+      "name": "In Flammen + Verdampfen",
+      "note": "Mualani löst auf dem Feld mit dem Pyro der brennenden Gegner Verdampfen aus. Da sie nur selten zuschlägt, geht kaum Dendro durch Sprießen verloren und die Gegner brennen weiter.",
+      "slots": [["Mualani"], ["Emilie"], ["Mavuika", "Xiangling"], ["Xilonen", "Zhongli", "Kaedehara Kazuha"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Lumidouce Elegy",
+      "note": "Ihre Signaturwaffe: ANG, Krit.-Rate und mehr Schaden nach In Flammen, senkt auch den Aufladerate-Bedarf."
+    },
+    { "name": "Calamity Queller", "note": "Sehr viel ANG." },
+    {
+      "name": "Staff of Homa",
+      "note": "Starke Alternative mit Krit.-Schaden, ähnlich gut wie Stab der roten Sande."
+    },
+    {
+      "name": "Deathmatch",
+      "note": "Battle-Pass-Waffe mit Krit.-Rate, voll verfeinert fast so gut wie 5★-Waffen."
+    },
+    { "name": "Missive Windspear", "note": "Frühere Event-Waffe mit viel ANG." },
+    { "name": "Blackcliff Pole", "note": "Aus dem Sternenglanz-Shop, Krit.-Schaden als Nebenwert." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Unfinished Reverie", "pieces": 4 }],
+      "note": "Ihr bestes Set: mehr ANG und Schaden in Teams mit In Flammen."
+    },
+    {
+      "sets": [{ "name": "Deepwood Memories", "pieces": 4 }],
+      "note": "Wenn niemand sonst im Team den Dendro-Widerstand der Gegner senkt."
+    }
+  ],
+  "mainStats": { "sands": ["atk%"], "goblet": ["dendro"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/422493",
+    "https://gamewith.net/genshin-impact/article/show/41125",
+    "https://gamewith.net/genshin-impact/article/show/46202",
+    "https://keqingmains.com/q/emilie-quickguide/"
+  ]
+}

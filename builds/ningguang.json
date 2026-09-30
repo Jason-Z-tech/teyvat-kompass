@@ -1,0 +1,68 @@
+{
+  "character": "Ningguang",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps", "sub-dps"],
+  "summary": "Geo-Magierin mit Katalysator aus Liyue. Sie feuert Juwelen mit Standardangriffen und heftigen Schlägen; ihre Elementarfähigkeit erzeugt eine Wand aus Jade, die Geschosse abwehrt und Geo-Schaden verstärkt. Sie kann als Haupt-DPS oder im Schnellwechsel mit ihrer Spezialfähigkeit gespielt werden.",
+  "tips": [
+    "Vor jedem heftigen Schlag zwei Standardangriffe machen – ihre stärkste Kombo. Jeder Treffer lädt ein Jade-Geschoss, das der heftige Schlag mit abfeuert.",
+    "Nach der Elementarfähigkeit durch die entstandene Wand laufen: Das gibt der Figur einen Geo-Schadensbonus.",
+    "Aufladerate je nach Team etwa 110–140 %.",
+    "C2 ist ihr wichtigstes Sternbild: mehr Schaden und weniger Energiebedarf."
+  ],
+  "teams": [
+    {
+      "name": "Doppel-Geo mit Xilonen",
+      "note": "Xilonen senkt Widerstände und heilt, Bennett gibt ANG. Furina oder Yelan verstärken das Team und machen Schaden von außerhalb. Zhongli ist die Schild-Alternative zu Xilonen.",
+      "slots": [["Ningguang"], ["Xilonen", "Zhongli"], ["Bennett"], ["Furina", "Yelan"]]
+    },
+    {
+      "name": "Doppel-Geo mit Chiori",
+      "note": "Ningguangs Jade-Wand ist ein Geo-Objekt und gibt Chiori eine zweite Puppe. Fischl macht Schaden von außerhalb, Bennett gibt ANG und heilt.",
+      "slots": [["Ningguang"], ["Chiori", "Albedo"], ["Fischl"], ["Bennett"]]
+    },
+    {
+      "name": "Günstig",
+      "note": "Nur 4★-Partner: Kachina stärkt über ihr Set den Schaden des Teams, Xingqiu oder Fischl machen Schaden von außerhalb, Bennett gibt ANG und heilt.",
+      "slots": [["Ningguang"], ["Kachina"], ["Xingqiu", "Fischl"], ["Bennett"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Lost Prayer to the Sacred Winds",
+      "note": "Beste Wahl für den Haupt-DPS-Build: Krit.-Rate und wachsender Elementarschaden auf dem Feld."
+    },
+    {
+      "name": "Kagura's Verity",
+      "note": "Krit.-Schaden und Bonus auf die Elementarfähigkeit, besonders stark ab C2."
+    },
+    { "name": "Memory of Dust", "note": "Viel ANG, unter einem Schild noch mehr." },
+    { "name": "Skyward Atlas", "note": "Gut im Schnellwechsel-Build mit Fokus auf die Spezialfähigkeit." },
+    {
+      "name": "Solar Pearl",
+      "note": "Beste 4★-Waffe (Battle Pass): vor den Fähigkeiten einen Standardangriff machen."
+    },
+    { "name": "Mappa Mare", "note": "Schmiedbar; der Elementarschaden-Bonus braucht Reaktionen im Team." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Nighttime Whispers in the Echoing Woods", "pieces": 4 }],
+      "note": "Ihr bestes Set, vor allem unter einem Kristallisationsschild."
+    },
+    {
+      "sets": [{ "name": "Archaic Petra", "pieces": 2 }, { "name": "Gladiator's Finale", "pieces": 2 }],
+      "note": "Fast gleich stark: Geo-Bonus plus ANG-Bonus. Nimm, was die besseren Nebenwerte hat."
+    },
+    {
+      "sets": [{ "name": "Archaic Petra", "pieces": 2 }, { "name": "Noblesse Oblige", "pieces": 2 }],
+      "note": "Für den Schnellwechsel-Build mit Fokus auf ihre Spezialfähigkeit."
+    }
+  ],
+  "mainStats": { "sands": ["atk%"], "goblet": ["geo"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297529",
+    "https://gamewith.net/genshin-impact/article/show/22340",
+    "https://keqingmains.com/q/ningguang-quickguide/"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "character": "Kamisato Ayaka",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Kryo-Schwertkämpferin, die ihren größten Schaden mit der Spezialfähigkeit macht: einem Froststurm, der Gegner viele Male trifft. Zwischendurch kämpft sie mit Kryo-verstärkten Standardangriffen und heftigen Schlägen. Am stärksten ist sie mit Gefroren, weil eingefrorene Gegner den ganzen Sturm abbekommen.",
+  "tips": [
+    "Die Spezialfähigkeit auf eingefrorene oder zusammengezogene Gegner setzen, damit möglichst alle Treffer landen.",
+    "Die Elementarfähigkeit vor der Spezialfähigkeit einsetzen und die Energie-Partikel einsammeln.",
+    "Zwischen den Fähigkeiten: zwei Standardangriffe, dann ein heftiger Schlag.",
+    "Etwa 120–140 % Aufladerate anpeilen, damit die Spezialfähigkeit jede Runde bereit ist."
+  ],
+  "teams": [
+    {
+      "name": "Gefroren",
+      "note": "Furina und Escoffier sind das Herz des Teams: Hydro für Gefroren, Heilung und weniger Widerstand bei den Gegnern. Der letzte Platz sollte Hydro oder Kryo sein, damit Escoffiers Talent voll wirkt.",
+      "slots": [
+        ["Kamisato Ayaka"],
+        ["Escoffier", "Charlotte"],
+        ["Furina", "Mona"],
+        ["Shenhe", "Vodyanitsa", "Rosaria"]
+      ]
+    },
+    {
+      "name": "Gefroren mit Anemo",
+      "note": "Der bewährte Aufbau: Shenhe verstärkt den Kryo-Schaden, der Hydro-Partner sorgt für Gefroren, und der Anemo-Partner zieht die Gegner zusammen und verwirbelt Kryo.",
+      "slots": [
+        ["Kamisato Ayaka"],
+        ["Shenhe"],
+        ["Sangonomiya Kokomi", "Mona", "Furina"],
+        ["Kaedehara Kazuha", "Venti", "Sucrose", "Jean"]
+      ]
+    },
+    {
+      "name": "Gefroren (günstig)",
+      "note": "Nur kostenlose oder günstige Partner: Barbara heilt und trägt Hydro auf, Kaeya oder Rosaria helfen beim Einfrieren, der Anemo-Partner hält die Gegner zusammen.",
+      "slots": [["Kamisato Ayaka"], ["Kaeya", "Rosaria"], ["Barbara"], ["Traveler (Anemo)", "Sucrose"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Mistsplitter Reforged",
+      "note": "Ihre Signaturwaffe mit Krit.-Schaden und viel Elementarschaden-Bonus – die beste Wahl."
+    },
+    { "name": "Haran Geppaku Futsu", "note": "Krit.-Rate als Nebenwert und ein fester Schadensbonus." },
+    {
+      "name": "Primordial Jade Cutter",
+      "note": "Krit.-Rate als Nebenwert, dabei auf ein gutes Verhältnis der Krit.-Werte achten."
+    },
+    { "name": "The Black Sword", "note": "Battle-Pass-Waffe mit Krit.-Rate und etwas Heilung." },
+    {
+      "name": "Finale of the Deep",
+      "note": "Schmiedbar und die stärkste Gratis-Wahl, braucht aber einen Heiler im Team."
+    },
+    { "name": "Amenoma Kageuchi", "note": "Schmiedbar und hilft beim Aufladen der Spezialfähigkeit." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Blizzard Strayer", "pieces": 4 }],
+      "note": "Viel Krit.-Rate gegen Kryo-betroffene und gefrorene Gegner. Deshalb auf der Krone eher Krit.-Schaden."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Mit Furina im Team mindestens gleich stark und zuverlässiger, auch gegen Gegner, die nicht einfrieren."
+    },
+    {
+      "sets": [{ "name": "Blizzard Strayer", "pieces": 2 }, { "name": "Gladiator's Finale", "pieces": 2 }],
+      "note": "Übergangslösung mit Kryo-Schaden und ANG, solange ein 4er-Set fehlt."
+    }
+  ],
+  "mainStats": { "sands": ["atk%"], "goblet": ["cryo"], "circlet": ["cd", "cr"] },
+  "substats": ["er", "cd", "cr", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/315215",
+    "https://gamewith.net/genshin-impact/article/show/38316",
+    "https://gamewith.net/genshin-impact/article/show/22837",
+    "https://keqingmains.com/q/ayaka-quickguide/"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "character": "Hu Tao",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Pyro-Kämpferin mit Stangenwaffe: Ihre Elementarfähigkeit kostet LP, erhöht dafür ihren ANG abhängig von ihren max. LP und verleiht ihren Angriffen Pyro. Unter 50 % LP wird sie noch stärker. Am besten spielt man sie mit Verdampfen und Hydro-Partnern, ihre Spezialfähigkeit macht Flächenschaden und heilt sie.",
+  "tips": [
+    "Erst die Partner einsetzen, dann ihre Elementarfähigkeit – beim Wechseln endet ihr Pyro-Effekt.",
+    "Unter 50 % LP macht sie mehr Schaden. Ein Schild (z. B. Zhongli) macht das deutlich sicherer.",
+    "Im Kampf Standardangriffe mit heftigen Schlägen abwechseln, zum Beispiel ein oder zwei Standardangriffe und dann ein heftiger Schlag.",
+    "Aufladerate ist kaum nötig: Die Spezialfähigkeit reicht jede zweite Runde, etwa 110 % genügen."
+  ],
+  "teams": [
+    {
+      "name": "Verdampfen mit Furina",
+      "note": "Furina gibt viel Schadensbonus, Xianyun heilt das Team und ermöglicht starke Angriffe aus dem Fall, die verdampfen. Yelan trägt zusätzlich Hydro auf.",
+      "slots": [["Hu Tao"], ["Furina"], ["Yelan"], ["Xianyun"]]
+    },
+    {
+      "name": "Doppel-Hydro-Verdampfen",
+      "note": "Der Klassiker: Xingqiu und Yelan tragen ständig Hydro auf und bringen Hydro-Resonanz (mehr LP). Zhongli schützt mit Schild, Kazuha, Lan Yan oder Saccharose verstärken stattdessen.",
+      "slots": [["Hu Tao"], ["Xingqiu"], ["Yelan", "Mona"], ["Zhongli", "Kaedehara Kazuha", "Lan Yan", "Sucrose"]]
+    },
+    {
+      "name": "Schmelzen",
+      "note": "Rosaria oder Ganyu tragen Kryo auf, Kazuha nimmt Kryo auf und senkt den Widerstand. Citlali oder Diona schützen mit Schild und liefern weiteres Kryo.",
+      "slots": [["Hu Tao"], ["Rosaria", "Ganyu"], ["Kaedehara Kazuha"], ["Citlali", "Diona"]]
+    },
+    {
+      "name": "Günstiges Verdampfen",
+      "note": "Nur 4★-Partner: Xingqiu liefert Hydro, Saccharose gibt Elementarkunde. Thoma bringt Pyro, damit Saccharose den Pyro-Widerstand senken kann, und schützt mit Schild – Diona geht auch.",
+      "slots": [["Hu Tao"], ["Xingqiu"], ["Sucrose"], ["Thoma", "Diona"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Staff of Homa",
+      "note": "Ihre Signaturwaffe: mehr LP und zusätzlicher ANG aus den LP – klar die beste Wahl."
+    },
+    {
+      "name": "Staff of the Scarlet Sands",
+      "note": "Viel Krit.-Rate und ANG aus Elementarkunde – stark mit viel Elementarkunde."
+    },
+    { "name": "Primordial Jade Winged-Spear", "note": "Krit.-Rate als Nebenwert, solide 5★-Alternative." },
+    { "name": "Deathmatch", "note": "Battle-Pass-Waffe mit viel Krit.-Rate – zuverlässig." },
+    {
+      "name": "Dragon's Bane",
+      "note": "Viel Elementarkunde und mehr Schaden gegen Gegner mit Pyro oder Hydro."
+    },
+    {
+      "name": "White Tassel",
+      "note": "Aus Truhen: Krit.-Rate und stärkere Standardangriffe – die beste Gratis-Waffe."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Crimson Witch of Flames", "pieces": 4 }],
+      "note": "Ihr bestes Set: mehr Pyro-Schaden und stärkeres Verdampfen und Schmelzen."
+    },
+    {
+      "sets": [{ "name": "Shimenawa's Reminiscence", "pieces": 4 }],
+      "note": "Fast genauso stark und leichter zu farmen, kostet aber Energie für die Spezialfähigkeit."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Im Team mit Furina und Xianyun: Die ständigen LP-Änderungen erhöhen die Krit.-Rate."
+    }
+  ],
+  "mainStats": { "sands": ["hp%", "em"], "goblet": ["pyro"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "hp%", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/314347",
+    "https://gamewith.net/genshin-impact/article/show/23791",
+    "https://gamewith.net/genshin-impact/article/show/39690",
+    "https://keqingmains.com/q/hu-tao-quickguide/"
+  ]
+}

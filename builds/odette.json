@@ -1,0 +1,87 @@
+{
+  "character": "Odette",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "support"],
+  "summary": "Kryo-Schwertkämpferin aus Snezhnaya und die wichtigste Unterstützerin für Stellar-Teams. Sie schaltet Stellar-Supraleiter und Stellar-Verwirbelung frei, macht von außerhalb des Feldes viel Schaden und erhöht den Stellar-Schaden der ganzen Truppe. Ihr Schaden wächst mit ANG und Krit.",
+  "tips": [
+    "Elementarfähigkeit zweimal hintereinander: Der zweite Einsatz trifft stark, danach kämpft ihr Double rund 20 Sekunden allein weiter.",
+    "Die Spezialfähigkeit meist weglassen – die lange Animation kostet mehr, als sie bringt. Aufladerate ist daher kaum nötig.",
+    "Viel ANG lohnt sich: Bis 2000 ANG wächst ihr Stellar-Bonus für die Truppe (max. 14 %), bis 3000 ANG ihr eigener Stellar-Schaden (max. 30 %).",
+    "Kelch mit ANG statt Kryo-Schaden: Der Kryo-Bonus stärkt Stellar-Schaden nicht."
+  ],
+  "teams": [
+    {
+      "name": "Stellar-Supraleiter mit Sandrone",
+      "note": "Odette und Yae Miko machen gemeinsam viel Schaden von außerhalb und verstärken sich gegenseitig. Sandrone oder Cyno kämpfen auf dem Feld, Alyosha, Escoffier oder Qiqi heilen und stärken.",
+      "slots": [["Sandrone", "Cyno"], ["Odette"], ["Yae Miko"], ["Alyosha", "Escoffier", "Qiqi"]]
+    },
+    {
+      "name": "Stellar-Supraleiter mit Wriothesley",
+      "note": "Odette schaltet für Wriothesley die Stellar-Reaktion frei. Er mag keine Heiler, deshalb besser Nicole, Xilonen oder Beidou auf dem letzten Platz.",
+      "slots": [["Wriothesley"], ["Odette"], ["Yae Miko"], ["Nicole", "Xilonen", "Beidou"]]
+    },
+    {
+      "name": "Mit dem Kryo-Reisenden",
+      "note": "Der Kryo-Reisende ist ein starker Gratis-Hauptangreifer für Stellar-Teams. Yae Miko oder günstiger Alyosha bzw. Beidou liefern Elektro, der letzte Platz ist frei wählbar.",
+      "slots": [
+        ["Traveler (Cryo)"],
+        ["Odette"],
+        ["Yae Miko", "Alyosha", "Beidou"],
+        ["Qiqi", "Escoffier", "Sucrose", "Diona"]
+      ]
+    },
+    {
+      "name": "Stellar-Verwirbelung mit Vesna",
+      "note": "Vesna (neu in 7.1) oder Yumemizuki Mizuki verwirbeln Odettes Kryo auf dem Feld. Der Kryo-Reisende macht von außerhalb viel Schaden, Faruzan, Vodyanitsa oder Saccharose verstärken.",
+      "slots": [["Vesna", "Yumemizuki Mizuki"], ["Odette"], ["Traveler (Cryo)"], ["Faruzan", "Vodyanitsa", "Sucrose"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Whitelake Frostfeather",
+      "note": "Ihre Signaturwaffe und die beste Wahl, aber nur knapp vor anderen 5★-Schwertern mit Krit."
+    },
+    {
+      "name": "Primordial Jade Cutter",
+      "note": "Viel Krit.-Rate und zusätzlicher ANG – fast so gut wie die Signaturwaffe."
+    },
+    { "name": "Azurelight", "note": "Hoher ANG und Krit., ein guter Ersatz für die Signaturwaffe." },
+    {
+      "name": "Finale of the Deep",
+      "note": "Schmiedbar (Fontaine). Beständigste Gratis-Wahl mit viel ANG, am besten mit einem Heiler im Team."
+    },
+    {
+      "name": "Emberwell",
+      "note": "Schmiedbar in Snezhnaya. Sehr stark, wenn Odette die Stellar-Reaktion selbst auslöst, sonst schwächer."
+    },
+    {
+      "name": "Exaiphanes Blade",
+      "note": "Gratis in Snezhnaya erhältlich und gut auf Odette – gehört aber besser dem Kryo-Reisenden, wenn du ihn spielst."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Heart of the Furnace", "pieces": 4 }],
+      "note": "Meist die beste Wahl: mehr ANG für sie und deutlich mehr Stellar-Schaden für die ganze Truppe."
+    },
+    {
+      "sets": [{ "name": "Disenchantment in Deep Shadow", "pieces": 4 }],
+      "note": "Mehr eigener Schaden in Stellar-Supraleiter-Teams, wenn schon eine andere Figur das beste Set trägt."
+    },
+    {
+      "sets": [{ "name": "Tenacity of the Millelith", "pieces": 4 }],
+      "note": "Mehr ANG für alle – nur sinnvoll, wenn ihre Teamkollegen viel mehr Schaden machen als sie."
+    }
+  ],
+  "mainStats": { "sands": ["atk%"], "goblet": ["atk%"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "em", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/606893",
+    "https://www.prydwen.gg/genshin-impact/characters/odette",
+    "https://keqingmains.com/q/odette-quickguide/",
+    "https://www.icy-veins.com/genshin-impact/odette-guide-best-builds",
+    "https://gamewith.net/genshin-impact/article/show/76476",
+    "https://www.prydwen.gg/genshin-impact/characters/vesna"
+  ]
+}

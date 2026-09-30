@@ -1,0 +1,73 @@
+{
+  "character": "Varesa",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Elektro-Kämpferin mit Katalysator aus Natlan, die fast ihren ganzen Schaden mit Angriffen aus dem Fall macht. Ihr heftiger Schlag katapultiert sie in die Luft, und mit vollen Nachtseelenpunkten werden ihre Angriffe aus dem Fall noch stärker. Am besten spielt man sie mit Chevreuse und Iansan (Überladen) oder mit Xianyun und Furina.",
+  "tips": [
+    "Ablauf: heftiger Schlag, um in die Luft zu springen, dann sofort der Angriff aus dem Fall – so sammelt sie Nachtseelenpunkte.",
+    "Aufladerate: mit Iansan reichen etwa 125 %, allein als Elektro-Charakter eher 190–200 %.",
+    "Das Standardangriff-Talent zuerst leveln – es erhöht den Schaden ihrer Angriffe aus dem Fall.",
+    "Ihre Signaturwaffe bringt ungefähr so viel wie Sternbild 1 und 2 zusammen und ist leichter zu sichern."
+  ],
+  "teams": [
+    {
+      "name": "Überladen",
+      "note": "Chevreuse ist unverzichtbar: Sie senkt Pyro- und Elektro-Widerstand und gibt ANG. Iansan verstärkt Varesa zusätzlich, Durin liefert Pyro von außen.",
+      "slots": [
+        ["Varesa"],
+        ["Chevreuse"],
+        ["Iansan", "Ororon", "Fischl", "Bennett"],
+        ["Durin", "Mavuika", "Traveler (Pyro)", "Xiangling"]
+      ]
+    },
+    {
+      "name": "Angriff aus dem Fall",
+      "note": "Xianyun verstärkt die Angriffe aus dem Fall, Iansan gibt ANG. Furina erhöht den Schaden des ganzen Teams, Xianyuns Heilung baut ihren Bonus schnell auf.",
+      "slots": [
+        ["Varesa"],
+        ["Xianyun", "Kaedehara Kazuha"],
+        ["Furina", "Xilonen", "Bennett"],
+        ["Iansan", "Ororon", "Fischl"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Vivid Notions",
+      "note": "Signaturwaffe, genau auf ihre Angriffe aus dem Fall zugeschnitten – mit Abstand beste Wahl."
+    },
+    { "name": "Kagura's Verity", "note": "Krit.-Schaden und ein leicht stapelbarer Schadensbonus." },
+    {
+      "name": "Lost Prayer to the Sacred Winds",
+      "note": "Krit.-Rate und ein mit der Zeit wachsender Elementarschaden-Bonus."
+    },
+    { "name": "The Widsith", "note": "Beste 4★-Wahl, am stärksten auf hoher Verfeinerung." },
+    {
+      "name": "Flowing Purity",
+      "note": "Schmiedbar (Fontaine), mit ANG und Elementarschaden-Bonus – beste Gratis-Wahl."
+    },
+    { "name": "Frostbearer", "note": "Schmiedbar (Drachengrat), mit ANG als Nebenwert." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Long Night's Oath", "pieces": 4 }],
+      "note": "Bestes Set: Sie stapelt den Bonus leicht und verstärkt so ihre Angriffe aus dem Fall."
+    },
+    {
+      "sets": [{ "name": "Obsidian Codex", "pieces": 4 }],
+      "note": "Nur etwa 5 % schwächer – praktisch, wenn man es ohnehin für andere Natlan-Charaktere farmt."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Mit Furina im Team eine gute Alternative."
+    }
+  ],
+  "mainStats": { "sands": ["atk%"], "goblet": ["electro", "atk%"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "atk%", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/500244",
+    "https://gamewith.net/genshin-impact/article/show/51628",
+    "https://gamewith.net/genshin-impact/article/show/54711"
+  ]
+}

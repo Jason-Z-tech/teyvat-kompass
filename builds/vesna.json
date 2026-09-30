@@ -1,0 +1,83 @@
+{
+  "character": "Vesna",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Anemo-Schwertkämpferin aus Snezhnaya und die stärkste Hauptangreiferin für Stellar-Verwirbelung (Anemo + Kryo). Nach ihrer Elementarfähigkeit setzt sie eine besondere Schwerttechnik ein, die mit jedem Einsatz stärker wird. Sie braucht Kryo-Partner, die von außerhalb des Feldes Kryo auftragen – am besten Odette.",
+  "tips": [
+    "Ablauf: Elementarfähigkeit, dann die besondere Technik zweimal, Spezialfähigkeit und weiter. Standardangriffe und heftige Schläge laden dazwischen neue Nutzungen auf.",
+    "Immer mindestens eine Kryo-Figur mitnehmen, die von außerhalb Kryo aufträgt, sonst entsteht keine Stellar-Verwirbelung.",
+    "Kelch mit ANG statt Anemo-Schaden: Der Anemo-Bonus wirkt nur auf ihre gewöhnlichen Anemo-Treffer, nicht auf Stellar-Verwirbelung-Schaden.",
+    "Aufladerate nur bis etwa 130 %. Braucht dein Team mehr, die Spezialfähigkeit lieber nur jede zweite Runde nutzen."
+  ],
+  "teams": [
+    {
+      "name": "Stellar-Verwirbelung (Premium)",
+      "note": "Odette und der Kryo-Reisende tragen von außerhalb Kryo auf und machen selbst viel Stellar-Schaden. Faruzan (C6) verstärkt Anemo, Vodyanitsa ist fast gleich stark und heilt dazu.",
+      "slots": [["Vesna"], ["Odette"], ["Traveler (Cryo)"], ["Faruzan", "Vodyanitsa"]]
+    },
+    {
+      "name": "Mit Vodyanitsa und Faruzan",
+      "note": "Vodyanitsa senkt den Widerstand der Gegner, heilt und schützt vor Unterbrechungen. Statt ihr gehen auch Qiqi, Diona oder Nicole, dann aber mit weniger Schaden.",
+      "slots": [["Vesna"], ["Odette"], ["Vodyanitsa", "Qiqi", "Diona", "Nicole"], ["Faruzan"]]
+    },
+    {
+      "name": "Ohne Odette",
+      "note": "Der Kryo-Reisende übernimmt den Kryo-Schaden, Diona oder Qiqi heilen und bringen mehr Kryo. Als zweite Anemo-Figur Faruzan (am besten C6), Saccharose oder Lan Yan.",
+      "slots": [["Vesna"], ["Traveler (Cryo)"], ["Diona", "Qiqi"], ["Faruzan", "Sucrose", "Lan Yan"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Beyond the Chrysalis",
+      "note": "Ihre Signaturwaffe und klar die beste: Krit.-Schaden, mehr Stellar-Verwirbelung-Schaden und Energie."
+    },
+    {
+      "name": "Whitelake Frostfeather",
+      "note": "Odettes Signaturwaffe passt auch sehr gut zu Vesna und ist die zweitbeste Wahl."
+    },
+    {
+      "name": "Absolution",
+      "note": "Viel Krit.-Schaden. Andere 5★-Schwerter mit Krit. wie Azurglanz gehen ähnlich gut."
+    },
+    {
+      "name": "New Bough",
+      "note": "4★ aus dem Gebet mit Krit.-Schaden. Nach der Elementarfähigkeit steigern ihre Treffer ANG und Stellarfunkeln-Schaden."
+    },
+    {
+      "name": "Emberwell",
+      "note": "Schmiedbar in Snezhnaya. Ihre Standard-Gratiswaffe mit ANG- und Stellar-Bonus."
+    },
+    {
+      "name": "Silver Light",
+      "note": "Gratis aus dem Event in Version 7.1 (bis 12.10.2026). ANG und Elementarkunde passen zu ihr, Flammenquelle bleibt aber ihre beste Gratiswaffe."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Scarlet Proof", "pieces": 4 }],
+      "note": "Ihr bestes Set mit Abstand: mehr ANG, Krit.-Rate und Stellar-Verwirbelung-Schaden."
+    },
+    {
+      "sets": [{ "name": "Viridescent Venerer", "pieces": 4 }],
+      "note": "Knapp dahinter, wenn keine zweite Anemo-Figur im Team ist: senkt den Kryo-Widerstand der Gegner für alle."
+    },
+    {
+      "sets": [
+        { "name": "Gladiator's Finale", "pieces": 2 },
+        { "name": "A Day Carved From Rising Winds", "pieces": 2 }
+      ],
+      "note": "Übergangslösung mit zweimal ANG-Bonus, solange das beste Set noch fehlt."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["atk%"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "em", "er"],
+  "sources": [
+    "https://www.prydwen.gg/genshin-impact/characters/vesna",
+    "https://www.icy-veins.com/genshin-impact/vesna-guide-best-builds",
+    "https://game8.co/games/Genshin-Impact/archives/606901",
+    "https://gamewith.net/genshin-impact/article/show/76472",
+    "https://game8.co/games/Genshin-Impact/archives/622065",
+    "https://keqingmains.com/misc/stellar/"
+  ]
+}

@@ -1,0 +1,573 @@
+{
+  "Alley Hunter": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/322058"
+  },
+  "Amenoma Kageuchi": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Inazuma, Bauplan aus der Quest „The Farmer's Treasure“)",
+    "source": "https://gamewith.net/genshin-impact/article/show/29139"
+  },
+  "Ash-Graven Drinking Horn": {
+    "obtain": "event",
+    "info": "Event 5.0 (Traces of Artistry), nicht mehr erhältlich",
+    "source": "https://gamewith.net/genshin-impact/article/show/47791"
+  },
+  "Ballad of the Boundless Blue": {
+    "obtain": "event",
+    "info": "Event 4.1 (Waterborne Poetry), nicht mehr erhältlich",
+    "source": "https://gamewith.net/genshin-impact/article/show/41310"
+  },
+  "Ballad of the Fjords": {
+    "obtain": "battlepass",
+    "info": "Nur im Battle Pass (kostenpflichtige Stufe)",
+    "source": "https://game8.co/games/Genshin-Impact/archives/397377"
+  },
+  "Black Tassel": {
+    "obtain": "free",
+    "info": "1 Exemplar gratis vom NPC Orban (Abenteurerlager am Drachengrat), sonst Gebete",
+    "source": "https://gamewith.net/genshin-impact/article/show/22714"
+  },
+  "Blackcliff Pole": {
+    "obtain": "shop",
+    "info": "Sternenglanz-Shop (Paimons Schnäppchen)",
+    "source": "https://gamewith.net/genshin-impact/article/show/24320"
+  },
+  "Blackcliff Slasher": {
+    "obtain": "shop",
+    "info": "Sternenglanz-Shop (Paimons Schnäppchen)",
+    "source": "https://gamewith.net/genshin-impact/article/show/24315"
+  },
+  "Blackmarrow Lantern": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Nod-Krai)",
+    "source": "https://gamewith.net/genshin-impact/article/show/70129"
+  },
+  "Blade of Atonement": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Snezhnaya, seit 7.0)",
+    "source": "https://gamewith.net/genshin-impact/article/show/77300"
+  },
+  "Breezeborne Refrain": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/622069"
+  },
+  "Calamity of Eshu": {
+    "obtain": "event",
+    "info": "Event 5.2 (Iktomi Spiritseeking Scrolls), nicht mehr erhältlich",
+    "source": "https://gamewith.net/genshin-impact/article/show/49093"
+  },
+  "Chain Breaker": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Natlan)",
+    "source": "https://gamewith.net/genshin-impact/article/show/47784"
+  },
+  "Cinnabar Spindle": {
+    "obtain": "event",
+    "info": "Event 2.3 (Shadows Amidst Snowstorms), nicht mehr erhältlich",
+    "source": "https://gamewith.net/genshin-impact/article/show/30053"
+  },
+  "Clash of Kings": {
+    "obtain": "battlepass",
+    "info": "Nur im Battle Pass (kostenpflichtige Stufe)",
+    "source": "https://game8.co/games/Genshin-Impact/archives/613904"
+  },
+  "Cloudforged": {
+    "obtain": "event",
+    "info": "Event 4.7 (Mutual Security Enhancing Simulation), nicht mehr erhältlich",
+    "source": "https://game8.co/games/Genshin-Impact/archives/456136"
+  },
+  "Covenant of Frost and Snow": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Snezhnaya, seit 7.0)",
+    "source": "https://gamewith.net/genshin-impact/article/show/77302"
+  },
+  "Dawning Frost": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/557055"
+  },
+  "Deathmatch": {
+    "obtain": "battlepass",
+    "info": "Nur im Battle Pass (kostenpflichtige Stufe)",
+    "source": "https://game8.co/games/Genshin-Impact/archives/304634"
+  },
+  "Dialogues of the Desert Sages": {
+    "obtain": "event",
+    "info": "Event 4.5 (Alchemical Ascension), nicht mehr erhältlich",
+    "source": "https://game8.co/games/Genshin-Impact/archives/446624"
+  },
+  "Dodoco Tales": {
+    "obtain": "event",
+    "info": "Event 1.6 (Midsummer Island Adventure), nicht mehr erhältlich",
+    "source": "https://game8.co/games/Genshin-Impact/archives/332845"
+  },
+  "Dragon's Bane": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301952"
+  },
+  "Earth Shaker": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Natlan)",
+    "source": "https://gamewith.net/genshin-impact/article/show/47787"
+  },
+  "Emberwell": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Snezhnaya, seit 7.0)",
+    "source": "https://gamewith.net/genshin-impact/article/show/77298"
+  },
+  "End of the Line": {
+    "obtain": "fishing",
+    "info": "Angeln: Tausch beim Fischereiverband in Sumeru",
+    "source": "https://gamewith.net/genshin-impact/article/show/33340"
+  },
+  "Etherlight Spindlelute": {
+    "obtain": "event",
+    "info": "Event 6.0 (Clink Clank Clash), nicht mehr erhältlich",
+    "source": "https://gamewith.net/genshin-impact/article/show/70133"
+  },
+  "Exaiphanes Blade": {
+    "obtain": "free",
+    "info": "Gratis aus der Archon-Quest in Version 7.0, Verfeinerung über die Kryo-Statuen der Sieben",
+    "source": "https://gamewith.net/genshin-impact/article/show/77297"
+  },
+  "Fading Twilight": {
+    "obtain": "event",
+    "info": "Event 2.7 (Perilous Trail), nicht mehr erhältlich",
+    "source": "https://game8.co/games/Genshin-Impact/archives/377479"
+  },
+  "Favonius Codex": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301945"
+  },
+  "Favonius Greatsword": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301934"
+  },
+  "Favonius Lance": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301951"
+  },
+  "Favonius Sword": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301925"
+  },
+  "Favonius Warbow": {
+    "obtain": "free",
+    "info": "1 Exemplar gratis aus der Archon-Quest „A Long Shot“ (Prolog, Akt III), sonst Gebete",
+    "source": "https://gamewith.net/genshin-impact/article/show/22706"
+  },
+  "Festering Desire": {
+    "obtain": "event",
+    "info": "Event 1.2 (The Chalk Prince and the Dragon), nicht mehr erhältlich",
+    "source": "https://gamewith.net/genshin-impact/article/show/23583"
+  },
+  "Finale of the Deep": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Fontaine)",
+    "source": "https://gamewith.net/genshin-impact/article/show/40633"
+  },
+  "Flame-Forged Insight": {
+    "obtain": "event",
+    "info": "Event 5.8 (Sunspray Summer Resort), nicht mehr erhältlich",
+    "source": "https://gamewith.net/genshin-impact/article/show/69279"
+  },
+  "Fleuve Cendre Ferryman": {
+    "obtain": "fishing",
+    "info": "Angeln: Tausch beim Fischereiverband in Fontaine",
+    "source": "https://gamewith.net/genshin-impact/article/show/40638"
+  },
+  "Flower-Wreathed Feathers": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/484206"
+  },
+  "Flowing Purity": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Fontaine)",
+    "source": "https://gamewith.net/genshin-impact/article/show/40635"
+  },
+  "Flute of Ezpitzal": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Natlan)",
+    "source": "https://gamewith.net/genshin-impact/article/show/47788"
+  },
+  "Footprint of the Rainbow": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Natlan)",
+    "source": "https://gamewith.net/genshin-impact/article/show/47786"
+  },
+  "Forest Regalia": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Sumeru, Bauplan über die Aranara)",
+    "source": "https://gamewith.net/genshin-impact/article/show/34272"
+  },
+  "Forged by the Golden Melody": {
+    "obtain": "battlepass",
+    "info": "Nur im Battle Pass (kostenpflichtige Stufe)",
+    "source": "https://game8.co/games/Genshin-Impact/archives/613902"
+  },
+  "Frostbearer": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Bauplan vom Frostbaum am Drachengrat, Stufe 10)",
+    "source": "https://gamewith.net/genshin-impact/article/show/23582"
+  },
+  "Frostbreath": {
+    "obtain": "battlepass",
+    "info": "Nur im Battle Pass (kostenpflichtige Stufe)",
+    "source": "https://game8.co/games/Genshin-Impact/archives/613903"
+  },
+  "Fruit of Fulfillment": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Sumeru, Bauplan über die Aranara)",
+    "source": "https://gamewith.net/genshin-impact/article/show/34268"
+  },
+  "Fruitful Hook": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/475538"
+  },
+  "Hakushin Ring": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Inazuma, Bauplan per Quest)",
+    "source": "https://gamewith.net/genshin-impact/article/show/29441"
+  },
+  "Hamayumi": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Inazuma, Bauplan aus Takashis Truhen)",
+    "source": "https://gamewith.net/genshin-impact/article/show/29442"
+  },
+  "Harbinger of Dawn": {
+    "obtain": "free",
+    "info": "Gratis aus Kaeyas Story-Quest, dazu Geschenke von NPCs in Inazuma und Sumeru, sonst Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301927"
+  },
+  "Iron Sting": {
+    "obtain": "craft",
+    "info": "Schmiedbar (jeder Schmied in Mondstadt/Liyue)",
+    "source": "https://gamewith.net/genshin-impact/article/show/24306"
+  },
+  "Kagotsurube Isshin": {
+    "obtain": "free",
+    "info": "Gratis aus Akt I von Kazuhas Story-Quest, nicht verfeinerbar",
+    "source": "https://game8.co/games/Genshin-Impact/archives/382043"
+  },
+  "Katsuragikiri Nagamasa": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Inazuma, Bauplan in Tatarasuna)",
+    "source": "https://gamewith.net/genshin-impact/article/show/29135"
+  },
+  "Kitain Cross Spear": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Inazuma, Bauplan per Quest)",
+    "source": "https://gamewith.net/genshin-impact/article/show/29138"
+  },
+  "Lion's Roar": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301922"
+  },
+  "Luxurious Sea-Lord": {
+    "obtain": "event",
+    "info": "Event 2.1 (Moonlit Merriment), nicht mehr erhältlich",
+    "source": "https://game8.co/games/Genshin-Impact/archives/336847"
+  },
+  "Magic Guide": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301948"
+  },
+  "Mailed Flower": {
+    "obtain": "event",
+    "info": "Event 3.5 (Windblume's Breath), nicht mehr erhältlich",
+    "source": "https://game8.co/games/Genshin-Impact/archives/405248"
+  },
+  "Makhaira Aquamarine": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/390072"
+  },
+  "Mappa Mare": {
+    "obtain": "craft",
+    "info": "Schmiedbar (jeder Schmied in Mondstadt/Liyue)",
+    "source": "https://gamewith.net/genshin-impact/article/show/24191"
+  },
+  "Master Key": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Nod-Krai)",
+    "source": "https://gamewith.net/genshin-impact/article/show/70131"
+  },
+  "Missive Windspear": {
+    "obtain": "event",
+    "info": "Event 3.1 (Of Ballads and Brews), nicht mehr erhältlich",
+    "source": "https://game8.co/games/Genshin-Impact/archives/390094"
+  },
+  "Moonpiercer": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Sumeru, Bauplan über die Aranara)",
+    "source": "https://gamewith.net/genshin-impact/article/show/34269"
+  },
+  "Moonweaver's Dawn": {
+    "obtain": "free",
+    "info": "1 Exemplar gratis aus der Weltquest „Echoes of an Unfinished Past“ (Reihe „Polkka Beneath the Moon's Oracle“, Nod-Krai), sonst Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/550400"
+  },
+  "Mouun's Moon": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/345327"
+  },
+  "New Bough": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/622067"
+  },
+  "Oathsworn Eye": {
+    "obtain": "event",
+    "info": "Event 2.5 (Three Realms Gateway Offering), nicht mehr erhältlich",
+    "source": "https://game8.co/games/Genshin-Impact/archives/356455"
+  },
+  "Primordial Jade Cutter": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/317146"
+  },
+  "Prospector's Shovel": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Nod-Krai)",
+    "source": "https://gamewith.net/genshin-impact/article/show/70130"
+  },
+  "Prototype Amber": {
+    "obtain": "craft",
+    "info": "Schmiedbar (jeder Schmied in Mondstadt/Liyue)",
+    "source": "https://game8.co/games/Genshin-Impact/archives/304622"
+  },
+  "Prototype Archaic": {
+    "obtain": "craft",
+    "info": "Schmiedbar (jeder Schmied in Mondstadt/Liyue)",
+    "source": "https://gamewith.net/genshin-impact/article/show/24311"
+  },
+  "Prototype Crescent": {
+    "obtain": "craft",
+    "info": "Schmiedbar (jeder Schmied in Mondstadt/Liyue)",
+    "source": "https://gamewith.net/genshin-impact/article/show/24324"
+  },
+  "Prototype Starglitter": {
+    "obtain": "craft",
+    "info": "Schmiedbar (jeder Schmied in Mondstadt/Liyue)",
+    "source": "https://gamewith.net/genshin-impact/article/show/24319"
+  },
+  "Rainbow Serpent's Rain Bow": {
+    "obtain": "event",
+    "info": "Event 6.2 (Soulblazers' Snowbound Journey), nicht mehr erhältlich",
+    "source": "https://game8.co/games/Genshin-Impact/archives/567342"
+  },
+  "Rainslasher": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301931"
+  },
+  "Recurve Bow": {
+    "obtain": "free",
+    "info": "Aus Truhen, Quests und als Geschenk von NPCs",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301957"
+  },
+  "Rightful Reward": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Fontaine)",
+    "source": "https://gamewith.net/genshin-impact/article/show/40634"
+  },
+  "Ring of Yaxche": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Natlan)",
+    "source": "https://game8.co/games/Genshin-Impact/archives/477241"
+  },
+  "Rust": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301958"
+  },
+  "Sacrificer's Staff": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/557057"
+  },
+  "Sacrificial Bow": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301959"
+  },
+  "Sacrificial Fragments": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301943"
+  },
+  "Sacrificial Greatsword": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301932"
+  },
+  "Sacrificial Jade": {
+    "obtain": "battlepass",
+    "info": "Nur im Battle Pass (kostenpflichtige Stufe)",
+    "source": "https://game8.co/games/Genshin-Impact/archives/404956"
+  },
+  "Sacrificial Sword": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301923"
+  },
+  "Sapwood Blade": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Sumeru, Bauplan über die Aranara)",
+    "source": "https://game8.co/games/Genshin-Impact/archives/477241"
+  },
+  "Scion of the Blazing Sun": {
+    "obtain": "battlepass",
+    "info": "Nur im Battle Pass (kostenpflichtige Stufe)",
+    "source": "https://game8.co/games/Genshin-Impact/archives/409054"
+  },
+  "Serenity's Call": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Nod-Krai)",
+    "source": "https://gamewith.net/genshin-impact/article/show/70132"
+  },
+  "Serpent Spine": {
+    "obtain": "battlepass",
+    "info": "Nur im Battle Pass (kostenpflichtige Stufe)",
+    "source": "https://game8.co/games/Genshin-Impact/archives/304624"
+  },
+  "Silver Light": {
+    "obtain": "event",
+    "info": "Event 7.1 (Silverwing in Pursuit of the Moon, 24.09.–12.10.2026)",
+    "until": "2026-10-12",
+    "source": "https://game8.co/games/Genshin-Impact/archives/622065"
+  },
+  "Skyrider Sword": {
+    "obtain": "free",
+    "info": "1 Exemplar gratis per Gespräch mit dem NPC Pan Guan'er (Jueyun-Karst, Liyue), sonst Gebete",
+    "source": "https://gamewith.net/genshin-impact/article/show/22718"
+  },
+  "Slingshot": {
+    "obtain": "free",
+    "info": "1 Exemplar gratis vom NPC Vasco (Hafen Ormos, Sumeru), sonst Gebete",
+    "source": "https://gamewith.net/genshin-impact/article/show/22709"
+  },
+  "Snare Hook": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Nod-Krai)",
+    "source": "https://gamewith.net/genshin-impact/article/show/70128"
+  },
+  "Snow-Tombed Starsilver": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Bauplan über die Steintafeln am Drachengrat)",
+    "source": "https://game8.co/games/Genshin-Impact/archives/477241"
+  },
+  "Solar Pearl": {
+    "obtain": "battlepass",
+    "info": "Nur im Battle Pass (kostenpflichtige Stufe)",
+    "source": "https://game8.co/games/Genshin-Impact/archives/304618"
+  },
+  "Song of Stillness": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Fontaine)",
+    "source": "https://game8.co/games/Genshin-Impact/archives/477241"
+  },
+  "Song of the Vigil": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Snezhnaya, seit 7.0)",
+    "source": "https://gamewith.net/genshin-impact/article/show/77299"
+  },
+  "Tamayuratei no Ohanashi": {
+    "obtain": "event",
+    "info": "Event 5.4 (Enchanted Tales of the Mikawa Festival), nicht mehr erhältlich",
+    "source": "https://game8.co/games/Genshin-Impact/archives/495331"
+  },
+  "The Bell": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301933"
+  },
+  "The Black Sword": {
+    "obtain": "battlepass",
+    "info": "Nur im Battle Pass (kostenpflichtige Stufe)",
+    "source": "https://game8.co/games/Genshin-Impact/archives/304640"
+  },
+  "The Catch": {
+    "obtain": "fishing",
+    "info": "Angeln: Tausch beim Fischereiverband in Inazuma",
+    "source": "https://game8.co/games/Genshin-Impact/archives/336757"
+  },
+  "The Dockhand's Assistant": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301856"
+  },
+  "The Stringless": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301960"
+  },
+  "The Widsith": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301944"
+  },
+  "Thrilling Tales of Dragon Slayers": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/301947"
+  },
+  "Tidal Shadow": {
+    "obtain": "craft",
+    "info": "Schmiedbar (Fontaine)",
+    "source": "https://game8.co/games/Genshin-Impact/archives/420288"
+  },
+  "Toukabou Shigure": {
+    "obtain": "event",
+    "info": "Event 3.3 (Akitsu Kimodameshi), nicht mehr erhältlich",
+    "source": "https://game8.co/games/Genshin-Impact/archives/398331"
+  },
+  "Ultimate Overlord's Mega Magic Sword": {
+    "obtain": "event",
+    "info": "Event 4.3 (Roses and Muskets), nicht mehr erhältlich",
+    "source": "https://game8.co/games/Genshin-Impact/archives/436076"
+  },
+  "Wandering Evenstar": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/390097"
+  },
+  "Waveriding Whirl": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/484207"
+  },
+  "White Tassel": {
+    "obtain": "free",
+    "info": "Aus Truhen in Liyue",
+    "source": "https://game8.co/games/Genshin-Impact/archives/315450"
+  },
+  "Whiteblind": {
+    "obtain": "craft",
+    "info": "Schmiedbar (jeder Schmied in Mondstadt/Liyue)",
+    "source": "https://game8.co/games/Genshin-Impact/archives/477241"
+  },
+  "Wolf-Fang": {
+    "obtain": "battlepass",
+    "info": "Nur im Battle Pass (kostenpflichtige Stufe)",
+    "source": "https://game8.co/games/Genshin-Impact/archives/305864"
+  },
+  "Xiphos' Moonlight": {
+    "obtain": "wish",
+    "info": "Nur über Gebete",
+    "source": "https://game8.co/games/Genshin-Impact/archives/390071"
+  }
+}

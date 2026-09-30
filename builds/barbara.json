@@ -1,0 +1,80 @@
+{
+  "character": "Barbara",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["healer", "support"],
+  "summary": "Hydro-Heilerin mit Katalysator und günstige 4★-Figur. Ihre Elementarfähigkeit heilt die aktive Figur dauerhaft und trägt Hydro auf, ihre Spezialfähigkeit heilt die ganze Truppe auf einmal. Beliebt als günstiger Ersatz für Kokomi, vor allem in Sprießen-Teams mit Nilou.",
+  "tips": [
+    "Während ihrer Elementarfähigkeit heilen ihre heftigen Schläge viermal so stark wie Standardangriffe.",
+    "Die Spezialfähigkeit kostet 80 Energie – eher als Notfall-Heilung einplanen.",
+    "Ihre Elementarfähigkeit macht die aktive Figur nass: Vorsicht vor Kryo-Gegnern, die sie einfrieren können.",
+    "Für Sprießen-Teams kann man sie auch ganz auf Elementarkunde bauen, etwa mit Blumen des verlorenen Paradieses."
+  ],
+  "teams": [
+    {
+      "name": "Sprießen mit Nilou",
+      "note": "Barbara trägt viel Hydro auf und erzeugt schnell Dendro-Kerne, die Nilou verstärkt. Ihre Heilung gleicht den Schaden der platzenden Kerne aus.",
+      "slots": [
+        ["Barbara"],
+        ["Nilou"],
+        ["Nahida", "Traveler (Dendro)"],
+        ["Baizhu", "Collei", "Xingqiu", "Sangonomiya Kokomi"]
+      ]
+    },
+    {
+      "name": "Unter Strom",
+      "note": "Barbara heilt die Truppe und liefert zusätzlich Hydro, Fischl das Elektro. Ayato macht den Hauptschaden, Kazuha sammelt die Gegner.",
+      "slots": [
+        ["Barbara"],
+        ["Kamisato Ayato", "Tartaglia"],
+        ["Fischl", "Raiden Shogun", "Ororon", "Beidou"],
+        ["Kaedehara Kazuha", "Sucrose", "Venti"]
+      ]
+    },
+    {
+      "name": "Supraspross",
+      "note": "Barbara gleicht Furinas LP-Abzug aus, Raiden lässt die Dendro-Kerne zu Supraspross platzen und braucht nur wenig Zeit auf dem Feld.",
+      "slots": [
+        ["Barbara"],
+        ["Raiden Shogun", "Sethos"],
+        ["Nahida", "Collei", "Traveler (Dendro)"],
+        ["Furina", "Xingqiu", "Yelan"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Thrilling Tales of Dragon Slayers",
+      "note": "Beste Wahl: Die eingewechselte Figur bekommt mehr ANG. 3★, leicht auf Verfeinerung 5 zu bringen."
+    },
+    { "name": "Everlasting Moonglow", "note": "Kokomis Signaturwaffe: mehr LP und Heilung." },
+    { "name": "Prototype Amber", "note": "Schmiedbar, gibt LP und Energie und heilt die Truppe." },
+    { "name": "Favonius Codex", "note": "Aufladerate und Energie für das Team." },
+    {
+      "name": "Blackmarrow Lantern",
+      "note": "Schmiedbar in Nod-Krai, Elementarkunde – für Barbara als Sprießen-Auslöserin."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Ocean-Hued Clam", "pieces": 4 }],
+      "note": "Macht aus ihrer Heilung zusätzlichen Schaden."
+    },
+    {
+      "sets": [{ "name": "Song of Days Past", "pieces": 4 }],
+      "note": "Ihre Heilung erhöht den Schaden der Teamkollegen."
+    },
+    {
+      "sets": [{ "name": "Maiden Beloved", "pieces": 4 }],
+      "note": "Reines Heiler-Set für noch mehr Heilung."
+    }
+  ],
+  "mainStats": { "sands": ["hp%"], "goblet": ["hp%"], "circlet": ["heal", "hp%"] },
+  "substats": ["hp%", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297517",
+    "https://gamewith.net/genshin-impact/article/show/22352",
+    "https://gamewith.net/genshin-impact/article/show/51442",
+    "https://keqingmains.com/q/barbara-quickguide/"
+  ]
+}

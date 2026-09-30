@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; font-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Teyvat-Kompass – Teams, Waffen und Artefakte für Genshin Impact</title>
+  <meta name="description" content="Wähle einen Genshin-Impact-Charakter und sieh die besten Teams, Waffen, Artefakt-Sets und Werte – auf Deutsch, mit deinen eigenen Charakteren.">
+  <meta name="theme-color" content="#0c1120">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="data/genshin-data.js" defer></script>
+  <script src="js/shared.js" defer></script>
+  <script src="js/owned.js" defer></script>
+  <script src="js/roster.js" defer></script>
+  <script src="js/detail.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="el-pyro" viewBox="0 0 24 24"><path fill="currentColor" d="M12.2 2c1.7 3.4 6.3 5.8 6.3 11a6.5 6.5 0 0 1-13 0c0-2.6 1.3-4.5 2.8-5.9.2 1.9 1 3.2 2.3 3.9-.4-3.6.6-6.6 1.6-9Zm-.4 11.2c-1.4 1.3-2.3 2.4-2.3 3.9a2.5 2.5 0 0 0 5 0c0-1.3-.9-2.6-2.7-3.9Z"/></symbol>
+    <symbol id="el-hydro" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.2c3.4 4.7 7 8.4 7 12.6a7 7 0 0 1-14 0c0-4.2 3.6-7.9 7-12.6Zm-3.6 12.4a.9.9 0 0 0-.9.9 4.5 4.5 0 0 0 4.5 4.5.9.9 0 1 0 0-1.8 2.7 2.7 0 0 1-2.7-2.7.9.9 0 0 0-.9-.9Z"/></symbol>
+    <symbol id="el-anemo" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" d="M3 9.5h10.5A3.3 3.3 0 1 0 10.2 6M3 14h15a3.3 3.3 0 1 1-3.3 3.3M3 18.5h6"/></symbol>
+    <symbol id="el-electro" viewBox="0 0 24 24"><path fill="currentColor" d="M14.2 1.8 4.8 13.6h6.1L9.3 22.2l9.9-12.6h-6.3l1.3-7.8Z"/></symbol>
+    <symbol id="el-dendro" viewBox="0 0 24 24"><path fill="currentColor" d="M20.5 3.2C11.3 3.4 4.8 8 4.8 15.2c0 1.5.3 2.8.9 4l1.7-1.6c1.9-4.1 5.1-7 8.6-8.9-3.4 2.5-6.2 6-7.8 10a8.8 8.8 0 0 0 2.6.4c6.6 0 9.7-6.6 9.7-15.9Z"/></symbol>
+    <symbol id="el-cryo" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M12 2.5v19M3.8 7.2l16.4 9.6M3.8 16.8l16.4-9.6M9.2 3.8 12 6l2.8-2.2M9.2 20.2 12 18l2.8 2.2M3.4 10.6l3.4-.5-1.3-3.2M20.6 13.4l-3.4.5 1.3 3.2M5.5 17.1l1.3-3.2-3.4-.5M18.5 6.9l-1.3 3.2 3.4.5"/></symbol>
+    <symbol id="el-geo" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2 20.5 9 12 22 3.5 9 12 2Z"/><path fill="none" stroke="#0c1120" stroke-opacity=".45" stroke-width="1.2" d="M3.5 9h17M12 2 8.6 9 12 22l3.4-13L12 2"/></symbol>
+
+    <symbol id="w-sword" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M20.5 3.5 10 14M20.5 3.5h-3.2l-9 9M20.5 3.5v3.2l-9 9M6.5 12.5l5 5M8 16l-4 4"/></symbol>
+    <symbol id="w-claymore" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M20.5 3.5h-5.2l-8 8 5.2 5.2 8-8V3.5ZM5 10.5l8.5 8.5M8.3 15.7 4 20"/></symbol>
+    <symbol id="w-polearm" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3.5 20.5 15 9M21 3l-6.2 1.6 4.6 4.6L21 3ZM12.5 8.5l3 3"/></symbol>
+    <symbol id="w-bow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 3.5c8.3.7 14.8 7.2 15.5 15.5M5 3.5 20.5 19M3.5 20.5l9-9M3.5 20.5v-3.2M3.5 20.5h3.2"/></symbol>
+    <symbol id="w-catalyst" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M3.5 5.8c2.8-1.3 5.7-1.2 8.5.6 2.8-1.8 5.7-1.9 8.5-.6v13c-2.8-1.3-5.7-1.2-8.5.6-2.8-1.8-5.7-1.9-8.5-.6v-13ZM12 6.4v13"/></symbol>
+
+    <symbol id="i-compass" viewBox="0 0 64 64"><path fill="currentColor" opacity=".55" d="M32 15l3.2 13.8L49 32l-13.8 3.2L32 49l-3.2-13.8L15 32l13.8-3.2Z" transform="rotate(45 32 32)"/><path fill="currentColor" d="M32 3l4.6 24.4L61 32l-24.4 4.6L32 61l-4.6-24.4L3 32l24.4-4.6Z"/><circle cx="32" cy="32" r="4.5" fill="#0c1120"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="m12 2.6 2.8 6 6.5.7-4.9 4.4 1.4 6.4L12 16.8l-5.8 3.3 1.4-6.4-4.9-4.4 6.5-.7L12 2.6Z"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><path fill="currentColor" d="M10.5 3a7.5 7.5 0 0 1 5.96 12.05l4.25 4.24-1.42 1.42-4.24-4.25A7.5 7.5 0 1 1 10.5 3Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M15 5 8 12l7 7"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-sands" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M6.5 3h11M6.5 21h11M8 3c0 5.2 8 5.2 8 9s-8 3.8-8 9M16 3c0 5.2-8 5.2-8 9s8 3.8 8 9"/><path fill="currentColor" d="M10 18.4c.6-1.3 3.4-1.3 4 0l.8 1.6H9.2l.8-1.6Z"/></symbol>
+    <symbol id="i-goblet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M6.5 3h11l-1 6.2a4.6 4.6 0 0 1-9 0L6.5 3ZM12 14v5M8.2 21h7.6"/><path fill="currentColor" d="M7.3 6.5h9.4l-.5 2.6a4.2 4.2 0 0 1-8.4 0l-.5-2.6Z"/></symbol>
+    <symbol id="i-circlet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M3.5 17.5 2.8 7.8l5 3.6L12 5l4.2 6.4 5-3.6-.7 9.7h-17ZM4 20.5h16"/><circle cx="12" cy="13.8" r="1.6" fill="currentColor"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="masthead">
+    <a class="brand" href="#" aria-label="Teyvat-Kompass – zur Charakter-Übersicht">
+      <svg class="brand__mark" aria-hidden="true"><use href="#i-compass"></use></svg>
+      <span class="brand__name">Teyvat<span class="brand__dash">-</span>Kompass</span>
+    </a>
+    <p class="masthead__tag">Genshin Impact · Teams, Waffen &amp; Artefakte</p>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="view view--roster" id="view-roster" aria-labelledby="roster-title">
+      <div class="intro">
+        <h1 class="intro__title" id="roster-title">Wen spielst du heute?</h1>
+        <p class="intro__lead">Wähle einen Charakter – der Kompass zeigt dir die stärksten Teams, die besten Waffen und die passenden Artefakte.</p>
+        <p class="intro__meta" id="data-meta"></p>
+      </div>
+
+      <form class="filters" id="filters" role="search" autocomplete="off">
+        <div class="search">
+          <label class="visually-hidden" for="search">Charakter suchen</label>
+          <svg class="search__icon" aria-hidden="true"><use href="#i-search"></use></svg>
+          <input id="search" name="search" type="search" placeholder="Charakter suchen …" autocomplete="off" enterkeyhint="search" spellcheck="false">
+          <button class="search__clear" id="search-clear" type="button" aria-label="Suche leeren" hidden><svg aria-hidden="true"><use href="#i-close"></use></svg></button>
+        </div>
+
+        <fieldset class="chips chips--element" id="filter-element">
+          <legend class="filters__label">Element</legend>
+          <div class="chips__row" data-options="element"></div>
+        </fieldset>
+
+        <fieldset class="chips chips--weapon" id="filter-weapon">
+          <legend class="filters__label">Waffe</legend>
+          <div class="chips__row" data-options="weapon"></div>
+        </fieldset>
+
+        <div class="filters__line">
+          <fieldset class="chips chips--compact" id="filter-rarity">
+            <legend class="filters__label">Seltenheit</legend>
+            <div class="chips__row" data-options="rarity"></div>
+          </fieldset>
+          <fieldset class="chips chips--compact" id="filter-role">
+            <legend class="filters__label">Rolle</legend>
+            <div class="chips__row" data-options="role"></div>
+          </fieldset>
+        </div>
+
+        <div class="filters__line filters__line--end">
+          <label class="select">
+            <span class="filters__label">Sortieren</span>
+            <select id="sort" name="sort" autocomplete="off">
+              <option value="name">Name A–Z</option>
+              <option value="newest">Neueste zuerst</option>
+              <option value="rarity">Seltenheit</option>
+            </select>
+          </label>
+          <label class="switch">
+            <input id="only-owned" name="only-owned" type="checkbox" autocomplete="off">
+            <span class="switch__track" aria-hidden="true"></span>
+            <span>Nur meine</span>
+          </label>
+          <button class="btn btn--plate" id="owned-edit" type="button" aria-pressed="false">
+            <span class="btn__dot" aria-hidden="true"><svg><use href="#i-check"></use></svg></span>
+            <span>Meine Charaktere <small id="owned-count"></small></span>
+          </button>
+          <button class="btn btn--ghost" id="filters-reset" type="reset" hidden>Filter zurücksetzen</button>
+        </div>
+      </form>
+
+      <!-- Im HTML vor den Karten, damit man sie per Tab-Taste früh erreicht; optisch unten fixiert. -->
+      <div class="owned-bar" id="owned-bar" role="region" aria-label="Meine Charaktere auswählen" hidden>
+        <p class="owned-bar__text"><strong id="owned-bar-count">0</strong> ausgewählt<span class="owned-bar__help"> · Tippe auf alle Charaktere, die du hast.</span></p>
+        <div class="owned-bar__actions">
+          <button class="btn btn--ghost" id="owned-all" type="button">Alle angezeigten</button>
+          <button class="btn btn--ghost" id="owned-none" type="button">Keine</button>
+          <button class="btn btn--plate" id="owned-done" type="button"><span class="btn__dot" aria-hidden="true"><svg><use href="#i-check"></use></svg></span><span>Fertig</span></button>
+        </div>
+      </div>
+
+      <p class="visually-hidden" id="roster-status" role="status"></p>
+      <p class="roster-count" id="roster-count" aria-live="polite"></p>
+      <ul class="roster" id="roster" aria-labelledby="roster-title"></ul>
+      <div class="state" id="roster-empty" hidden></div>
+      <noscript><p class="state">Diese Seite braucht JavaScript, um die Charaktere anzuzeigen.</p></noscript>
+    </section>
+
+    <section class="view view--detail" id="view-detail" hidden></section>
+  </main>
+
+  <footer class="footer">
+    <p id="sources"></p>
+    <p>Inoffizielles, nicht-kommerzielles Fanprojekt ohne Verbindung zu HoYoverse. Genshin Impact, die Namen und Bilder der Charaktere, Waffen und Artefakte sind Eigentum von COGNOSPHERE / HoYoverse.</p>
+    <p><a href="#">Charaktere</a> · <a href="datenschutz.html">Datenschutz</a></p>
+  </footer>
+</body>
+</html>

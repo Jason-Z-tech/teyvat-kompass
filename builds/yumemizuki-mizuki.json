@@ -1,0 +1,81 @@
+{
+  "character": "Yumemizuki Mizuki",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps", "support", "healer"],
+  "summary": "Anemo-Katalysatornutzerin aus Inazuma, die auf dem Feld Reaktionen auslöst. Nach ihrer Elementarfähigkeit schwebt sie, greift von selbst an und verwirbelt ständig Elemente; ihre Spezialfähigkeit heilt. Seit Snezhnaya kann sie Stellar-Verwirbelung auslösen und ist zusammen mit Odette eine sehr starke Hauptangreiferin.",
+  "tips": [
+    "Nach der Elementarfähigkeit greift sie automatisch an – man muss vor allem Angriffen ausweichen.",
+    "Partner, die Standardangriffe brauchen (Xingqiu, Yelan, Beidou), passen nicht: Mizuki nutzt keine.",
+    "Ziele: etwa 1000 Elementarkunde und 130 % Aufladerate. Für Stellar-Verwirbelung rät Game8 zu einer Krit.-Krone."
+  ],
+  "teams": [
+    {
+      "name": "Stellar-Verwirbelung",
+      "note": "Odette sorgt dafür, dass Kryo-Verwirbelungen zu Stellar-Verwirbelung werden, und verstärkt sie; Mizuki löst sie auf dem Feld ständig aus. Vodyanitsa oder Diona heilen.",
+      "slots": [["Yumemizuki Mizuki"], ["Odette"], ["Traveler (Cryo)", "Qiqi"], ["Vodyanitsa", "Diona"]]
+    },
+    {
+      "name": "Mond unter Strom",
+      "note": "Ineffa und Columbina lösen Mond unter Strom aus, Mizuki senkt mit „Grünlicher Schatten“ den Hydro- und Elektro-Widerstand. Saccharose gibt Elementarkunde, Kuki heilt.",
+      "slots": [
+        ["Yumemizuki Mizuki"],
+        ["Ineffa", "Fischl"],
+        ["Columbina", "Aino", "Furina"],
+        ["Sucrose", "Kuki Shinobu"]
+      ]
+    },
+    {
+      "name": "Regenbogen",
+      "note": "Drei verschiedene Elemente kommen von außerhalb des Feldes, Mizuki verwirbelt alles und verstärkt so ihre Partner.",
+      "slots": [
+        ["Yumemizuki Mizuki"],
+        ["Kuki Shinobu", "Ororon"],
+        ["Furina", "Sangonomiya Kokomi"],
+        ["Durin", "Mavuika", "Xiangling"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Sunny Morning Sleep-In",
+      "note": "Ihre Signaturwaffe: sehr viel Elementarkunde nach (Stellar-)Verwirbelungen."
+    },
+    {
+      "name": "A Thousand Floating Dreams",
+      "note": "Viel Elementarkunde und ein kleiner Bonus für das Team."
+    },
+    {
+      "name": "Reliquary of Truth",
+      "note": "Krit.-Werte und Elementarkunde – laut Game8 gut für Stellar-Verwirbelung."
+    },
+    { "name": "Sacrificial Fragments", "note": "Viel Elementarkunde als Nebenwert." },
+    {
+      "name": "Etherlight Spindlelute",
+      "note": "Event-Waffe: nach der Elementarfähigkeit viel mehr Elementarkunde, Aufladerate als Nebenwert."
+    },
+    { "name": "Blackmarrow Lantern", "note": "Schmiedbar, viel Elementarkunde als Nebenwert." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 4 }],
+      "note": "Laut Game8 seit Snezhnaya ihr bestes Set für Stellar-Verwirbelung."
+    },
+    {
+      "sets": [{ "name": "Viridescent Venerer", "pieces": 4 }],
+      "note": "Laut GameWith weiterhin stark: mehr Verwirbelungsschaden und niedrigere Widerstände der Gegner."
+    },
+    {
+      "sets": [{ "name": "Scarlet Proof", "pieces": 4 }],
+      "note": "Set, das den Schaden von Stellar-Verwirbelung deutlich erhöht (GameWith-Alternative)."
+    }
+  ],
+  "mainStats": { "sands": ["em"], "goblet": ["em"], "circlet": ["em", "cr", "cd"] },
+  "substats": ["em", "cr", "cd", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/492414",
+    "https://gamewith.net/genshin-impact/article/show/51916",
+    "https://gamewith.net/genshin-impact/article/show/52315",
+    "https://game8.co/games/Genshin-Impact/archives/605498"
+  ]
+}

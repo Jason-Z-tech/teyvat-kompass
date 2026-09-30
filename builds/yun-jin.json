@@ -1,0 +1,70 @@
+{
+  "character": "Yun Jin",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support"],
+  "summary": "Geo-Unterstützerin aus Liyue mit Stangenwaffe. Ihre Spezialfähigkeit verstärkt die Standardangriffe aller Teammitglieder abhängig von ihrer VTD. Sie passt deshalb zu Haupt-DPS, die viele Standardangriffe machen, etwa Arlecchino, Noelle oder Yoimiya.",
+  "tips": [
+    "Direkt vor dem Haupt-DPS einsetzen: Der Bonus hält 12 Sekunden und wirkt auf höchstens 30 Treffer.",
+    "Sie braucht viel Aufladerate – meist rund 200 % oder mehr.",
+    "Je mehr verschiedene Elemente im Team sind, desto stärker wird ihr Bonus.",
+    "Mit der Favonius-Lanze etwa 50 % Krit.-Rate sammeln, damit die Waffe zuverlässig Energie erzeugt."
+  ],
+  "teams": [
+    {
+      "name": "Arlecchino",
+      "note": "Yun Jin verstärkt Arlecchinos Standardangriffe. Zhongli schützt und sorgt für Geo-Resonanz, Bennett oder Yelan verstärken zusätzlich.",
+      "slots": [["Arlecchino"], ["Yun Jin"], ["Zhongli", "Kachina"], ["Bennett", "Yelan"]]
+    },
+    {
+      "name": "Noelle",
+      "note": "Furina und Yun Jin verstärken Noelle, die mit ihrer Heilung Furinas Bonus stapelt. Gorou, Yelan oder Fischl auf dem letzten Platz.",
+      "slots": [["Noelle"], ["Yun Jin"], ["Furina"], ["Gorou", "Yelan", "Fischl"]]
+    },
+    {
+      "name": "Yoimiya (Verdampfen)",
+      "note": "Yoimiya macht fast nur Standardangriffe und profitiert voll von Yun Jin. Yelan oder Xingqiu tragen Hydro für Verdampfen auf, Zhongli schützt.",
+      "slots": [["Yoimiya"], ["Yun Jin"], ["Yelan", "Xingqiu"], ["Zhongli"]]
+    },
+    {
+      "name": "Wanderer",
+      "note": "Wanderers Schaden kommt vor allem aus Standardangriffen, die Yun Jin stark verstärkt. Faruzan erhöht den Anemo-Schaden, Bennett oder Zhongli ergänzen.",
+      "slots": [["Wanderer"], ["Yun Jin"], ["Faruzan"], ["Bennett", "Zhongli"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Engulfing Lightning",
+      "note": "Sehr viel Aufladerate und damit bequem für ihren hohen Energiebedarf."
+    },
+    { "name": "Favonius Lance", "note": "Erzeugt Energie für das Team, braucht aber genug Krit.-Rate." },
+    {
+      "name": "Footprint of the Rainbow",
+      "note": "Schmiedbar, einzige Stangenwaffe mit VTD – am stärksten, wenn die Aufladerate aus den Artefakten reicht."
+    },
+    { "name": "Skyward Spine", "note": "5★-Stangenwaffe mit viel Aufladerate." },
+    { "name": "The Catch", "note": "Aus dem Angel-Shop in Inazuma, gibt Aufladerate." },
+    { "name": "Prototype Starglitter", "note": "Schmiedbar mit viel Aufladerate – gute Gratis-Wahl." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Husk of Opulent Dreams", "pieces": 4 }],
+      "note": "Viel VTD für einen stärkeren Bonus, einfach und zuverlässig."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Alternative mit ANG-Bonus für das Team, wenn sonst niemand das Set trägt."
+    },
+    {
+      "sets": [{ "name": "Husk of Opulent Dreams", "pieces": 2 }, { "name": "Emblem of Severed Fate", "pieces": 2 }],
+      "note": "VTD plus Aufladerate – gut, wenn Energie knapp ist."
+    }
+  ],
+  "mainStats": { "sands": ["er", "def%"], "goblet": ["def%"], "circlet": ["def%", "cr"] },
+  "substats": ["er", "def%", "cr"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/314345",
+    "https://gamewith.net/genshin-impact/article/show/24116",
+    "https://keqingmains.com/q/yunjin-quickguide/"
+  ]
+}

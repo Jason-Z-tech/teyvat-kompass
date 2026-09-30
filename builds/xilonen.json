@@ -1,0 +1,70 @@
+{
+  "character": "Xilonen",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "healer"],
+  "summary": "Geo-Unterstützerin aus Natlan mit Schwert. Nach ihrer Elementarfähigkeit senkt sie den Widerstand der Gegner gegen die Elemente ihres Teams, ihre Spezialfähigkeit heilt. Mit dem Set „Schriftrolle des Recken der aschenen Stadt“ erhöht sie zusätzlich den Elementarschaden der ganzen Truppe.",
+  "tips": [
+    "Nach der Elementarfähigkeit zwei Standardangriffe machen – erst dann ist die Widerstandssenkung aktiv.",
+    "Für Heilung und volle Widerstandssenkung braucht sie mindestens zwei Figuren mit Pyro, Hydro, Elektro oder Kryo im Team.",
+    "Aufladerate etwa 180–250 %, je nachdem, ob sie ihre eigene Energie einsammelt.",
+    "Mit ihrer Signaturwaffe rund 3200 VTD anpeilen; ohne diese Waffe ist VTD fast unwichtig."
+  ],
+  "teams": [
+    {
+      "name": "Mavuika",
+      "note": "Xilonen lädt Mavuikas Spezialfähigkeit schnell auf, senkt den Pyro-Widerstand und heilt. Citlali oder Furina ergänzen, Bennett gibt ANG.",
+      "slots": [["Mavuika"], ["Xilonen"], ["Citlali", "Furina"], ["Bennett"]]
+    },
+    {
+      "name": "Mualani (Verdampfen)",
+      "note": "Xilonen stärkt Mualanis Hydro-Schaden, Mavuika oder Xiangling liefern Pyro für Verdampfen, Kaedehara Kazuha oder Saccharose verstärken zusätzlich.",
+      "slots": [["Mualani"], ["Xilonen"], ["Mavuika", "Xiangling"], ["Kaedehara Kazuha", "Sucrose"]]
+    },
+    {
+      "name": "Navia",
+      "note": "Xilonen gibt Navia Energie und Geo-Resonanz und senkt Widerstände. Xiangling, Furina oder Fischl tragen ein zweites Element auf, Bennett gibt ANG.",
+      "slots": [["Navia"], ["Xilonen"], ["Xiangling", "Furina", "Fischl"], ["Bennett"]]
+    },
+    {
+      "name": "Neuvillette",
+      "note": "Xilonen heilt für Furinas Bonus und senkt den Hydro-Widerstand – eine offensivere Alternative zu Zhongli. Kaedehara Kazuha oder Lynette verstärken zusätzlich.",
+      "slots": [["Neuvillette"], ["Xilonen"], ["Furina"], ["Kaedehara Kazuha", "Lynette"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Peak Patrol Song",
+      "note": "Xilonens Signaturwaffe: viel VTD und ein Elementarschaden-Bonus für das ganze Team."
+    },
+    { "name": "Favonius Sword", "note": "Zweitbeste Wahl: Energie für das Team; braucht etwas Krit.-Rate." },
+    {
+      "name": "Freedom-Sworn",
+      "note": "Verstärkt Standardangriffe, heftige Schläge und Angriffe aus dem Fall des Teams."
+    },
+    { "name": "Sacrificial Sword", "note": "Aufladerate als Nebenwert, wenn das Favonius-Schwert fehlt." },
+    { "name": "Flute of Ezpitzal", "note": "Schmiedbar in Natlan, gibt VTD für stärkere Heilung." },
+    { "name": "Skyrider Sword", "note": "Günstige 3★-Waffe mit Aufladerate für den Anfang." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Scroll of the Hero of Cinder City", "pieces": 4 }],
+      "note": "Mit Abstand ihr bestes Set: bis zu 40 % mehr Elementarschaden für das Team und weniger Energiebedarf."
+    },
+    {
+      "sets": [{ "name": "Archaic Petra", "pieces": 4 }],
+      "note": "Wenn schon jemand anderes das Schriftrollen-Set trägt."
+    },
+    {
+      "sets": [{ "name": "Instructor", "pieces": 4 }],
+      "note": "Alternative in Reaktionsteams wie Verdampfen oder Schmelzen, wenn das Schriftrollen-Set schon vergeben ist."
+    }
+  ],
+  "mainStats": { "sands": ["er", "def%"], "goblet": ["def%"], "circlet": ["def%", "cr", "heal"] },
+  "substats": ["er", "cr", "def%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/461997",
+    "https://gamewith.net/genshin-impact/article/show/47145",
+    "https://keqingmains.com/q/xilonen-quickguide/"
+  ]
+}

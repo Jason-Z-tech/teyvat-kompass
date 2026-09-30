@@ -1,0 +1,73 @@
+{
+  "character": "Lan Yan",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["shield", "support"],
+  "summary": "Anemo-Katalysatornutzerin aus Liyue, die vor allem als Schild-Unterstützerin spielt. Ihre Elementarfähigkeit lässt sie nach vorn springen und erzeugt einen Schild, der mit ANG wächst; ihre Spezialfähigkeit hält Gegner in Schach. Mit dem Set „Grünlicher Schatten“ senkt sie zusätzlich die Widerstände der Gegner.",
+  "tips": [
+    "Ihr Schild wächst mit ANG – etwa 2000 ANG anpeilen.",
+    "Aufladerate: etwa 160–220 %; ist sie die einzige Anemo-Figur im Team, eher mehr.",
+    "Nimmt sie beim Sprung ein Element auf, hält ihr Schild gegen dieses Element deutlich mehr aus.",
+    "Als Reaktions-Auslöserin auf dem Feld braucht sie Elementarkunde statt ANG."
+  ],
+  "teams": [
+    {
+      "name": "Verdampfen",
+      "note": "Lan Yan schützt Arlecchino mit ihrem Schild und senkt die Widerstände, Yelan liefert Hydro für Verdampfen. Bennett, Furina oder Xilonen verstärken das Team.",
+      "slots": [["Lan Yan"], ["Arlecchino"], ["Yelan"], ["Bennett", "Furina", "Xilonen"]]
+    },
+    {
+      "name": "Schmelzen",
+      "note": "Wriothesley macht Kryo-Schaden, Xiangling liefert von außen Pyro für Schmelzen. Lan Yan hält mit Schild und Verwirbelung den Rücken frei.",
+      "slots": [["Lan Yan"], ["Wriothesley"], ["Xiangling"], ["Xilonen"]]
+    },
+    {
+      "name": "Unter Strom",
+      "note": "Lan Yan bleibt mit Elementarkunde-Ausrüstung auf dem Feld und verwirbelt Hydro und Elektro ihrer Partner. Mit Xingqiu und Fischl ein günstiges 4★-Team.",
+      "slots": [["Lan Yan"], ["Furina", "Xingqiu"], ["Kuki Shinobu", "Fischl"], ["Ororon"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Starcaller's Watch",
+      "note": "Beste Wahl: viel Elementarkunde, und ihr Effekt stärkt die aktive Figur zuverlässig."
+    },
+    {
+      "name": "Memory of Dust",
+      "note": "Stärkere Schilde und viel ANG – unter ihrem eigenen Schild steigt der ANG-Bonus noch weiter."
+    },
+    {
+      "name": "Thrilling Tales of Dragon Slayers",
+      "note": "3★-Waffe nur aus Gebeten: Die nächste Figur nach dem Wechsel bekommt viel ANG."
+    },
+    { "name": "Wandering Evenstar", "note": "Gibt dem Team ANG abhängig von ihrer Elementarkunde." },
+    { "name": "Favonius Codex", "note": "Erzeugt Energie und senkt ihren Aufladerate-Bedarf." },
+    {
+      "name": "Hakushin Ring",
+      "note": "Schmiedbar: Aufladerate und Elementarschaden-Bonus für das Team, vor allem mit Elektro."
+    },
+    { "name": "Prototype Amber", "note": "Schmiedbar: heilt das Team und gibt Energie." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Viridescent Venerer", "pieces": 4 }],
+      "note": "Ihr bestes Set: senkt die Widerstände der Gegner und stärkt Verwirbelungen."
+    },
+    {
+      "sets": [{ "name": "Golden Troupe", "pieces": 4 }],
+      "note": "Wenn jemand anderes „Grünlicher Schatten“ trägt: mehr Schaden ihrer Elementarfähigkeit."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Mehr ANG für das Team nach ihrer Spezialfähigkeit, wenn niemand sonst das Set trägt."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er"], "goblet": ["atk%"], "circlet": ["atk%"] },
+  "substats": ["er", "atk%", "cr", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/486709",
+    "https://gamewith.net/genshin-impact/article/show/49958",
+    "https://gamewith.net/genshin-impact/article/show/51623",
+    "https://keqingmains.com/q/lan-yan-quickguide/"
+  ]
+}

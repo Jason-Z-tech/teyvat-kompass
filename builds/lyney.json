@@ -1,0 +1,74 @@
+{
+  "character": "Lyney",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Pyro-Bogenschütze und Zauberkünstler, der mit voll aufgeladenen gezielten Schüssen (heftiger Schlag) kämpft. Jeder dieser Schüsse hinterlässt einen Hut, der Gegner ablenkt. Hat er mehr als 60 % seiner LP, kostet der Schuss zusätzlich LP und lädt dafür seine Elementarfähigkeit auf. Er wird mit jeder weiteren Pyro-Figur im Team stärker.",
+  "tips": [
+    "Ein Heiler wie Bennett ist Pflicht: Die Schüsse kosten LP, und nur mit genug LP lädt er seine Elementarfähigkeit bis 5 Stapel auf.",
+    "Ablauf: Unterstützer einsetzen, dann mehrere gezielte Schüsse, Spezialfähigkeit und zum Schluss die Elementarfähigkeit, die die Stapel verbraucht.",
+    "Beim Zielen kann er unterbrochen werden – ein Schild von Nicole, Zhongli oder Lan Yan hilft sehr.",
+    "Aufladerate etwa 130–160 %, wenn die Spezialfähigkeit jede Runde kommen soll, sonst reichen 100 %."
+  ],
+  "teams": [
+    {
+      "name": "Mono-Pyro",
+      "note": "Xiangling oder Dehya stärken sein passives Talent als weitere Pyro-Figur, Xilonen gleicht das mit Widerstandssenkung aus. Zhongli oder Lan Yan schützen beim Zielen, Kazuha verstärkt.",
+      "slots": [["Lyney"], ["Bennett"], ["Xiangling", "Dehya", "Xilonen"], ["Kaedehara Kazuha", "Zhongli", "Lan Yan"]]
+    },
+    {
+      "name": "Überladen mit Chevreuse",
+      "note": "Sehr stark: Chevreuse senkt den Widerstand, Fischl sorgt für Überladen. Nicole gibt ANG und einen Schild, der ihn beim Zielen schützt – Bennett geht auch.",
+      "slots": [["Lyney"], ["Chevreuse"], ["Fischl"], ["Nicole", "Bennett"]]
+    },
+    {
+      "name": "Mit Durin und Albedo",
+      "note": "Kommt ohne Bennett aus: Durin bringt Pyro und senkt den Widerstand, Xilonen heilt und verstärkt. Durin und Albedo schalten gegenseitig ihre Hexerei-Boni frei.",
+      "slots": [["Lyney"], ["Durin"], ["Xilonen"], ["Albedo"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "The First Great Magic",
+      "note": "Seine Signaturwaffe: mehr Schaden für heftige Schläge und viel ANG mit weiteren Pyro-Figuren."
+    },
+    {
+      "name": "Aqua Simulacra",
+      "note": "Viel Krit.-Schaden und Schadensbonus, wenn Gegner in der Nähe sind."
+    },
+    { "name": "Thundering Pulse", "note": "Krit.-Schaden als Nebenwert – solider 5★-Ersatz." },
+    { "name": "Scion of the Blazing Sun", "note": "Battle-Pass-Waffe, die seine heftigen Schläge verstärkt." },
+    {
+      "name": "Song of Stillness",
+      "note": "Schmiedbar (Fontaine): mehr Schaden nach Heilung – die beste Gratis-Waffe."
+    },
+    {
+      "name": "Prototype Crescent",
+      "note": "Schmiedbar (Liyue): ANG als Nebenwert, Bonus nach Treffern auf Schwachstellen."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Klar sein bestes Set: Sein LP-Verlust und die Heilung lösen ständig den Krit.-Rate-Bonus aus."
+    },
+    {
+      "sets": [{ "name": "Vermillion Hereafter", "pieces": 4 }],
+      "note": "Alternative: mehr ANG nach der Spezialfähigkeit und bei LP-Verlust."
+    },
+    {
+      "sets": [
+        { "name": "Crimson Witch of Flames", "pieces": 2 },
+        { "name": "Shimenawa's Reminiscence", "pieces": 2 }
+      ],
+      "note": "Übergangslösung aus Pyro-Schaden und ANG, bis das beste Set steht."
+    }
+  ],
+  "mainStats": { "sands": ["atk%"], "goblet": ["pyro"], "circlet": ["cd", "cr"] },
+  "substats": ["cd", "cr", "er", "atk%"],
+  "sources": [
+    "https://gamewith.net/genshin-impact/article/show/24369",
+    "https://gamewith.net/genshin-impact/article/show/40725",
+    "https://game8.co/games/Genshin-Impact/archives/345540"
+  ]
+}

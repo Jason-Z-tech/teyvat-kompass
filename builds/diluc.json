@@ -1,0 +1,64 @@
+{
+  "character": "Diluc",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Pyro-Kämpfer mit Zweihänder, der seinen Schaden fast komplett selbst auf dem Feld macht. Seine Elementarfähigkeit schlägt dreimal hintereinander zu, seine Spezialfähigkeit verleiht seinen Angriffen Pyro. Am stärksten ist er mit Verdampfen (Hydro-Partner) oder mit Angriffen aus dem Fall zusammen mit Xianyun.",
+  "tips": [
+    "Die Elementarfähigkeit dreimal hintereinander einsetzen und dazwischen Standardangriffe machen.",
+    "Mit Xianyun: nach ihrer Elementarfähigkeit sofort einen Angriff aus dem Fall machen – Diluc hat einen der stärksten im Spiel.",
+    "Seine Spezialfähigkeit braucht wenig Energie, Aufladerate ist kaum nötig."
+  ],
+  "teams": [
+    {
+      "name": "Angriff aus dem Fall",
+      "note": "Xianyun macht Dilucs Angriffe aus dem Fall enorm stark, Furina und Bennett erhöhen den Schaden weiter. Derzeit sein stärkstes Team.",
+      "slots": [["Diluc"], ["Xianyun"], ["Furina"], ["Bennett"]]
+    },
+    {
+      "name": "Verdampfen",
+      "note": "Xingqiu oder Yelan tragen dauerhaft Hydro auf, damit Dilucs Pyro-Treffer verdampfen. Bennett gibt ANG, Kazuha sammelt die Gegner und erhöht den Pyro-Schaden.",
+      "slots": [["Diluc"], ["Xingqiu", "Yelan"], ["Bennett"], ["Kaedehara Kazuha", "Sucrose"]]
+    },
+    {
+      "name": "Schmelzen",
+      "note": "Rosaria oder Kaeya tragen Kryo auf, dadurch schmelzen Dilucs Pyro-Treffer. Rosaria gibt zusätzlich Krit.-Rate. Gute Wahl auch ohne 5★-Partner.",
+      "slots": [["Diluc"], ["Rosaria", "Kaeya"], ["Bennett"], ["Sucrose", "Kaedehara Kazuha"]]
+    },
+    {
+      "name": "Überladen",
+      "note": "Fischl liefert von außerhalb des Feldes Elektro für Überladen, Chevreuse verstärkt Pyro- und Elektro-Schaden der ganzen Truppe.",
+      "slots": [["Diluc"], ["Fischl"], ["Chevreuse"], ["Bennett"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Wolf's Gravestone",
+      "note": "Viel ANG und stärkt die ganze Truppe gegen angeschlagene Gegner."
+    },
+    { "name": "Redhorn Stonethresher", "note": "Stark durch den hohen Krit.-Schaden als Nebenwert." },
+    { "name": "Serpent Spine", "note": "Battle-Pass-Waffe mit Krit.-Rate und wachsendem Schadensbonus." },
+    {
+      "name": "Rainslasher",
+      "note": "Elementarkunde als Nebenwert und mehr Schaden gegen Gegner mit Hydro – passt zu Verdampfen."
+    },
+    { "name": "Prototype Archaic", "note": "Schmiedbar, solide Gratis-Wahl." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Crimson Witch of Flames", "pieces": 4 }],
+      "note": "Mehr Pyro-Schaden und stärkere Verdampfen- und Schmelzen-Reaktionen."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Im Team mit Furina sehr stark, weil ihre LP-Änderungen die Krit.-Rate hochtreiben."
+    },
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 4 }],
+      "note": "Viel Elementarkunde für Verdampfen und Schmelzen."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["pyro"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "em", "er"],
+  "sources": ["https://game8.co/games/Genshin-Impact/archives/297518"]
+}

@@ -1,0 +1,66 @@
+{
+  "character": "Lynette",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "sub-dps"],
+  "summary": "Anemo-Schwertkämpferin aus Fontaine, die meist außerhalb des Feldes unterstützt. Ihre Spezialfähigkeit stellt eine Katzenbox auf, die Gegner anlockt und Elemente aufnimmt; mit dem Set „Grünlicher Schatten“ senkt sie die Widerstände der Gegner. Eine günstige 4★-Alternative zu teuren Anemo-Unterstützern.",
+  "tips": [
+    "Aufladerate: als einzige Anemo-Figur etwa 180–240 %, mit Favonius-Schwert reicht das untere Ende.",
+    "Nimmt die Katzenbox ein Element auf, macht sie zusätzlich Schaden dieses Elements.",
+    "Ab Sternbild 6 bekommt sie nach der Elementarfähigkeit eine Anemo-Verzauberung und kann selbst angreifen.",
+    "Talente: zuerst die Spezialfähigkeit leveln."
+  ],
+  "teams": [
+    {
+      "name": "Nationalteam",
+      "note": "Tartaglia oder Xingqiu liefern Hydro, Xiangling Pyro, Bennett heilt und gibt ANG. Lynette verwirbelt beides und senkt die Widerstände. Mit Xingqiu nur 4★-Figuren.",
+      "slots": [["Lynette"], ["Tartaglia", "Xingqiu", "Yelan"], ["Xiangling", "Thoma"], ["Bennett"]]
+    },
+    {
+      "name": "Verdampfen",
+      "note": "Arlecchino macht als Pyro-Hauptangreiferin den Schaden, Xingqiu liefert Hydro für Verdampfen. Lynette senkt die Widerstände für Pyro und Hydro.",
+      "slots": [["Lynette"], ["Arlecchino"], ["Bennett"], ["Xingqiu", "Yelan"]]
+    },
+    {
+      "name": "Suprawuchs",
+      "note": "Lynette verstärkt Dendro nicht, senkt aber durch Verwirbelung den Elektro-Widerstand – davon profitieren Cyno und Fischl.",
+      "slots": [["Lynette"], ["Cyno", "Raiden Shogun", "Yae Miko"], ["Fischl", "Kuki Shinobu"], ["Baizhu", "Nahida"]]
+    }
+  ],
+  "weapons": [
+    { "name": "Favonius Sword", "note": "Beste Wahl: Aufladerate und Energie für das ganze Team." },
+    {
+      "name": "Sacrificial Sword",
+      "note": "Aufladerate und die Chance, die Elementarfähigkeit sofort erneut zu nutzen."
+    },
+    { "name": "Freedom-Sworn", "note": "Für Reaktions-Teams: ANG-Bonus für die ganze Truppe." },
+    { "name": "Skyward Blade", "note": "Vor allem wegen der Aufladerate als Nebenwert." },
+    {
+      "name": "Fleuve Cendre Ferryman",
+      "note": "Gratis-Waffe mit viel Aufladerate und etwas Krit.-Rate für die Elementarfähigkeit."
+    },
+    { "name": "Amenoma Kageuchi", "note": "Schmiedbar: gibt nach der Spezialfähigkeit Energie zurück." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Viridescent Venerer", "pieces": 4 }],
+      "note": "Ihr bestes Set in fast jedem Team: senkt die Widerstände für das verwirbelte Element."
+    },
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 4 }],
+      "note": "Für mehr eigenen Schaden der Spezialfähigkeit, wenn jemand anderes „Grünlicher Schatten“ trägt."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Mehr ANG für das ganze Team nach ihrer Spezialfähigkeit."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er"], "goblet": ["anemo", "atk%"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "atk%", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/345879",
+    "https://gamewith.net/genshin-impact/article/show/24368",
+    "https://gamewith.net/genshin-impact/article/show/41373",
+    "https://keqingmains.com/q/lynette-quickguide/"
+  ]
+}

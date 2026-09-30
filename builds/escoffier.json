@@ -1,0 +1,76 @@
+{
+  "character": "Escoffier",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "support", "healer"],
+  "summary": "Kryo-Unterstützerin mit Stangenwaffe, die von außerhalb des Feldes dauerhaft Kryo-Schaden macht und das Team heilt. Besteht das Team nur aus Hydro- und Kryo-Charakteren, senkt sie den Hydro- und Kryo-Widerstand der Gegner enorm – deshalb ist sie der Kern fast jedes Gefroren-Teams.",
+  "tips": [
+    "Mit vier Hydro- oder Kryo-Charakteren im Team senkt sie den Widerstand der Gegner um 55 %, mit weniger fällt der Abzug stark ab.",
+    "Die Gegner müssen dafür nicht gefroren sein – es reicht, wenn ihre Elementar- oder Spezialfähigkeit trifft.",
+    "Aufladerate zuerst: etwa 130–150 % mit zwei weiteren Kryo-Partnern, bis zu 200 % als einzige Kryo-Figur.",
+    "Ihre Spezialfähigkeit heilt sofort und danach noch eine Weile weiter – ideal zusammen mit Furina."
+  ],
+  "teams": [
+    {
+      "name": "Gefroren",
+      "note": "Nur Hydro- und Kryo-Charaktere: So wirkt Escoffiers voller Widerstandsabzug. Furina trägt Hydro auf und profitiert von der ständigen Heilung.",
+      "slots": [
+        ["Escoffier"],
+        ["Skirk", "Kamisato Ayaka", "Wriothesley", "Neuvillette"],
+        ["Furina", "Yelan", "Xingqiu"],
+        ["Shenhe", "Vodyanitsa", "Citlali", "Rosaria"]
+      ]
+    },
+    {
+      "name": "Verwirbelung",
+      "note": "Ein Anemo-Angreifer verwirbelt Escoffiers Kryo. Ihr Widerstandsabzug fällt hier kleiner aus, doch ihr eigener Schaden und ihre Heilung helfen trotzdem.",
+      "slots": [
+        ["Escoffier"],
+        ["Varka", "Wanderer", "Chasca"],
+        ["Venti", "Sucrose", "Faruzan"],
+        ["Shenhe", "Citlali", "Rosaria"]
+      ]
+    },
+    {
+      "name": "Schmelzen",
+      "note": "Escoffier trägt von außerhalb des Feldes Kryo auf, damit die Pyro-Angriffe schmelzen, und hält das Team am Leben.",
+      "slots": [["Escoffier"], ["Mavuika", "Arlecchino", "Gaming"], ["Citlali", "Rosaria"], ["Bennett", "Xilonen"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Symphonist of Scents",
+      "note": "Ihre Signaturwaffe: erhöht ihren ANG und gibt jedem, den sie heilt, zusätzlich ANG."
+    },
+    { "name": "Staff of Homa", "note": "Krit.-Schaden als Nebenwert, stark für ihren eigenen Schaden." },
+    { "name": "Calamity Queller", "note": "Viel ANG, der außerhalb des Feldes besonders schnell wächst." },
+    {
+      "name": "Favonius Lance",
+      "note": "Liefert dem Team zusätzliche Energie, bringt aber wenig eigenen Schaden."
+    },
+    { "name": "Tamayuratei no Ohanashi", "note": "Waffe aus einem Event mit Aufladerate als Nebenwert." },
+    { "name": "Blackcliff Pole", "note": "Im Sternenglanz-Shop erhältlich, mit Krit.-Schaden als Nebenwert." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Golden Troupe", "pieces": 4 }],
+      "note": "Deutlich mehr Schaden für ihre Elementarfähigkeit, vor allem außerhalb des Feldes."
+    },
+    {
+      "sets": [{ "name": "Blizzard Strayer", "pieces": 4 }],
+      "note": "Mehr Krit.-Rate gegen gefrorene Gegner – gegen Gegner, die nicht einfrieren, aber schwächer."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Für eine reine Unterstützer-Rolle: Nach ihrer Spezialfähigkeit bekommt das Team mehr ANG."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er"], "goblet": ["cryo", "atk%"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/385307",
+    "https://gamewith.net/genshin-impact/article/show/55743",
+    "https://gamewith.net/genshin-impact/article/show/54872",
+    "https://keqingmains.com/q/escoffier-quickguide/"
+  ]
+}

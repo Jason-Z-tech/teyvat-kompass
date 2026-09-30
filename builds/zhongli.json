@@ -1,0 +1,78 @@
+{
+  "character": "Zhongli",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["shield", "support"],
+  "summary": "Geo-Unterstützer aus Liyue mit Stangenwaffe und der stärkste Schildgeber im Spiel. Sein Schild schützt vor Unterbrechungen und senkt den Widerstand naher Gegner gegen alle Elemente. Gebaut wird er fast nur auf LP; seine Spezialfähigkeit lässt einen Meteor fallen, der Gegner versteinert.",
+  "tips": [
+    "Elementarfähigkeit gedrückt halten: So entstehen Schild und Steinsäule zugleich.",
+    "Alle Werte auf LP – Ziel sind etwa 50.000 LP für einen sehr stabilen Schild.",
+    "Die Spezialfähigkeit ist optional. Aufladerate brauchst du nur, wenn du sie regelmäßig nutzen willst.",
+    "Seine Steinsäule schwingt mit anderen Geo-Objekten mit und macht dann zusätzlichen Schaden."
+  ],
+  "teams": [
+    {
+      "name": "Mono-Geo",
+      "note": "Zhongli schützt Itto und senkt den Geo-Widerstand, Gorou verstärkt, Chiori oder Albedo machen Schaden von außerhalb.",
+      "slots": [["Arataki Itto"], ["Zhongli"], ["Chiori", "Albedo"], ["Gorou"]]
+    },
+    {
+      "name": "Neuvillette",
+      "note": "Der Schild schützt Neuvillettes lange heftige Schläge vor Unterbrechungen und senkt den Hydro-Widerstand. Furina und Kaedehara Kazuha oder Charlotte verstärken.",
+      "slots": [["Neuvillette"], ["Zhongli"], ["Furina"], ["Kaedehara Kazuha", "Charlotte"]]
+    },
+    {
+      "name": "Arlecchino",
+      "note": "Arlecchino kann im Kampf nur durch ihre eigene Spezialfähigkeit geheilt werden, daher ist Zhonglis Schild hier besonders wertvoll. Yelan verstärkt den Schaden, Bennett oder Xingqiu ergänzen.",
+      "slots": [["Arlecchino"], ["Zhongli"], ["Yelan"], ["Bennett", "Xingqiu"]]
+    },
+    {
+      "name": "Mond-Kristallisation",
+      "note": "Zhongli senkt den Geo-Widerstand für Zibai, seine Steinsäule löst zusätzliche Mond-Kristallisation aus. Illuga und Columbina verstärken die Reaktion.",
+      "slots": [["Zibai"], ["Zhongli"], ["Illuga"], ["Columbina"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Black Tassel",
+      "note": "Die meisten LP als Nebenwert – die beste Waffe für seinen Schild. Ein Exemplar gibt es gratis vom NPC Orban am Drachengrat (Mondstadt)."
+    },
+    { "name": "Favonius Lance", "note": "Erzeugt Energie für das Team, braucht etwas Krit.-Rate." },
+    {
+      "name": "Rightful Reward",
+      "note": "Schmiedbar in Fontaine: LP und Energie, wenn Zhongli geheilt wird."
+    },
+    { "name": "Dialogues of the Desert Sages", "note": "Event-Waffe aus Version 4.5 mit LP als Nebenwert." },
+    {
+      "name": "Vortex Vanquisher",
+      "note": "Zhonglis Signaturwaffe; stärkt den Schild, gibt aber keine LP und ist daher schwächer als die Schwarze Quaste."
+    },
+    {
+      "name": "Staff of Homa",
+      "note": "Für einen Build mit Fokus auf den Schaden seiner Spezialfähigkeit (Krit. und LP)."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Tenacity of the Millelith", "pieces": 4 }],
+      "note": "Mehr LP für den Schild, dazu ANG und Schildeffizienz für das ganze Team."
+    },
+    {
+      "sets": [{ "name": "Tenacity of the Millelith", "pieces": 2 }, { "name": "Vourukasha's Glow", "pieces": 2 }],
+      "note": "Zwei LP-Boni für den stärksten Schild."
+    },
+    {
+      "sets": [{ "name": "Archaic Petra", "pieces": 4 }],
+      "note": "Erhöht den Schaden eines Elements für alle, wenn Zhongli den passenden Kristallsplitter aufsammelt."
+    }
+  ],
+  "mainStats": { "sands": ["hp%"], "goblet": ["hp%"], "circlet": ["hp%", "cr"] },
+  "substats": ["hp%", "er", "cr"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/305858",
+    "https://gamewith.net/genshin-impact/article/show/22838",
+    "https://keqingmains.com/q/zhongli-quickguide/",
+    "https://keqingmains.com/q/illuga-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/22714"
+  ]
+}

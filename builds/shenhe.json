@@ -1,0 +1,79 @@
+{
+  "character": "Shenhe",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support"],
+  "summary": "Kryo-Unterstützerin mit Stangenwaffe, die den Kryo-Schaden ihres Teams stark erhöht: Nach ihrer Elementarfähigkeit macht jeder Kryo-Treffer der Partner zusätzlichen Schaden, der mit Shenhes ANG wächst. Ihre Spezialfähigkeit senkt außerdem den Kryo- und physischen Widerstand der Gegner.",
+  "tips": [
+    "Elementarfähigkeit kurz antippen, wenn der Hauptangreifer vor allem Fähigkeiten nutzt (etwa Ayaka), gedrückt halten bei vielen Standardangriffen (etwa Wriothesley).",
+    "ANG ist ihr wichtigster Wert: Je mehr ANG, desto stärker ihr Bonus für das Team.",
+    "Sie braucht viel Aufladerate: etwa 145–200 %, je nach Waffe und Zahl der Kryo-Partner."
+  ],
+  "teams": [
+    {
+      "name": "Gefroren",
+      "note": "Shenhe verstärkt jeden Kryo-Treffer des Hauptangreifers, Escoffier und Furina sorgen für Gefroren, Heilung und weniger Widerstand bei den Gegnern.",
+      "slots": [
+        ["Shenhe"],
+        ["Skirk", "Kamisato Ayaka", "Wriothesley", "Ganyu"],
+        ["Escoffier"],
+        ["Furina", "Yelan", "Xingqiu"]
+      ]
+    },
+    {
+      "name": "Gefroren mit Anemo",
+      "note": "Der klassische Aufbau: Der Hydro-Partner sorgt für Gefroren, der Anemo-Partner zieht die Gegner zusammen und verwirbelt Kryo.",
+      "slots": [["Shenhe"], ["Kamisato Ayaka", "Ganyu"], ["Sangonomiya Kokomi", "Mona"], ["Kaedehara Kazuha", "Venti"]]
+    },
+    {
+      "name": "Mono-Kryo",
+      "note": "Nur Kryo-Charaktere: Alle Partner verstärken den Kryo-Hauptangreifer, und das Team erzeugt reichlich Energie. Mika gibt zusätzlich Angriffstempo.",
+      "slots": [
+        ["Shenhe"],
+        ["Wriothesley", "Skirk", "Kamisato Ayaka"],
+        ["Mika", "Rosaria", "Chongyun"],
+        ["Escoffier", "Layla", "Diona", "Charlotte"]
+      ]
+    },
+    {
+      "name": "Supraleiter",
+      "note": "Shenhes Spezialfähigkeit senkt auch den physischen Widerstand der Gegner – deshalb passt sie zu Eula. Der Elektro-Partner löst Supraleiter aus.",
+      "slots": [["Shenhe"], ["Eula", "Freminet"], ["Raiden Shogun", "Fischl"], ["Mika", "Zhongli", "Furina"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Calamity Queller",
+      "note": "Viel ANG, der außerhalb des Feldes doppelt so schnell wächst – ihre beste Wahl."
+    },
+    { "name": "Engulfing Lightning", "note": "Wandelt Aufladerate in ANG um." },
+    {
+      "name": "Favonius Lance",
+      "note": "Beste 4★-Wahl: erzeugt Energie und senkt den Aufladerate-Bedarf des Teams."
+    },
+    { "name": "Skyward Spine", "note": "Viel Aufladerate und ANG." },
+    { "name": "Tamayuratei no Ohanashi", "note": "Waffe aus einem Event mit Aufladerate und gutem ANG." },
+    { "name": "The Catch", "note": "Durch Angeln erhältlich, mit Aufladerate als Nebenwert." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Nach ihrer Spezialfähigkeit bekommt das ganze Team mehr ANG. Die Standardwahl."
+    },
+    {
+      "sets": [{ "name": "Gladiator's Finale", "pieces": 2 }, { "name": "Shimenawa's Reminiscence", "pieces": 2 }],
+      "note": "Zweimal ANG-Bonus für einen noch stärkeren Kryo-Bonus, wenn jemand anderes das 4er-Set trägt."
+    },
+    {
+      "sets": [{ "name": "Blizzard Strayer", "pieces": 4 }],
+      "note": "Mehr eigener Schaden in Gefroren- und Mono-Kryo-Teams."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er"], "goblet": ["atk%"], "circlet": ["atk%", "cr"] },
+  "substats": ["er", "atk%", "cr"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/346620",
+    "https://gamewith.net/genshin-impact/article/show/38319",
+    "https://keqingmains.com/q/shenhe-quickguide/"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "character": "Beidou",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "support"],
+  "summary": "Elektro-Kämpferin mit Zweihänder, die vor allem von außerhalb des Feldes Schaden macht: Nach ihrer Spezialfähigkeit springen bei Standardangriffen und heftigen Schlägen des aktiven Charakters Blitze zwischen den Gegnern hin und her. Mit ihrer gehaltenen Elementarfähigkeit fängt sie Angriffe ab und kontert. Durch neue Verstärkungen passt sie inzwischen gut in Stellar-Supraleiter-Teams.",
+  "tips": [
+    "Aufladerate ist ihr wichtigster Wert: allein als Elektro-Charakter etwa 180–230 %, mit einem zweiten Elektro-Charakter etwa 160–200 %.",
+    "Elementarfähigkeit gedrückt halten: Wird sie dabei getroffen, fällt der Konter beim Loslassen stärker aus.",
+    "Mit der freigeschalteten Verstärkung „Witch's Revelation“ lädt sich ihre gehaltene Elementarfähigkeit auch ohne Treffer auf, verkürzt die Abklingzeit und gibt Energie zurück.",
+    "Ab Sternbild 6 senkt ihre Spezialfähigkeit den Elektro-Widerstand der Gegner um 15 %, in Stellar-Supraleiter-Teams auch den Kryo-Widerstand."
+  ],
+  "teams": [
+    {
+      "name": "Stellar-Supraleiter",
+      "note": "Sandrone ermöglicht Stellar-Supraleiter, Beidou und Yae Miko liefern von außen Elektro. Qiqi heilt und verstärkt die Reaktion, Diona tut das erst ab Sternbild 6. Auch Beidou lohnt sich hier vor allem ab Sternbild 6.",
+      "slots": [["Beidou"], ["Sandrone"], ["Yae Miko"], ["Qiqi", "Diona"]]
+    },
+    {
+      "name": "Mond unter Strom",
+      "note": "Ineffa macht aus Unter Strom die stärkere Reaktion Mond unter Strom, Columbina liefert Hydro und verstärkt Mondleuchten-Reaktionen. Saccharose gibt Elementarkunde.",
+      "slots": [["Beidou"], ["Columbina"], ["Ineffa"], ["Sucrose"]]
+    },
+    {
+      "name": "Unter Strom",
+      "note": "Klassisches Team: Beidou und Fischl greifen von außen mit Elektro an, der Hydro-Partner sorgt für Unter Strom. Bennett oder Saccharose verstärken den Trupp.",
+      "slots": [["Beidou"], ["Fischl"], ["Tartaglia", "Xingqiu"], ["Bennett", "Sucrose"]]
+    },
+    {
+      "name": "Überladen (günstig)",
+      "note": "Team aus 4★-Charakteren: Yanfei macht Pyro-Schaden, Beidou und Fischl liefern Elektro. Chevreuse senkt den Pyro- und Elektro-Widerstand der Gegner.",
+      "slots": [["Beidou"], ["Yanfei"], ["Fischl"], ["Chevreuse"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Favonius Greatsword",
+      "note": "Aufladerate als Nebenwert deckt ihren hohen Energiebedarf und bringt dem Team zusätzliche Energie."
+    },
+    { "name": "A Thousand Blazing Suns", "note": "Starke 5★-Waffe für mehr Schaden ihrer Spezialfähigkeit." },
+    { "name": "Wolf's Gravestone", "note": "Viel ANG und stärkt das ganze Team gegen angeschlagene Gegner." },
+    { "name": "Serpent Spine", "note": "Battle-Pass-Waffe mit Krit.-Rate und wachsendem Schadensbonus." },
+    {
+      "name": "Luxurious Sea-Lord",
+      "note": "Event-Waffe: mehr Schaden der Spezialfähigkeit und ein zusätzlicher Angriff."
+    },
+    { "name": "Prototype Archaic", "note": "Schmiedbar, solide Gratis-Wahl." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 4 }],
+      "note": "Allround-Set: mehr Aufladerate und mehr Schaden der Spezialfähigkeit."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Für Beidou als Unterstützerin: Nach ihrer Spezialfähigkeit erhält das ganze Team mehr ANG."
+    },
+    {
+      "sets": [{ "name": "Disenchantment in Deep Shadow", "pieces": 4 }],
+      "note": "Spezial-Set für Stellar-Supraleiter-Teams."
+    }
+  ],
+  "mainStats": { "sands": ["er", "atk%"], "goblet": ["electro", "atk%"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "atk%", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297528",
+    "https://gamewith.net/genshin-impact/article/show/22341",
+    "https://game8.co/games/Genshin-Impact/archives/605462",
+    "https://game8.co/games/Genshin-Impact/archives/605822"
+  ]
+}

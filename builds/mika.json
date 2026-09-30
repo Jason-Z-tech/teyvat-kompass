@@ -1,0 +1,57 @@
+{
+  "character": "Mika",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "healer"],
+  "summary": "Kryo-Unterstützer mit Stangenwaffe, der heilt und den Hauptangreifer verstärkt: Seine Elementarfähigkeit erhöht dessen Angriffstempo und – je mehr Gegner sie trifft – auch den physischen Schaden. Seine Spezialfähigkeit heilt das Team; danach wird die aktive Figur bei Treffern mit Standardangriffen in kurzen Abständen weiter geheilt.",
+  "tips": [
+    "Elementarfähigkeit gedrückt halten und möglichst viele Gegner treffen – das bringt mehr Bonus auf physischen Schaden.",
+    "Der Hauptangreifer sollte auf dem Feld bleiben, solange Mikas Buff aktiv ist.",
+    "Er braucht viel Aufladerate: je nach Waffe etwa 160–250 %, ab Sternbild 4 deutlich weniger.",
+    "Angreifer mit Bogen oder Katalysator profitieren besonders stark vom höheren Angriffstempo."
+  ],
+  "teams": [
+    {
+      "name": "Supraleiter",
+      "note": "Mika gibt dem physischen Angreifer mehr Angriffstempo und physischen Schaden, der Elektro-Partner sorgt für Supraleiter. Shenhe oder Rosaria verstärken zusätzlich.",
+      "slots": [["Mika"], ["Eula", "Razor", "Freminet"], ["Raiden Shogun", "Fischl"], ["Shenhe", "Rosaria"]]
+    },
+    {
+      "name": "Schnelle Standardangriffe",
+      "note": "Mika beschleunigt die Standardangriffe des Hauptangreifers und heilt dabei ständig – das passt gut zu Furina, die von häufiger Heilung profitiert.",
+      "slots": [["Mika"], ["Wanderer", "Wriothesley"], ["Furina", "Bennett", "Yelan"], ["Faruzan", "Kaedehara Kazuha"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Favonius Lance",
+      "note": "Seine beste Wahl: Aufladerate und Energie für das Team. Braucht etwas Krit.-Rate."
+    },
+    { "name": "Symphonist of Scents", "note": "Gibt nach seiner Heilung zusätzlich ANG." },
+    {
+      "name": "Dialogues of the Desert Sages",
+      "note": "Waffe aus einem Event: LP und Energie bei Heilung – senkt seinen Aufladerate-Bedarf stark."
+    },
+    { "name": "Rightful Reward", "note": "Schmiedbar: LP und Energie bei Heilung." },
+    { "name": "Prototype Starglitter", "note": "Schmiedbar, mit Aufladerate als Nebenwert." },
+    { "name": "Black Tassel", "note": "3★-Waffe mit viel LP – nur, wenn die Aufladerate schon reicht." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Nach seiner Spezialfähigkeit bekommt das ganze Team mehr ANG."
+    },
+    {
+      "sets": [{ "name": "Ocean-Hued Clam", "pieces": 4 }],
+      "note": "Wandelt seine Heilung in zusätzlichen Schaden um, wenn jemand anderes Altes Hofritual trägt."
+    },
+    { "sets": [{ "name": "The Exile", "pieces": 4 }], "note": "Günstiges Set, das dem Team Energie liefert." }
+  ],
+  "mainStats": { "sands": ["er", "hp%"], "goblet": ["hp%"], "circlet": ["cr", "heal", "hp%"] },
+  "substats": ["er", "cr", "hp%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/390096",
+    "https://gamewith.net/genshin-impact/article/show/34440",
+    "https://keqingmains.com/q/mika-quickguide/"
+  ]
+}

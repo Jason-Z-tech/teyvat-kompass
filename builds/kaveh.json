@@ -1,0 +1,91 @@
+{
+  "character": "Kaveh",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps", "support"],
+  "summary": "Dendro-Zweihandkämpfer, der Sprießen-Teams auf dem Feld antreibt. Seine Elementarfähigkeit lässt Dendro-Kerne in der Nähe sofort platzen, seine Spezialfähigkeit verleiht ihm Dendro und verstärkt den Schaden der Kerne. Sein eigener Schaden ist gering – er sorgt vor allem dafür, dass die Reaktionen des Teams viel Schaden machen.",
+  "tips": [
+    "Aufladerate etwa 180–210 %; ein zweiter Dendro-Charakter wie Nahida senkt den Bedarf deutlich.",
+    "Elementarkunde ist sein wichtigster Wert: etwa 700–900 anstreben.",
+    "Er heilt sich selbst, wenn ihn explodierende Dendro-Kerne treffen – das restliche Team heilt er nicht."
+  ],
+  "teams": [
+    {
+      "name": "Nilou-Sprießen",
+      "note": "Kaveh trägt auf dem Feld Dendro auf, Nilou macht aus Sprießen besonders starke Dendro-Kerne. Mit Lauma können die Reaktionen kritisch treffen, sonst ist Nahida die beste Dendro-Partnerin.",
+      "slots": [
+        ["Kaveh"],
+        ["Nilou"],
+        ["Lauma", "Nahida", "Baizhu", "Collei"],
+        ["Sangonomiya Kokomi", "Xingqiu", "Barbara"]
+      ]
+    },
+    {
+      "name": "Supraspross",
+      "note": "Kaveh und ein zweiter Dendro-Charakter erzeugen mit Hydro viele Dendro-Kerne, die Kuki Shinobu oder Shougun Raiden zu Supraspross machen.",
+      "slots": [
+        ["Kaveh"],
+        ["Xingqiu", "Yelan"],
+        ["Nahida", "Baizhu", "Traveler (Dendro)"],
+        ["Kuki Shinobu", "Raiden Shogun"]
+      ]
+    },
+    {
+      "name": "Sprießen mit Kryo",
+      "note": "Kryo reagiert nicht mit Dendro: Hydro sorgt mit Dendro für Sprießen und mit Kryo für Gefroren, das Kaveh mit seinem Zweihänder zerschlägt. Beides wird durch Elementarkunde stärker.",
+      "slots": [
+        ["Kaveh"],
+        ["Xingqiu", "Sangonomiya Kokomi", "Yelan"],
+        ["Nahida", "Collei", "Yaoyao"],
+        ["Diona", "Kaeya", "Rosaria", "Layla"]
+      ]
+    },
+    {
+      "name": "Flammenspross",
+      "note": "Thoma bringt Pyro auf die Dendro-Kerne, die dann als Flammenspross auf großer Fläche explodieren. Kaveh heilt sich dabei selbst am Explosionsschaden.",
+      "slots": [["Kaveh"], ["Xingqiu"], ["Thoma"], ["Nahida", "Traveler (Dendro)"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Makhaira Aquamarine",
+      "note": "Elementarkunde als Nebenwert, verstärkt Sprießen-Schaden und Angriffe."
+    },
+    {
+      "name": "Mailed Flower",
+      "note": "Event-Waffe mit Elementarkunde, erhöht nach der Elementarfähigkeit ANG und Elementarkunde."
+    },
+    {
+      "name": "Flame-Forged Insight",
+      "note": "Event-Waffe mit viel Elementarkunde, gibt Energie zurück, wenn Sprießen ausgelöst wird."
+    },
+    {
+      "name": "Favonius Greatsword",
+      "note": "Erzeugt zusätzliche Energie und hilft bei seinem hohen Aufladerate-Bedarf."
+    },
+    { "name": "Forest Regalia", "note": "Schmiedbar, Aufladerate als Nebenwert – solide Gratis-Wahl." },
+    { "name": "Rainslasher", "note": "Günstige 4★-Waffe mit Elementarkunde als Nebenwert." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Flower of Paradise Lost", "pieces": 4 }],
+      "note": "Mehr Schaden für Sprießen, Supraspross und Flammenspross, wenn ein Mitstreiter Erinnerungen des tiefen Waldes trägt."
+    },
+    {
+      "sets": [{ "name": "Deepwood Memories", "pieces": 4 }],
+      "note": "Wenn niemand sonst im Team den Dendro-Widerstand der Gegner senkt."
+    },
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 4 }],
+      "note": "Sehr viel Elementarkunde, flexibel für verschiedene Reaktionsteams."
+    }
+  ],
+  "mainStats": { "sands": ["em", "er"], "goblet": ["em", "dendro"], "circlet": ["em", "cr"] },
+  "substats": ["er", "em", "cr", "cd"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/Kaveh-Best-Builds",
+    "https://gamewith.net/genshin-impact/article/show/24664",
+    "https://gamewith.net/genshin-impact/article/show/38644",
+    "https://keqingmains.com/q/kaveh-quickguide/"
+  ]
+}

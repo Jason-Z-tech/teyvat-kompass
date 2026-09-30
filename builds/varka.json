@@ -1,0 +1,73 @@
+{
+  "character": "Varka",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Anemo-Haupt-DPS mit zwei Zweihändern. Im Modus „Ansturm der Winde“ (Elementarfähigkeit) trifft er gleichzeitig mit Anemo und mit dem Element seiner Partner (Pyro, Hydro, Elektro oder Kryo). Am stärksten ist er mit einem zweiten Anemo-Charakter und zwei Partnern desselben Elements – vor allem Pyro mit Durin und Nicole.",
+  "tips": [
+    "Teamregel für seine Passivtalente: ein weiterer Anemo-Charakter plus zwei Partner desselben Elements (Pyro, Hydro, Elektro oder Kryo).",
+    "Kelch mit dem SCH-Bonus des Elements, das seine Partner doppelt stellen – im Pyro-Team also Pyro.",
+    "Mit mindestens einem weiteren Hexerei-Charakter laden Standardangriffe seine besondere Elementarfähigkeit schneller auf.",
+    "Die Spezialfähigkeit wird meist ausgelassen, Aufladerate ist daher kaum wichtig."
+  ],
+  "teams": [
+    {
+      "name": "Doppel-Pyro (Hexerei)",
+      "note": "Sein stärkstes Team: Durin senkt Widerstände und schaltet als Hexerei-Charakter Varkas volle Stärke frei, Nicole gibt Schild und ANG-Buffs, Prune ist der zweite Anemo-Charakter.",
+      "slots": [["Varka"], ["Prune", "Venti", "Sucrose"], ["Nicole", "Bennett"], ["Durin", "Xiangling", "Mavuika"]]
+    },
+    {
+      "name": "Doppel-Hydro",
+      "note": "Furina verstärkt den Schaden, ein zweiter Hydro-Charakter heilt oder bufft. Vodyanitsa (neu in 7.1) gilt hier als stärkste Wahl, Mona ist die bewährte Alternative.",
+      "slots": [
+        ["Varka"],
+        ["Prune", "Jean", "Venti"],
+        ["Furina", "Yelan", "Xingqiu"],
+        ["Vodyanitsa", "Mona", "Sigewinne"]
+      ]
+    },
+    {
+      "name": "Doppel-Kryo",
+      "note": "Escoffier senkt Widerstände und heilt, Shenhe liefert weitere Buffs. Mit Odette und Reisende(r) (Kryo) wird daraus ein Team mit Stellar-Verwirbelung.",
+      "slots": [["Varka"], ["Prune", "Venti"], ["Escoffier", "Odette"], ["Shenhe", "Traveler (Cryo)", "Diona"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Gest of the Mighty Wolf",
+      "note": "Seine Signaturwaffe: schnellere Angriffe, Krit.-Rate und stapelnder Schadensbonus, in Hexerei-Teams zusätzlich Krit.-Schaden."
+    },
+    { "name": "A Thousand Blazing Suns", "note": "Starke 5★-Alternative mit Krit.-Rate und ANG-Bonus." },
+    { "name": "Redhorn Stonethresher", "note": "Viel Krit.-Schaden als Nebenwert." },
+    {
+      "name": "Serpent Spine",
+      "note": "Battle-Pass-Waffe und beste 4★-Option – braucht einen Schild, damit der Bonus hält."
+    },
+    {
+      "name": "Blackcliff Slasher",
+      "note": "Aus dem Sternenglanz-Shop: viel Krit.-Schaden, beste Gratis-Wahl."
+    },
+    { "name": "Tidal Shadow", "note": "Schmiedbar; lohnt sich nur mit Heilung im Team." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "A Day Carved From Rising Winds", "pieces": 4 }],
+      "note": "Mit großem Abstand das beste Set: ANG und, mit erledigter „Aufgabe der Hexe“, 20 % Krit.-Rate."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Mit Furina im Team die beste Alternative."
+    },
+    {
+      "sets": [{ "name": "Gladiator's Finale", "pieces": 2 }, { "name": "Shimenawa's Reminiscence", "pieces": 2 }],
+      "note": "Übergang mit viel ANG, bis der Tag des aufkommenden Windes komplett ist."
+    }
+  ],
+  "mainStats": { "sands": ["atk%"], "goblet": ["pyro", "atk%", "anemo"], "circlet": ["cd", "cr"] },
+  "substats": ["cr", "cd", "atk%", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/314346",
+    "https://keqingmains.com/q/varka-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/72975"
+  ]
+}

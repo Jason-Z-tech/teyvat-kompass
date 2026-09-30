@@ -1,0 +1,77 @@
+{
+  "character": "Traveler (Hydro)",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps", "sub-dps"],
+  "summary": "Build nur für das Hydro-Element. Hält man die Elementarfähigkeit gedrückt, schießt die/der Reisende in kurzer Zeit viele Hydro-Treffer ab und löst so gut Reaktionen aus. Die Guides stufen das Hydro-Element als eher schwach ein – eine kostenlose Notlösung für Verdampfen- und Sprießen-Teams.",
+  "tips": [
+    "Die Elementarfähigkeit gedrückt halten – das ist die Hauptschadensquelle. Über 50 % LP kostet sie LP, macht dafür aber mehr Schaden.",
+    "Während der gehaltenen Elementarfähigkeit leicht unterbrechbar: ein Schild, etwa von Zhongli, hilft.",
+    "Profitiert nicht von Unterstützern, die bei Standardangriffen mitschießen, etwa Xingqiu, Yelan oder Beidou.",
+    "Talente: Elementarfähigkeit zuerst. Die Spezialfähigkeit ist als Hydro-Quelle von außerhalb unzuverlässig."
+  ],
+  "teams": [
+    {
+      "name": "Verdampfen",
+      "note": "Die gehaltene Elementarfähigkeit trägt schnell Hydro auf, damit Xianglings Spezialfähigkeit oft verdampft. Bennett gibt ANG, Xilonen senkt den Widerstand.",
+      "slots": [
+        ["Traveler (Hydro)"],
+        ["Xiangling", "Mavuika", "Dehya"],
+        ["Bennett"],
+        ["Xilonen", "Furina", "Kaedehara Kazuha", "Zhongli"]
+      ]
+    },
+    {
+      "name": "Sprießen mit Nilou",
+      "note": "Die/der Reisende löst mit viel Hydro Sprießen aus, Nilou macht daraus besonders starke Kerne. Baizhu heilt den Schaden der platzenden Kerne.",
+      "slots": [["Traveler (Hydro)"], ["Nilou"], ["Nahida", "Collei"], ["Baizhu", "Yaoyao", "Sangonomiya Kokomi"]]
+    },
+    {
+      "name": "Supraspross",
+      "note": "Hydro und Dendro erzeugen viele Dendro-Kerne, die Raiden mit Elektro zu Supraspross platzen lässt. Kokomi heilt und liefert weiteres Hydro.",
+      "slots": [
+        ["Traveler (Hydro)"],
+        ["Nahida", "Collei", "Baizhu"],
+        ["Raiden Shogun", "Fischl", "Yae Miko"],
+        ["Sangonomiya Kokomi", "Sigewinne", "Barbara"]
+      ]
+    }
+  ],
+  "weapons": [
+    { "name": "Primordial Jade Cutter", "note": "Krit.-Rate und zusätzliche LP." },
+    {
+      "name": "Splendor of Tranquil Waters",
+      "note": "Viel eigener Schaden durch mehr Schaden der Elementarfähigkeit."
+    },
+    { "name": "Sacrificial Sword", "note": "Kann die Abklingzeit der Elementarfähigkeit zurücksetzen." },
+    { "name": "Wolf-Fang", "note": "Battle-Pass-Waffe, stärkt Elementar- und Spezialfähigkeit." },
+    { "name": "Finale of the Deep", "note": "Schmiedbar, gute Gratis-Wahl." },
+    {
+      "name": "Festering Desire",
+      "note": "Aufladerate und mehr Schaden der Elementarfähigkeit. Nur aus einem früheren Event."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Golden Troupe", "pieces": 4 }],
+      "note": "Viel mehr Schaden der Elementarfähigkeit, ihrer wichtigsten Angriffsquelle."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Der LP-Verlust der gehaltenen Elementarfähigkeit löst den Krit.-Rate-Bonus zuverlässig aus."
+    },
+    {
+      "sets": [{ "name": "Nymph's Dream", "pieces": 2 }, { "name": "Golden Troupe", "pieces": 2 }],
+      "note": "Hydro-Schaden plus Schaden der Elementarfähigkeit."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["hydro"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "em", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/416602",
+    "https://gamewith.net/genshin-impact/article/show/29673",
+    "https://gamewith.net/genshin-impact/article/show/52325",
+    "https://keqingmains.com/q/hydro-traveler-quickguide/",
+    "https://keqingmains.com/q/xilonen-quickguide/"
+  ]
+}

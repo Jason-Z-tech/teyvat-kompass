@@ -1,0 +1,85 @@
+{
+  "character": "Linnea",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "support", "healer"],
+  "summary": "Geo-Bogenschützin, die mit ihrem Begleiter Lumi von außerhalb des Feldes kämpft. Mit einem Hydro-Partner wird aus Kristallisation die starke Mond-Kristallisation. Sie senkt den Geo-Widerstand der Gegner, stärkt die Reaktion über ihre VTD und heilt die Truppe mit ihrer Spezialfähigkeit.",
+  "tips": [
+    "Elementarfähigkeit einmal antippen und sofort wechseln: Lumi kämpft allein weiter und trägt dabei Geo auf.",
+    "Elementarfähigkeit mehrmals schnell antippen: Lumi sammelt Kraft für einen einzigen, sehr starken Schlag – gut für kurze Schadensfenster.",
+    "Ziel sind mindestens 2000 VTD, dann wirkt ihr Bonus auf Mond-Kristallisation voll.",
+    "Die Spezialfähigkeit heilt vor allem und ruft Lumi herbei bzw. verlängert ihren Einsatz. Nutzt du sie jede zweite Runde, reichen 100 % Aufladerate, für jede Runde eher 170–200 %."
+  ],
+  "teams": [
+    {
+      "name": "Mond-Kristallisation mit Zibai",
+      "note": "Zibai nutzt Linneas Buffs am besten und ist ihr stärkster Partner. Columbina liefert das Hydro für die Reaktion, Illuga gibt Krit. und Elementarkunde. Günstiger: Aino und Gorou.",
+      "slots": [["Zibai"], ["Linnea"], ["Columbina", "Aino"], ["Illuga", "Gorou"]]
+    },
+    {
+      "name": "Mond-Kristallisation mit Navia",
+      "note": "Navia trägt auf dem Feld viel Geo auf und profitiert vom gesenkten Geo-Widerstand. Columbina sorgt für Hydro, Linneas Heilung hält Furinas Bonus oben. Illuga passt ebenfalls.",
+      "slots": [["Navia"], ["Linnea"], ["Columbina"], ["Furina", "Illuga"]]
+    },
+    {
+      "name": "Mond-Kristallisation mit Itto",
+      "note": "Itto bleibt auf dem Feld, Gorou stärkt VTD und Geo-Schaden von Itto und Linnea. Columbina liefert das Hydro für die Reaktion.",
+      "slots": [["Arataki Itto"], ["Linnea"], ["Columbina"], ["Gorou", "Illuga"]]
+    },
+    {
+      "name": "Einsteiger-Team mit Noelle",
+      "note": "Günstige Variante fast nur mit 4★: Noelle kämpft auf dem Feld, Aino liefert Hydro für Mond-Kristallisation, Gorou oder der Geo-Reisende verstärken die Truppe.",
+      "slots": [["Noelle"], ["Linnea"], ["Aino"], ["Gorou", "Traveler (Geo)"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Golden Frostbound Oath",
+      "note": "Ihre Signaturwaffe und klar die beste: mehr VTD und mehr Geo- und Mond-Kristallisation-Schaden, auch für die Truppe."
+    },
+    {
+      "name": "Aqua Simulacra",
+      "note": "Viel Krit.-Schaden und ein Schadensbonus, der auch außerhalb des Feldes wirkt."
+    },
+    {
+      "name": "Elegy for the End",
+      "note": "Etwas weniger eigener Schaden, dafür Elementarkunde und ANG für die ganze Truppe."
+    },
+    {
+      "name": "Covenant of Frost and Snow",
+      "note": "Beste Gratis-Wahl, knapp vor der Steinschleuder: viel VTD, dazu nach der Elementarfähigkeit 12 s lang 120 Elementarkunde (R5: 240). Schmiedbar in Snezhnaya."
+    },
+    {
+      "name": "Slingshot",
+      "note": "3★-Bogen mit Krit.-Rate, ein Exemplar gibt es gratis vom NPC Vasco in Sumeru. Der niedrige ANG stört nicht, weil sie mit VTD skaliert."
+    },
+    {
+      "name": "Snare Hook",
+      "note": "Schmiedbar. Aufladerate und Elementarkunde – gut, wenn du jede Runde heilen willst."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Aubade of Morningstar and Moon", "pieces": 4 }],
+      "note": "Meist die beste Wahl: mehr Mond-Reaktionsschaden, solange sie nicht auf dem Feld ist. Voller Bonus nur mit Reifer Glanz."
+    },
+    {
+      "sets": [{ "name": "Husk of Opulent Dreams", "pieces": 4 }],
+      "note": "Fast gleich stark: viel VTD und Geo-Schaden, dadurch auch mehr Heilung. Mit Sternbildern oft vorne."
+    },
+    {
+      "sets": [{ "name": "Silken Moon's Serenade", "pieces": 4 }],
+      "note": "Stärkt die ganze Truppe, lohnt sich aber nur, wenn sonst niemand im Team dieses Set trägt."
+    }
+  ],
+  "mainStats": { "sands": ["def%", "er"], "goblet": ["def%"], "circlet": ["cr", "cd", "def%"] },
+  "substats": ["def%", "cr", "cd", "em", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/551088",
+    "https://www.icy-veins.com/genshin-impact/linnea-guide-best-builds",
+    "https://www.prydwen.gg/genshin-impact/characters/linnea",
+    "https://keqingmains.com/q/linnea-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/69697",
+    "https://keqingmains.com/misc/snezhnaya/"
+  ]
+}

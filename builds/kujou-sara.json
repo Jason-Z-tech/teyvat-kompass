@@ -1,0 +1,70 @@
+{
+  "character": "Kujou Sara",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support"],
+  "summary": "Elektro-Unterstützerin mit Bogen, die den ANG des aktiven Charakters kurzzeitig stark erhöht – ähnlich wie Bennett. Der Bonus hängt nur von ihrem Grund-ANG ab. Ab Sternbild 6 erhöht sie zusätzlich den Krit.-Schaden von Elektro-Angriffen und wird so zur starken Unterstützerin für Elektro-Hauptangreifer.",
+  "tips": [
+    "Der Bonus hält nur 6 Sekunden: Elementarfähigkeit, dann einen voll aufgeladenen gezielten Schuss und sofort zum Haupt-DPS wechseln.",
+    "Nur Grund-ANG zählt: Sara auf Stufe 90 bringen und einen Bogen mit hohem Grund-ANG nutzen – ANG auf Artefakten erhöht den Bonus nicht.",
+    "Ihre Spezialfähigkeit ist teuer, Aufladerate hat daher Vorrang.",
+    "Sternbild 2 macht sie deutlich angenehmer zu spielen, Sternbild 6 ist ihr wichtigstes."
+  ],
+  "teams": [
+    {
+      "name": "Shougun Raiden im Fokus",
+      "note": "Sara und Bennett erhöhen den ANG von Shougun Raiden, Kazuha verstärkt ihren Elektro-Schaden. Saras kurzer Bonus passt genau in Raidens Zeitfenster nach der Spezialfähigkeit.",
+      "slots": [["Kujou Sara"], ["Raiden Shogun"], ["Kaedehara Kazuha"], ["Bennett"]]
+    },
+    {
+      "name": "Suprawuchs",
+      "note": "Ab Sternbild 6 verstärkt Sara Elektro-Hauptangreifer wie Clorinde besonders stark. Nahida sorgt für Urwuchs, Xilonen oder Kazuha verstärken zusätzlich.",
+      "slots": [
+        ["Kujou Sara"],
+        ["Clorinde", "Cyno", "Raiden Shogun", "Keqing"],
+        ["Nahida", "Baizhu", "Collei"],
+        ["Xilonen", "Kaedehara Kazuha", "Zhongli"]
+      ]
+    },
+    {
+      "name": "Überladen",
+      "note": "Chevreuse senkt Pyro- und Elektro-Widerstand, Bennett oder Mavuika liefern Pyro. Sara gibt dem Haupt-DPS zusätzlich ANG.",
+      "slots": [["Kujou Sara"], ["Raiden Shogun", "Clorinde"], ["Chevreuse"], ["Bennett", "Mavuika"]]
+    }
+  ],
+  "weapons": [
+    { "name": "Skyward Harp", "note": "Sehr hoher Grund-ANG – ideal für ihren Bonus." },
+    {
+      "name": "Elegy for the End",
+      "note": "Viel Aufladerate und zusätzliche ANG- und Elementarkunde-Boni für das Team."
+    },
+    {
+      "name": "Sacrificial Bow",
+      "note": "Aufladerate und die Chance, die Elementarfähigkeit zweimal hintereinander einzusetzen."
+    },
+    { "name": "Mouun's Moon", "note": "4★ mit ANG, erhöht den Schaden der Spezialfähigkeit." },
+    { "name": "Fading Twilight", "note": "Event-Waffe mit Aufladerate." },
+    { "name": "End of the Line", "note": "Vom Angeln, mit viel Aufladerate." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Gibt dem Team nach ihrer Spezialfähigkeit zusätzlich ANG."
+    },
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 4 }],
+      "note": "Deckt ihren hohen Energiebedarf und erhöht den Schaden der Spezialfähigkeit."
+    },
+    {
+      "sets": [{ "name": "The Exile", "pieces": 4 }],
+      "note": "Günstiges 4★-Set: Energie für das Team nach der Spezialfähigkeit."
+    }
+  ],
+  "mainStats": { "sands": ["er", "atk%"], "goblet": ["electro"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/336727",
+    "https://gamewith.net/genshin-impact/article/show/28845",
+    "https://gamewith.net/genshin-impact/article/show/51932"
+  ]
+}

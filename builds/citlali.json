@@ -1,0 +1,81 @@
+{
+  "character": "Citlali",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "shield"],
+  "summary": "Kryo-Unterstützerin mit Katalysator aus Natlan, die einen Schild erschafft und von außerhalb des Feldes Kryo aufträgt. Lösen ihre Partner Schmelzen oder Gefroren aus, senkt sie den Pyro- und Hydro-Widerstand der Gegner. Schild und Schaden wachsen mit ihrer Elementarkunde.",
+  "tips": [
+    "Elementarkunde ist ihr wichtigster Wert: etwa 700–800 anpeilen.",
+    "Aufladerate: etwa 145–150 % mit zwei weiteren Natlan-Charakteren im Team, sonst eher 170–195 %.",
+    "Ablauf: Elementarfähigkeit für den Schild, dann Spezialfähigkeit, dann zum Hauptangreifer wechseln.",
+    "Ihr Begleiter trägt nur mit genug Nachtseelenpunkten Kryo auf – die Spezialfähigkeit füllt diese Punkte wieder auf."
+  ],
+  "teams": [
+    {
+      "name": "Schmelzen",
+      "note": "Citlali trägt von außerhalb des Feldes Kryo auf und senkt den Pyro-Widerstand, sobald Schmelzen ausgelöst wird. Zusammen mit Mavuika eines der stärksten Teams im Spiel.",
+      "slots": [
+        ["Citlali"],
+        ["Mavuika", "Arlecchino", "Hu Tao", "Gaming"],
+        ["Xilonen", "Kaedehara Kazuha", "Sucrose", "Lan Yan"],
+        ["Bennett", "Iansan", "Zhongli", "Diona"]
+      ]
+    },
+    {
+      "name": "Verdampfen und Schmelzen",
+      "note": "Hydro und Kryo landen abwechselnd auf den Gegnern, sodass die Pyro-Angriffe mal verdampfen und mal schmelzen.",
+      "slots": [
+        ["Citlali"],
+        ["Arlecchino", "Hu Tao", "Yoimiya"],
+        ["Yelan", "Xingqiu", "Furina"],
+        ["Kaedehara Kazuha", "Sucrose", "Venti", "Xilonen"]
+      ]
+    },
+    {
+      "name": "Gefroren",
+      "note": "Citlali hilft beim Einfrieren und senkt dabei den Hydro-Widerstand der Gegner – das passt perfekt zum starken Hydro-Schaden von Neuvillette.",
+      "slots": [
+        ["Citlali"],
+        ["Neuvillette", "Wriothesley", "Skirk", "Kamisato Ayato"],
+        ["Furina", "Xingqiu", "Mona"],
+        ["Escoffier", "Xilonen", "Charlotte", "Shenhe"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Starcaller's Watch",
+      "note": "Ihre Signaturwaffe: Elementarkunde und ein Schadensbonus für die aktive Figur – mit Abstand die beste Wahl."
+    },
+    { "name": "A Thousand Floating Dreams", "note": "Viel Elementarkunde und ein Bonus für das Team." },
+    {
+      "name": "Wandering Evenstar",
+      "note": "Elementarkunde als Nebenwert; gibt ihr und dem Team zusätzlich ANG abhängig von ihrer Elementarkunde."
+    },
+    {
+      "name": "Thrilling Tales of Dragon Slayers",
+      "note": "3★-Waffe, die voll verfeinert der nächsten eingewechselten Figur viel ANG gibt – stark und leicht zu bekommen."
+    },
+    { "name": "Sacrificial Fragments", "note": "Elementarkunde als Nebenwert." },
+    { "name": "Favonius Codex", "note": "Viel Aufladerate und Energie für das Team." },
+    { "name": "Mappa Mare", "note": "Schmiedbar, mit Elementarkunde als Nebenwert." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Scroll of the Hero of Cinder City", "pieces": 4 }],
+      "note": "Nach ihren Reaktionen macht das ganze Team mehr Elementarschaden."
+    },
+    {
+      "sets": [{ "name": "Tenacity of the Millelith", "pieces": 4 }],
+      "note": "Stärkerer Schild und mehr ANG für das Team."
+    }
+  ],
+  "mainStats": { "sands": ["em", "er"], "goblet": ["em"], "circlet": ["em", "cr"] },
+  "substats": ["er", "em", "cr"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/461989",
+    "https://gamewith.net/genshin-impact/article/show/51614",
+    "https://gamewith.net/genshin-impact/article/show/47143",
+    "https://keqingmains.com/q/citlali-quickguide/"
+  ]
+}

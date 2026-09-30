@@ -1,0 +1,87 @@
+{
+  "character": "Sangonomiya Kokomi",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["healer", "support"],
+  "summary": "Hydro-Heilerin mit Katalysator. Ihre Qualle heilt die Truppe und trägt dauerhaft Hydro auf, auch wenn Kokomi nicht auf dem Feld ist. Sie kann keine kritischen Treffer landen, darum baut man sie auf LP, Heilungsbonus und Aufladerate. Stark in Gefroren-, Sprießen- und Unter-Strom-Teams.",
+  "tips": [
+    "Krit.-Werte bringen ihr nichts: Ihr Talent senkt ihre Krit.-Rate um 100 %.",
+    "Aufladerate: meist etwa 180–220 %; der Bernstein-Prototyp oder eine zweite Hydro-Figur senken den Bedarf.",
+    "Die Qualle bleibt an ihrem Platz – Gegner, die weglaufen, bekommen weniger Hydro ab.",
+    "Talente: Elementarfähigkeit zuerst leveln, sie heilt und trifft am meisten."
+  ],
+  "teams": [
+    {
+      "name": "Gefroren",
+      "note": "Kokomi hält die Gegner zusammen mit dem Kryo-Kämpfer eingefroren und heilt nebenbei. Kazuha sammelt die Gegner und verstärkt den Kryo-Schaden.",
+      "slots": [
+        ["Sangonomiya Kokomi"],
+        ["Kamisato Ayaka", "Ganyu", "Skirk"],
+        ["Shenhe", "Citlali", "Rosaria", "Kaeya"],
+        ["Kaedehara Kazuha", "Venti", "Sucrose"]
+      ]
+    },
+    {
+      "name": "Sprießen mit Nilou",
+      "note": "Nilou verwandelt die Dendro-Kerne in besonders starke Kerne. Mit Lauma wird das Sprießen selbst zu Mondspross, die Kerne entstehen trotzdem. Im Team nur Hydro- und Dendro-Figuren.",
+      "slots": [
+        ["Sangonomiya Kokomi"],
+        ["Nilou"],
+        ["Nahida", "Traveler (Dendro)"],
+        ["Lauma", "Kirara", "Collei", "Baizhu"]
+      ]
+    },
+    {
+      "name": "Unter Strom",
+      "note": "Kokomi liefert Hydro und Heilung, zwei Elektro-Figuren lösen ständig Unter Strom aus. Mit Ineffa im Team wird daraus Mond unter Strom.",
+      "slots": [["Sangonomiya Kokomi"], ["Ineffa", "Beidou"], ["Fischl", "Ororon"], ["Sucrose", "Kaedehara Kazuha"]]
+    },
+    {
+      "name": "Mono-Hydro",
+      "note": "Hier kämpft Kokomi selbst auf dem Feld: Ihre Spezialfähigkeit macht ihre Standardangriffe stärker, Furina und Yelan erhöhen den Schaden.",
+      "slots": [["Sangonomiya Kokomi"], ["Furina", "Candace"], ["Yelan", "Xingqiu"], ["Zhongli", "Kirara", "Layla"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Thrilling Tales of Dragon Slayers",
+      "note": "Beste Wahl als Unterstützerin: Die eingewechselte Figur bekommt mehr ANG. 3★, leicht auf Verfeinerung 5 zu bringen."
+    },
+    {
+      "name": "Everlasting Moonglow",
+      "note": "Signaturwaffe: mehr LP und Heilung, stärkere Standardangriffe."
+    },
+    {
+      "name": "Prototype Amber",
+      "note": "Schmiedbar, gibt LP und Energie und heilt die Truppe. Meist die beste Gratis-Wahl."
+    },
+    { "name": "Waveriding Whirl", "note": "Aufladerate als Nebenwert." },
+    { "name": "Hakushin Ring", "note": "Schmiedbar, stärkt in Unter-Strom-Teams den Elektro-Schaden." },
+    {
+      "name": "Ash-Graven Drinking Horn",
+      "note": "Event-Waffe mit LP, gut wenn Kokomi selbst auf dem Feld kämpft."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Tenacity of the Millelith", "pieces": 4 }],
+      "note": "Mehr LP für Kokomi und mehr ANG für die ganze Truppe."
+    },
+    {
+      "sets": [{ "name": "Ocean-Hued Clam", "pieces": 4 }],
+      "note": "Macht aus ihrer Heilung zusätzlichen Schaden, gut wenn sie auf dem Feld kämpft."
+    },
+    {
+      "sets": [{ "name": "Song of Days Past", "pieces": 4 }],
+      "note": "Ihre Heilung erhöht den Schaden der Teammitglieder."
+    }
+  ],
+  "mainStats": { "sands": ["hp%", "er"], "goblet": ["hp%", "hydro"], "circlet": ["heal", "hp%"] },
+  "substats": ["hp%", "er", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/337140",
+    "https://gamewith.net/genshin-impact/article/show/24455",
+    "https://gamewith.net/genshin-impact/article/show/40466",
+    "https://keqingmains.com/q/kokomi-quickguide/"
+  ]
+}

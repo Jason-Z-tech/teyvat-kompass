@@ -1,0 +1,68 @@
+{
+  "character": "Aloy",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps", "sub-dps"],
+  "summary": "Kryo-Bogenschützin aus der Kooperation mit „Horizon Zero Dawn“. Ihre Elementarfähigkeit wirft Eisbomben – treffen genug davon, werden ihre Standardangriffe kurzzeitig zu Kryo-Angriffen. Ihre Spezialfähigkeit macht mit wenig Energie viel Flächenschaden. Sie hat keine Sternbilder und gilt als einer der schwächeren Charaktere.",
+  "tips": [
+    "Die Bomben der Elementarfähigkeit müssen Gegner treffen: Nach vier Treffern werden ihre Standardangriffe für 10 Sekunden zu Kryo-Angriffen.",
+    "Die Spezialfähigkeit zuerst leveln: Sie kostet nur 40 Energie und ist ihr stärkster Einzeltreffer.",
+    "Nach der Elementarfähigkeit kurz zu einem Anemo-Partner wie Kazuha wechseln, der die Gegner in die kleinen Bomben zieht.",
+    "Ihre Signaturwaffe (Raubtier) gab es nur auf PlayStation, sie ist heute nicht mehr erhältlich."
+  ],
+  "teams": [
+    {
+      "name": "Schmelzen",
+      "note": "Bennett und Xiangling tragen Pyro auf, sodass Aloys Kryo-Treffer schmelzen. Sie kommt kurz für ihre Fähigkeiten aufs Feld und wechselt dann wieder aus.",
+      "slots": [["Aloy"], ["Bennett"], ["Xiangling", "Thoma"], ["Kaedehara Kazuha", "Citlali", "Shenhe", "Jean"]]
+    },
+    {
+      "name": "Gefroren",
+      "note": "Aloy ergänzt hier einen Kryo-Hauptangreifer wie Ayaka oder Ganyu mit ihrer Spezialfähigkeit. Der Hydro-Partner hält die Gegner gefroren, der Anemo-Partner zieht sie zusammen.",
+      "slots": [
+        ["Aloy"],
+        ["Kamisato Ayaka", "Ganyu"],
+        ["Sangonomiya Kokomi", "Mona", "Xingqiu"],
+        ["Kaedehara Kazuha", "Venti", "Jean"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Polar Star",
+      "note": "Krit.-Rate und mehr Schaden für Fähigkeiten – ihre beste verfügbare Wahl."
+    },
+    { "name": "Aqua Simulacra", "note": "Sehr viel Krit.-Schaden als Nebenwert." },
+    { "name": "Thundering Pulse", "note": "Viel ANG und Krit.-Schaden." },
+    { "name": "The Stringless", "note": "Mehr Schaden für Elementar- und Spezialfähigkeit." },
+    {
+      "name": "Sacrificial Bow",
+      "note": "Aufladerate und eine Chance, die Elementarfähigkeit zurückzusetzen."
+    },
+    {
+      "name": "Prototype Crescent",
+      "note": "Schmiedbar und die beste Gratis-Wahl: Treffer auf Schwachstellen geben viel ANG."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 4 }],
+      "note": "Mehr Aufladerate und mehr Schaden der Spezialfähigkeit – ihre beste Wahl."
+    },
+    {
+      "sets": [{ "name": "Blizzard Strayer", "pieces": 2 }, { "name": "Gladiator's Finale", "pieces": 2 }],
+      "note": "Kryo-Schaden und ANG als einfache Mischung."
+    },
+    {
+      "sets": [{ "name": "Blizzard Strayer", "pieces": 2 }, { "name": "Wanderer's Troupe", "pieces": 2 }],
+      "note": "Kryo-Schaden und Elementarkunde für Schmelzen-Teams."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er", "em"], "goblet": ["cryo"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "atk%", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/337957",
+    "https://gamewith.net/genshin-impact/article/show/29597",
+    "https://keqingmains.com/q/aloy-quickguide/"
+  ]
+}

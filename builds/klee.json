@@ -1,0 +1,86 @@
+{
+  "character": "Klee",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps", "support"],
+  "summary": "Pyro-Katalysatornutzerin, die mit explosiven Standardangriffen und heftigen Schlägen auf dem Feld kämpft und dabei sehr viel Pyro verteilt. Sie gehört zur Hexerei: Mit einer weiteren Hexerei-Figur im Team (Geheimes Ritual) wird sie deutlich stärker und angenehmer zu spielen. Ab Sternbild 2 taugt sie auch als Unterstützerin.",
+  "tips": [
+    "Immer mindestens eine weitere Hexerei-Figur mitnehmen, z. B. Fischl, Durin, Albedo oder Nicole.",
+    "Kritische Treffer ihrer heftigen Schläge geben dem ganzen Team Energie.",
+    "Aufladerate etwa 115–160 %: je mehr andere Pyro-Figuren im Team, desto weniger.",
+    "Kleine Gegner mit Standardangriffen verfolgen, gegen große Gegner möglichst viele heftige Schläge nutzen – die werfen sie um."
+  ],
+  "teams": [
+    {
+      "name": "Überladen mit Chevreuse",
+      "note": "Ihr stärkstes Team: Chevreuse verstärkt Pyro und Elektro, Fischl sorgt für Überladen und ist die nötige Hexerei-Partnerin. Mit Bennett statt Durin sind alle Partner 4★-Figuren.",
+      "slots": [["Klee"], ["Chevreuse"], ["Fischl"], ["Durin", "Bennett"]]
+    },
+    {
+      "name": "Verdampfen mit Furina",
+      "note": "Klee liefert viel Pyro und Energie, damit Furinas Treffer verdampfen. Fischl oder Albedo sind die Hexerei-Partner, Bennett oder Xilonen heilen, damit Furinas Bonus wächst.",
+      "slots": [["Klee"], ["Furina"], ["Fischl", "Albedo"], ["Bennett", "Xilonen"]]
+    },
+    {
+      "name": "Mond unter Strom",
+      "note": "Columbina und Ineffa lösen Mond unter Strom aus und machen viel Schaden aus dem Hintergrund. Dabei bleibt genug Hydro liegen, damit Klees heftige Schläge oft verdampfen.",
+      "slots": [["Klee"], ["Fischl", "Durin"], ["Columbina"], ["Ineffa"]]
+    },
+    {
+      "name": "Günstiges Verdampfen",
+      "note": "Nur 4★-Partner: Xingqiu trägt so viel Hydro auf, dass Klees heftige Schläge verdampfen. Fischl ist die Hexerei-Partnerin, Bennett gibt ANG und heilt.",
+      "slots": [["Klee"], ["Fischl"], ["Xingqiu"], ["Bennett"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Reliquary of Truth",
+      "note": "Beste Allround-Waffe: viel Krit.-Schaden, Krit.-Rate und Elementarkunde."
+    },
+    {
+      "name": "Lost Prayer to the Sacred Winds",
+      "note": "Krit.-Rate und wachsender Elementar-Schadensbonus – bewährte 5★-Wahl."
+    },
+    {
+      "name": "Cashflow Supervision",
+      "note": "Im Team mit Furina die beste Waffe: stärkere Standardangriffe und heftige Schläge."
+    },
+    {
+      "name": "Tome of the Eternal Flow",
+      "note": "Mit Furina stark, wenn Klee viel Aufladerate braucht: Krit.-Schaden, stärkere heftige Schläge und Energie zurück."
+    },
+    {
+      "name": "The Widsith",
+      "note": "Beste 4★-Waffe: viel Krit.-Schaden und ein zufälliger Bonus beim Einwechseln."
+    },
+    {
+      "name": "Dodoco Tales",
+      "note": "Alte Event-Waffe, die zu ihr passt: stärkere heftige Schläge und etwas ANG. Derzeit nicht mehr erhältlich – gut, wer sie hat."
+    },
+    {
+      "name": "Flowing Purity",
+      "note": "Schmiedbar: die beste Gratis-Waffe, ihr Effekt braucht aber Heilung im Team."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "A Day Carved From Rising Winds", "pieces": 4 }],
+      "note": "Ihr bestes Set in fast jedem Team: viel ANG und – mit abgeschlossener „Aufgabe der Hexe“ – zusätzlich Krit.-Rate."
+    },
+    {
+      "sets": [{ "name": "Crimson Witch of Flames", "pieces": 4 }],
+      "note": "Gute Wahl für Reaktionsteams wie Verdampfen."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Alternative im Team mit Furina, deren LP-Änderungen die Krit.-Rate erhöhen."
+    }
+  ],
+  "mainStats": { "sands": ["atk%"], "goblet": ["pyro", "atk%"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "atk%", "em"],
+  "sources": [
+    "https://keqingmains.com/q/klee-quickguide/",
+    "https://game8.co/games/Genshin-Impact/archives/297521",
+    "https://gamewith.net/genshin-impact/article/show/22348"
+  ]
+}

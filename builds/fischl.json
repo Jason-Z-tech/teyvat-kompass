@@ -1,0 +1,83 @@
+{
+  "character": "Fischl",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "support"],
+  "summary": "Elektro-Bogenschützin, die ihren Raben Oz beschwört. Oz greift von außerhalb des Feldes an und trifft zusätzlich, wenn der aktive Charakter Elektro-Reaktionen auslöst. Sie ist einfach zu bauen, schon mit wenig Investition stark und passt in fast jedes Elektro-Team – besonders in Überladen-Teams mit Hexerei-Partnern.",
+  "tips": [
+    "Oz kurz vor dem Wechsel zum Haupt-DPS rufen, damit er dessen ganze Zeit auf dem Feld abdeckt.",
+    "Elementarfähigkeit und Spezialfähigkeit abwechselnd nutzen: Beide rufen Oz herbei, so bleibt er fast ständig auf dem Feld.",
+    "Hexerei – Geheimes Ritual: Mit einer weiteren Hexerei-Figur (z. B. Durin) gibt sie bei Überladen sich und der aktiven Figur mehr ANG, bei (Mond) unter Strom mehr Elementarkunde.",
+    "Aufladerate: etwa 110–130 % mit einem zweiten Elektro-Charakter, sonst 130–150 %."
+  ],
+  "teams": [
+    {
+      "name": "Überladen (Hexerei)",
+      "note": "Chevreuse senkt Pyro- und Elektro-Widerstand und erhöht den ANG. Mit Durin als zweitem Hexerei-Charakter gibt Fischl bei Überladen sich und der aktiven Figur zusätzlich ANG.",
+      "slots": [
+        ["Fischl"],
+        ["Arlecchino", "Razor", "Mavuika", "Clorinde"],
+        ["Chevreuse"],
+        ["Durin", "Bennett", "Thoma"]
+      ]
+    },
+    {
+      "name": "Mond unter Strom",
+      "note": "Flins macht auf dem Feld Schaden, Columbina liefert Hydro und verstärkt Mondleuchten-Reaktionen. Fischl trägt von außen zuverlässig Elektro auf.",
+      "slots": [["Fischl"], ["Flins", "Ineffa"], ["Columbina", "Aino"], ["Sucrose", "Lan Yan", "Jahoda", "Xilonen"]]
+    },
+    {
+      "name": "Suprawuchs",
+      "note": "Nahida hält Urwuchs aufrecht, der Elektro-Hauptangreifer löst Suprawuchs aus. Fischl liefert zusätzliches Elektro und viel Energie.",
+      "slots": [
+        ["Fischl"],
+        ["Clorinde", "Keqing", "Cyno"],
+        ["Nahida", "Baizhu", "Traveler (Dendro)"],
+        ["Kaedehara Kazuha", "Xilonen", "Sucrose"]
+      ]
+    },
+    {
+      "name": "Unter Strom (günstig)",
+      "note": "Team ganz ohne 5★: Xingqiu trägt Hydro auf, Ororon oder Beidou liefern weiteres Elektro für Unter Strom. Saccharose verteilt die Elemente und gibt Elementarkunde.",
+      "slots": [["Fischl"], ["Xingqiu"], ["Ororon", "Beidou"], ["Sucrose"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Polar Star",
+      "note": "Krit.-Rate, stapelnder ANG-Bonus und mehr Schaden für Elementar- und Spezialfähigkeit."
+    },
+    {
+      "name": "The Daybreak Chronicles",
+      "note": "Krit.-Schaden als Nebenwert und Bonus auf Elementar- und Spezialfähigkeit."
+    },
+    {
+      "name": "Aqua Simulacra",
+      "note": "Viel Krit.-Schaden und ein Schadensbonus, wenn Gegner in der Nähe sind."
+    },
+    {
+      "name": "The Stringless",
+      "note": "4★ mit Elementarkunde und mehr Schaden für Elementar- und Spezialfähigkeit – stark in Suprawuchs-Teams."
+    },
+    { "name": "Alley Hunter", "note": "4★, macht mehr Schaden, solange sie nicht auf dem Feld ist." },
+    { "name": "Fading Twilight", "note": "Event-Waffe mit Aufladerate und Schadensbonus." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Golden Troupe", "pieces": 4 }],
+      "note": "Bestes Set: viel mehr Schaden der Elementarfähigkeit, besonders wenn sie nicht auf dem Feld ist."
+    },
+    {
+      "sets": [{ "name": "A Day Carved From Rising Winds", "pieces": 4 }],
+      "note": "Viel ANG und als Hexerei-Charakter zusätzlich Krit.-Rate."
+    },
+    { "sets": [{ "name": "Gilded Dreams", "pieces": 4 }], "note": "Elementarkunde-Set für Suprawuchs-Teams." }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["electro"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "er", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297524",
+    "https://gamewith.net/genshin-impact/article/show/22345",
+    "https://gamewith.net/genshin-impact/article/show/38766"
+  ]
+}

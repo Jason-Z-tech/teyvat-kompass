@@ -1,0 +1,84 @@
+{
+  "character": "Navia",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps", "sub-dps"],
+  "summary": "Geo-Kämpferin mit Zweihänder aus Fontaine. Ihre Elementarfähigkeit feuert eine starke Schrotladung, die mit jedem aufgesammelten Kristallisationssplitter stärker wird. Deshalb spielt man sie mit Partnern, die Pyro, Hydro, Elektro oder Kryo auftragen, und am besten mit einer zweiten Geo-Figur.",
+  "tips": [
+    "Ihre Elementarfähigkeit hat zwei Ladungen: in jeder Runde beide einsetzen.",
+    "Aufladerate von etwa 130 % anpeilen, damit die Spezialfähigkeit jede Runde bereit ist.",
+    "Vor der Elementarfähigkeit Kristallsplitter aufsammeln – bis zu sechs Stapel machen den Schuss deutlich stärker.",
+    "In Mond-Kristallisation-Teams gibt es keine Splitter zum Einsammeln, die Stapel kommen direkt aus der Reaktion (max. 1 pro Sekunde) – Elementarfähigkeit nur antippen."
+  ],
+  "teams": [
+    {
+      "name": "Kristallisation mit Pyro",
+      "note": "Die zweite Geo-Figur füllt Navias Energie auf, Xiangling oder Fischl tragen von außerhalb ein Element für Kristallisation auf, Bennett gibt viel ANG.",
+      "slots": [["Navia"], ["Xilonen", "Chiori", "Kachina", "Albedo"], ["Xiangling", "Fischl"], ["Bennett"]]
+    },
+    {
+      "name": "Furina",
+      "note": "Furina erhöht den Schaden stark, Bennett gibt ANG und heilt. Xilonen heilt zusätzlich für Furinas Bonus, Zhongli schützt stattdessen mit Schild.",
+      "slots": [["Navia"], ["Xilonen", "Zhongli"], ["Furina"], ["Bennett"]]
+    },
+    {
+      "name": "Mavuika",
+      "note": "Xilonen senkt Widerstände für Geo und Pyro und lädt Mavuikas Spezialfähigkeit auf. Bennett gibt beiden ANG und Pyro-Resonanz.",
+      "slots": [["Navia"], ["Xilonen"], ["Mavuika"], ["Bennett"]]
+    },
+    {
+      "name": "Mond-Kristallisation",
+      "note": "Columbina ermöglicht Mond-Kristallisation, Illuga verstärkt Geo-Schaden. Navia liefert als Haupt-DPS viel Schaden in kurzer Zeit.",
+      "slots": [["Navia"], ["Columbina"], ["Illuga"], ["Linnea", "Yelan", "Chiori"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Verdict",
+      "note": "Navias Signaturwaffe: Krit.-Rate, ANG und mehr Schaden der Elementarfähigkeit nach Kristallisation."
+    },
+    {
+      "name": "Serpent Spine",
+      "note": "Battle-Pass-Waffe mit Krit.-Rate und Schadensbonus; auf R5 so stark wie viele 5★-Waffen."
+    },
+    {
+      "name": "The Unforged",
+      "note": "Viel ANG; unter einem Kristallisationsschild verdoppelt sich der Bonus."
+    },
+    {
+      "name": "Wolf's Gravestone",
+      "note": "Viel ANG; trifft sie Gegner mit wenig LP, bekommt das ganze Team zusätzlich ANG."
+    },
+    { "name": "Beacon of the Reed Sea", "note": "Starker 5★-Zweihänder mit Krit.-Rate und ANG-Bonus." },
+    {
+      "name": "Ultimate Overlord's Mega Magic Sword",
+      "note": "Event-Waffe aus Version 4.3 mit Aufladerate; der ANG-Bonus wächst mit den Quests in Merusea."
+    },
+    {
+      "name": "Tidal Shadow",
+      "note": "Schmiedbar in Fontaine; der ANG-Bonus braucht Heilung, gut in Teams mit Heiler."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Nighttime Whispers in the Echoing Woods", "pieces": 4 }],
+      "note": "Ihr bestes Set: viel Geo-Schaden nach der Elementarfähigkeit, noch mehr unter einem Kristallisationsschild."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Mit Furina im Team eine starke Alternative, weil sich Navias LP ständig ändern."
+    },
+    {
+      "sets": [{ "name": "Gladiator's Finale", "pieces": 2 }, { "name": "Archaic Petra", "pieces": 2 }],
+      "note": "Einfache Übergangslösung aus ANG- und Geo-Bonus."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er"], "goblet": ["geo"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/417194",
+    "https://gamewith.net/genshin-impact/article/show/40238",
+    "https://keqingmains.com/q/navia-quickguide/",
+    "https://keqingmains.com/q/illuga-quickguide/"
+  ]
+}

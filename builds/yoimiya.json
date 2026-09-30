@@ -1,0 +1,66 @@
+{
+  "character": "Yoimiya",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Pyro-Bogenschützin, die nach ihrer Elementarfähigkeit mit Pyro-Standardangriffen aus der Distanz sehr hohen Schaden gegen einzelne Gegner macht – stark gegen Bosse, schwächer gegen große Gruppen. Am besten mit Hydro-Partnern für Verdampfen oder mit Chevreuse für Überladen.",
+  "tips": [
+    "Die Standardangriff-Kette möglichst komplett durchziehen – die späteren Treffer machen viel Schaden. Ein Schild (z. B. Zhongli) verhindert Unterbrechungen.",
+    "Die Spezialfähigkeit nur einsetzen, wenn sie bereit ist. Aufladerate braucht sie nicht.",
+    "Mit Bennett oder Yun Jin im Team ist der 3★-Bogen Steinschleuder überraschend stark.",
+    "Im Überladen-Team muss sie nicht verdampfen und kann ohne großen Verlust ausweichen."
+  ],
+  "teams": [
+    {
+      "name": "Verdampfen",
+      "note": "Yelan oder Xingqiu tragen Hydro auf, damit ihre Standardangriffe verdampfen. Bennett oder Yun Jin verstärken sie, Zhongli oder Lan Yan schützen – Kazuha bringt mehr Schaden, aber keinen Schutz.",
+      "slots": [["Yoimiya"], ["Yelan", "Xingqiu"], ["Bennett", "Yun Jin"], ["Zhongli", "Lan Yan", "Kaedehara Kazuha"]]
+    },
+    {
+      "name": "Verdampfen und Überladen",
+      "note": "Ineffa oder Fischl bringen Elektro, sodass Yoimiya zugleich verdampft und überlädt. Ineffa schützt zusätzlich mit Schild. Mit Xingqiu und Fischl besteht das Team nur aus 4★-Figuren.",
+      "slots": [["Yoimiya"], ["Yelan", "Xingqiu"], ["Ineffa", "Fischl"], ["Bennett"]]
+    },
+    {
+      "name": "Überladen mit Chevreuse",
+      "note": "Nur Pyro und Elektro: Chevreuse senkt den Widerstand, Fischl sorgt für Überladen, Bennett gibt ANG. Ihre Reichweite hilft gegen den Rückstoß von Überladen.",
+      "slots": [["Yoimiya"], ["Chevreuse"], ["Fischl", "Yae Miko"], ["Bennett", "Beidou"]]
+    },
+    {
+      "name": "Mono-Pyro mit Geo",
+      "note": "Bequem ohne Reaktionen: Chiori macht Schaden aus dem Hintergrund, Zhongli schützt und senkt alle Widerstände. Dazu Pyro- und Geo-Resonanz.",
+      "slots": [["Yoimiya"], ["Bennett"], ["Chiori"], ["Zhongli"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Thundering Pulse",
+      "note": "Ihre Signaturwaffe und klar die beste Wahl: viel Krit.-Schaden und stärkere Standardangriffe."
+    },
+    { "name": "Aqua Simulacra", "note": "Zweitbeste 5★-Wahl, solange sie nah genug an den Gegnern bleibt." },
+    { "name": "Polar Star", "note": "Krit.-Rate als Nebenwert, solide 5★-Alternative." },
+    {
+      "name": "Rust",
+      "note": "Beste 4★-Waffe: viel mehr Schaden für Standardangriffe, auf Verfeinerung 5 stärker als viele 5★-Bögen."
+    },
+    { "name": "Slingshot", "note": "3★-Bogen, mit Bennett oder Yun Jin im Team erstaunlich stark." },
+    { "name": "Prototype Crescent", "note": "Schmiedbar: ANG als Nebenwert – einfache Gratis-Wahl." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Shimenawa's Reminiscence", "pieces": 4 }],
+      "note": "Die zuverlässigste Wahl für fast jedes Team: deutlich stärkere Standardangriffe."
+    },
+    {
+      "sets": [{ "name": "Echoes of an Offering", "pieces": 4 }],
+      "note": "Beste Alternative, der Bonus schwankt aber und wird bei Verbindungsverzögerung schwächer."
+    },
+    {
+      "sets": [{ "name": "Crimson Witch of Flames", "pieces": 4 }],
+      "note": "Gute Wahl in Verdampfen- und Überladen-Teams."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["pyro"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "em"],
+  "sources": ["https://keqingmains.com/q/yoimiya-quickguide/", "https://game8.co/games/Genshin-Impact/archives/333497"]
+}

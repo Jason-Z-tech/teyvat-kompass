@@ -1,0 +1,63 @@
+{
+  "character": "Xiao",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Anemo-Stangenwaffenkämpfer und Hauptangreifer. Seine Spezialfähigkeit lässt ihn höher springen, verleiht seinen Angriffen Anemo und erhöht seinen Schaden – kostet aber laufend LP. Den meisten Schaden macht er mit Angriffen aus dem Fall, deshalb ist Xianyun seine beste Partnerin.",
+  "tips": [
+    "Sein Schaden hängt an der Spezialfähigkeit: vorher die Elementarfähigkeit nutzen, um Energie zu sammeln.",
+    "Die Spezialfähigkeit zieht LP ab – eine Heilerin wie Xianyun oder ein Schild im Team ist wichtig.",
+    "Aufladerate: mit Faruzan und Xianyun etwa 100–140 %, ohne Faruzan etwa 130–180 %.",
+    "Talente: zuerst den Standardangriff (enthält die Angriffe aus dem Fall), dann die Spezialfähigkeit leveln."
+  ],
+  "teams": [
+    {
+      "name": "Hypercarry",
+      "note": "Sein stärkstes Team: Faruzan verstärkt den Anemo-Schaden, Xianyun heilt und macht Angriffe aus dem Fall stärker, Furina erhöht den Schaden der ganzen Truppe.",
+      "slots": [["Xiao"], ["Faruzan", "Jean"], ["Xianyun"], ["Furina", "Bennett", "Zhongli"]]
+    },
+    {
+      "name": "Dreifach-Anemo (günstig)",
+      "note": "Nur 4★-Partner: Faruzan und Saccharose oder Lynette liefern Energie und Verstärkung, Bennett gibt ANG und heilt.",
+      "slots": [["Xiao"], ["Faruzan"], ["Sucrose", "Lynette"], ["Bennett"]]
+    },
+    {
+      "name": "Anemo & Geo",
+      "note": "Albedo macht außerhalb des Feldes Geo-Schaden, Zhongli schützt mit Schild und senkt Widerstände. Xianyun oder Jean heilen und liefern Energie.",
+      "slots": [["Xiao"], ["Albedo", "Traveler (Geo)"], ["Zhongli"], ["Xianyun", "Jean"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Primordial Jade Winged-Spear",
+      "note": "Seine Signaturwaffe: Krit.-Rate und ein beständiger Schadensbonus."
+    },
+    { "name": "Staff of Homa", "note": "Viel Krit.-Schaden, stärker bei niedrigen LP." },
+    { "name": "Vortex Vanquisher", "note": "Viel ANG als Nebenwert, mit Schild noch stärker." },
+    { "name": "Deathmatch", "note": "Battle-Pass-Waffe mit viel Krit.-Rate – beste 4★-Wahl." },
+    { "name": "Blackcliff Pole", "note": "Im Sternenglanz-Shop erhältlich, Krit.-Schaden als Nebenwert." },
+    { "name": "Missive Windspear", "note": "Event-Waffe, laut KQM etwa so stark wie die Schwarzsteinlanze." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Long Night's Oath", "pieces": 4 }],
+      "note": "Laut Game8 sein bestes Set: stärkt Angriffe aus dem Fall Stapel für Stapel."
+    },
+    {
+      "sets": [{ "name": "Vermillion Hereafter", "pieces": 4 }],
+      "note": "Mehr ANG nach der Spezialfähigkeit, der mit dem LP-Verlust weiter wächst."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Mit Furina im Team stark, weil LP-Änderungen die Krit.-Rate hochtreiben."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er"], "goblet": ["anemo"], "circlet": ["cr", "cd"] },
+  "substats": ["er", "cr", "cd", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297527",
+    "https://gamewith.net/genshin-impact/article/show/22342",
+    "https://gamewith.net/genshin-impact/article/show/40302",
+    "https://keqingmains.com/q/xiao-quickguide/"
+  ]
+}

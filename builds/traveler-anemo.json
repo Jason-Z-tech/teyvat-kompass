@@ -1,0 +1,78 @@
+{
+  "character": "Traveler (Anemo)",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "sub-dps"],
+  "summary": "Reisende(r) in der Anemo-Form – dieser Build gilt nur für das Anemo-Element. Die Elementarfähigkeit erzeugt einen Vakuumstrudel, der Schaden macht und ein Element aufnehmen kann (Gegner zieht er erst ab Sternbild 1 heran), die Spezialfähigkeit schickt einen Wirbelsturm los, der Gegner mitreißt. Am besten als gratis Unterstützer mit dem Set „Grünlicher Schatten“, der die Widerstände der Gegner senkt.",
+  "tips": [
+    "Die Elementarfähigkeit gedrückt halten: Schaden und Wirkungsbereich wachsen allmählich. Ab Sternbild 1 zieht sie Gegner im Umkreis von 5 m heran.",
+    "Nehmen die Fähigkeiten ein Element auf, verteilen sie es auf viele Gegner – ideal für Reaktionen.",
+    "Ab Sternbild 6 senkt die Spezialfähigkeit zusätzlich den Anemo-Widerstand und den des aufgenommenen Elements.",
+    "Talente: zuerst die Elementarfähigkeit leveln."
+  ],
+  "teams": [
+    {
+      "name": "Unterstützung für Hauptangreifer",
+      "note": "Der Hauptangreifer macht den Schaden, Reisende(r) senkt mit „Grünlicher Schatten“ die Widerstände und hält Gegner zusammen. Citlali und Yelan liefern Kryo bzw. Hydro.",
+      "slots": [
+        ["Traveler (Anemo)"],
+        ["Arlecchino", "Mavuika", "Neuvillette"],
+        ["Citlali", "Xilonen", "Bennett"],
+        ["Yelan", "Furina"]
+      ]
+    },
+    {
+      "name": "Unter Strom",
+      "note": "Hydro und Elektro kommen von außerhalb des Feldes, Reisende(r) bleibt auf dem Feld und verwirbelt mit der Elementarfähigkeit. Das Opferschwert hilft, sie öfter zu nutzen.",
+      "slots": [
+        ["Traveler (Anemo)"],
+        ["Furina", "Sangonomiya Kokomi"],
+        ["Kuki Shinobu", "Sigewinne"],
+        ["Ororon", "Fischl", "Yae Miko"]
+      ]
+    },
+    {
+      "name": "Günstiges Starter-Team",
+      "note": "Xiangling und Fischl machen außerhalb des Feldes Schaden, Bennett heilt und gibt ANG. Reisende(r) verwirbelt Pyro und Elektro und senkt die Widerstände.",
+      "slots": [["Traveler (Anemo)"], ["Xiangling"], ["Bennett"], ["Fischl"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Freedom-Sworn",
+      "note": "Kazuhas Signaturwaffe: Elementarkunde und ein ANG-Bonus für das ganze Team."
+    },
+    { "name": "Primordial Jade Cutter", "note": "Für einen Build mit Krit.-Werten: Krit.-Rate und viel ANG." },
+    {
+      "name": "Xiphos' Moonlight",
+      "note": "Elementarkunde als Nebenwert, gibt dem Team zusätzlich Aufladerate."
+    },
+    {
+      "name": "Sacrificial Sword",
+      "note": "Kann die Elementarfähigkeit zurücksetzen – gut, wenn Reisende(r) auf dem Feld verwirbelt."
+    },
+    { "name": "Favonius Sword", "note": "Erzeugt Energie für das ganze Team." },
+    { "name": "Iron Sting", "note": "Schmiedbar, Elementarkunde als Nebenwert – beste Gratis-Wahl." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Viridescent Venerer", "pieces": 4 }],
+      "note": "Das beste Set: mehr Verwirbelungsschaden und niedrigere Widerstände der Gegner."
+    },
+    {
+      "sets": [{ "name": "Instructor", "pieces": 4 }],
+      "note": "Wenn jemand anderes „Grünlicher Schatten“ trägt: Elementarkunde für das ganze Team."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Mehr ANG für das Team nach der Spezialfähigkeit."
+    }
+  ],
+  "mainStats": { "sands": ["em", "er"], "goblet": ["em", "anemo"], "circlet": ["em", "cr"] },
+  "substats": ["er", "em", "atk%", "cr"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297537",
+    "https://gamewith.net/genshin-impact/article/show/22643",
+    "https://gamewith.net/genshin-impact/article/show/51450"
+  ]
+}

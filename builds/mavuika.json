@@ -1,0 +1,69 @@
+{
+  "character": "Mavuika",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps", "sub-dps"],
+  "summary": "Pyro-Archon mit Zweihänder, die auf ihrem Motorrad enormen Schaden macht. Ihre Spezialfähigkeit lädt nicht mit Energie, sondern mit Kampfgeist – den sammeln vor allem andere Natlan-Figuren, deshalb braucht sie mindestens eine davon im Team. Alternativ liefert sie mit ihrer Elementarfähigkeit Pyro aus dem Hintergrund.",
+  "tips": [
+    "Mindestens eine weitere Natlan-Figur mitnehmen (z. B. Citlali, Xilonen, Iansan), sonst lädt ihre Spezialfähigkeit zu langsam.",
+    "Aufladerate ist unnötig – ihre Spezialfähigkeit verbraucht Kampfgeist statt Energie.",
+    "Hydro- und Kryo-Partner nicht mischen: Ihre wuchtigen Treffer zerschlagen gefrorene Gegner, dann gibt es weder Schmelzen noch Verdampfen.",
+    "Ablauf: kurz Elementarfähigkeit, Partner einsetzen, dann Spezialfähigkeit und in der Motorrad-Form angreifen."
+  ],
+  "teams": [
+    {
+      "name": "Schmelzen",
+      "note": "Ihr stärkstes Team: Citlali trägt Kryo auf, senkt den Pyro-Widerstand und lädt ihre Spezialfähigkeit mit. Günstige Variante: Rosaria (am besten ab Sternbild 2) mit Kachina oder Iansan und Bennett.",
+      "slots": [["Mavuika"], ["Citlali", "Rosaria"], ["Bennett", "Nicole"], ["Xilonen", "Iansan", "Kachina"]]
+    },
+    {
+      "name": "Verdampfen",
+      "note": "Furina trägt Hydro auf, ohne dass Mavuika Standardangriffe braucht, und gibt viel Schadensbonus. Yelan oder Xingqiu gehen auch, brauchen aber angepasste Kombos. Xilonen ist die nötige Natlan-Figur.",
+      "slots": [["Mavuika"], ["Furina", "Yelan", "Xingqiu"], ["Bennett", "Nicole"], ["Xilonen"]]
+    },
+    {
+      "name": "Überladen mit Chevreuse",
+      "note": "Chevreuse verstärkt Pyro- und Elektro-Schaden. Ororon liefert als Elektro-Figur aus Natlan das Elektro und lädt ihre Spezialfähigkeit mit. Einfache Kombos, gut ohne Citlali oder Xilonen.",
+      "slots": [["Mavuika"], ["Ororon"], ["Chevreuse"], ["Bennett", "Iansan", "Nicole"]]
+    },
+    {
+      "name": "Im Hintergrund mit Mualani",
+      "note": "Mavuika liefert mit ihrer Elementarfähigkeit Pyro aus dem Hintergrund, damit Mualanis Treffer verdampfen, und verstärkt sie mit ihrer Spezialfähigkeit. Xilonen senkt den Widerstand.",
+      "slots": [["Mualani"], ["Mavuika"], ["Xilonen"], ["Kaedehara Kazuha", "Sucrose"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "A Thousand Blazing Suns",
+      "note": "Ihre Signaturwaffe: Krit.-Rate, Krit.-Schaden und viel ANG – deutlich besser als alle anderen."
+    },
+    { "name": "Beacon of the Reed Sea", "note": "Viel Krit.-Rate und ANG-Bonus nach der Elementarfähigkeit." },
+    { "name": "Verdict", "note": "Starke 5★-Alternative mit Krit.-Rate." },
+    {
+      "name": "Serpent Spine",
+      "note": "Battle-Pass-Waffe mit Krit.-Rate, am besten mit Schildgeber im Team."
+    },
+    {
+      "name": "Mailed Flower",
+      "note": "Event-Waffe mit Elementarkunde und ANG-Bonus – gut für Schmelzen und Verdampfen."
+    },
+    { "name": "Tidal Shadow", "note": "Schmiedbar, viel ANG. Der Bonus braucht einen Heiler im Team." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Obsidian Codex", "pieces": 4 }],
+      "note": "Ihr bestes Set als Haupt-DPS: mehr Schaden im Nachtseelensegen und viel Krit.-Rate."
+    },
+    {
+      "sets": [{ "name": "Scroll of the Hero of Cinder City", "pieces": 4 }],
+      "note": "Für Mavuika im Hintergrund: gibt dem ganzen Team Elementar-Schadensbonus."
+    },
+    {
+      "sets": [{ "name": "Crimson Witch of Flames", "pieces": 2 }, { "name": "Gladiator's Finale", "pieces": 2 }],
+      "note": "Übergangslösung aus Pyro-Schaden und ANG, bis der Obsidiankodex komplett ist."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["pyro"], "circlet": ["cd", "cr"] },
+  "substats": ["cd", "cr", "atk%", "em"],
+  "sources": ["https://game8.co/games/Genshin-Impact/archives/461999", "https://keqingmains.com/q/mavuika-quickguide/"]
+}

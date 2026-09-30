@@ -1,0 +1,76 @@
+{
+  "character": "Ifa",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps", "support", "healer"],
+  "summary": "Anemo-Katalysatornutzer aus Natlan, der im Nachtseelensegen über dem Boden schwebt und Anemo-Geschosse abfeuert; nebenbei heilt er das Team. Er spielt auf dem Feld als Reaktions-Auslöser: Er verwirbelt Elemente und verstärkt Unter Strom und Mond unter Strom.",
+  "tips": [
+    "Elementarkunde ist sein wichtigster Wert, weil Verwirbelung und Reaktionsschaden damit wachsen.",
+    "Aufladerate: ohne Sternbilder etwa 160–200 %, ab C1 deutlich weniger.",
+    "Mit dem Favonius-Kodex reicht etwas Krit.-Rate aus den Nebenwerten, damit die Waffe Energie erzeugt – dann braucht er kaum Aufladerate."
+  ],
+  "teams": [
+    {
+      "name": "Unter Strom",
+      "note": "Ororon (Elektro) und Furina (Hydro) lösen außerhalb des Feldes Unter Strom aus, Ifa verwirbelt und verstärkt die Reaktion. Xingqiu bringt mehr Hydro, Kuki Shinobu zusätzlich Heilung.",
+      "slots": [["Ifa"], ["Ororon", "Fischl", "Yae Miko"], ["Furina", "Yelan"], ["Xingqiu", "Kuki Shinobu"]]
+    },
+    {
+      "name": "Mond unter Strom",
+      "note": "Mit Ineffa im Team wird aus Unter Strom Mond unter Strom. Ororon oder Iansan bringen Elektro und Nachtseelenpunkte, mit denen Ifa den Reaktionsschaden stärker erhöht; Columbina, Aino oder Furina liefern das Hydro.",
+      "slots": [["Ifa"], ["Ineffa"], ["Ororon", "Iansan"], ["Columbina", "Aino", "Furina"]]
+    },
+    {
+      "name": "Supraspross",
+      "note": "Xingqiu und Nahida erzeugen Dendrokerne, Ororons Elektro lässt sie als Supraspross platzen. Mit Reisende(r) (Dendro) statt Nahida fast ohne 5★ spielbar.",
+      "slots": [["Ifa"], ["Ororon"], ["Xingqiu"], ["Nahida", "Traveler (Dendro)"]]
+    },
+    {
+      "name": "Regenbogen",
+      "note": "Viele verschiedene Elemente um Ifa herum: Er verwirbelt Pyro und Hydro, und sein passives Talent erhöht den Verwirbelungsschaden.",
+      "slots": [["Ifa"], ["Mavuika", "Dehya", "Traveler (Pyro)"], ["Xilonen", "Escoffier"], ["Furina", "Yelan"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Sunny Morning Sleep-In",
+      "note": "Beste Wahl: sehr viel Elementarkunde, vor allem nach Verwirbelungen."
+    },
+    {
+      "name": "A Thousand Floating Dreams",
+      "note": "Elementarkunde als Nebenwert und ein kleiner Bonus für das Team."
+    },
+    { "name": "Starcaller's Watch", "note": "Viel Elementarkunde als Nebenwert." },
+    { "name": "Sacrificial Fragments", "note": "Beste 4★-Waffe aus dem Gebet: viel Elementarkunde." },
+    {
+      "name": "Etherlight Spindlelute",
+      "note": "Event-Waffe mit Aufladerate und mehr Elementarkunde nach der Elementarfähigkeit, am besten mit R5."
+    },
+    {
+      "name": "Fruit of Fulfillment",
+      "note": "Schmiedbar: Aufladerate und mehr Elementarkunde nach Reaktionen."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Viridescent Venerer", "pieces": 4 }],
+      "note": "Sein bestes Set: mehr Verwirbelungsschaden und niedrigere Widerstände der Gegner."
+    },
+    {
+      "sets": [{ "name": "Scroll of the Hero of Cinder City", "pieces": 4 }],
+      "note": "Gibt dem Team Elementarschaden-Bonus für seine Reaktionen, im Nachtseelensegen stärker."
+    },
+    {
+      "sets": [{ "name": "Gilded Dreams", "pieces": 4 }],
+      "note": "Wenn schon jemand anderes „Grünlicher Schatten“ trägt: viel zusätzliche Elementarkunde."
+    }
+  ],
+  "mainStats": { "sands": ["em", "er"], "goblet": ["em"], "circlet": ["em", "heal"] },
+  "substats": ["er", "em", "cr"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/472693",
+    "https://gamewith.net/genshin-impact/article/show/48313",
+    "https://gamewith.net/genshin-impact/article/show/55749",
+    "https://keqingmains.com/q/ifa-quickguide/"
+  ]
+}

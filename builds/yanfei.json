@@ -1,0 +1,76 @@
+{
+  "character": "Yanfei",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps"],
+  "summary": "Pyro-Katalysatornutzerin, die aus der Distanz kämpft. Standardangriffe und ihre Elementarfähigkeit sammeln Siegel, die ihren nächsten heftigen Schlag verstärken. Ihre heftigen Schläge lösen sehr zuverlässig Reaktionen aus – ideal für Verdampfen mit Hydro-Partnern. Eine solide 4★-Haupt-DPS, auch für Einsteiger.",
+  "tips": [
+    "Erst Siegel sammeln (Standardangriffe, Elementarfähigkeit), dann mit einem heftigen Schlag verbrauchen – der wird dadurch deutlich stärker.",
+    "Keine Kryo-Partner in Verdampfen-Teams: Gefrorene Gegner werden zerschlagen statt verdampft.",
+    "Die Spezialfähigkeit reicht jede zweite Runde – dafür genügen etwa 100–130 % Aufladerate.",
+    "Ohne Sternbild 1 kosten heftige Schläge viel Ausdauer – im Kampf darauf achten."
+  ],
+  "teams": [
+    {
+      "name": "Verdampfen",
+      "note": "Xingqiu oder Yelan tragen ständig Hydro auf, damit ihre heftigen Schläge verdampfen. Bennett gibt ANG, Kazuha oder Saccharose senken den Widerstand, Zhongli schützt stattdessen.",
+      "slots": [["Yanfei"], ["Xingqiu", "Yelan"], ["Bennett"], ["Kaedehara Kazuha", "Sucrose", "Zhongli"]]
+    },
+    {
+      "name": "Verdampfen mit Furina",
+      "note": "Xianyun heilt das Team, damit Furinas Bonus schnell wächst, und ermöglicht verdampfende Angriffe aus dem Fall. Yelan oder Xingqiu liefern zusätzliches Hydro.",
+      "slots": [["Yanfei"], ["Furina"], ["Yelan", "Xingqiu"], ["Xianyun"]]
+    },
+    {
+      "name": "Überladen mit Chevreuse",
+      "note": "Nur Pyro und Elektro: Chevreuse verstärkt beide Elemente, Fischl sorgt für Überladen. Yanfei greift aus der Ferne an, daher stört sie der Rückstoß von Überladen kaum.",
+      "slots": [["Yanfei"], ["Chevreuse"], ["Fischl"], ["Bennett", "Kujou Sara", "Beidou"]]
+    },
+    {
+      "name": "Verdampfen + Überladen (günstig)",
+      "note": "Nur 4★-Figuren: Xingqiu liefert Hydro, Fischl Elektro – so kann Yanfei zugleich verdampfen und überladen. Bennett verstärkt Yanfei und Fischl.",
+      "slots": [["Yanfei"], ["Xingqiu"], ["Fischl"], ["Bennett"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Lost Prayer to the Sacred Winds",
+      "note": "Viel Krit.-Rate und wachsender Elementar-Schadensbonus – passt zu ihrer langen Zeit auf dem Feld."
+    },
+    {
+      "name": "Cashflow Supervision",
+      "note": "Im Team mit Furina klar die beste Waffe, sonst ein guter Krit.-Werteträger."
+    },
+    { "name": "Skyward Atlas", "note": "Viel ANG und Elementar-Schadensbonus." },
+    {
+      "name": "The Widsith",
+      "note": "Ihre stärkste 4★-Waffe, mit hohen Verfeinerungen oft so gut wie 5★-Waffen."
+    },
+    {
+      "name": "Flowing Purity",
+      "note": "Schmiedbar: gute Gratis-Wahl, besonders mit starken Heilern im Team."
+    },
+    { "name": "Dodoco Tales", "note": "Event-Waffe, verstärkt heftige Schläge – gut, wer sie noch hat." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Crimson Witch of Flames", "pieces": 4 }],
+      "note": "Bestes Set für Verdampfen: mehr Pyro-Schaden und stärkere Reaktionen."
+    },
+    {
+      "sets": [{ "name": "Wanderer's Troupe", "pieces": 4 }],
+      "note": "Elementarkunde und dauerhaft mehr Schaden für heftige Schläge – leicht zu bekommen."
+    },
+    {
+      "sets": [{ "name": "Marechaussee Hunter", "pieces": 4 }],
+      "note": "Nur im Team mit Furina: Ihre LP-Änderungen geben viel Krit.-Rate."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["pyro"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "em", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/328765",
+    "https://gamewith.net/genshin-impact/article/show/25133",
+    "https://keqingmains.com/q/yanfei-quickguide/"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "character": "Ororon",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "support"],
+  "summary": "Elektro-Bogenschütze aus Natlan, der fast nur von außerhalb des Feldes arbeitet. Wird bei Gegnern Unter Strom ausgelöst oder machen Teammitglieder Nachtseelen-Schaden, trifft er automatisch mit zusätzlichen Elektro-Angriffen. Dazu versorgt er das Team mit Energie. Stark mit Hydro-Partnern, besonders zusammen mit Ineffa für Mond unter Strom.",
+  "tips": [
+    "Seine automatischen Zusatztreffer richten sich nur nach seinem ANG – ANG und Krit.-Werte priorisieren.",
+    "Aufladerate: etwa 110–130 % mit einem zweiten Elektro-Charakter, allein als Elektro-Charakter 160 % und mehr.",
+    "Ohne Hydro-Partner oder Nachtseelen-Schaden im Team lösen seine Zusatztreffer kaum aus.",
+    "Sternbild 2 ist ein guter Haltepunkt für eigenen Schaden, Sternbild 6 macht ihn zum starken Unterstützer."
+  ],
+  "teams": [
+    {
+      "name": "Mond unter Strom",
+      "note": "Neuvillette oder Ifa sind auf dem Feld, Furina verstärkt den Schaden. Ineffa gibt Schilde und macht aus Unter Strom das stärkere Mond unter Strom.",
+      "slots": [["Ororon"], ["Neuvillette", "Ifa"], ["Furina", "Xingqiu"], ["Ineffa"]]
+    },
+    {
+      "name": "Unter Strom",
+      "note": "Ein Hydro-Hauptangreifer löst ständig Unter Strom aus, dadurch trifft Ororon fast dauerhaft mit. Kazuha verstärkt den Elementarschaden, Xilonen senkt Widerstände.",
+      "slots": [
+        ["Ororon"],
+        ["Neuvillette", "Kamisato Ayato", "Tartaglia", "Mualani"],
+        ["Kaedehara Kazuha", "Sucrose", "Venti"],
+        ["Xilonen", "Furina", "Zhongli"]
+      ]
+    },
+    {
+      "name": "Chasca (Nachtseele)",
+      "note": "Chasca macht Nachtseelen-Schaden und löst damit Ororons Zusatztreffer aus. Furina liefert Hydro, Bennett Pyro und ANG – Chascas Geschosse nutzen diese Elemente.",
+      "slots": [["Ororon"], ["Chasca"], ["Furina", "Yelan", "Sangonomiya Kokomi"], ["Bennett"]]
+    },
+    {
+      "name": "Unter Strom (günstig)",
+      "note": "Günstiges Team: Saccharose oder Ifa sind auf dem Feld, Xingqiu liefert Hydro, Fischl und Ororon sorgen für Elektro.",
+      "slots": [["Ororon"], ["Sucrose", "Ifa"], ["Xingqiu"], ["Fischl"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Elegy for the End",
+      "note": "Beste Waffe: Aufladerate und Team-Boni, die er mit seinen vielen Treffern leicht auslöst."
+    },
+    { "name": "Aqua Simulacra", "note": "Viel Krit.-Schaden und Schadensbonus, auch außerhalb des Feldes." },
+    {
+      "name": "Rainbow Serpent's Rain Bow",
+      "note": "Event-Waffe aus 6.2 (nicht mehr erhältlich): mehr ANG, wenn er von außerhalb des Feldes trifft – passt genau zu ihm."
+    },
+    {
+      "name": "The Stringless",
+      "note": "4★ mit Elementarkunde und mehr Schaden für Elementar- und Spezialfähigkeit."
+    },
+    {
+      "name": "Favonius Warbow",
+      "note": "Aufladerate und Energie für das Team – für einen reinen Unterstützer-Build. Ein Exemplar gibt es gratis aus einer Archon-Quest im Prolog."
+    },
+    { "name": "Chain Breaker", "note": "Schmiedbar (Natlan), gut in Natlan-Teams." },
+    { "name": "End of the Line", "note": "Vom Angeln, mit Aufladerate und Zusatzschaden." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Scroll of the Hero of Cinder City", "pieces": 4 }],
+      "note": "Bestes Set: mehr Elementarschaden für das ganze Team nach Reaktionen und Energie für Ororon."
+    },
+    {
+      "sets": [{ "name": "Thundering Fury", "pieces": 4 }],
+      "note": "Mehr eigener Reaktionsschaden bei Unter Strom und Mond unter Strom."
+    },
+    {
+      "sets": [{ "name": "Golden Troupe", "pieces": 4 }],
+      "note": "Mehr Schaden der Elementarfähigkeit, vor allem außerhalb des Feldes."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er"], "goblet": ["electro"], "circlet": ["cr", "cd"] },
+  "substats": ["cr", "cd", "atk%", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/461993",
+    "https://gamewith.net/genshin-impact/article/show/47151",
+    "https://gamewith.net/genshin-impact/article/show/49092",
+    "https://game8.co/games/Genshin-Impact/archives/567342",
+    "https://keqingmains.com/q/ororon-quickguide/",
+    "https://gamewith.net/genshin-impact/article/show/22706"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "character": "Lisa",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["sub-dps", "main-dps"],
+  "summary": "Elektro-Magierin mit Katalysator. Ihre gehaltene Elementarfähigkeit trifft umso härter, je mehr Ladungen vorher auf den Gegnern liegen. Ihre Spezialfähigkeit erschafft einen Rosenblitz, der auch außerhalb des Feldes weiter angreift und die VTD der Gegner senkt. Günstige Wahl für Suprawuchs- und Unter-Strom-Teams.",
+  "tips": [
+    "Vor dem Halten der Elementarfähigkeit Ladungen auf den Gegnern aufbauen, z. B. durch Antippen der Elementarfähigkeit – mit 3 Ladungen trifft der gehaltene Angriff am härtesten.",
+    "Ihre Spezialfähigkeit senkt die VTD getroffener Gegner um 15 % – das hilft dem ganzen Team.",
+    "Aufladerate: etwa 160 %, damit die Spezialfähigkeit jede Runde bereit ist.",
+    "Sternbild 4 ist ein guter Haltepunkt: Der Rosenblitz feuert dann 1 bis 3 Kettenblitze gleichzeitig."
+  ],
+  "teams": [
+    {
+      "name": "Suprawuchs",
+      "note": "Nahida hält Urwuchs aufrecht, dadurch wird Lisas gehaltene Elementarfähigkeit durch Suprawuchs stärker. Fischl liefert Elektro und Energie, Xilonen verstärkt und heilt.",
+      "slots": [
+        ["Lisa"],
+        ["Nahida", "Collei", "Traveler (Dendro)"],
+        ["Fischl", "Yae Miko", "Raiden Shogun"],
+        ["Xilonen", "Kaedehara Kazuha", "Lan Yan", "Zhongli"]
+      ]
+    },
+    {
+      "name": "Unter Strom",
+      "note": "Furina liefert Hydro und erhöht den Schaden, Ororon ergänzt Elektro. Lisa profitiert von ihrer Elementarkunde, Unter Strom hält die Gegner zudem in Schach.",
+      "slots": [
+        ["Lisa"],
+        ["Furina", "Xingqiu", "Yelan"],
+        ["Ororon", "Fischl", "Yae Miko"],
+        ["Sangonomiya Kokomi", "Barbara", "Kuki Shinobu", "Dori"]
+      ]
+    },
+    {
+      "name": "Unterstützung für Shougun Raiden",
+      "note": "Lisa setzt ihre Spezialfähigkeit ein, senkt damit die VTD der Gegner und wechselt dann zu Shougun Raiden, die den Hauptschaden macht.",
+      "slots": [
+        ["Lisa"],
+        ["Raiden Shogun", "Clorinde"],
+        ["Bennett", "Iansan"],
+        ["Kaedehara Kazuha", "Sucrose", "Venti"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Kagura's Verity",
+      "note": "Beste Waffe: viel Krit.-Schaden und mehr Schaden der Elementarfähigkeit."
+    },
+    { "name": "Skyward Atlas", "note": "Elementarschaden-Bonus und zusätzliche Treffer." },
+    {
+      "name": "Lost Prayer to the Sacred Winds",
+      "note": "Krit.-Rate und ein mit der Zeit wachsender Elementarschaden-Bonus."
+    },
+    { "name": "The Widsith", "note": "4★ mit Krit.-Schaden und zufälligen Boni beim Einwechseln." },
+    {
+      "name": "Hakushin Ring",
+      "note": "Schmiedbar (Inazuma): Aufladerate und mehr Elementarschaden nach Elektro-Reaktionen."
+    },
+    {
+      "name": "Mappa Mare",
+      "note": "Schmiedbar (Liyue), mit Elementarkunde und Elementarschaden-Bonus nach Reaktionen."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Emblem of Severed Fate", "pieces": 4 }],
+      "note": "Mehr Aufladerate und Schaden der Spezialfähigkeit – ideal, wenn sie von außen angreift."
+    },
+    {
+      "sets": [{ "name": "Thundering Fury", "pieces": 4 }],
+      "note": "Für Lisa auf dem Feld: mehr Elektro- und Reaktionsschaden."
+    },
+    { "sets": [{ "name": "Gilded Dreams", "pieces": 4 }], "note": "Viel Elementarkunde für Reaktions-Teams." }
+  ],
+  "mainStats": { "sands": ["atk%", "er", "em"], "goblet": ["electro", "em"], "circlet": ["cr", "cd", "em"] },
+  "substats": ["cr", "cd", "er", "em", "atk%"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297515",
+    "https://gamewith.net/genshin-impact/article/show/22354",
+    "https://gamewith.net/genshin-impact/article/show/55216"
+  ]
+}

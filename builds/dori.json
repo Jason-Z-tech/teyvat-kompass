@@ -1,0 +1,69 @@
+{
+  "character": "Dori",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "healer"],
+  "summary": "Elektro-Unterstützerin mit Zweihänder aus Sumeru. Der Flaschengeist aus ihrer Spezialfähigkeit ist mit dem aktiven Charakter verbunden, heilt ihn, gibt ihm Energie und trifft Gegner mit Elektro. Ihre Heilung richtet sich nach ihren LP, dazu braucht sie viel Aufladerate.",
+  "tips": [
+    "Aufladerate vor LP: etwa 200–210 % anpeilen, damit ihre Spezialfähigkeit jede Runde bereit ist.",
+    "Erst die Spezialfähigkeit, dann die Elementarfähigkeit einsetzen.",
+    "Ab Sternbild 6 werden ihre Standardangriffe nach der Elementarfähigkeit kurz zu Elektro-Angriffen – dann kann sie selbst auf dem Feld kämpfen."
+  ],
+  "teams": [
+    {
+      "name": "Supraspross",
+      "note": "Kokomi macht auf dem Feld Hydro-Schaden, Lauma und Reisende(r) liefern Dendro. Dori trägt Elektro auf und lässt so die Dendro-Kerne als Supraspross platzen.",
+      "slots": [["Dori"], ["Sangonomiya Kokomi", "Barbara"], ["Lauma", "Collei"], ["Traveler (Dendro)"]]
+    },
+    {
+      "name": "Supraleiter (Physisch)",
+      "note": "Dori löst mit Elektro Supraleiter aus und senkt so den physischen Widerstand für Eula. Sie heilt und hilft Eula beim hohen Energiebedarf.",
+      "slots": [["Dori"], ["Eula"], ["Rosaria", "Mika"], ["Fischl", "Raiden Shogun"]]
+    },
+    {
+      "name": "Mond unter Strom",
+      "note": "Flins macht auf dem Feld Schaden, Aino liefert Hydro für Mond unter Strom. Dori trägt zusätzlich Elektro auf, heilt und gibt Energie, Saccharose verstärkt mit Elementarkunde.",
+      "slots": [["Dori"], ["Flins"], ["Aino"], ["Sucrose"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Favonius Greatsword",
+      "note": "Aufladerate als Nebenwert und zusätzliche Energie für das Team."
+    },
+    {
+      "name": "Sacrificial Greatsword",
+      "note": "Aufladerate und die Chance, die Elementarfähigkeit sofort erneut einzusetzen."
+    },
+    {
+      "name": "The Bell",
+      "note": "LP als Nebenwert und ein Schild – mehr Heilung, die Aufladerate muss dann aber von Artefakten kommen."
+    },
+    { "name": "Wolf's Gravestone", "note": "Stärkt den ANG des ganzen Teams gegen angeschlagene Gegner." },
+    { "name": "Master Key", "note": "Schmiedbar (Nod-Krai) mit viel Aufladerate – beste Gratis-Wahl." },
+    { "name": "Katsuragikiri Nagamasa", "note": "Schmiedbar (Inazuma) mit Aufladerate." }
+  ],
+  "artifacts": [
+    {
+      "sets": [
+        { "name": "Emblem of Severed Fate", "pieces": 2 },
+        { "name": "Tenacity of the Millelith", "pieces": 2 }
+      ],
+      "note": "Deckt beides ab: mehr Aufladerate und mehr LP."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Gibt dem Team nach ihrer Spezialfähigkeit mehr ANG – nur, wenn es niemand anderes im Team trägt."
+    },
+    {
+      "sets": [{ "name": "Song of Days Past", "pieces": 4 }],
+      "note": "Für eine reine Heiler-Ausrichtung mit mehr Heilungsbonus."
+    }
+  ],
+  "mainStats": { "sands": ["er", "hp%"], "goblet": ["hp%"], "circlet": ["heal", "hp%"] },
+  "substats": ["er", "hp%", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/380569",
+    "https://gamewith.net/genshin-impact/article/show/33664"
+  ]
+}

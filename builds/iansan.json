@@ -1,0 +1,81 @@
+{
+  "character": "Iansan",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support"],
+  "summary": "Elektro-Unterstützerin mit Stangenwaffe aus Natlan. Ihre Spezialfähigkeit begleitet den aktiven Charakter und erhöht seinen ANG stark. Bewegt er sich viel, bekommt Iansan Nachtseelenpunkte zurück und der Bonus bleibt hoch – ideal für bewegliche Angreifer wie Varesa oder Mavuika. Sie braucht vor allem Aufladerate und ANG.",
+  "tips": [
+    "Zuerst genug Aufladerate (allein als Elektro-Charakter oft 200 % und mehr, mit zweitem Elektro-Charakter deutlich weniger), danach so viel ANG wie möglich.",
+    "Ab 42 Nachtseelenpunkten gibt ihre Spezialfähigkeit den vollen, nur noch vom ANG abhängigen Bonus.",
+    "Sternbild 2 ist ein guter Haltepunkt: Sie gibt dem aktiven Charakter dann auch von außerhalb des Feldes 30 % ANG.",
+    "Die Spezialfähigkeit zuerst leveln – das erhöht direkt ihren ANG-Bonus."
+  ],
+  "teams": [
+    {
+      "name": "Angriff aus dem Fall",
+      "note": "Varesa springt ständig und hält so Iansans ANG-Bonus hoch. Xianyun verstärkt die Angriffe aus dem Fall, Furina erhöht den Schaden des ganzen Teams.",
+      "slots": [
+        ["Iansan"],
+        ["Varesa", "Gaming", "Xiao"],
+        ["Xianyun", "Kaedehara Kazuha", "Lan Yan"],
+        ["Furina", "Xingqiu", "Yelan"]
+      ]
+    },
+    {
+      "name": "Mavuika-Team",
+      "note": "Mavuika bewegt sich mit ihren Angriffen viel und füllt als Natlan-Charakter Iansans Nachtseelenpunkte auf. Xilonen senkt Widerstände und heilt.",
+      "slots": [["Iansan"], ["Mavuika"], ["Citlali", "Furina"], ["Xilonen", "Bennett"]]
+    },
+    {
+      "name": "Überladen",
+      "note": "Chevreuse senkt Pyro- und Elektro-Widerstand, der Pyro-Partner löst Überladen aus. Der Haupt-DPS muss den weggeschleuderten Gegnern hinterher – das füllt Iansans Punkte auf.",
+      "slots": [
+        ["Iansan"],
+        ["Varesa", "Raiden Shogun", "Clorinde", "Gaming"],
+        ["Chevreuse"],
+        ["Mavuika", "Traveler (Pyro)", "Xiangling", "Bennett"]
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Symphonist of Scents",
+      "note": "Escoffiers Signaturwaffe: viel ANG, besonders außerhalb des Feldes – auf Escoffier selbst aber meist besser aufgehoben."
+    },
+    { "name": "Calamity Queller", "note": "Hoher Grund-ANG und ein leicht auszulösender ANG-Bonus." },
+    {
+      "name": "Engulfing Lightning",
+      "note": "Wandelt Aufladerate über 100 % in ANG um – passt zu ihrem hohen Energiebedarf."
+    },
+    {
+      "name": "Favonius Lance",
+      "note": "Aufladerate und Energie für das Team, braucht aber etwas Krit.-Rate."
+    },
+    {
+      "name": "Tamayuratei no Ohanashi",
+      "note": "Event-Waffe mit Aufladerate und ANG-Bonus nach der Elementarfähigkeit – beste Gratis-Wahl."
+    },
+    { "name": "Prototype Starglitter", "note": "Schmiedbar, mit Aufladerate." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Scroll of the Hero of Cinder City", "pieces": 4 }],
+      "note": "Bestes Set: Energie bei Nachtseelenaufbrüchen und mehr Elementarschaden für das ganze Team."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Mehr ANG für alle nach der Spezialfähigkeit – gute Wahl, wenn ein anderes Teammitglied bereits die „Schriftrolle des Recken der aschenen Stadt“ trägt."
+    },
+    {
+      "sets": [{ "name": "The Exile", "pieces": 4 }],
+      "note": "Günstiges 4★-Set: gibt dem Team nach der Spezialfähigkeit Energie."
+    }
+  ],
+  "mainStats": { "sands": ["er", "atk%"], "goblet": ["atk%"], "circlet": ["atk%", "cr"] },
+  "substats": ["er", "atk%", "cr"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/345881",
+    "https://gamewith.net/genshin-impact/article/show/24370",
+    "https://gamewith.net/genshin-impact/article/show/54720"
+  ]
+}

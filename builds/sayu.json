@@ -1,0 +1,67 @@
+{
+  "character": "Sayu",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["healer", "support"],
+  "summary": "Anemo-Zweihänderkämpferin, die heilt und Elemente verwirbelt. Mit ihrer Elementarfähigkeit rollt sie schnell über das Feld und löst Verwirbelungen aus, ihre Spezialfähigkeit heilt die Truppe und macht Anemo-Schaden. Sie spielt entweder als Reaktions-Auslöserin auf dem Feld oder als Heilerin mit dem Set „Grünlicher Schatten“.",
+  "tips": [
+    "Aufladerate: etwa 200 %, damit ihre teure Spezialfähigkeit jede Runde bereit ist.",
+    "Die Elementarfähigkeit kurz halten statt tippen: So löst sie zwei Verwirbelungen aus und erzeugt mehr Energie.",
+    "Ihre Heilung wächst mit ANG, ab C6 zusätzlich mit Elementarkunde.",
+    "Beim Erkunden rollt sie mit ihrer Elementarfähigkeit schnell über die Karte."
+  ],
+  "teams": [
+    {
+      "name": "Unterstützerin mit Verwirbelung",
+      "note": "Arlecchino macht den Schaden, Yelan unterstützt mit Hydro, Zhongli schützt mit Schild. Sayu senkt mit „Grünlicher Schatten“ die Widerstände; ihre Heilung erreicht Arlecchino nicht, die sich im Kampf nur selbst heilen kann.",
+      "slots": [["Sayu"], ["Arlecchino", "Mavuika", "Neuvillette"], ["Yelan", "Furina"], ["Zhongli", "Xilonen"]]
+    },
+    {
+      "name": "Unter Strom",
+      "note": "Furina (Hydro) und Ororon (Elektro) lösen außerhalb des Feldes Unter Strom aus, Sayu verwirbelt auf dem Feld und heilt. Mit Barbara, Dori und Fischl komplett aus 4★-Figuren.",
+      "slots": [
+        ["Sayu"],
+        ["Furina", "Sangonomiya Kokomi", "Barbara"],
+        ["Kuki Shinobu", "Dori"],
+        ["Ororon", "Fischl", "Raiden Shogun"]
+      ]
+    },
+    {
+      "name": "Gefroren",
+      "note": "Sayu verteilt Hydro und Kryo auf die Gegner, damit sie eingefroren bleiben, und heilt nebenbei. Ganyu macht den Hauptschaden.",
+      "slots": [["Sayu"], ["Ganyu"], ["Rosaria", "Kaeya"], ["Furina", "Sangonomiya Kokomi"]]
+    }
+  ],
+  "weapons": [
+    { "name": "Favonius Greatsword", "note": "Beste Wahl für die Energie; dafür etwas Krit.-Rate sammeln." },
+    { "name": "Makhaira Aquamarine", "note": "Elementarkunde als Nebenwert, gibt auch dem Team etwas ANG." },
+    { "name": "Skyward Pride", "note": "Aufladerate und hoher Grund-ANG für mehr Heilung." },
+    {
+      "name": "Sacrificial Greatsword",
+      "note": "Aufladerate und die Chance, die Elementarfähigkeit zurückzusetzen."
+    },
+    {
+      "name": "Mailed Flower",
+      "note": "Event-Waffe: Elementarkunde als Nebenwert, nach der Elementarfähigkeit mehr ANG und Elementarkunde."
+    },
+    { "name": "Katsuragikiri Nagamasa", "note": "Schmiedbar: Aufladerate als Nebenwert." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Viridescent Venerer", "pieces": 4 }],
+      "note": "Ihr bestes Set für beide Spielweisen: mehr Verwirbelungsschaden und niedrigere Widerstände."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Wenn jemand anderes „Grünlicher Schatten“ trägt: mehr ANG für das Team nach ihrer Spezialfähigkeit."
+    }
+  ],
+  "mainStats": { "sands": ["er", "em", "atk%"], "goblet": ["em", "atk%"], "circlet": ["em", "atk%", "heal"] },
+  "substats": ["er", "atk%", "em", "cr"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/333496",
+    "https://gamewith.net/genshin-impact/article/show/24530",
+    "https://gamewith.net/genshin-impact/article/show/52009",
+    "https://keqingmains.com/q/sayu-quickguide/"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "character": "Shikanoin Heizou",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["main-dps", "support"],
+  "summary": "Anemo-Katalysatornutzer aus Inazuma, der mit Fäusten und Tritten kämpft. Er sammelt Stapel für seine Elementarfähigkeit – am schnellsten durch Verwirbelungen – und entlädt sie in einem kräftigen Schlag. Er spielt als Hauptangreifer oder als Reaktions-Auslöser mit dem Set „Grünlicher Schatten“.",
+  "tips": [
+    "Stapel lieber durch Verwirbelungen sammeln als durch langes Aufladen der Elementarfähigkeit – das Aufladen macht ihn angreifbar.",
+    "Gegen viele Gegner lohnt sich ein Elementarkunde-Build (Verwirbelung), gegen Bosse ein Krit.-Build.",
+    "Aufladerate: als Hauptangreifer ohne Sternbilder etwa 170–180 %, ab C4 weniger."
+  ],
+  "teams": [
+    {
+      "name": "Nationalteam",
+      "note": "Xiangling und Bennett liefern Pyro, Furina oder Xingqiu Hydro. Heizou verwirbelt, verstärkt so seine Elementarfähigkeit und senkt die Widerstände. Mit Xingqiu nur 4★-Figuren.",
+      "slots": [["Shikanoin Heizou"], ["Xiangling", "Thoma"], ["Bennett"], ["Furina", "Xingqiu", "Yelan"]]
+    },
+    {
+      "name": "Unter Strom",
+      "note": "Hydro und Elektro kommen von außerhalb des Feldes, Heizou verwirbelt beides und senkt die Widerstände dafür. Kuki Shinobu oder Dori heilen.",
+      "slots": [
+        ["Shikanoin Heizou"],
+        ["Furina", "Yelan", "Xingqiu"],
+        ["Ororon", "Yae Miko", "Fischl", "Beidou"],
+        ["Kuki Shinobu", "Dori"]
+      ]
+    },
+    {
+      "name": "Anemo-Hypercarry",
+      "note": "Heizou macht selbst den Schaden: Faruzan verstärkt Anemo, Furina und Bennett erhöhen den Schaden weiter. Zhongli schützt stattdessen mit Schild.",
+      "slots": [["Shikanoin Heizou"], ["Faruzan"], ["Furina", "Yelan"], ["Bennett", "Zhongli"]]
+    },
+    {
+      "name": "Supraspross",
+      "note": "Xingqiu und Nahida erzeugen Dendrokerne, Kuki Shinobu lässt sie mit Elektro platzen. Heizou verwirbelt Hydro und Elektro dazwischen.",
+      "slots": [["Shikanoin Heizou"], ["Xingqiu"], ["Nahida"], ["Kuki Shinobu"]]
+    }
+  ],
+  "weapons": [
+    { "name": "Skyward Atlas", "note": "Starke 5★-Wahl: viel ANG und mehr Elementarschaden." },
+    { "name": "Kagura's Verity", "note": "Viel Krit.-Schaden und mehr Schaden der Elementarfähigkeit." },
+    { "name": "Tulaytullah's Remembrance", "note": "Stärkt seine Standardangriffe deutlich." },
+    {
+      "name": "Lost Prayer to the Sacred Winds",
+      "note": "Krit.-Rate als Nebenwert und wachsender Elementarschaden."
+    },
+    { "name": "The Widsith", "note": "Beste 4★-Waffe aus dem Gebet: Krit.-Schaden und ein zufälliger Bonus." },
+    {
+      "name": "Mappa Mare",
+      "note": "Schmiedbar: Elementarkunde als Nebenwert und Elementarschaden nach Reaktionen."
+    }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Viridescent Venerer", "pieces": 4 }],
+      "note": "Sein bestes Set für beide Builds: mehr Verwirbelungsschaden und niedrigere Widerstände."
+    },
+    {
+      "sets": [{ "name": "Viridescent Venerer", "pieces": 2 }, { "name": "Gladiator's Finale", "pieces": 2 }],
+      "note": "Für den Krit.-Build, wenn jemand anderes die 4 Teile trägt: Anemo-Schaden und ANG."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "em"], "goblet": ["anemo", "em"], "circlet": ["cr", "cd", "em"] },
+  "substats": ["cr", "cd", "atk%", "em", "er"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/345516",
+    "https://gamewith.net/genshin-impact/article/show/33277",
+    "https://gamewith.net/genshin-impact/article/show/38877",
+    "https://keqingmains.com/q/heizou-quickguide/"
+  ]
+}

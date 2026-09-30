@@ -1,0 +1,71 @@
+{
+  "character": "Jean",
+  "version": "7.1",
+  "updated": "2026-09-29",
+  "roles": ["support", "healer"],
+  "summary": "Anemo-Schwertkämpferin, die heilt und Elemente verwirbelt. Ihre Spezialfähigkeit heilt die ganze Truppe stark, ihre Elementarfähigkeit schleudert Gegner weg. Mit dem Set „Grünlicher Schatten“ senkt sie die Widerstände der Gegner und passt so in viele Teams mit Pyro-, Hydro-, Kryo- oder Elektro-Hauptangreifer.",
+  "tips": [
+    "Ihre Heilung wächst mit ANG – ANG-Werte lohnen sich doppelt.",
+    "Der Effekt von „Grünlicher Schatten“ hält nur kurz: Jean direkt vor dem Hauptangreifer einsetzen.",
+    "Aufladerate: etwa 160–200 %, mit Favonius-Schwert oder einer zweiten Anemo-Figur weniger.",
+    "Für das Sunfire-Team braucht sie Elementarkunde statt ANG."
+  ],
+  "teams": [
+    {
+      "name": "Unterstützerin mit Furina",
+      "note": "Jean verwirbelt, senkt mit „Grünlicher Schatten“ die Widerstände und heilt – dadurch baut Furina ihren Schadensbonus schnell auf. Mavuika und Citlali machen den Schaden.",
+      "slots": [
+        ["Jean"],
+        ["Mavuika", "Wriothesley", "Diluc"],
+        ["Citlali", "Xilonen", "Rosaria"],
+        ["Furina", "Yelan", "Xingqiu"]
+      ]
+    },
+    {
+      "name": "Sunfire (Pyro-Verwirbelung)",
+      "note": "Jean und Bennett verwirbeln mit ihren Spezialfähigkeiten ständig Pyro um die aktive Figur. Der Hauptangreifer löst damit Verdampfen oder Schmelzen aus.",
+      "slots": [["Jean"], ["Kamisato Ayato", "Wriothesley", "Tartaglia"], ["Bennett"], ["Yun Jin", "Xilonen"]]
+    },
+    {
+      "name": "Anemo-Hauptangreifer",
+      "note": "Jean heilt und gibt mit dem Set „Altes Hofritual“ mehr ANG. Ab C4 senkt sie in ihrem Feld zusätzlich den Anemo-Widerstand der Gegner.",
+      "slots": [["Jean"], ["Xiao", "Wanderer", "Venti"], ["Albedo", "Furina"], ["Zhongli"]]
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Freedom-Sworn",
+      "note": "Kazuhas Signaturwaffe: Elementarkunde und ein ANG-Bonus für das ganze Team."
+    },
+    { "name": "Primordial Jade Cutter", "note": "Krit.-Rate und viel ANG für mehr Schaden und Heilung." },
+    {
+      "name": "Favonius Sword",
+      "note": "Erzeugt Energie für das ganze Team und senkt ihren Aufladerate-Bedarf."
+    },
+    { "name": "Skyward Blade", "note": "Aufladerate und Krit.-Rate als solide Werte-Waffe." },
+    { "name": "Amenoma Kageuchi", "note": "Schmiedbar: ANG als Nebenwert und etwas Energie zurück." },
+    { "name": "Festering Desire", "note": "Event-Waffe mit Aufladerate als Nebenwert." }
+  ],
+  "artifacts": [
+    {
+      "sets": [{ "name": "Viridescent Venerer", "pieces": 4 }],
+      "note": "Ihr bestes Set: senkt die Widerstände der Gegner für das verwirbelte Element."
+    },
+    {
+      "sets": [{ "name": "Noblesse Oblige", "pieces": 4 }],
+      "note": "Wenn schon jemand „Grünlicher Schatten“ trägt oder das Team keine Reaktionen nutzt: mehr ANG für alle."
+    },
+    {
+      "sets": [{ "name": "Ocean-Hued Clam", "pieces": 4 }],
+      "note": "Macht aus ihrer starken Heilung zusätzlichen Schaden."
+    }
+  ],
+  "mainStats": { "sands": ["atk%", "er"], "goblet": ["anemo", "atk%"], "circlet": ["cr", "heal", "cd"] },
+  "substats": ["er", "atk%", "cr", "cd", "em"],
+  "sources": [
+    "https://game8.co/games/Genshin-Impact/archives/297536",
+    "https://gamewith.net/genshin-impact/article/show/22356",
+    "https://gamewith.net/genshin-impact/article/show/38867",
+    "https://keqingmains.com/q/jean-quickguide/"
+  ]
+}
